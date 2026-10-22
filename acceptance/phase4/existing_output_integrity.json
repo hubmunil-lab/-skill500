@@ -1,0 +1,55 @@
+{
+  "scope": "read_only_integrity_check_not_new_regression_tests",
+  "customer_approved": false,
+  "previous_tests_rerun": false,
+  "images": [
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/01.png",
+      "sha256": "47ae0dee95dfb285b407a110fa8e352a8662b56d10baebbcae96d2d9947806b6",
+      "canvas": [
+        1242,
+        1656
+      ]
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/02.png",
+      "sha256": "e006fd1c0a7054c848c1285266b0dddeb50eb1fb531618c5d866f3f8d8ccc35f",
+      "canvas": [
+        1242,
+        1656
+      ]
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/03.png",
+      "sha256": "48ae0a52332ca60676564156846188b85672ccabca881e3c9cc24869dabff9fb",
+      "canvas": [
+        1242,
+        1656
+      ]
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/01.png",
+      "sha256": "dae4d64d2de4bd520b2c369af6951f272d0eac1be2750ad4f85922917d81da0b",
+      "canvas": [
+        1242,
+        1656
+      ]
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/02.png",
+      "sha256": "46fbf7f2594f51c0df2cc5d3ede9526e2a83f5f209c7e505a3c22d1c74b5f57b",
+      "canvas": [
+        1242,
+        1656
+      ]
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/03.png",
+      "sha256": "a8bd3560ca16e90f5ed2975b42a3a26aacb0f688e4d90c6e39465a6e907e8ee1",
+      "canvas": [
+        1242,
+        1656
+      ]
+    }
+  ]
+}

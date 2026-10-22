@@ -1,0 +1,273 @@
+{
+  "form_version": "phase4-business-intake-1",
+  "document_type": "manual_intake_not_runtime_packet",
+  "data_kind": "real_product_information_only",
+  "task": {
+    "task_id": null,
+    "original_query": null,
+    "direction": null,
+    "questions_to_answer": [],
+    "target_audience": null,
+    "special_population_constraints": null,
+    "publishing_channels": [],
+    "commercial_use": null,
+    "submitter": null,
+    "submitted_at": null
+  },
+  "products": {
+    "left": {
+      "product_id": null,
+      "name": null,
+      "brand_or_manufacturer": null,
+      "sku_or_traceable_recipe_id": null,
+      "specification": {
+        "amount": null,
+        "unit": null,
+        "pack_count": null,
+        "region": null,
+        "flavor_and_version": null,
+        "preparation_state": null,
+        "preparation_instructions": null
+      },
+      "identity_source_ids": [],
+      "appearance": {
+        "description": null,
+        "source_ids": []
+      },
+      "taste": {
+        "description": null,
+        "record_date": null,
+        "sample_and_conditions": null,
+        "source_ids": []
+      },
+      "nutrition": {
+        "original_basis": {
+          "amount": null,
+          "unit": null,
+          "state": null
+        },
+        "serving_size": null,
+        "energy": {
+          "value": null,
+          "unit": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "carbohydrate": {
+          "value": null,
+          "unit": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "sugars": {
+          "value": null,
+          "unit": null,
+          "definition": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "vitamin_c": {
+          "value": null,
+          "unit": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "feature": {
+          "name": null,
+          "ingredient_basis": null,
+          "value_if_claimed": null,
+          "unit": null,
+          "not_applicable_requested": null,
+          "source_ids": []
+        },
+        "conversion_if_needed": {
+          "formula": null,
+          "supporting_source_ids": [],
+          "reviewer": null
+        }
+      },
+      "price": {
+        "amount": null,
+        "currency": null,
+        "pack_size": null,
+        "unit": null,
+        "count": null,
+        "channel": null,
+        "region": null,
+        "collected_at": null,
+        "promotion_and_shipping_conditions": null,
+        "source_ids": []
+      },
+      "scene": {
+        "description": null,
+        "source_ids": []
+      },
+      "selection": {
+        "description": null,
+        "source_ids": []
+      },
+      "health_or_population_claims": [],
+      "images": [
+        {
+          "filename": null,
+          "subject_id": null,
+          "sku": null,
+          "purpose": null,
+          "width": null,
+          "height": null,
+          "transparent_channel": null,
+          "rights_holder": null,
+          "license_document": null,
+          "commercial_use": null,
+          "allowed_channels": [],
+          "editing_allowed": null,
+          "expiry": null,
+          "attribution": null,
+          "license_verifier": null
+        }
+      ]
+    },
+    "right": {
+      "product_id": null,
+      "name": null,
+      "brand_or_manufacturer": null,
+      "sku_or_traceable_recipe_id": null,
+      "specification": {
+        "amount": null,
+        "unit": null,
+        "pack_count": null,
+        "region": null,
+        "flavor_and_version": null,
+        "preparation_state": null,
+        "preparation_instructions": null
+      },
+      "identity_source_ids": [],
+      "appearance": {
+        "description": null,
+        "source_ids": []
+      },
+      "taste": {
+        "description": null,
+        "record_date": null,
+        "sample_and_conditions": null,
+        "source_ids": []
+      },
+      "nutrition": {
+        "original_basis": {
+          "amount": null,
+          "unit": null,
+          "state": null
+        },
+        "serving_size": null,
+        "energy": {
+          "value": null,
+          "unit": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "carbohydrate": {
+          "value": null,
+          "unit": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "sugars": {
+          "value": null,
+          "unit": null,
+          "definition": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "vitamin_c": {
+          "value": null,
+          "unit": null,
+          "not_declared": null,
+          "source_ids": []
+        },
+        "feature": {
+          "name": null,
+          "ingredient_basis": null,
+          "value_if_claimed": null,
+          "unit": null,
+          "not_applicable_requested": null,
+          "source_ids": []
+        },
+        "conversion_if_needed": {
+          "formula": null,
+          "supporting_source_ids": [],
+          "reviewer": null
+        }
+      },
+      "price": {
+        "amount": null,
+        "currency": null,
+        "pack_size": null,
+        "unit": null,
+        "count": null,
+        "channel": null,
+        "region": null,
+        "collected_at": null,
+        "promotion_and_shipping_conditions": null,
+        "source_ids": []
+      },
+      "scene": {
+        "description": null,
+        "source_ids": []
+      },
+      "selection": {
+        "description": null,
+        "source_ids": []
+      },
+      "health_or_population_claims": [],
+      "images": [
+        {
+          "filename": null,
+          "subject_id": null,
+          "sku": null,
+          "purpose": null,
+          "width": null,
+          "height": null,
+          "transparent_channel": null,
+          "rights_holder": null,
+          "license_document": null,
+          "commercial_use": null,
+          "allowed_channels": [],
+          "editing_allowed": null,
+          "expiry": null,
+          "attribution": null,
+          "license_verifier": null
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "source_id": null,
+      "title": null,
+      "issuer": null,
+      "url_or_filename": null,
+      "locator": null,
+      "version_or_publication_date": null,
+      "retrieved_at": null,
+      "applicable_sku_region_and_state": null,
+      "reviewer": null,
+      "verified": null
+    }
+  ],
+  "template": {
+    "template_id": null,
+    "reference_version": null,
+    "editable_source_if_available": null,
+    "font_files_and_weights": [],
+    "font_license": null,
+    "substitute_font_approval_if_any": null,
+    "fixed_design_specification": null,
+    "semantic_structure_confirmation": null,
+    "customer_approval_record": null
+  },
+  "handover": {
+    "missing_items": [],
+    "reviewer": null,
+    "decision": null
+  }
+}

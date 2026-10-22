@@ -1,0 +1,24 @@
+{
+  "scope": "acceptance_documents_only",
+  "code_changed": false,
+  "tests_added": 0,
+  "tests_rerun": false,
+  "documents": [
+    {
+      "path": "acceptance/phase4/business_acceptance_preparation.md",
+      "sha256": "4d520d2eca763c8b13846ad436da574b038225d96fa57e95ef6c4b593283bc21"
+    },
+    {
+      "path": "acceptance/phase4/existing_output_integrity.json",
+      "sha256": "d14524484172571218631c5ccfc4121820eeca83f3ad3e112e2d19cd77947912"
+    },
+    {
+      "path": "acceptance/phase4/real_product_intake.blank.json",
+      "sha256": "5736bd98de4cf6421f71089e634885a174bcd9da6bd032c433ffbac1f2ea8420"
+    },
+    {
+      "path": "acceptance/phase4/real_product_intake.md",
+      "sha256": "64506435d25be71e0637eb6790901930c33b8b8c5c8cffec572d4771af1a485b"
+    }
+  ]
+}
