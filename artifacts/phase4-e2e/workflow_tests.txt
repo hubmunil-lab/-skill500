@@ -1,0 +1,18 @@
+test_actual_run_artifacts_if_present (tests.test_workflow.WorkflowTests.test_actual_run_artifacts_if_present) ... ok
+test_blocked_resume_retry_collision_and_isolation (tests.test_workflow.WorkflowTests.test_blocked_resume_retry_collision_and_isolation) ... ok
+test_copy_rejects_ungrounded_health_query (tests.test_workflow.WorkflowTests.test_copy_rejects_ungrounded_health_query) ... ok
+test_current_visual_copy_does_not_infer_hidden_liquid (tests.test_workflow.WorkflowTests.test_current_visual_copy_does_not_infer_hidden_liquid) ... ok
+test_default_never_uses_unlicensed_reference (tests.test_workflow.WorkflowTests.test_default_never_uses_unlicensed_reference) ... ok
+test_direction_cannot_hide_health_request (tests.test_workflow.WorkflowTests.test_direction_cannot_hide_health_request) ... ok
+test_input_preserves_original_and_hint (tests.test_workflow.WorkflowTests.test_input_preserves_original_and_hint) ... ok
+test_license_identity_size_filter (tests.test_workflow.WorkflowTests.test_license_identity_size_filter) ... ok
+test_model_http_adapter_contract (tests.test_workflow.WorkflowTests.test_model_http_adapter_contract) ... ok
+test_model_validation_and_disagreement (tests.test_workflow.WorkflowTests.test_model_validation_and_disagreement) ... ok
+test_safe_rework_never_shrinks_or_invents (tests.test_workflow.WorkflowTests.test_safe_rework_never_shrinks_or_invents) ... ok
+test_six_categories (tests.test_workflow.WorkflowTests.test_six_categories) ... ok
+test_source_kind_cannot_promote_visual_to_health (tests.test_workflow.WorkflowTests.test_source_kind_cannot_promote_visual_to_health) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.155s
+
+OK

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "compare-left_photo",
+    "path": "customer_templates/components-v5/compare-left_photo.png",
+    "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4",
+    "subject": "lemon_drink",
+    "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+    "crop": [
+      49,
+      216,
+      308,
+      470
+    ],
+    "size": [
+      259,
+      254
+    ],
+    "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+    "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered",
+    "purposes": [
+      "comparison"
+    ],
+    "license_status": "unknown"
+  },
+  {
+    "id": "compare-right_photo",
+    "path": "customer_templates/components-v5/compare-right_photo.png",
+    "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b",
+    "subject": "cola",
+    "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+    "crop": [
+      480,
+      218,
+      644,
+      471
+    ],
+    "size": [
+      164,
+      253
+    ],
+    "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+    "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered",
+    "purposes": [
+      "comparison"
+    ],
+    "license_status": "unknown"
+  }
+]

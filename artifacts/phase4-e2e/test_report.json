@@ -1,0 +1,9 @@
+{
+  "full_regression": "76 passed (66 existing + initial 10 workflow tests)",
+  "final_workflow_suite": "13 passed",
+  "library": "71 assets + training source hashes verified",
+  "real_rendered_groups": 2,
+  "png_count": 6,
+  "resume": "10/10 reused; no new render",
+  "customer_approved": false
+}

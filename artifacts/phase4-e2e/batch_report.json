@@ -1,0 +1,388 @@
+{
+  "tasks": [
+    {
+      "task_id": "real-01",
+      "status": "REVIEW",
+      "generated": true,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "REFERENCE_LICENSE_UNKNOWN",
+          "detail": "仅客户参考图内部审阅，非发布授权"
+        }
+      ],
+      "artifact_directory": "real-01/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "render_directory": "render-0",
+      "page_count": 3,
+      "artifact_hashes": {
+        "evidence.json": "72f655b35ed03b22819ac5bcc0d510ddb906334cd5d93b0c15671ced377da6ad",
+        "copy.json": "d45e2a2f9ff5d5fd7216b210cc49028409948a1340c57dcea15d36b04ae41d51",
+        "input.json": "fd181a85300fb507d4362585ac33b81c06743d520204763cda2e9ea2c0ba8931",
+        "content_qc.json": "78252a777ca277dbe6a2aceb4cd62d5fb25f6cc524a203200b0db759254de9c6",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "755a8169f5731bb7322bf94b85aeb5a3bd8a125ae506b72feeeed4e3bef128d2",
+        "result.json": "a0608c4d02f691abae760a2638a718f74a3e433e26d16d679ec80cff025366cc",
+        "post.md": "a947d2ccf574254db1ef4391bad77f8290f9aeb9ae2344102908fe1600e044ef",
+        "assets.json": "e6e22f77f4eb03fc854719d7c0dad2b36b5d607726ba7528c8927fbd2b2f0b3c",
+        "planning_brief.json": "b6409049a2292ba928f422407a94a3dddf71e173a635991a70480d693c4f2acd",
+        "render_manifest.json": "a29b7e315b44c867cb6f5ae78d317b2fe5ac27d67d8b1f556ad492249af7b6d3",
+        "qc_report.json": "41f95dbfe670259956904e0f714642960f7c5e6328d6ed2d322c50a82d8befec",
+        "render-0/01-comparison.png": "933d7f9e7df6e05476b57a720a3bb2b820eb132bb3707802276881070d473524",
+        "render-0/01.png": "64d2b0bb6e9e4ef64c2921c0a0740a419ea638761f39d207a4fa094727ed5ee9",
+        "render-0/reference-comparison.png": "b4e33be6ee337d1ef5dad927fd643b76bf10dcdfe20fc5368a170b5300e94f11",
+        "render-0/02-difference.png": "9092c3c53e11ea28e9210897644bd34d3d4e20cd4ed055e51712aad78485f7fe",
+        "render-0/preview.png": "dc76092192ce281059700544f54e62d34e585e25d0b9c96db8ceb6cc3d5cec32",
+        "render-0/02.html": "dea3d6983c716f94eaa2b8668fbcb7c247940f34e44eef9bf3dcbd720c803acd",
+        "render-0/02-comparison.png": "6e63b8a5f154fd774be28ddb60580ec9f0884a3d6a3706826fa96aa946fab376",
+        "render-0/03.html": "0d3d799b849ad63f640b36830eac76df8d224078a8a6904b802a4425f9a63e89",
+        "render-0/03-difference.png": "d13532d71de617ed6ecc64c4a10617cf512165337a35c98a3b01565c399c77dc",
+        "render-0/01.html": "3b0f4ff554729d73f33517f4665172ccb19268f45c8eb9f0846adb692f5eb1cd",
+        "render-0/02.png": "d5994767cc6da66601d5223753c78d5f2b62acf3610e8133547ec15a13a4ca39",
+        "render-0/01-difference.png": "e0d9584fe55c17989216ca3ef0edabad347a4d7c712fb023d5236625bc1bea94",
+        "render-0/03.png": "557bb0378705d4d6699434de4ec0a5c70b8c7e730fef872e5301611d1b9940cc",
+        "render-0/03-comparison.png": "de3a5e757dd7b72d3b2e2c09e44f383be255cd019537e53ea0e3b3184e792083",
+        "render-0/qc_report.json": "162b7cd46f111fd696f9bf7688f7a9b57a77e02b4b83b3d712540f8164812324"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-02",
+      "status": "REVIEW",
+      "generated": true,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "REFERENCE_LICENSE_UNKNOWN",
+          "detail": "仅客户参考图内部审阅，非发布授权"
+        }
+      ],
+      "artifact_directory": "real-02/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "render_directory": "render-0",
+      "page_count": 3,
+      "artifact_hashes": {
+        "evidence.json": "72f655b35ed03b22819ac5bcc0d510ddb906334cd5d93b0c15671ced377da6ad",
+        "copy.json": "5a855f2c7ea1809426d7841b753c2f3e71e9f8478d7cd88524450e7442d2039f",
+        "input.json": "2412f7705fa042bdcc1e612bb2dd3da2454b8b283aa2ec72a9612eccc49ca661",
+        "content_qc.json": "78252a777ca277dbe6a2aceb4cd62d5fb25f6cc524a203200b0db759254de9c6",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "1130fe251a5c027ff7babd4f1934e9f98cc4f4a4aa4d99e620ccde3a19f7d175",
+        "result.json": "942fd42919ed79b92463f6169441ed55696ec402e279fb010e09e09462e2c9e9",
+        "post.md": "cd324c21d332cd07c1ac55cc4e8efea091e335d23f8135ce975798b1b167a21b",
+        "assets.json": "e6e22f77f4eb03fc854719d7c0dad2b36b5d607726ba7528c8927fbd2b2f0b3c",
+        "planning_brief.json": "5bc70f6d0ccec8d3fe1fec92473ac41c51b9d93361ddb2884fef20341fa4eda1",
+        "render_manifest.json": "a29b7e315b44c867cb6f5ae78d317b2fe5ac27d67d8b1f556ad492249af7b6d3",
+        "qc_report.json": "41f95dbfe670259956904e0f714642960f7c5e6328d6ed2d322c50a82d8befec",
+        "render-0/01-comparison.png": "933d7f9e7df6e05476b57a720a3bb2b820eb132bb3707802276881070d473524",
+        "render-0/01.png": "64d2b0bb6e9e4ef64c2921c0a0740a419ea638761f39d207a4fa094727ed5ee9",
+        "render-0/reference-comparison.png": "b4e33be6ee337d1ef5dad927fd643b76bf10dcdfe20fc5368a170b5300e94f11",
+        "render-0/02-difference.png": "9092c3c53e11ea28e9210897644bd34d3d4e20cd4ed055e51712aad78485f7fe",
+        "render-0/preview.png": "dc76092192ce281059700544f54e62d34e585e25d0b9c96db8ceb6cc3d5cec32",
+        "render-0/02.html": "0181d5652a8ad50af22cc2a7eacd0037bc0e9089112ada45e16884c619e24ef8",
+        "render-0/02-comparison.png": "6e63b8a5f154fd774be28ddb60580ec9f0884a3d6a3706826fa96aa946fab376",
+        "render-0/03.html": "a52b46b8fa80b49a8549a149dc32cc542eae04094fcaa499324bda75bcb6eaa5",
+        "render-0/03-difference.png": "d13532d71de617ed6ecc64c4a10617cf512165337a35c98a3b01565c399c77dc",
+        "render-0/01.html": "f4e30b809743d72cf8a3344f2ca51708da9e0d894883505f9f9a8888887063b2",
+        "render-0/02.png": "d5994767cc6da66601d5223753c78d5f2b62acf3610e8133547ec15a13a4ca39",
+        "render-0/01-difference.png": "e0d9584fe55c17989216ca3ef0edabad347a4d7c712fb023d5236625bc1bea94",
+        "render-0/03.png": "557bb0378705d4d6699434de4ec0a5c70b8c7e730fef872e5301611d1b9940cc",
+        "render-0/03-comparison.png": "de3a5e757dd7b72d3b2e2c09e44f383be255cd019537e53ea0e3b3184e792083",
+        "render-0/qc_report.json": "162b7cd46f111fd696f9bf7688f7a9b57a77e02b4b83b3d712540f8164812324"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-03",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "EVIDENCE_AND_GROUNDED_COPY_REQUIRED"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "real-03/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "recommendation",
+      "template_id": "customer-recommend-v1",
+      "artifact_hashes": {
+        "input.json": "15fac00ca33b47b2b8a75afbdc8f6b0f12c7c67c9846b2f9248b75eaf126c1ca",
+        "classification.json": "a70e19812d53a61f1a0bc4dba42e11d4cf18d978c3a9d5d7cdf4c4ed6f17bfec",
+        "intent.json": "63292712ff43600ad88bdd1804b8b4ea77b98b8839fc039a092d01d6287c655b",
+        "result.json": "8fa0abd96179219b9faa38f60fbf591ab6220ed6b226c49936f0a22955d354e2",
+        "planning_brief.json": "9d98525c32adf7779edada39c5855afd368e20114d14926dd95313e5a62915c6",
+        "qc_report.json": "fd17718411422088792e5b9356f6544e42de001accdf24b3fa85ff918ed730a9"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-04",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "EVIDENCE_AND_GROUNDED_COPY_REQUIRED"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "real-04/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "recommendation",
+      "template_id": "customer-recommend-v1",
+      "artifact_hashes": {
+        "input.json": "bb4162f2bcb13f18be7365d2ea75d4ea27e7fab9672f228d139214a4dc3d41ee",
+        "classification.json": "2c5d137c7f75f8e1bea8795f5effb11126b9d163574a1a1a92c9bdd57a72ba8c",
+        "intent.json": "fc268426c9fb2783c837887da82aaeae9c41b1a50a2ef5482e4a1fb09c687100",
+        "result.json": "09236112970a12b50413e77f3d32711dda07a0f921c9da8a9b26ac02d8a28539",
+        "planning_brief.json": "9d98525c32adf7779edada39c5855afd368e20114d14926dd95313e5a62915c6",
+        "qc_report.json": "fd17718411422088792e5b9356f6544e42de001accdf24b3fa85ff918ed730a9"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-05",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "EVIDENCE_AND_GROUNDED_COPY_REQUIRED"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "real-05/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "inventory",
+      "template_id": "customer-list-v1",
+      "artifact_hashes": {
+        "input.json": "9b0b5e9c875ca0dda28440af90d729442c360678c053252a40daa8a77b909396",
+        "classification.json": "df11820666cceb7f94aa2151be9771c8feb7d2b5bc5e228b820bfbce840216d2",
+        "intent.json": "c45436da744519d42287a08ed9fbe193dcc0fd9b821bcab45b07dbd118f5a58c",
+        "result.json": "b00c544e830fef8f2f745cb383976e3d8b71cd40ed2b00dfed249a41b8ebb570",
+        "planning_brief.json": "9d98525c32adf7779edada39c5855afd368e20114d14926dd95313e5a62915c6",
+        "qc_report.json": "fd17718411422088792e5b9356f6544e42de001accdf24b3fa85ff918ed730a9"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-06",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "EVIDENCE_AND_GROUNDED_COPY_REQUIRED"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "real-06/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "inventory",
+      "template_id": "customer-list-v1",
+      "artifact_hashes": {
+        "input.json": "58745ae093ccc998fad568bcabe4d6810ea561fdd10685f061860e43e592b772",
+        "classification.json": "df11820666cceb7f94aa2151be9771c8feb7d2b5bc5e228b820bfbce840216d2",
+        "intent.json": "b856a6d59959158d1173f313a98a5dbe5cd4d6c9683d2fe26fabfd12e2f7e809",
+        "result.json": "f925c9e566e839901a13098a1cc33bfe4ae41fc540339977d5af8566bb6c5ccf",
+        "planning_brief.json": "9d98525c32adf7779edada39c5855afd368e20114d14926dd95313e5a62915c6",
+        "qc_report.json": "fd17718411422088792e5b9356f6544e42de001accdf24b3fa85ff918ed730a9"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-07",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "EVIDENCE_AND_GROUNDED_COPY_REQUIRED"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "real-07/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "intro",
+      "template_id": "customer-intro-v1",
+      "artifact_hashes": {
+        "input.json": "5821990779426137e7bc5ff9e0a4e4491a6f432f9196f6c7ba0c8df5cf815604",
+        "classification.json": "7f1ca9a30d7d38a51fe2c05bdd260782a0287a259dfb0a325a2a07901b31250d",
+        "intent.json": "fdfebcd9d11a5c5740059fe02cd1dc5aa474c19c9443bbfa1a408d900c0a857c",
+        "result.json": "7d9f22c3d698bfe86cf1228b111882f80f863cf65123f645f9cf465408c39612",
+        "planning_brief.json": "1a928e3b129511df5a3b521f496d4de71e9c46e65df6b0c14b6ccdeda6574e87",
+        "qc_report.json": "fd17718411422088792e5b9356f6544e42de001accdf24b3fa85ff918ed730a9"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-08",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "EVIDENCE_AND_GROUNDED_COPY_REQUIRED"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "real-08/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "intro",
+      "template_id": "customer-intro-v1",
+      "artifact_hashes": {
+        "input.json": "e84e68579031638b15b7b1f2ed0ba17b1f4096fe9f487c7d4e73c928e0cd72bd",
+        "classification.json": "7f1ca9a30d7d38a51fe2c05bdd260782a0287a259dfb0a325a2a07901b31250d",
+        "intent.json": "eda11fdc1613e146661742e0417bf90d26b139accf0561f1ad7940a17502fa88",
+        "result.json": "4c4f659fd5f9f807c4a0c098e3f27511efb0b53d0f51be210149b732d5d6d392",
+        "planning_brief.json": "6cf08a2e7e9a83552761b172b6906ee13dc54c07fa8daba58d1aa1561b4858bf",
+        "qc_report.json": "fd17718411422088792e5b9356f6544e42de001accdf24b3fa85ff918ed730a9"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-09",
+      "status": "BLOCKED",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_UNAVAILABLE",
+          "detail": "无已登记可用固定模板"
+        }
+      ],
+      "artifact_directory": "real-09/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "procedure",
+      "template_id": null,
+      "artifact_hashes": {
+        "input.json": "cd42f35fca1b58714cd139b8ec52c949c4794cb5cbd0f0264022749e30020c12",
+        "classification.json": "91fb553182148378db2790266b4cad6987b74d002b8136edc295ab3e32997cc8",
+        "intent.json": "0fcc2836001e946b6bcbd542c14c851d4ce5133f854d15fae82ada8df4f79712",
+        "result.json": "ee612723132e275f58314e5462f008be475ac136104389d2313203b393b9c5d6",
+        "planning_brief.json": "66309c7b05ff3a09b9b5cb98fae00818aff08174c05945aa992d67ec0d9be55b",
+        "qc_report.json": "e289c649972f00e025744e4ebaa0788a462ce4be9e3e44e633aadc8e96c9a0cf"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "real-10",
+      "status": "BLOCKED",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_UNAVAILABLE",
+          "detail": "无已登记可用固定模板"
+        }
+      ],
+      "artifact_directory": "real-10/attempt-003",
+      "attempt": 3,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "review",
+      "template_id": null,
+      "artifact_hashes": {
+        "input.json": "4c28c7b4196db237ac1cb4b6eca74a9cd31f8e8ca504f7523f4abea5772cb325",
+        "classification.json": "c499f825b60455f0ce183a716b1caae31cf271fb1214b50deda2adb6ec650e9e",
+        "intent.json": "0035494b323455a5737b8a2d16ef978a562dae37101efe91026341dfbfe10817",
+        "result.json": "081a5138d28f5be232185e2775eedb6f6c0f1a2158ce701c2bf7b45e78d3f5ec",
+        "planning_brief.json": "4fecfed85afaf0f09326b3ada4218095827c2444b819c7c1705a554128fca150",
+        "qc_report.json": "e289c649972f00e025744e4ebaa0788a462ce4be9e3e44e633aadc8e96c9a0cf"
+      },
+      "resumed": true
+    }
+  ],
+  "generated_groups": 2,
+  "not_rendered": 8,
+  "states": {
+    "READY": 0,
+    "REVIEW": 8,
+    "BLOCKED": 2,
+    "DELIVERED": 0
+  }
+}

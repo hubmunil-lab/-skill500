@@ -1,0 +1,176 @@
+{
+  "scope": "phase4_internal_review_only",
+  "customer_approved": false,
+  "files": [
+    {
+      "path": "artifacts/phase4-e2e/phase4-review-bundle.zip",
+      "bytes": 12704449,
+      "sha256": "2f21c06362a5fe8aa35a6a8b82ba02857f69f63e654e1338d855ad883511356d"
+    },
+    {
+      "path": "artifacts/phase4-e2e/batch_report.json",
+      "bytes": 16661,
+      "sha256": "d69451f32c5ec60c2dc771c35d26704c99279bea5946d1d292ec7d80e9e96b74"
+    },
+    {
+      "path": "artifacts/phase4-e2e/test_report.json",
+      "bytes": 297,
+      "sha256": "a707f07d4300261e00f044aaef6511a7f678c6acf8cfd07bc9c583f1ae5ab547"
+    },
+    {
+      "path": "artifacts/phase4-e2e/regression_tests.txt",
+      "bytes": 9361,
+      "sha256": "ea0e44e3025c8dc502c59a799a434b442b64d648374e41b3541d625783186214"
+    },
+    {
+      "path": "artifacts/phase4-e2e/workflow_tests.txt",
+      "bytes": 1710,
+      "sha256": "66638cea3c6d48baf507e344b9cd5ebe62d5e4051270a820215b80453d30035c"
+    },
+    {
+      "path": "phase4_end_to_end_report.md",
+      "bytes": 6507,
+      "sha256": "24691142432d841357307cadad3a6ef5d122b9e2d4dce14ff47099e46439d02e"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render-0/01.png",
+      "bytes": 454350,
+      "sha256": "64d2b0bb6e9e4ef64c2921c0a0740a419ea638761f39d207a4fa094727ed5ee9"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render-0/02.png",
+      "bytes": 380217,
+      "sha256": "d5994767cc6da66601d5223753c78d5f2b62acf3610e8133547ec15a13a4ca39"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render-0/03.png",
+      "bytes": 391248,
+      "sha256": "557bb0378705d4d6699434de4ec0a5c70b8c7e730fef872e5301611d1b9940cc"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render-0/preview.png",
+      "bytes": 318512,
+      "sha256": "dc76092192ce281059700544f54e62d34e585e25d0b9c96db8ceb6cc3d5cec32"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render-0/reference-comparison.png",
+      "bytes": 811306,
+      "sha256": "b4e33be6ee337d1ef5dad927fd643b76bf10dcdfe20fc5368a170b5300e94f11"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render-0/qc_report.json",
+      "bytes": 40558,
+      "sha256": "162b7cd46f111fd696f9bf7688f7a9b57a77e02b4b83b3d712540f8164812324"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/qc_report.json",
+      "bytes": 444,
+      "sha256": "41f95dbfe670259956904e0f714642960f7c5e6328d6ed2d322c50a82d8befec"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/content_qc.json",
+      "bytes": 262,
+      "sha256": "78252a777ca277dbe6a2aceb4cd62d5fb25f6cc524a203200b0db759254de9c6"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/post.md",
+      "bytes": 447,
+      "sha256": "a947d2ccf574254db1ef4391bad77f8290f9aeb9ae2344102908fe1600e044ef"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/evidence.json",
+      "bytes": 1193,
+      "sha256": "72f655b35ed03b22819ac5bcc0d510ddb906334cd5d93b0c15671ced377da6ad"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/assets.json",
+      "bytes": 1380,
+      "sha256": "e6e22f77f4eb03fc854719d7c0dad2b36b5d607726ba7528c8927fbd2b2f0b3c"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/intent.json",
+      "bytes": 1169,
+      "sha256": "755a8169f5731bb7322bf94b85aeb5a3bd8a125ae506b72feeeed4e3bef128d2"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/classification.json",
+      "bytes": 355,
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-01/attempt-003/render_manifest.json",
+      "bytes": 2564,
+      "sha256": "a29b7e315b44c867cb6f5ae78d317b2fe5ac27d67d8b1f556ad492249af7b6d3"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render-0/01.png",
+      "bytes": 454350,
+      "sha256": "64d2b0bb6e9e4ef64c2921c0a0740a419ea638761f39d207a4fa094727ed5ee9"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render-0/02.png",
+      "bytes": 380217,
+      "sha256": "d5994767cc6da66601d5223753c78d5f2b62acf3610e8133547ec15a13a4ca39"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render-0/03.png",
+      "bytes": 391248,
+      "sha256": "557bb0378705d4d6699434de4ec0a5c70b8c7e730fef872e5301611d1b9940cc"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render-0/preview.png",
+      "bytes": 318512,
+      "sha256": "dc76092192ce281059700544f54e62d34e585e25d0b9c96db8ceb6cc3d5cec32"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render-0/reference-comparison.png",
+      "bytes": 811306,
+      "sha256": "b4e33be6ee337d1ef5dad927fd643b76bf10dcdfe20fc5368a170b5300e94f11"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render-0/qc_report.json",
+      "bytes": 40558,
+      "sha256": "162b7cd46f111fd696f9bf7688f7a9b57a77e02b4b83b3d712540f8164812324"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/qc_report.json",
+      "bytes": 444,
+      "sha256": "41f95dbfe670259956904e0f714642960f7c5e6328d6ed2d322c50a82d8befec"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/content_qc.json",
+      "bytes": 262,
+      "sha256": "78252a777ca277dbe6a2aceb4cd62d5fb25f6cc524a203200b0db759254de9c6"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/post.md",
+      "bytes": 444,
+      "sha256": "cd324c21d332cd07c1ac55cc4e8efea091e335d23f8135ce975798b1b167a21b"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/evidence.json",
+      "bytes": 1193,
+      "sha256": "72f655b35ed03b22819ac5bcc0d510ddb906334cd5d93b0c15671ced377da6ad"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/assets.json",
+      "bytes": 1380,
+      "sha256": "e6e22f77f4eb03fc854719d7c0dad2b36b5d607726ba7528c8927fbd2b2f0b3c"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/intent.json",
+      "bytes": 1133,
+      "sha256": "1130fe251a5c027ff7babd4f1934e9f98cc4f4a4aa4d99e620ccde3a19f7d175"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/classification.json",
+      "bytes": 355,
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase4-e2e/real-02/attempt-003/render_manifest.json",
+      "bytes": 2564,
+      "sha256": "a29b7e315b44c867cb6f5ae78d317b2fe5ac27d67d8b1f556ad492249af7b6d3"
+    }
+  ]
+}

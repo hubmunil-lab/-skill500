@@ -1,0 +1,20 @@
+{
+  "status": "REVIEW",
+  "generated": true,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "CUSTOMER_APPROVAL_REQUIRED"
+    },
+    {
+      "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+    },
+    {
+      "code": "REFERENCE_LICENSE_UNKNOWN",
+      "detail": "仅客户参考图内部审阅，非发布授权"
+    }
+  ],
+  "content_report": "content_qc.json",
+  "layout_report": "render-0/qc_report.json"
+}

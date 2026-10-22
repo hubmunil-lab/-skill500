@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "semantic_review_required": true,
+  "checks": [
+    "direct_answer_first",
+    "evidence_hash_and_kind",
+    "question_mapping",
+    "duplicate_pages"
+  ],
+  "limitation": "规则校验不能替代语义、图片身份与视觉人工验收"
+}

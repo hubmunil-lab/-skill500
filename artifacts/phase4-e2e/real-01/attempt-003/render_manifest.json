@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "category": "compare",
+  "mode": "reconstruction_test",
+  "item_order": [
+    "lemon_drink",
+    "cola"
+  ],
+  "pages": [
+    {
+      "template_id": "customer-compare-01-v1",
+      "item_ids": [
+        "lemon_drink",
+        "cola"
+      ],
+      "values": {
+        "title": "柠檬饮品和可乐外观对比",
+        "subtitle": "仅观察所提供的参考图",
+        "left_photo": "left_photo",
+        "right_photo": "right_photo",
+        "field_1_left": "淡黄色\n透明杯中可见饮品。",
+        "field_1_right": "红色罐体\n罐内液体不可见。",
+        "field_2_left": "透明杯\n杯中可见柠檬片。",
+        "field_2_right": "不透明罐\n只能观察包装。",
+        "field_3_left": "仅限参考图\n不推断配方与营养。",
+        "field_3_right": "仅限参考图\n不推断口感与价格。",
+        "tag_1": "颜色",
+        "tag_2": "可见细节",
+        "tag_3": "观察范围",
+        "name_left": "柠檬饮品",
+        "name_right": "可乐"
+      }
+    },
+    {
+      "template_id": "customer-compare-02-v1",
+      "item_ids": [
+        "lemon_drink",
+        "cola"
+      ],
+      "values": {
+        "title": "参考图中的可见差异",
+        "left_photo": "left_photo",
+        "right_photo": "right_photo",
+        "nutrient_1_left": "颜色：淡黄",
+        "nutrient_2_left": "容器：透明杯",
+        "nutrient_3_left": "可见：柠檬片",
+        "nutrient_4_left": "依据：参考图",
+        "nutrient_5_left": "范围：画面所见",
+        "nutrient_1_right": "液体：不可见",
+        "nutrient_2_right": "包装：红色罐",
+        "nutrient_3_right": "可见：罐体文字",
+        "nutrient_4_right": "依据：参考图",
+        "nutrient_5_right": "范围：画面所见",
+        "name_left": "柠檬饮品",
+        "name_right": "可乐"
+      }
+    },
+    {
+      "template_id": "customer-compare-03-v1",
+      "item_ids": [
+        "lemon_drink",
+        "cola"
+      ],
+      "values": {
+        "title": "看图辨认与结论边界",
+        "left_photo": "left_photo",
+        "right_photo": "right_photo",
+        "use_left": "辨认\n看透明杯与柠檬片。",
+        "select_left": "观察范围\n仅描述这张参考图。\n图片不能证明营养成分。",
+        "use_right": "辨认\n看红色可乐罐体。",
+        "select_right": "观察范围\n仅描述这张参考图。\n图片不能证明健康作用。",
+        "name_left": "柠檬饮品",
+        "name_right": "可乐"
+      }
+    }
+  ]
+}

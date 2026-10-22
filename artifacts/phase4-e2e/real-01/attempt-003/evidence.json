@@ -1,0 +1,38 @@
+{
+  "claims": [
+    {
+      "id": "visual-left",
+      "kind": "visual",
+      "text": "参考图左侧淡黄饮品、透明杯、柠檬片",
+      "source_ids": [
+        "left"
+      ]
+    },
+    {
+      "id": "visual-right",
+      "kind": "visual",
+      "text": "参考图右侧只有红色罐体，罐内液体不可见",
+      "source_ids": [
+        "right"
+      ]
+    }
+  ],
+  "sources": {
+    "left": {
+      "kind": "visual",
+      "path": "customer_templates/components-v5/compare-left_photo.png",
+      "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4",
+      "locator": "完整裁切图；仅支持画面观察",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "scientific_evidence": false
+    },
+    "right": {
+      "kind": "visual",
+      "path": "customer_templates/components-v5/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b",
+      "locator": "完整裁切图；仅支持画面观察",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "scientific_evidence": false
+    }
+  }
+}

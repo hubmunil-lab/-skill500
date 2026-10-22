@@ -1,0 +1,40 @@
+{
+  "original_query": "柠檬水和可乐外观有什么区别（只比较参考图可见差异）",
+  "direction": "只比较参考图可见差异",
+  "direct_answer": "在所提供参考图中，左侧为透明杯中的淡黄色柠檬饮品，右侧为红色可乐罐；右图看不到罐内液体。",
+  "must_answer": [
+    "图中两种饮品的颜色如何？",
+    "图中可见什么容器和细节？",
+    "结论适用范围是什么？"
+  ],
+  "coverage": [
+    {
+      "question": "图中两种饮品的颜色如何？",
+      "answer": "左侧淡黄，右侧液体不可见。",
+      "claim_ids": [
+        "visual-left",
+        "visual-right"
+      ],
+      "page": 1
+    },
+    {
+      "question": "图中可见什么容器和细节？",
+      "answer": "透明杯、柠檬片；红色罐体。",
+      "claim_ids": [
+        "visual-left",
+        "visual-right"
+      ],
+      "page": 2
+    },
+    {
+      "question": "结论适用范围是什么？",
+      "answer": "仅限所提供参考图。",
+      "claim_ids": [
+        "visual-left",
+        "visual-right"
+      ],
+      "page": 3
+    }
+  ],
+  "scope": "internal_visual_reference_review"
+}
