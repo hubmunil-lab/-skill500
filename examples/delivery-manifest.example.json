@@ -1,0 +1,19 @@
+{
+  "query": "有什么食材对肠胃好和易消化的",
+  "cot": "肠胃敏感时温和食材的选择",
+  "type": "推荐",
+  "title": "肠胃不舒服时这样选食材",
+  "direct_answer": "宜优先考虑个人耐受良好、烹调软烂的普通食材；不同原因导致的不适，选择并不相同。",
+  "required_answers": ["哪些食材可考虑", "如何烹调", "哪些情况不适合"],
+  "template_id": "待客户确认的模板编号",
+  "template_approved": false,
+  "ingredient_order": ["rice", "pumpkin"],
+  "body": "这里填写包含所有图中文字并对应原始问题的完整笔记正文。",
+  "sources_verified": false,
+  "asset_rights_verified": false,
+  "pages": [
+    {"file":"01.png","role":"cover","layout_reviewed":false,"content_reviewed":false},
+    {"file":"02.png","role":"detail","new_ingredient_ids":["rice"],"layout_reviewed":false,"content_reviewed":false},
+    {"file":"03.png","role":"detail","new_ingredient_ids":["pumpkin"],"layout_reviewed":false,"content_reviewed":false}
+  ]
+}
