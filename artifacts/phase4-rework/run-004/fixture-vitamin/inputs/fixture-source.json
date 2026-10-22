@@ -1,0 +1,180 @@
+{
+  "synthetic": true,
+  "license": "CC0-1.0",
+  "purpose": "synthetic_software_acceptance_only",
+  "not_real_food_evidence": true,
+  "subjects": [
+    {
+      "id": "fixture_c",
+      "name": "测试配方C",
+      "sku": "SYNTHETIC-C-500",
+      "specification": "500ml/瓶；虚构即饮配方"
+    },
+    {
+      "id": "fixture_d",
+      "name": "测试配方D",
+      "sku": "SYNTHETIC-D-500",
+      "specification": "500ml/瓶；虚构即饮配方"
+    }
+  ],
+  "facts": {
+    "fixture_c_appearance": {
+      "subject_id": "fixture_c",
+      "field": "appearance",
+      "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+    },
+    "fixture_c_taste": {
+      "subject_id": "fixture_c",
+      "field": "taste",
+      "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+    },
+    "fixture_c_price": {
+      "subject_id": "fixture_c",
+      "field": "price",
+      "value": 5,
+      "unit": "CNY",
+      "volume_ml": 500,
+      "date": "2026-10-23",
+      "channel": "虚构测试渠道"
+    },
+    "fixture_d_appearance": {
+      "subject_id": "fixture_d",
+      "field": "appearance",
+      "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+    },
+    "fixture_d_taste": {
+      "subject_id": "fixture_d",
+      "field": "taste",
+      "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+    },
+    "fixture_d_price": {
+      "subject_id": "fixture_d",
+      "field": "price",
+      "value": 6,
+      "unit": "CNY",
+      "volume_ml": 500,
+      "date": "2026-10-23",
+      "channel": "虚构测试渠道"
+    },
+    "fixture_c_energy": {
+      "subject_id": "fixture_c",
+      "field": "energy",
+      "value": 20,
+      "unit": "kcal",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_c_carbohydrate": {
+      "subject_id": "fixture_c",
+      "field": "carbohydrate",
+      "value": 5,
+      "unit": "g",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_c_sugars": {
+      "subject_id": "fixture_c",
+      "field": "sugars",
+      "value": 4,
+      "unit": "g",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_c_vitamin_c": {
+      "subject_id": "fixture_c",
+      "field": "vitamin_c",
+      "value": 12,
+      "unit": "mg",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_c_feature": {
+      "subject_id": "fixture_c",
+      "field": "feature",
+      "value": "抗坏血酸",
+      "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+    },
+    "fixture_d_energy": {
+      "subject_id": "fixture_d",
+      "field": "energy",
+      "value": 24,
+      "unit": "kcal",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_d_carbohydrate": {
+      "subject_id": "fixture_d",
+      "field": "carbohydrate",
+      "value": 6,
+      "unit": "g",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_d_sugars": {
+      "subject_id": "fixture_d",
+      "field": "sugars",
+      "value": 5,
+      "unit": "g",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_d_vitamin_c": {
+      "subject_id": "fixture_d",
+      "field": "vitamin_c",
+      "value": 45,
+      "unit": "mg",
+      "basis": {
+        "amount": 100,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "fixture_d_feature": {
+      "subject_id": "fixture_d",
+      "field": "feature",
+      "value": "柠檬酸",
+      "ingredient_basis": "虚构配料记录：水、柠檬酸"
+    },
+    "fixture_c_scene": {
+      "subject_id": "fixture_c",
+      "field": "scene",
+      "value": "餐间搭配\n按250毫升分装"
+    },
+    "fixture_c_selection": {
+      "subject_id": "fixture_c",
+      "field": "selection",
+      "value": "选购建议\n核对500毫升规格\n查看维生素C标示\n按100毫升统一比较\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存"
+    },
+    "fixture_d_scene": {
+      "subject_id": "fixture_d",
+      "field": "scene",
+      "value": "外出随餐\n按200毫升分装"
+    },
+    "fixture_d_selection": {
+      "subject_id": "fixture_d",
+      "field": "selection",
+      "value": "选购建议\n核对500毫升规格\n查看维生素C标示\n按100毫升统一比较\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存"
+    }
+  }
+}

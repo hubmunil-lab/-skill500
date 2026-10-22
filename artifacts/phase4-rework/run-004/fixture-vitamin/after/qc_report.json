@@ -1,0 +1,1594 @@
+{
+  "status": "PASS_LAYOUT_ONLY",
+  "scope": "synthetic_test",
+  "customer_approved": false,
+  "delivery_ready": false,
+  "visual_revision": "compare-visual-rework-1",
+  "pages": [
+    {
+      "page": 1,
+      "template_id": "customer-compare-01-v1",
+      "errors": [],
+      "elements": [
+        {
+          "id": "title",
+          "kind": "text",
+          "rect": {
+            "x": 52.4375,
+            "y": 34.25,
+            "width": 1137.09375,
+            "height": 160.96875
+          },
+          "text_rects": [
+            {
+              "x": 194.828125,
+              "y": 73.296875,
+              "width": 852.296875,
+              "height": 82
+            }
+          ],
+          "scroll_width": 1137,
+          "scroll_height": 161,
+          "client_width": 1137,
+          "client_height": 161,
+          "font_size": 82.2006,
+          "line_height": 106.861,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(85, 81, 80)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "subtitle",
+          "kind": "text",
+          "rect": {
+            "x": 292.1875,
+            "y": 241.453125,
+            "width": 657.59375,
+            "height": 106.171875
+          },
+          "text_rects": [
+            {
+              "x": 370.078125,
+              "y": 268.140625,
+              "width": 501.796875,
+              "height": 51
+            }
+          ],
+          "scroll_width": 658,
+          "scroll_height": 106,
+          "client_width": 658,
+          "client_height": 106,
+          "font_size": 51.3754,
+          "line_height": 66.788,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(85, 81, 80)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "left_photo",
+          "kind": "image",
+          "rect": {
+            "x": 88.40625,
+            "y": 369.890625,
+            "width": 443.53125,
+            "height": 434.96875
+          },
+          "text_rects": [],
+          "scroll_width": 444,
+          "scroll_height": 435,
+          "client_width": 444,
+          "client_height": 435,
+          "font_size": 16,
+          "line_height": null,
+          "font_family": "\"Times New Roman\"",
+          "font_weight": 400,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "contain",
+          "loaded": true,
+          "natural_width": 1581,
+          "natural_height": 2251
+        },
+        {
+          "id": "right_photo",
+          "kind": "image",
+          "rect": {
+            "x": 826.5,
+            "y": 373.3125,
+            "width": 280.84375,
+            "height": 433.265625
+          },
+          "text_rects": [],
+          "scroll_width": 281,
+          "scroll_height": 433,
+          "client_width": 281,
+          "client_height": 433,
+          "font_size": 16,
+          "line_height": null,
+          "font_family": "\"Times New Roman\"",
+          "font_weight": 400,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "contain",
+          "loaded": true,
+          "natural_width": 1261,
+          "natural_height": 2341
+        },
+        {
+          "id": "field_1_left",
+          "kind": "text",
+          "rect": {
+            "x": 79.84375,
+            "y": 974.40625,
+            "width": 503.46875,
+            "height": 174.671875
+          },
+          "text_rects": [
+            {
+              "x": 79.84375,
+              "y": 979.40625,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 325.515625,
+              "y": 979.40625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 79.84375,
+              "y": 1025.640625,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 325.515625,
+              "y": 1025.640625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 79.84375,
+              "y": 1071.875,
+              "width": 245.671875,
+              "height": 35
+            }
+          ],
+          "scroll_width": 503,
+          "scroll_height": 175,
+          "client_width": 503,
+          "client_height": 175,
+          "font_size": 35.1065,
+          "line_height": 46.2379,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "field_1_right",
+          "kind": "text",
+          "rect": {
+            "x": 703.1875,
+            "y": 974.40625,
+            "width": 472.640625,
+            "height": 174.671875
+          },
+          "text_rects": [
+            {
+              "x": 703.1875,
+              "y": 979.40625,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 948.859375,
+              "y": 979.40625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 703.1875,
+              "y": 1025.640625,
+              "width": 210.578125,
+              "height": 35
+            },
+            {
+              "x": 913.765625,
+              "y": 1025.640625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 703.1875,
+              "y": 1071.875,
+              "width": 210.578125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 175,
+          "client_width": 473,
+          "client_height": 175,
+          "font_size": 35.1065,
+          "line_height": 46.2379,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "field_2_left",
+          "kind": "text",
+          "rect": {
+            "x": 79.84375,
+            "y": 1174.78125,
+            "width": 503.46875,
+            "height": 234.609375
+          },
+          "text_rects": [
+            {
+              "x": 79.84375,
+              "y": 1179.78125,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 325.515625,
+              "y": 1179.78125,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 79.84375,
+              "y": 1226.015625,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 325.515625,
+              "y": 1226.015625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 79.84375,
+              "y": 1272.25,
+              "width": 210.578125,
+              "height": 35
+            },
+            {
+              "x": 290.421875,
+              "y": 1272.25,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 79.84375,
+              "y": 1318.484375,
+              "width": 175.484375,
+              "height": 35
+            }
+          ],
+          "scroll_width": 503,
+          "scroll_height": 235,
+          "client_width": 503,
+          "client_height": 235,
+          "font_size": 35.1065,
+          "line_height": 46.2379,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "field_2_right",
+          "kind": "text",
+          "rect": {
+            "x": 703.1875,
+            "y": 1174.78125,
+            "width": 472.640625,
+            "height": 234.609375
+          },
+          "text_rects": [
+            {
+              "x": 703.1875,
+              "y": 1179.78125,
+              "width": 175.484375,
+              "height": 35
+            },
+            {
+              "x": 878.671875,
+              "y": 1179.78125,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 703.1875,
+              "y": 1226.015625,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 948.859375,
+              "y": 1226.015625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 703.1875,
+              "y": 1272.25,
+              "width": 245.671875,
+              "height": 35
+            },
+            {
+              "x": 948.859375,
+              "y": 1272.25,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 703.1875,
+              "y": 1318.484375,
+              "width": 175.484375,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 235,
+          "client_width": 473,
+          "client_height": 235,
+          "font_size": 35.1065,
+          "line_height": 46.2379,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "field_3_left",
+          "kind": "text",
+          "rect": {
+            "x": 79.84375,
+            "y": 1443.640625,
+            "width": 503.46875,
+            "height": 123.296875
+          },
+          "text_rects": [
+            {
+              "x": 79.84375,
+              "y": 1448.640625,
+              "width": 218.296875,
+              "height": 35
+            },
+            {
+              "x": 298.140625,
+              "y": 1448.640625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 79.84375,
+              "y": 1494.875,
+              "width": 288.484375,
+              "height": 35
+            }
+          ],
+          "scroll_width": 503,
+          "scroll_height": 123,
+          "client_width": 503,
+          "client_height": 123,
+          "font_size": 35.1065,
+          "line_height": 46.2379,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "field_3_right",
+          "kind": "text",
+          "rect": {
+            "x": 703.1875,
+            "y": 1443.640625,
+            "width": 472.640625,
+            "height": 123.296875
+          },
+          "text_rects": [
+            {
+              "x": 703.1875,
+              "y": 1448.640625,
+              "width": 218.296875,
+              "height": 35
+            },
+            {
+              "x": 921.484375,
+              "y": 1448.640625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 703.1875,
+              "y": 1494.875,
+              "width": 288.484375,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 123,
+          "client_width": 473,
+          "client_height": 123,
+          "font_size": 35.1065,
+          "line_height": 46.2379,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "tag_1",
+          "kind": "text",
+          "rect": {
+            "x": 494.265625,
+            "y": 1044.625,
+            "width": 202.0625,
+            "height": 65.0625
+          },
+          "text_rects": [
+            {
+              "x": 519.96875,
+              "y": 1057.671875,
+              "width": 150.640625,
+              "height": 38
+            }
+          ],
+          "scroll_width": 202,
+          "scroll_height": 65,
+          "client_width": 202,
+          "client_height": 65,
+          "font_size": 37.6753,
+          "line_height": 48.9779,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "tag_2",
+          "kind": "text",
+          "rect": {
+            "x": 490.84375,
+            "y": 1246.703125,
+            "width": 207.203125,
+            "height": 61.640625
+          },
+          "text_rects": [
+            {
+              "x": 519.125,
+              "y": 1258.03125,
+              "width": 150.640625,
+              "height": 38
+            }
+          ],
+          "scroll_width": 207,
+          "scroll_height": 62,
+          "client_width": 207,
+          "client_height": 62,
+          "font_size": 37.6753,
+          "line_height": 48.9779,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "tag_3",
+          "kind": "text",
+          "rect": {
+            "x": 489.125,
+            "y": 1476.171875,
+            "width": 208.921875,
+            "height": 59.9375
+          },
+          "text_rects": [
+            {
+              "x": 518.265625,
+              "y": 1486.640625,
+              "width": 150.640625,
+              "height": 38
+            }
+          ],
+          "scroll_width": 209,
+          "scroll_height": 60,
+          "client_width": 209,
+          "client_height": 60,
+          "font_size": 37.6753,
+          "line_height": 48.9779,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "name_left",
+          "kind": "text",
+          "rect": {
+            "x": 127.78125,
+            "y": 832.28125,
+            "width": 422.984375,
+            "height": 126.71875
+          },
+          "text_rects": [
+            {
+              "x": 231.671875,
+              "y": 871.578125,
+              "width": 215.203125,
+              "height": 47
+            }
+          ],
+          "scroll_width": 423,
+          "scroll_height": 127,
+          "client_width": 423,
+          "client_height": 127,
+          "font_size": 46.2379,
+          "line_height": 60.1092,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "name_right",
+          "kind": "text",
+          "rect": {
+            "x": 704.90625,
+            "y": 832.28125,
+            "width": 448.671875,
+            "height": 126.71875
+          },
+          "text_rects": [
+            {
+              "x": 820.296875,
+              "y": 871.578125,
+              "width": 217.875,
+              "height": 47
+            }
+          ],
+          "scroll_width": 449,
+          "scroll_height": 127,
+          "client_width": 449,
+          "client_height": 127,
+          "font_size": 46.2379,
+          "line_height": 60.1092,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        }
+      ],
+      "reference_diagnostics": {
+        "fixed_region_pixel_fraction": 0.37594226236318234,
+        "fixed_region_metric_reliable": true,
+        "overall_mean_absolute_rgb_error": 27.129354600522248,
+        "fixed_region_mean_absolute_rgb_error": 2.2871218195770067,
+        "meaning": "Test text deliberately differs; pixel metrics are diagnostic, not customer approval."
+      }
+    },
+    {
+      "page": 2,
+      "template_id": "customer-compare-02-v1",
+      "errors": [],
+      "elements": [
+        {
+          "id": "title",
+          "kind": "text",
+          "rect": {
+            "x": 52.59375,
+            "y": 33.921875,
+            "width": 1126.609375,
+            "height": 159.484375
+          },
+          "text_rects": [
+            {
+              "x": 258.78125,
+              "y": 71.71875,
+              "width": 714.21875,
+              "height": 82
+            }
+          ],
+          "scroll_width": 1127,
+          "scroll_height": 159,
+          "client_width": 1127,
+          "client_height": 159,
+          "font_size": 81.4426,
+          "line_height": 105.875,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(85, 81, 80)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "left_photo",
+          "kind": "image",
+          "rect": {
+            "x": 89.921875,
+            "y": 356.296875,
+            "width": 439.4375,
+            "height": 453.015625
+          },
+          "text_rects": [],
+          "scroll_width": 439,
+          "scroll_height": 453,
+          "client_width": 439,
+          "client_height": 453,
+          "font_size": 16,
+          "line_height": null,
+          "font_family": "\"Times New Roman\"",
+          "font_weight": 400,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "contain",
+          "loaded": true,
+          "natural_width": 1581,
+          "natural_height": 2251
+        },
+        {
+          "id": "right_photo",
+          "kind": "image",
+          "rect": {
+            "x": 822.90625,
+            "y": 369.875,
+            "width": 281.640625,
+            "height": 441.140625
+          },
+          "text_rects": [],
+          "scroll_width": 282,
+          "scroll_height": 441,
+          "client_width": 282,
+          "client_height": 441,
+          "font_size": 16,
+          "line_height": null,
+          "font_family": "\"Times New Roman\"",
+          "font_weight": 400,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "contain",
+          "loaded": true,
+          "natural_width": 1261,
+          "natural_height": 2341
+        },
+        {
+          "id": "nutrient_1_left",
+          "kind": "text",
+          "rect": {
+            "x": 88.21875,
+            "y": 1068.921875,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 88.21875,
+              "y": 1084.09375,
+              "width": 208.1875,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_2_left",
+          "kind": "text",
+          "rect": {
+            "x": 88.21875,
+            "y": 1162.25,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 88.21875,
+              "y": 1177.421875,
+              "width": 143.203125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_3_left",
+          "kind": "text",
+          "rect": {
+            "x": 88.21875,
+            "y": 1255.5625,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 88.21875,
+              "y": 1270.734375,
+              "width": 177.96875,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_4_left",
+          "kind": "text",
+          "rect": {
+            "x": 88.21875,
+            "y": 1348.890625,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 88.21875,
+              "y": 1364.0625,
+              "width": 251.640625,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_5_left",
+          "kind": "text",
+          "rect": {
+            "x": 88.21875,
+            "y": 1445.59375,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 88.21875,
+              "y": 1460.765625,
+              "width": 312.90625,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_1_right",
+          "kind": "text",
+          "rect": {
+            "x": 680.375,
+            "y": 1068.921875,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 680.375,
+              "y": 1084.09375,
+              "width": 208.1875,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_2_right",
+          "kind": "text",
+          "rect": {
+            "x": 680.375,
+            "y": 1162.25,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 680.375,
+              "y": 1177.421875,
+              "width": 143.203125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_3_right",
+          "kind": "text",
+          "rect": {
+            "x": 680.375,
+            "y": 1255.5625,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 680.375,
+              "y": 1270.734375,
+              "width": 177.96875,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_4_right",
+          "kind": "text",
+          "rect": {
+            "x": 680.375,
+            "y": 1348.890625,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 680.375,
+              "y": 1364.0625,
+              "width": 251.640625,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "nutrient_5_right",
+          "kind": "text",
+          "rect": {
+            "x": 680.375,
+            "y": 1445.59375,
+            "width": 493.734375,
+            "height": 66.171875
+          },
+          "text_rects": [
+            {
+              "x": 680.375,
+              "y": 1460.765625,
+              "width": 278.140625,
+              "height": 35
+            }
+          ],
+          "scroll_width": 494,
+          "scroll_height": 66,
+          "client_width": 494,
+          "client_height": 66,
+          "font_size": 34.7828,
+          "line_height": 45.8115,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "name_left",
+          "kind": "text",
+          "rect": {
+            "x": 127.25,
+            "y": 934.890625,
+            "width": 419.078125,
+            "height": 105.1875
+          },
+          "text_rects": [
+            {
+              "x": 230.171875,
+              "y": 964.703125,
+              "width": 213.234375,
+              "height": 45
+            }
+          ],
+          "scroll_width": 419,
+          "scroll_height": 105,
+          "client_width": 419,
+          "client_height": 105,
+          "font_size": 45.8115,
+          "line_height": 59.5549,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "name_right",
+          "kind": "text",
+          "rect": {
+            "x": 699.046875,
+            "y": 934.890625,
+            "width": 444.53125,
+            "height": 105.1875
+          },
+          "text_rects": [
+            {
+              "x": 813.359375,
+              "y": 964.703125,
+              "width": 215.890625,
+              "height": 45
+            }
+          ],
+          "scroll_width": 445,
+          "scroll_height": 105,
+          "client_width": 445,
+          "client_height": 105,
+          "font_size": 45.8115,
+          "line_height": 59.5549,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        }
+      ],
+      "reference_diagnostics": {
+        "fixed_region_pixel_fraction": 0.5180619734416205,
+        "fixed_region_metric_reliable": true,
+        "overall_mean_absolute_rgb_error": 21.92027235174683,
+        "fixed_region_mean_absolute_rgb_error": 1.1083193730789986,
+        "meaning": "Test text deliberately differs; pixel metrics are diagnostic, not customer approval."
+      }
+    },
+    {
+      "page": 3,
+      "template_id": "customer-compare-03-v1",
+      "errors": [],
+      "elements": [
+        {
+          "id": "title",
+          "kind": "text",
+          "rect": {
+            "x": 53.390625,
+            "y": 34.03125,
+            "width": 1130.09375,
+            "height": 159.96875
+          },
+          "text_rects": [
+            {
+              "x": 332.53125,
+              "y": 72.921875,
+              "width": 571.8125,
+              "height": 82
+            }
+          ],
+          "scroll_width": 1130,
+          "scroll_height": 160,
+          "client_width": 1130,
+          "client_height": 160,
+          "font_size": 81.6937,
+          "line_height": 106.202,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(85, 81, 80)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "left_photo",
+          "kind": "image",
+          "rect": {
+            "x": 90.828125,
+            "y": 357.40625,
+            "width": 440.796875,
+            "height": 454.40625
+          },
+          "text_rects": [],
+          "scroll_width": 441,
+          "scroll_height": 454,
+          "client_width": 441,
+          "client_height": 454,
+          "font_size": 16,
+          "line_height": null,
+          "font_family": "\"Times New Roman\"",
+          "font_weight": 400,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "contain",
+          "loaded": true,
+          "natural_width": 1581,
+          "natural_height": 2251
+        },
+        {
+          "id": "right_photo",
+          "kind": "image",
+          "rect": {
+            "x": 826.078125,
+            "y": 371.015625,
+            "width": 282.515625,
+            "height": 442.5
+          },
+          "text_rects": [],
+          "scroll_width": 283,
+          "scroll_height": 443,
+          "client_width": 283,
+          "client_height": 443,
+          "font_size": 16,
+          "line_height": null,
+          "font_family": "\"Times New Roman\"",
+          "font_weight": 400,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "contain",
+          "loaded": true,
+          "natural_width": 1261,
+          "natural_height": 2341
+        },
+        {
+          "id": "use_left",
+          "kind": "text",
+          "rect": {
+            "x": 90.828125,
+            "y": 1058.609375,
+            "width": 473.140625,
+            "height": 129.34375
+          },
+          "text_rects": [
+            {
+              "x": 90.828125,
+              "y": 1063.609375,
+              "width": 139.5,
+              "height": 35
+            },
+            {
+              "x": 230.328125,
+              "y": 1063.609375,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1109.5625,
+              "width": 232.453125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 129,
+          "client_width": 473,
+          "client_height": 129,
+          "font_size": 34.89,
+          "line_height": 45.9527,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "select_left",
+          "kind": "text",
+          "rect": {
+            "x": 90.828125,
+            "y": 1216.890625,
+            "width": 473.140625,
+            "height": 352.296875
+          },
+          "text_rects": [
+            {
+              "x": 90.828125,
+              "y": 1221.890625,
+              "width": 139.5,
+              "height": 35
+            },
+            {
+              "x": 230.328125,
+              "y": 1221.890625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1267.84375,
+              "width": 267.328125,
+              "height": 35
+            },
+            {
+              "x": 358.15625,
+              "y": 1267.84375,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1313.796875,
+              "width": 266.375,
+              "height": 35
+            },
+            {
+              "x": 357.203125,
+              "y": 1313.796875,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1359.75,
+              "width": 302.203125,
+              "height": 35
+            },
+            {
+              "x": 393.03125,
+              "y": 1359.75,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1405.703125,
+              "width": 279,
+              "height": 35
+            },
+            {
+              "x": 369.828125,
+              "y": 1405.703125,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1451.65625,
+              "width": 279,
+              "height": 35
+            },
+            {
+              "x": 369.828125,
+              "y": 1451.65625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 90.828125,
+              "y": 1497.609375,
+              "width": 244.125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 352,
+          "client_width": 473,
+          "client_height": 352,
+          "font_size": 34.89,
+          "line_height": 45.9527,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "use_right",
+          "kind": "text",
+          "rect": {
+            "x": 693.328125,
+            "y": 1058.609375,
+            "width": 473.140625,
+            "height": 129.34375
+          },
+          "text_rects": [
+            {
+              "x": 693.328125,
+              "y": 1063.609375,
+              "width": 139.5,
+              "height": 35
+            },
+            {
+              "x": 832.828125,
+              "y": 1063.609375,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1109.5625,
+              "width": 232.453125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 129,
+          "client_width": 473,
+          "client_height": 129,
+          "font_size": 34.89,
+          "line_height": 45.9527,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "select_right",
+          "kind": "text",
+          "rect": {
+            "x": 693.328125,
+            "y": 1216.890625,
+            "width": 473.140625,
+            "height": 352.296875
+          },
+          "text_rects": [
+            {
+              "x": 693.328125,
+              "y": 1221.890625,
+              "width": 139.5,
+              "height": 35
+            },
+            {
+              "x": 832.828125,
+              "y": 1221.890625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1267.84375,
+              "width": 267.328125,
+              "height": 35
+            },
+            {
+              "x": 960.65625,
+              "y": 1267.84375,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1313.796875,
+              "width": 266.375,
+              "height": 35
+            },
+            {
+              "x": 959.703125,
+              "y": 1313.796875,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1359.75,
+              "width": 302.203125,
+              "height": 35
+            },
+            {
+              "x": 995.53125,
+              "y": 1359.75,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1405.703125,
+              "width": 279,
+              "height": 35
+            },
+            {
+              "x": 972.328125,
+              "y": 1405.703125,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1451.65625,
+              "width": 279,
+              "height": 35
+            },
+            {
+              "x": 972.328125,
+              "y": 1451.65625,
+              "width": 0,
+              "height": 35
+            },
+            {
+              "x": 693.328125,
+              "y": 1497.609375,
+              "width": 244.125,
+              "height": 35
+            }
+          ],
+          "scroll_width": 473,
+          "scroll_height": 352,
+          "client_width": 473,
+          "client_height": 352,
+          "font_size": 34.89,
+          "line_height": 45.9527,
+          "font_family": "PosterCJK",
+          "font_weight": 400,
+          "color": "rgb(84, 80, 78)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "name_left",
+          "kind": "text",
+          "rect": {
+            "x": 128.28125,
+            "y": 937.765625,
+            "width": 420.375,
+            "height": 105.515625
+          },
+          "text_rects": [
+            {
+              "x": 231.515625,
+              "y": 966.65625,
+              "width": 213.890625,
+              "height": 46
+            }
+          ],
+          "scroll_width": 420,
+          "scroll_height": 106,
+          "client_width": 420,
+          "client_height": 106,
+          "font_size": 45.9527,
+          "line_height": 59.7385,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        },
+        {
+          "id": "name_right",
+          "kind": "text",
+          "rect": {
+            "x": 701.828125,
+            "y": 937.765625,
+            "width": 445.90625,
+            "height": 105.515625
+          },
+          "text_rects": [
+            {
+              "x": 816.5,
+              "y": 966.65625,
+              "width": 216.5625,
+              "height": 46
+            }
+          ],
+          "scroll_width": 446,
+          "scroll_height": 106,
+          "client_width": 446,
+          "client_height": 106,
+          "font_size": 45.9527,
+          "line_height": 59.7385,
+          "font_family": "PosterCJKBold",
+          "font_weight": 700,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "object_fit": "fill",
+          "loaded": true,
+          "natural_width": null,
+          "natural_height": null
+        }
+      ],
+      "reference_diagnostics": {
+        "fixed_region_pixel_fraction": 0.46431655347849426,
+        "fixed_region_metric_reliable": true,
+        "overall_mean_absolute_rgb_error": 29.33501284225484,
+        "fixed_region_mean_absolute_rgb_error": 1.45025815441236,
+        "meaning": "Test text deliberately differs; pixel metrics are diagnostic, not customer approval."
+      }
+    }
+  ],
+  "errors": [],
+  "fonts": {
+    "PosterCJK": {
+      "source_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+      "face_index": 2,
+      "font_path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+    },
+    "PosterCJKSerif": {
+      "source_sha256": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d",
+      "face_index": 2,
+      "font_path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc"
+    },
+    "PosterCJKBold": {
+      "source_sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+      "face_index": 2,
+      "font_path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+    },
+    "PosterCJKSerifBold": {
+      "source_sha256": "1505ee3b9c0890fae6302ee0e9c6fd74d690f4a55a6ace1d9944f3f6352d622d",
+      "face_index": 2,
+      "font_path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc"
+    }
+  },
+  "warning": "Synthetic fixture data and original illustrations; not real product production",
+  "browser": "154.0.8037.57"
+}

@@ -1,0 +1,7 @@
+{
+  "task_id": "fixture-sugar",
+  "query": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+  "direction": "合成数据验收，不用于真实食品交付",
+  "original_query": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+  "search_query": "测试配方A与测试配方B每100毫升含糖量哪个更低"
+}

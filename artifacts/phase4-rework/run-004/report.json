@@ -1,0 +1,72 @@
+{
+  "production_success": 0,
+  "real_queries_blocked": 2,
+  "synthetic_groups_rendered": 2,
+  "customer_approved": false,
+  "business_acceptance_passed": false,
+  "cases": [
+    {
+      "task_id": "fixture-sugar",
+      "query": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+      "status": "REVIEW_SYNTHETIC_TEST_ONLY",
+      "rendered": true,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "cache_key": "40fdf37a462dea3bc1208064eb06ac4fe5ade93d4fdbb3f49dfbf55955721e93",
+      "poster_content_hash": "c9cb82598023b418453203209141d11f83e75b8b3bd4bbde2f35456e158103cf",
+      "body_hash": "e0ca5d2deb3d7b8885277ab4dd3f1fb8c41ec393c02d2ae5a7b6446c03c630aa",
+      "business_qc": {
+        "status": "PASS_STRUCTURED_BUSINESS_CHECKS",
+        "errors": [],
+        "customer_approved": false,
+        "semantic_review_required": true,
+        "human_checklist": [
+          "原始问题与直接答案是否一致",
+          "口感记录是否支持描述",
+          "产品身份与图片是否一致",
+          "事实来源是否权威且适用当前SKU",
+          "正文与每页信息是否一致",
+          "版面是否接近客户参考"
+        ],
+        "limitation": "结构、类型、数值和精确证据映射可自动检查；来源真实性与业务语义需人工核查"
+      },
+      "layout_qc": "PASS_LAYOUT_ONLY",
+      "before_layout_qc": "FAIL",
+      "output": "fixture-sugar"
+    },
+    {
+      "task_id": "fixture-vitamin",
+      "query": "测试配方C与测试配方D每100毫升维生素C哪个更多",
+      "status": "REVIEW_SYNTHETIC_TEST_ONLY",
+      "rendered": true,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "cache_key": "afd2e2f2e0d60120a50c7e57e113398a4faea070f56cca400509e5b541503a54",
+      "poster_content_hash": "15eb006f5b9bea701bce3e93490d02c75c43d9f91c1f7ee1a861d0231dbc0f40",
+      "body_hash": "9d2c999df4f2c8dc554731938de627aac9ff4ccb3454f60a1f41b7aac2d59619",
+      "business_qc": {
+        "status": "PASS_STRUCTURED_BUSINESS_CHECKS",
+        "errors": [],
+        "customer_approved": false,
+        "semantic_review_required": true,
+        "human_checklist": [
+          "原始问题与直接答案是否一致",
+          "口感记录是否支持描述",
+          "产品身份与图片是否一致",
+          "事实来源是否权威且适用当前SKU",
+          "正文与每页信息是否一致",
+          "版面是否接近客户参考"
+        ],
+        "limitation": "结构、类型、数值和精确证据映射可自动检查；来源真实性与业务语义需人工核查"
+      },
+      "layout_qc": "PASS_LAYOUT_ONLY",
+      "before_layout_qc": "FAIL",
+      "output": "fixture-vitamin"
+    }
+  ],
+  "cross_task_qc": {
+    "status": "PASS_DUPLICATE_CHECK",
+    "errors": [],
+    "review_required": true
+  }
+}

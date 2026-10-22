@@ -1,0 +1,43 @@
+test_render_and_real_overflow_with_fixed_font (tests.test_comparison_rework.ComparisonActualRenderingTests.test_render_and_real_overflow_with_fixed_font) ... /workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_a.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_b.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_c.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_d.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_a.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_b.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_c.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_d.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_assets_identity_authorization_and_hash_checks (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_assets_identity_authorization_and_hash_checks) ... ok
+test_complete_typed_three_page_contract (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_complete_typed_three_page_contract) ... ok
+test_cross_page_identity_query_and_focus (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_cross_page_identity_query_and_focus) ... ok
+test_internal_notes_blocked_and_poster_body_cannot_diverge (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_internal_notes_blocked_and_poster_body_cannot_diverge) ... ok
+test_legacy_visual_only_content_rejected (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_legacy_visual_only_content_rejected) ... ok
+test_missing_price_context_and_invalid_sugar (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_missing_price_context_and_invalid_sugar) ... ok
+test_no_business_field_substitution_even_with_source (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_no_business_field_substitution_even_with_source) ... ok
+test_no_reference_switch_bypass_or_renderer_call (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_no_reference_switch_bypass_or_renderer_call) ... ok
+test_nutrients_require_exact_values_units_basis_and_kind (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_nutrients_require_exact_values_units_basis_and_kind) ... ok
+test_original_coordinates_unchanged_and_borders_preserved (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_original_coordinates_unchanged_and_borders_preserved) ... ok
+test_reversed_question_cannot_reuse_lower_sugar_answer (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_reversed_question_cannot_reuse_lower_sugar_answer) ... ok
+test_synthetic_source_and_illustrations_cannot_be_production (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_synthetic_source_and_illustrations_cannot_be_production) ... ok
+test_two_queries_generate_distinct_answers_pages_and_keys (tests.test_comparison_rework.ComparisonBusinessRegressionTests.test_two_queries_generate_distinct_answers_pages_and_keys) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 10.687s
+
+OK

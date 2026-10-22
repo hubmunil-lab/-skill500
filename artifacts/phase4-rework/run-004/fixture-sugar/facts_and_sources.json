@@ -1,0 +1,285 @@
+{
+  "sources": {
+    "fixture": {
+      "path": "examples/workflow/comparison_rework/sugar-source.json",
+      "sha256": "5e56019ffa3b5e9f1cd9c2847f054fc07afbf9f5356fabd5a9bd1e1abdb2d691",
+      "verified_for_production": false
+    }
+  },
+  "pages": [
+    {
+      "number": 1,
+      "role": "appearance_taste_price",
+      "subject_order": [
+        "fixture_a",
+        "fixture_b"
+      ],
+      "left": {
+        "appearance": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_appearance",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "appearance",
+            "value": "浅黄透明液体\n杯中可见清澈光泽\n颜色均匀无沉淀"
+          }
+        },
+        "taste": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_taste",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "taste",
+            "value": "酸味清晰入口轻甜\n柠檬香气较轻\n无气泡口感平顺\n回味偏清淡"
+          }
+        },
+        "price": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_price",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "price",
+            "value": 4,
+            "unit": "CNY",
+            "volume_ml": 500,
+            "date": "2026-10-23",
+            "channel": "虚构测试渠道"
+          }
+        }
+      },
+      "right": {
+        "appearance": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_appearance",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "appearance",
+            "value": "琥珀色透明液体\n瓶身可见均匀色泽\n外观澄清无颗粒"
+          }
+        },
+        "taste": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_taste",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "taste",
+            "value": "甜味较明显\n酸味柔和果香浓\n无气泡口感平顺\n回味偏浓郁"
+          }
+        },
+        "price": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_price",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "price",
+            "value": 5,
+            "unit": "CNY",
+            "volume_ml": 500,
+            "date": "2026-10-23",
+            "channel": "虚构测试渠道"
+          }
+        }
+      }
+    },
+    {
+      "number": 2,
+      "role": "nutrition",
+      "subject_order": [
+        "fixture_a",
+        "fixture_b"
+      ],
+      "left": {
+        "energy": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_energy",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "energy",
+            "value": 12,
+            "unit": "kcal",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "carbohydrate": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_carbohydrate",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "carbohydrate",
+            "value": 3,
+            "unit": "g",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "sugars": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_sugars",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "sugars",
+            "value": 2,
+            "unit": "g",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "vitamin_c": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_vitamin_c",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "vitamin_c",
+            "value": 8,
+            "unit": "mg",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "feature": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_feature",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "feature",
+            "value": "柠檬酸",
+            "ingredient_basis": "虚构配料记录：水、柠檬酸"
+          }
+        }
+      },
+      "right": {
+        "energy": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_energy",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "energy",
+            "value": 28,
+            "unit": "kcal",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "carbohydrate": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_carbohydrate",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "carbohydrate",
+            "value": 7,
+            "unit": "g",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "sugars": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_sugars",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "sugars",
+            "value": 6,
+            "unit": "g",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "vitamin_c": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_vitamin_c",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "vitamin_c",
+            "value": 6,
+            "unit": "mg",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "feature": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_feature",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "feature",
+            "value": "苹果酸",
+            "ingredient_basis": "虚构配料记录：水、苹果酸"
+          }
+        }
+      }
+    },
+    {
+      "number": 3,
+      "role": "scene_selection",
+      "subject_order": [
+        "fixture_a",
+        "fixture_b"
+      ],
+      "left": {
+        "scene": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_scene",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "scene",
+            "value": "餐间搭配\n按250毫升分装"
+          }
+        },
+        "selection": {
+          "source_id": "fixture",
+          "fact_id": "fixture_a_selection",
+          "fact": {
+            "subject_id": "fixture_a",
+            "field": "selection",
+            "value": "选购建议\n核对500毫升规格\n比价时换算同容量\n关注每100毫升含糖\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存"
+          }
+        }
+      },
+      "right": {
+        "scene": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_scene",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "scene",
+            "value": "外出随餐\n按200毫升分装"
+          }
+        },
+        "selection": {
+          "source_id": "fixture",
+          "fact_id": "fixture_b_selection",
+          "fact": {
+            "subject_id": "fixture_b",
+            "field": "selection",
+            "value": "选购建议\n核对500毫升规格\n比价时换算同容量\n关注每100毫升含糖\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存"
+          }
+        }
+      }
+    }
+  ]
+}

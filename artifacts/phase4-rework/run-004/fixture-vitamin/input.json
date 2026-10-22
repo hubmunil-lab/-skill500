@@ -1,0 +1,7 @@
+{
+  "task_id": "fixture-vitamin",
+  "query": "测试配方C与测试配方D每100毫升维生素C哪个更多",
+  "direction": "合成数据验收，不用于真实食品交付",
+  "original_query": "测试配方C与测试配方D每100毫升维生素C哪个更多",
+  "search_query": "测试配方C与测试配方D每100毫升维生素C哪个更多"
+}

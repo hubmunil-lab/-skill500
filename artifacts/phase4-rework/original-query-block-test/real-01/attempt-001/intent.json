@@ -1,0 +1,41 @@
+{
+  "query": "柠檬水和可乐外观有什么区别",
+  "classification": {
+    "category": "comparison",
+    "candidates": [
+      "comparison"
+    ],
+    "status": "explicit",
+    "reason": "调用方明确指定；原问题仍须语义复核"
+  },
+  "search_motivation": "希望获得针对「柠檬水和可乐外观有什么区别」的可用答案；此为词面分析，需编辑复核",
+  "explicit_constraints": [],
+  "unknowns": [
+    "未提供的病史、个体耐受、对象规格和实际体验不得推断"
+  ],
+  "direction_hint": "只比较参考图可见差异",
+  "direction_hint_is_evidence": false,
+  "direct_answer": null,
+  "answer_status": "pending_verification",
+  "required_answers": [
+    {
+      "id": "A1",
+      "question": "原问题涉及的两对象核心差异是什么？",
+      "query": "柠檬水和可乐外观有什么区别"
+    },
+    {
+      "id": "A2",
+      "question": "同一计量基准下证据是什么？",
+      "query": "柠檬水和可乐外观有什么区别"
+    },
+    {
+      "id": "A3",
+      "question": "在原场景下如何选择？",
+      "query": "柠檬水和可乐外观有什么区别"
+    }
+  ],
+  "facts_to_verify": [
+    "任何健康功效、营养数值及其生熟/干鲜/可食部/产品规格基准"
+  ],
+  "review_required": true
+}

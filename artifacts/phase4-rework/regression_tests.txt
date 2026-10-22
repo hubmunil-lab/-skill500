@@ -1,0 +1,122 @@
+test_render_and_real_overflow_with_fixed_font (test_comparison_rework.ComparisonActualRenderingTests.test_render_and_real_overflow_with_fixed_font) ... /workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_a.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_b.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_c.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_d.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_a.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_b.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_c.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/-skill500/workflow/comparison_fixtures.py:101: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/-skill500/examples/workflow/comparison_rework/fixture_d.png'>
+  'permitted_use':'synthetic_test','kind':'original_programmatic_illustration','size':list(Image.open(path).size)}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_assets_identity_authorization_and_hash_checks (test_comparison_rework.ComparisonBusinessRegressionTests.test_assets_identity_authorization_and_hash_checks) ... ok
+test_complete_typed_three_page_contract (test_comparison_rework.ComparisonBusinessRegressionTests.test_complete_typed_three_page_contract) ... ok
+test_cross_page_identity_query_and_focus (test_comparison_rework.ComparisonBusinessRegressionTests.test_cross_page_identity_query_and_focus) ... ok
+test_internal_notes_blocked_and_poster_body_cannot_diverge (test_comparison_rework.ComparisonBusinessRegressionTests.test_internal_notes_blocked_and_poster_body_cannot_diverge) ... ok
+test_legacy_visual_only_content_rejected (test_comparison_rework.ComparisonBusinessRegressionTests.test_legacy_visual_only_content_rejected) ... ok
+test_missing_price_context_and_invalid_sugar (test_comparison_rework.ComparisonBusinessRegressionTests.test_missing_price_context_and_invalid_sugar) ... ok
+test_no_business_field_substitution_even_with_source (test_comparison_rework.ComparisonBusinessRegressionTests.test_no_business_field_substitution_even_with_source) ... ok
+test_no_reference_switch_bypass_or_renderer_call (test_comparison_rework.ComparisonBusinessRegressionTests.test_no_reference_switch_bypass_or_renderer_call) ... ok
+test_nutrients_require_exact_values_units_basis_and_kind (test_comparison_rework.ComparisonBusinessRegressionTests.test_nutrients_require_exact_values_units_basis_and_kind) ... ok
+test_original_coordinates_unchanged_and_borders_preserved (test_comparison_rework.ComparisonBusinessRegressionTests.test_original_coordinates_unchanged_and_borders_preserved) ... ok
+test_reversed_question_cannot_reuse_lower_sugar_answer (test_comparison_rework.ComparisonBusinessRegressionTests.test_reversed_question_cannot_reuse_lower_sugar_answer) ... ok
+test_synthetic_source_and_illustrations_cannot_be_production (test_comparison_rework.ComparisonBusinessRegressionTests.test_synthetic_source_and_illustrations_cannot_be_production) ... ok
+test_two_queries_generate_distinct_answers_pages_and_keys (test_comparison_rework.ComparisonBusinessRegressionTests.test_two_queries_generate_distinct_answers_pages_and_keys) ... ok
+test_all_fifteen_pages_really_render_and_have_comparison_artifacts (test_customer_templates.CustomerTemplateBrowserTests.test_all_fifteen_pages_really_render_and_have_comparison_artifacts) ... ok
+test_real_long_text_is_blocked_without_font_shrink (test_customer_templates.CustomerTemplateBrowserTests.test_real_long_text_is_blocked_without_font_shrink) ... ok
+test_all_four_valid_content_contracts (test_customer_templates.CustomerTemplateContractTests.test_all_four_valid_content_contracts) ... ok
+test_catalog_mapping_and_no_false_approval (test_customer_templates.CustomerTemplateContractTests.test_catalog_mapping_and_no_false_approval) ... ok
+test_compare_identity_and_list_cross_page_order (test_customer_templates.CustomerTemplateContractTests.test_compare_identity_and_list_cross_page_order) ... ok
+test_complete_fifteen_file_inventory (test_customer_templates.CustomerTemplateContractTests.test_complete_fifteen_file_inventory) ... ok
+test_intro_feature_consistency_and_three_distinct_recipes (test_customer_templates.CustomerTemplateContractTests.test_intro_feature_consistency_and_three_distinct_recipes) ... ok
+test_no_missing_or_swapped_images_or_asset_corruption (test_customer_templates.CustomerTemplateContractTests.test_no_missing_or_swapped_images_or_asset_corruption) ... ok
+test_no_style_override_or_production_bypass (test_customer_templates.CustomerTemplateContractTests.test_no_style_override_or_production_bypass) ... ok
+test_only_observed_recipe_overlays_registered (test_customer_templates.CustomerTemplateContractTests.test_only_observed_recipe_overlays_registered) ... ok
+test_uniform_projection_and_immutable_component_hashes (test_customer_templates.CustomerTemplateContractTests.test_uniform_projection_and_immutable_component_hashes) ... ok
+test_wrong_page_order_and_missing_content_blocked (test_customer_templates.CustomerTemplateContractTests.test_wrong_page_order_and_missing_content_blocked) ... ok
+test_long_text_does_not_shrink_or_export (test_delivery_business.BusinessBrowserTests.test_long_text_does_not_shrink_or_export) ... ok
+test_repeated_terms_preserve_locked_geometry_and_fail_closed_export (test_delivery_business.BusinessBrowserTests.test_repeated_terms_preserve_locked_geometry_and_fail_closed_export) ... ok
+test_changed_nutrition_is_blocked (test_delivery_business.BusinessContractTests.test_changed_nutrition_is_blocked) ... ok
+test_missing_photo_cannot_render (test_delivery_business.BusinessContractTests.test_missing_photo_cannot_render) ... ok
+test_page_order_and_image_identity (test_delivery_business.BusinessContractTests.test_page_order_and_image_identity) ... ok
+test_placeholder_and_false_clinical_claim_blocked (test_delivery_business.BusinessContractTests.test_placeholder_and_false_clinical_claim_blocked) ... ok
+test_real_content_and_blocking_obligations (test_delivery_business.BusinessContractTests.test_real_content_and_blocking_obligations) ... ok
+test_source_cannot_be_applied_to_another_food (test_delivery_business.BusinessContractTests.test_source_cannot_be_applied_to_another_food) ... ok
+test_style_override_cannot_be_passed_in_content (test_delivery_business.BusinessContractTests.test_style_override_cannot_be_passed_in_content) ... ok
+test_title_limit_and_image_hash (test_delivery_business.BusinessContractTests.test_title_limit_and_image_hash) ... ok
+test_intro_recipe_gate (test_delivery_validator.ValidatorTests.test_intro_recipe_gate) ... ok
+test_valid_simple_three_page (test_delivery_validator.ValidatorTests.test_valid_simple_three_page) ... ok
+test_comparison_identity_and_photo_reuse (test_production.AdditionalQualityTests.test_comparison_identity_and_photo_reuse) ... ok
+test_intro_recipe_validation (test_production.AdditionalQualityTests.test_intro_recipe_validation) ... ok
+test_qc_cli_rejects_unfinished_brief (test_production.AdditionalQualityTests.test_qc_cli_rejects_unfinished_brief) ... ok
+test_structurally_complete_fixture_passes_only_preflight (test_production.AdditionalQualityTests.test_structurally_complete_fixture_passes_only_preflight) ... ok
+test_ambiguous_and_unknown (test_production.ClassificationTests.test_ambiguous_and_unknown) ... ok
+test_six_types (test_production.ClassificationTests.test_six_types) ... ok
+test_invalid_input_cli (test_production.CliTests.test_invalid_input_cli) ... ok
+test_plan_cli (test_production.CliTests.test_plan_cli) ... ok
+test_catalog_preserves_all_assets_and_roles (test_production.ConfigurationTests.test_catalog_preserves_all_assets_and_roles) ... ok
+test_six_categories_and_aliases (test_production.ConfigurationTests.test_six_categories_and_aliases) ... ok
+test_sources_exist (test_production.ConfigurationTests.test_sources_exist) ... ok
+test_constraints_and_no_invented_answer (test_production.IntentTests.test_constraints_and_no_invented_answer) ... ok
+test_comparison (test_production.PlanningTests.test_comparison) ... ok
+test_incomplete_categories_and_ambiguity (test_production.PlanningTests.test_incomplete_categories_and_ambiguity) ... ok
+test_intro_five_pages (test_production.PlanningTests.test_intro_five_pages) ... ok
+test_order_and_fixed_capacity (test_production.PlanningTests.test_order_and_fixed_capacity) ... ok
+test_template_exclusion_and_mismatch (test_production.PlanningTests.test_template_exclusion_and_mismatch) ... ok
+test_bad_manifest_is_not_pass (test_production.QualityTests.test_bad_manifest_is_not_pass) ... ok
+test_cannot_self_approve_bitmap (test_production.QualityTests.test_cannot_self_approve_bitmap) ... ok
+test_health_and_nutrition (test_production.QualityTests.test_health_and_nutrition) ... ok
+test_intro_and_comparison_gates (test_production.QualityTests.test_intro_and_comparison_gates) ... ok
+test_order_duplicate_and_completeness (test_production.QualityTests.test_order_duplicate_and_completeness) ... ok
+test_title_layout_pages_and_review (test_production.QualityTests.test_title_layout_pages_and_review) ... ok
+test_all_registered_hashes_match (test_rendering.AssetAndLockTests.test_all_registered_hashes_match) ... ok
+test_locked_file_tampering_rejected (test_rendering.AssetAndLockTests.test_locked_file_tampering_rejected) ... ok
+test_override_and_table_shape_rejected (test_rendering.AssetAndLockTests.test_override_and_table_shape_rejected) ... ok
+test_recipe_finished_dish_not_accepted_as_steps (test_rendering.AssetAndLockTests.test_recipe_finished_dish_not_accepted_as_steps) ... ok
+test_subject_and_license_gate (test_rendering.AssetAndLockTests.test_subject_and_license_gate) ... ok
+test_transparent_channel_and_original_aspect_retained (test_rendering.AssetAndLockTests.test_transparent_channel_and_original_aspect_retained) ... ok
+test_actual_image_bounds (test_rendering.BrowserGeometryTests.test_actual_image_bounds) ... ok
+test_actual_image_text_overlap (test_rendering.BrowserGeometryTests.test_actual_image_text_overlap) ... ok
+test_actual_text_overflow (test_rendering.BrowserGeometryTests.test_actual_text_overflow) ... ok
+test_actual_viewport_dimensions (test_rendering.BrowserGeometryTests.test_actual_viewport_dimensions) ... ok
+test_clean_browser_layout (test_rendering.BrowserGeometryTests.test_clean_browser_layout) ... ok
+test_locked_color (test_rendering.BrowserGeometryTests.test_locked_color) ... ok
+test_locked_font_and_geometry (test_rendering.BrowserGeometryTests.test_locked_font_and_geometry) ... ok
+test_table_cell_overflow (test_rendering.BrowserGeometryTests.test_table_cell_overflow) ... ok
+test_font_file_and_missing_glyph_report (test_rendering.RendererIntegrationTests.test_font_file_and_missing_glyph_report) ... ok
+test_no_production_bypass_or_style_injection (test_rendering.RendererIntegrationTests.test_no_production_bypass_or_style_injection) ... ok
+test_overflow_reports_page_and_element_without_silent_shrinking (test_rendering.RendererIntegrationTests.test_overflow_reports_page_and_element_without_silent_shrinking) ... ok
+test_same_image_bytes_blocked (test_rendering.RendererIntegrationTests.test_same_image_bytes_blocked) ... ok
+test_three_real_pngs_and_reports (test_rendering.RendererIntegrationTests.test_three_real_pngs_and_reports) ... ok
+test_actual_run_artifacts_if_present (test_workflow.WorkflowTests.test_actual_run_artifacts_if_present) ... ok
+test_blocked_resume_retry_collision_and_isolation (test_workflow.WorkflowTests.test_blocked_resume_retry_collision_and_isolation) ... ok
+test_copy_rejects_ungrounded_health_query (test_workflow.WorkflowTests.test_copy_rejects_ungrounded_health_query) ... ok
+test_current_visual_copy_does_not_infer_hidden_liquid (test_workflow.WorkflowTests.test_current_visual_copy_does_not_infer_hidden_liquid) ... ok
+test_default_never_uses_unlicensed_reference (test_workflow.WorkflowTests.test_default_never_uses_unlicensed_reference) ... ok
+test_direction_cannot_hide_health_request (test_workflow.WorkflowTests.test_direction_cannot_hide_health_request) ... ok
+test_input_preserves_original_and_hint (test_workflow.WorkflowTests.test_input_preserves_original_and_hint) ... ok
+test_license_identity_size_filter (test_workflow.WorkflowTests.test_license_identity_size_filter) ... ok
+test_model_http_adapter_contract (test_workflow.WorkflowTests.test_model_http_adapter_contract) ... ok
+test_model_validation_and_disagreement (test_workflow.WorkflowTests.test_model_validation_and_disagreement) ... ok
+test_safe_rework_never_shrinks_or_invents (test_workflow.WorkflowTests.test_safe_rework_never_shrinks_or_invents) ... ok
+test_six_categories (test_workflow.WorkflowTests.test_six_categories) ... ok
+test_source_kind_cannot_promote_visual_to_health (test_workflow.WorkflowTests.test_source_kind_cannot_promote_visual_to_health) ... ok
+
+----------------------------------------------------------------------
+Ran 93 tests in 73.078s
+
+OK

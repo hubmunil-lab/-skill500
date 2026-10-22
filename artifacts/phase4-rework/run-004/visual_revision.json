@@ -1,0 +1,487 @@
+{
+  "revision": "compare-visual-rework-1",
+  "templates": {
+    "customer-compare-01-v1": {
+      "path": "customer_templates/compare-rework/fa4ff39612db/customer-compare-01-v1.json",
+      "sha256": "fa4ff39612db0697bade90cf5b79dd0bc6ea553af036139db60370e52039653c"
+    },
+    "customer-compare-02-v1": {
+      "path": "customer_templates/compare-rework/bb56f6fa270f/customer-compare-02-v1.json",
+      "sha256": "bb56f6fa270f091aff8d3de065332894175e5e5dba19cb8d822ba40d3b2126c6"
+    },
+    "customer-compare-03-v1": {
+      "path": "customer_templates/compare-rework/4e4181550126/customer-compare-03-v1.json",
+      "sha256": "4e4181550126d02f5ca184efbd0f7328d045a217f6a56bf34a51c87b2e789cca"
+    }
+  },
+  "backgrounds": {
+    "customer-compare-01-v1": {
+      "path": "customer_templates/compare-rework/fa4ff39612db/customer-compare-01-v1-background.png",
+      "sha256": "5de6e01606b3ec19016f31fa88c7927c464a8af3a1b011aebbce580f19da45fc"
+    },
+    "customer-compare-02-v1": {
+      "path": "customer_templates/compare-rework/bb56f6fa270f/customer-compare-02-v1-background.png",
+      "sha256": "d43f64a1791a68a4edbe5308224a22603e138ca674881df5e21c835f38cdf198"
+    },
+    "customer-compare-03-v1": {
+      "path": "customer_templates/compare-rework/4e4181550126/customer-compare-03-v1-background.png",
+      "sha256": "a24c3ea55fcd9818e05f8127e5a7c921f44d2c7168fe2a59768ff52a19c1885c"
+    }
+  },
+  "changes": [
+    {
+      "template_id": "customer-compare-01-v1",
+      "coordinate_changes": 0,
+      "font_changes": [
+        {
+          "element": "title",
+          "before": {
+            "font_size": 52,
+            "weight": 700,
+            "outline": 5
+          },
+          "after": {
+            "font_size": 48,
+            "weight": 700,
+            "outline": 3
+          }
+        },
+        {
+          "element": "subtitle",
+          "before": {
+            "font_size": 34,
+            "weight": 700,
+            "outline": 3
+          },
+          "after": {
+            "font_size": 30,
+            "weight": 700,
+            "outline": 1.5
+          }
+        },
+        {
+          "element": "field_1_left",
+          "before": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "field_1_right",
+          "before": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "field_2_left",
+          "before": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "field_2_right",
+          "before": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "field_3_left",
+          "before": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "field_3_right",
+          "before": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "tag_1",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          }
+        },
+        {
+          "element": "tag_2",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          }
+        },
+        {
+          "element": "tag_3",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 22,
+            "weight": 700,
+            "outline": 0
+          }
+        },
+        {
+          "element": "name_left",
+          "before": {
+            "font_size": 29,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 27,
+            "weight": 700,
+            "outline": 0
+          }
+        },
+        {
+          "element": "name_right",
+          "before": {
+            "font_size": 29,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 27,
+            "weight": 700,
+            "outline": 0
+          }
+        }
+      ],
+      "background_method": "Clear inside border rings, not across them; no inpainting on photo regions",
+      "original_font_unavailable": true
+    },
+    {
+      "template_id": "customer-compare-02-v1",
+      "coordinate_changes": 0,
+      "font_changes": [
+        {
+          "element": "title",
+          "before": {
+            "font_size": 52,
+            "weight": 700,
+            "outline": 5
+          },
+          "after": {
+            "font_size": 48,
+            "weight": 700,
+            "outline": 3
+          }
+        },
+        {
+          "element": "nutrient_1_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_2_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_3_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_4_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_5_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_1_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_2_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_3_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_4_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "nutrient_5_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "name_left",
+          "before": {
+            "font_size": 29,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 27,
+            "weight": 700,
+            "outline": 0
+          }
+        },
+        {
+          "element": "name_right",
+          "before": {
+            "font_size": 29,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 27,
+            "weight": 700,
+            "outline": 0
+          }
+        }
+      ],
+      "background_method": "Clear inside border rings, not across them; no inpainting on photo regions",
+      "original_font_unavailable": true
+    },
+    {
+      "template_id": "customer-compare-03-v1",
+      "coordinate_changes": 0,
+      "font_changes": [
+        {
+          "element": "title",
+          "before": {
+            "font_size": 52,
+            "weight": 700,
+            "outline": 5
+          },
+          "after": {
+            "font_size": 48,
+            "weight": 700,
+            "outline": 3
+          }
+        },
+        {
+          "element": "use_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "select_left",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "use_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "select_right",
+          "before": {
+            "font_size": 23,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 20.5,
+            "weight": 400,
+            "outline": 0
+          }
+        },
+        {
+          "element": "name_left",
+          "before": {
+            "font_size": 29,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 27,
+            "weight": 700,
+            "outline": 0
+          }
+        },
+        {
+          "element": "name_right",
+          "before": {
+            "font_size": 29,
+            "weight": 700,
+            "outline": 0
+          },
+          "after": {
+            "font_size": 27,
+            "weight": 700,
+            "outline": 0
+          }
+        }
+      ],
+      "background_method": "Clear inside border rings, not across them; no inpainting on photo regions",
+      "original_font_unavailable": true
+    }
+  ],
+  "customer_approved": false
+}

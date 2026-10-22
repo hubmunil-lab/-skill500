@@ -1,0 +1,392 @@
+{
+  "tasks": [
+    {
+      "task_id": "real-01",
+      "status": "BLOCKED",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "left",
+          "field": "appearance",
+          "required_material": "对应SKU的真实外观记录及授权照片"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "left",
+          "field": "taste",
+          "required_material": "同一SKU的口感实测记录或可核实的厂家描述"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "left",
+          "field": "price",
+          "required_material": "带日期、渠道、币种及包装容量的价格记录"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "right",
+          "field": "appearance",
+          "required_material": "对应SKU的真实外观记录及授权照片"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "right",
+          "field": "taste",
+          "required_material": "同一SKU的口感实测记录或可核实的厂家描述"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "right",
+          "field": "price",
+          "required_material": "带日期、渠道、币种及包装容量的价格记录"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "energy",
+          "required_material": "热量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "carbohydrate",
+          "required_material": "碳水及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "sugars",
+          "required_material": "含糖量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "vitamin_c",
+          "required_material": "维生素C及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "feature",
+          "required_material": "适用特色成分的产品配料依据"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "energy",
+          "required_material": "热量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "carbohydrate",
+          "required_material": "碳水及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "sugars",
+          "required_material": "含糖量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "vitamin_c",
+          "required_material": "维生素C及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "feature",
+          "required_material": "适用特色成分的产品配料依据"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "left",
+          "field": "scene",
+          "required_material": "有依据的实际食用场景"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "left",
+          "field": "selection",
+          "required_material": "针对具体产品的选购依据"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "right",
+          "field": "scene",
+          "required_material": "有依据的实际食用场景"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "right",
+          "field": "selection",
+          "required_material": "针对具体产品的选购依据"
+        },
+        {
+          "code": "MISSING_PRODUCT_IDENTITY",
+          "side": "left",
+          "required_material": "品牌、SKU、规格、地区/版本、生熟或即饮状态"
+        },
+        {
+          "code": "MISSING_PRODUCT_IDENTITY",
+          "side": "right",
+          "required_material": "品牌、SKU、规格、地区/版本、生熟或即饮状态"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED",
+          "side": "left",
+          "required_material": "匹配SKU的高清图片、授权凭据与允许用途"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED",
+          "side": "right",
+          "required_material": "匹配SKU的高清图片、授权凭据与允许用途"
+        }
+      ],
+      "artifact_directory": "real-01/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "artifact_hashes": {
+        "input.json": "fd181a85300fb507d4362585ac33b81c06743d520204763cda2e9ea2c0ba8931",
+        "content_qc.json": "5e9d2f52be4ba4fb3d2422369e33a95e7f96bf9916bc491ba679d93829782c76",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "74545aad8b09970bf788f6a16ca83763b6421c56c500083cb3717e83e784c269",
+        "result.json": "831431a8c00b4a8f06da106b841459d6d0169b537cf159c3e2409a141e22665e",
+        "missing_materials.json": "5e9d2f52be4ba4fb3d2422369e33a95e7f96bf9916bc491ba679d93829782c76",
+        "planning_brief.json": "b6409049a2292ba928f422407a94a3dddf71e173a635991a70480d693c4f2acd",
+        "qc_report.json": "45b3be4538f8eb01c5a17066bc3cb49657652734ab95a680168dafb40982ae74"
+      }
+    },
+    {
+      "task_id": "real-02",
+      "status": "BLOCKED",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "HUMAN_SEMANTIC_REVIEW_REQUIRED"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "left",
+          "field": "appearance",
+          "required_material": "对应SKU的真实外观记录及授权照片"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "left",
+          "field": "taste",
+          "required_material": "同一SKU的口感实测记录或可核实的厂家描述"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "left",
+          "field": "price",
+          "required_material": "带日期、渠道、币种及包装容量的价格记录"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "right",
+          "field": "appearance",
+          "required_material": "对应SKU的真实外观记录及授权照片"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "right",
+          "field": "taste",
+          "required_material": "同一SKU的口感实测记录或可核实的厂家描述"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 1,
+          "side": "right",
+          "field": "price",
+          "required_material": "带日期、渠道、币种及包装容量的价格记录"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "energy",
+          "required_material": "热量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "carbohydrate",
+          "required_material": "碳水及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "sugars",
+          "required_material": "含糖量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "vitamin_c",
+          "required_material": "维生素C及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "left",
+          "field": "feature",
+          "required_material": "适用特色成分的产品配料依据"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "energy",
+          "required_material": "热量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "carbohydrate",
+          "required_material": "碳水及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "sugars",
+          "required_material": "含糖量及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "vitamin_c",
+          "required_material": "维生素C及每100毫升计量基准"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 2,
+          "side": "right",
+          "field": "feature",
+          "required_material": "适用特色成分的产品配料依据"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "left",
+          "field": "scene",
+          "required_material": "有依据的实际食用场景"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "left",
+          "field": "selection",
+          "required_material": "针对具体产品的选购依据"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "right",
+          "field": "scene",
+          "required_material": "有依据的实际食用场景"
+        },
+        {
+          "code": "MISSING_FACT_EVIDENCE",
+          "page": 3,
+          "side": "right",
+          "field": "selection",
+          "required_material": "针对具体产品的选购依据"
+        },
+        {
+          "code": "MISSING_PRODUCT_IDENTITY",
+          "side": "left",
+          "required_material": "品牌、SKU、规格、地区/版本、生熟或即饮状态"
+        },
+        {
+          "code": "MISSING_PRODUCT_IDENTITY",
+          "side": "right",
+          "required_material": "品牌、SKU、规格、地区/版本、生熟或即饮状态"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED",
+          "side": "left",
+          "required_material": "匹配SKU的高清图片、授权凭据与允许用途"
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED",
+          "side": "right",
+          "required_material": "匹配SKU的高清图片、授权凭据与允许用途"
+        }
+      ],
+      "artifact_directory": "real-02/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "artifact_hashes": {
+        "input.json": "2412f7705fa042bdcc1e612bb2dd3da2454b8b283aa2ec72a9612eccc49ca661",
+        "content_qc.json": "f156f151e3f1b8f5c9c4723562806ac846caa4465c59e3547d3b64b67b467608",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "abcf9c2b9464cbeda4c4273fb68620f36b6894f1fcb42097cf6e78a7bc0328b6",
+        "result.json": "7d3e80b5dbf28d1676bdeb3218b9ebc46271b699f1deab3f7746eac9b8c1c062",
+        "missing_materials.json": "f156f151e3f1b8f5c9c4723562806ac846caa4465c59e3547d3b64b67b467608",
+        "planning_brief.json": "5bc70f6d0ccec8d3fe1fec92473ac41c51b9d93361ddb2884fef20341fa4eda1",
+        "qc_report.json": "45b3be4538f8eb01c5a17066bc3cb49657652734ab95a680168dafb40982ae74"
+      }
+    }
+  ],
+  "generated_groups": 0,
+  "not_rendered": 2,
+  "states": {
+    "READY": 0,
+    "REVIEW": 0,
+    "BLOCKED": 2,
+    "DELIVERED": 0
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "production_success": 0,
+  "synthetic_test_groups": 2,
+  "customer_approved": false,
+  "files": [
+    {
+      "path": "artifacts/phase4-rework/run-004/cross_task_qc.json",
+      "sha256": "c61a9c1e32bdd6d5c767d6d91e6dbbeaf5f14c2b94dea102ccf26ac074a2b9dc",
+      "bytes": 81
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/report.json",
+      "sha256": "dde4aa07c99522e1acd4539954fd28259d3f61214413931ab654878dbbceb5c0",
+      "bytes": 2867
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/visual_border_metrics.json",
+      "sha256": "a7278f2900311cda0ee8af095c1355273f3db3fc214c271777b886a4e7d41434",
+      "bytes": 936
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/visual_revision.json",
+      "sha256": "c54d41870039c6bb4e25200f6289ef508ba1d99a90411736336dc52f027f3683",
+      "bytes": 11769
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/copy.json",
+      "sha256": "cca45aea3b281cf3f37d35aaf17f9c177e5eb53aacc01fe4265b5e0d85521633",
+      "bytes": 10563
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/business_packet.json",
+      "sha256": "a00f0d33829963e013fb5338e7b0d1e884b081fa08e98dcf39848c978a6e5816",
+      "bytes": 9726
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/03-before-after.png",
+      "sha256": "7edc23c641ed4125cece89567a0a8946fdcf1c2d3804880661571827257b6f41",
+      "bytes": 172544
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/input.json",
+      "sha256": "b0a8a3c695520bbb3b0e8e8b50fc023d03fc80600426ad4680d3c6ead9e7998f",
+      "bytes": 351
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/content_qc.json",
+      "sha256": "7605d3942b7fd7c8091bcf8ad7a288211cbc9ceec23c6a1921fb69ffdd08c65e",
+      "bytes": 234
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/facts_and_sources.json",
+      "sha256": "1a7c7790a98b82364d6d4a48ff62f49d8d2a0a7b9dad5b34ae24dbe3d2ae8243",
+      "bytes": 7940
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/post.md",
+      "sha256": "562178e3e911c8e46d1b8ba4ccbaa9f534be94eb8f806b712e15ce7d929013a1",
+      "bytes": 1692
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/02-before-after.png",
+      "sha256": "9a34a167c2398ef76828023ca17b36a54a966f36fc46d05137548887b66d4649",
+      "bytes": 195876
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/01-before-after.png",
+      "sha256": "d30704040dacf46c4a53ab50ed65ae6bbaba7bc4c65274419e0b31faca055d8e",
+      "bytes": 306581
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/qc_report.json",
+      "sha256": "f51521ae2e8c096cf9fdaf9bc95b11a63ad877618a8855dee77fb1b85250b7e7",
+      "bytes": 1174
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/real-02/input.json",
+      "sha256": "049034e4d10d14535652323c1eb37854149fad9e82cd69e7544dac771fbe332c",
+      "bytes": 229
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/real-02/qc_report.json",
+      "sha256": "4bf6eacc8f4759fae8143ab58a9d54f043deecde714ed30ba87441d17281d53c",
+      "bytes": 4620
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/copy.json",
+      "sha256": "3b24c9fd94c7be3e2ac2042771f2e321e57410ef4353caa352dec69700208b02",
+      "bytes": 10576
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/business_packet.json",
+      "sha256": "b7d8285f7656ab72628b6727357a894dae6196aebd4dfded37c8004013d2f130",
+      "bytes": 9728
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/03-before-after.png",
+      "sha256": "f470eeb69eb7219401c31b3671e721c01edd6209f3decd509fdb9daeec82ee86",
+      "bytes": 172991
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/input.json",
+      "sha256": "4c43c5d6911eaab34e1395cfb020e5ca440dc7b4ad1002c4f46f982535214bd4",
+      "bytes": 346
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/content_qc.json",
+      "sha256": "7605d3942b7fd7c8091bcf8ad7a288211cbc9ceec23c6a1921fb69ffdd08c65e",
+      "bytes": 234
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/facts_and_sources.json",
+      "sha256": "10c8c9503f5732da21dbf09735ee66ee28bd428db906893fc6436f7020de0c60",
+      "bytes": 7946
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/post.md",
+      "sha256": "d76a1c950a7f32d52e5202c1f2c7b2d91805d147408fcbb5e386b51341b1b289",
+      "bytes": 1697
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/02-before-after.png",
+      "sha256": "6cc3b9526ee0c0b116d82e6bb95c8ba95a1991a056964099857154c1abea9762",
+      "bytes": 194541
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/01-before-after.png",
+      "sha256": "22d17434b64ccb5b0084a7d077162dcab1ff6f59426b38b949557e78e813593f",
+      "bytes": 308419
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/qc_report.json",
+      "sha256": "7a4696dfaf52263aab7ab4894a5e68fa35aa5a80f58644e7296ff114658cbe87",
+      "bytes": 1169
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/real-01/input.json",
+      "sha256": "67cf539df08ca21653bbbc397dba78364e124c81e311bb1dba61f67c5f2388ab",
+      "bytes": 253
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/real-01/qc_report.json",
+      "sha256": "a51214157b477a02eb0a738c18d1ce06f5823461057e2e78cf18c6212b0f0963",
+      "bytes": 4623
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/01-comparison.png",
+      "sha256": "3a0c1e82d24f096ee664d79bcb001de9790d36e7a75012f771c3767f4f07a959",
+      "bytes": 310521
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/01.png",
+      "sha256": "84562beccdc16cb230c426bbb9155ab4bc18b7bb49667f0e2b34eb4009b8e923",
+      "bytes": 269542
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/02-difference.png",
+      "sha256": "7823131dca585beeb2148e91093e0ddfbbf10783549579225b94bf82844043d0",
+      "bytes": 544130
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/02-comparison.png",
+      "sha256": "39139c5bb7bfa56badfa637a4b0f0b44d0d80e103d7f476b76df600186812d6b",
+      "bytes": 196838
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/02.png",
+      "sha256": "403e80d338afb8110beea994c097166efbdf0f23f330ec4aa2fc33a8c38da66f",
+      "bytes": 157501
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/01-difference.png",
+      "sha256": "7204cded49dfe640f39d86fcb2b6a92c98b9177d7fe1d683c46c88f4db2ac4b5",
+      "bytes": 861280
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/before/qc_report.json",
+      "sha256": "6066e9b5bb41083e25cb859f865d1b983b0acbe64e9919d6506c118fc77cc17f",
+      "bytes": 44574
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/inputs/right-asset.png",
+      "sha256": "697397b056243a58065b616c3703c7f14a9ae398e53eb304bef67cfc5501fac9",
+      "bytes": 23469
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/inputs/right-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434",
+      "bytes": 598
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/inputs/left-asset.png",
+      "sha256": "0468973a2558456646a168e37e301f46021a6f83cf273bfee099d1e2bcb9181b",
+      "bytes": 30185
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/inputs/left-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434",
+      "bytes": 598
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/inputs/fixture-source.json",
+      "sha256": "8fd7c4aeab6391210a1eb7a10a7ef22ef607325d73f1cf2a794538d619b787b0",
+      "bytes": 4764
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/01-comparison.png",
+      "sha256": "736d9160b0e2433296aa230b4d0b6e6fcfe90668e3ddc3df301fd58669e20ab2",
+      "bytes": 297975
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/01.png",
+      "sha256": "dae4d64d2de4bd520b2c369af6951f272d0eac1be2750ad4f85922917d81da0b",
+      "bytes": 258557
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/reference-comparison.png",
+      "sha256": "282ed90ef5a434475b3ef31b326b585c9ea35a7fd501cc6523834a165cb2d1f8",
+      "bytes": 728146
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/02-difference.png",
+      "sha256": "69fe3d08bfc3e78ee2f1ed99bda7f1ef690ecb5885ed220b197eb0cdc668ab21",
+      "bytes": 538826
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/preview.png",
+      "sha256": "c221559d2e287d715dbb054dafbcb8be2772d8902386f9474d2144ebfcd7b696",
+      "bytes": 233695
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/02-comparison.png",
+      "sha256": "7ba30f1f0866f8835ce3a97f12843d89b3f4660af2ce4c25b5c6646a1ba4d56a",
+      "bytes": 189655
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/03-difference.png",
+      "sha256": "169664d4c91381940927dbb02dc9dd2b1926accf922edb43c69c2478e2079256",
+      "bytes": 675883
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/02.png",
+      "sha256": "46fbf7f2594f51c0df2cc5d3ede9526e2a83f5f209c7e505a3c22d1c74b5f57b",
+      "bytes": 151211
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/01-difference.png",
+      "sha256": "b0c210acf0e3aecba4b4bdb08932a5b69806863d7886d50fe4e3c7aeb1b87d66",
+      "bytes": 855453
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/03.png",
+      "sha256": "a8bd3560ca16e90f5ed2975b42a3a26aacb0f688e4d90c6e39465a6e907e8ee1",
+      "bytes": 197027
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/03-comparison.png",
+      "sha256": "ca5f9c0a383e2a2bcf02762ed990f12d5982b867d80fc6e5ae1b44e3ca2f21aa",
+      "bytes": 239521
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-vitamin/after/qc_report.json",
+      "sha256": "b3cbcee7e5350ec850428d726620776b86fac9ef8f8014a309f94b8bdbe8d6c8",
+      "bytes": 44044
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/01-comparison.png",
+      "sha256": "fb48d0bc589157802dbc6f1261dfcf4a7eda3d635414a8f5fb39e5473280ad43",
+      "bytes": 311476
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/01.png",
+      "sha256": "bdb5ee3b408ba2688011f38a60ea3705daff7eb82f9b762270b3c222e5510365",
+      "bytes": 264772
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/02-difference.png",
+      "sha256": "77397216943121fd377173824973c89862f7723287a5dcb6c2bf6fa1ae920437",
+      "bytes": 552982
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/02-comparison.png",
+      "sha256": "076ae4c04e4dc10ee5aec808c046b246c5313d630ef463397206e54305d6f82f",
+      "bytes": 195962
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/02.png",
+      "sha256": "66a5d4d980c7ae35d0346a7b4b779b869fa8633facd9142d3ed74c1d053628b3",
+      "bytes": 157397
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/01-difference.png",
+      "sha256": "4a577194bd5385e432d10ab9e305691f45a8b878e55dae7654933267e2fbc336",
+      "bytes": 874159
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/before/qc_report.json",
+      "sha256": "24c7593b826ebb97085c6185886c01e089a91b6df78a24898a236ad73400b71c",
+      "bytes": 44568
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/right-asset.png",
+      "sha256": "fd03d5c54d1fc0efff732f05ebed86d59e2239c78044b2846b7a4445185655b5",
+      "bytes": 23478
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/right-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434",
+      "bytes": 598
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/left-asset.png",
+      "sha256": "5ed917afc1f08483b9fd35550ed5adf772292388c58f7d953e5a82011b9a25eb",
+      "bytes": 30193
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/left-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434",
+      "bytes": 598
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/fixture-source.json",
+      "sha256": "5e56019ffa3b5e9f1cd9c2847f054fc07afbf9f5356fabd5a9bd1e1abdb2d691",
+      "bytes": 4772
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/01-comparison.png",
+      "sha256": "c5c8e61ee7ad935178b19e998523c9f6329b1932cf046fc937e46e9f5fda7dd5",
+      "bytes": 298876
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/01.png",
+      "sha256": "47ae0dee95dfb285b407a110fa8e352a8662b56d10baebbcae96d2d9947806b6",
+      "bytes": 253661
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/reference-comparison.png",
+      "sha256": "7a5aedbde735601984a1a7c0efbcac2ba2938cefc383dbb4ddee6cba44e67a91",
+      "bytes": 728767
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/02-difference.png",
+      "sha256": "98d2d8cc7dbdbf97cea0fff0365d32e888b8c74600288ce7872058f394a4f594",
+      "bytes": 548272
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/preview.png",
+      "sha256": "0eb5ba50e83bd96375ea9647f621f56223a5abe3e56c8679ff56cab3bf822277",
+      "bytes": 234730
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/02-comparison.png",
+      "sha256": "35ae25db1fb48c94437ac4b2624aa697aac07ae6258ae8d15589b5ca14e46181",
+      "bytes": 188922
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/03-difference.png",
+      "sha256": "94d4ef537b1fd9ff1ae40ee7070f1334609dcf08b35c853eb9dc01599e39168d",
+      "bytes": 686724
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/02.png",
+      "sha256": "e006fd1c0a7054c848c1285266b0dddeb50eb1fb531618c5d866f3f8d8ccc35f",
+      "bytes": 149643
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/01-difference.png",
+      "sha256": "ee2090eef8657aa15ab33725f4bff6c12352fdf11fade7ebe10a5bbc4088da7f",
+      "bytes": 864615
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/03.png",
+      "sha256": "48ae0a52332ca60676564156846188b85672ccabca881e3c9cc24869dabff9fb",
+      "bytes": 196504
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/03-comparison.png",
+      "sha256": "d44e7748b73c47e831f5887cc89b60718643bd7fc12f9bf5d02e67a3198c90ad",
+      "bytes": 239966
+    },
+    {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/after/qc_report.json",
+      "sha256": "a41a568315924b843302d22021bca2918a3f1286dfdf134030b352800a227612",
+      "bytes": 44036
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/batch_report.json",
+      "sha256": "6371d909ec8c19f59d78e9ebe8d351079da07fcbae225450713812f3064798bf",
+      "bytes": 12888
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/input.json",
+      "sha256": "2412f7705fa042bdcc1e612bb2dd3da2454b8b283aa2ec72a9612eccc49ca661",
+      "bytes": 271
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/content_qc.json",
+      "sha256": "f156f151e3f1b8f5c9c4723562806ac846caa4465c59e3547d3b64b67b467608",
+      "bytes": 4641
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+      "bytes": 355
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/intent.json",
+      "sha256": "abcf9c2b9464cbeda4c4273fb68620f36b6894f1fcb42097cf6e78a7bc0328b6",
+      "bytes": 1282
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/result.json",
+      "sha256": "7d3e80b5dbf28d1676bdeb3218b9ebc46271b699f1deab3f7746eac9b8c1c062",
+      "bytes": 4849
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/missing_materials.json",
+      "sha256": "f156f151e3f1b8f5c9c4723562806ac846caa4465c59e3547d3b64b67b467608",
+      "bytes": 4641
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/planning_brief.json",
+      "sha256": "5bc70f6d0ccec8d3fe1fec92473ac41c51b9d93361ddb2884fef20341fa4eda1",
+      "bytes": 3027
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-02/attempt-001/qc_report.json",
+      "sha256": "45b3be4538f8eb01c5a17066bc3cb49657652734ab95a680168dafb40982ae74",
+      "bytes": 4742
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/input.json",
+      "sha256": "fd181a85300fb507d4362585ac33b81c06743d520204763cda2e9ea2c0ba8931",
+      "bytes": 325
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/content_qc.json",
+      "sha256": "5e9d2f52be4ba4fb3d2422369e33a95e7f96bf9916bc491ba679d93829782c76",
+      "bytes": 4659
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+      "bytes": 355
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/intent.json",
+      "sha256": "74545aad8b09970bf788f6a16ca83763b6421c56c500083cb3717e83e784c269",
+      "bytes": 1312
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/result.json",
+      "sha256": "831431a8c00b4a8f06da106b841459d6d0169b537cf159c3e2409a141e22665e",
+      "bytes": 4849
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/missing_materials.json",
+      "sha256": "5e9d2f52be4ba4fb3d2422369e33a95e7f96bf9916bc491ba679d93829782c76",
+      "bytes": 4659
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/planning_brief.json",
+      "sha256": "b6409049a2292ba928f422407a94a3dddf71e173a635991a70480d693c4f2acd",
+      "bytes": 3057
+    },
+    {
+      "path": "artifacts/phase4-rework/original-query-block-test/real-01/attempt-001/qc_report.json",
+      "sha256": "45b3be4538f8eb01c5a17066bc3cb49657652734ab95a680168dafb40982ae74",
+      "bytes": 4742
+    },
+    {
+      "path": "artifacts/phase4-rework/README.md",
+      "sha256": "c302eec10a7f5d994789dafc0435c5a1004cbfc1a570f0ada1bd484f3f17754e",
+      "bytes": 1470
+    },
+    {
+      "path": "artifacts/phase4-rework/test_report.json",
+      "sha256": "31ef39bac20e2fe5c029725ba16339de63ad03e45825c2a7986fa99546406f4b",
+      "bytes": 390
+    },
+    {
+      "path": "artifacts/phase4-rework/regression_tests.txt",
+      "sha256": "a96dafcb3dd96f8b217247a1e54ce55e5cfd51262a9dd0d8ed8fd7a9a122cd06",
+      "bytes": 15103
+    },
+    {
+      "path": "artifacts/phase4-rework/rework_tests.txt",
+      "sha256": "ef1319f07338ac87871325097cc9761bd66d90ca20e2d86321c8b8e06c5e6013",
+      "bytes": 5557
+    },
+    {
+      "path": "phase4_rework_report.md",
+      "sha256": "3cacf2b05ca59ba1a45a843ffc8944662f2f35ca5ca2a1d43149eb5cd58521f0",
+      "bytes": 9645
+    },
+    {
+      "path": "artifacts/phase4-rework/phase4-rework-review-bundle.zip",
+      "sha256": "8037142db04756714b0305f732c6e90016cfc41bdb6d4385d5cb5c3d449d710e",
+      "bytes": 14801822
+    }
+  ]
+}

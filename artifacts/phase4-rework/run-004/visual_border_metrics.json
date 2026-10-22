@@ -1,0 +1,50 @@
+[
+  {
+    "template_id": "customer-compare-02-v1",
+    "region": "left_ring",
+    "box": [
+      342,
+      180,
+      355,
+      480
+    ],
+    "before_mean_abs_rgb_error": 2.977777777777778,
+    "after_mean_abs_rgb_error": 0.0
+  },
+  {
+    "template_id": "customer-compare-02-v1",
+    "region": "right_ring",
+    "box": [
+      370,
+      180,
+      388,
+      480
+    ],
+    "before_mean_abs_rgb_error": 6.865432098765432,
+    "after_mean_abs_rgb_error": 0.0
+  },
+  {
+    "template_id": "customer-compare-03-v1",
+    "region": "left_ring",
+    "box": [
+      342,
+      180,
+      355,
+      480
+    ],
+    "before_mean_abs_rgb_error": 0.04581196581196581,
+    "after_mean_abs_rgb_error": 0.0
+  },
+  {
+    "template_id": "customer-compare-03-v1",
+    "region": "right_ring",
+    "box": [
+      370,
+      180,
+      388,
+      480
+    ],
+    "before_mean_abs_rgb_error": 12.787901234567903,
+    "after_mean_abs_rgb_error": 0.0
+  }
+]

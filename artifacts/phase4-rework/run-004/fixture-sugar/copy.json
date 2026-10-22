@@ -1,0 +1,259 @@
+{
+  "original_query": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+  "query_binding": {
+    "query": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+    "direction": "合成数据验收，不用于真实食品交付"
+  },
+  "direct_answer": "每100毫升含糖量：测试配方A2g，测试配方B6g，测试配方A更低。",
+  "title": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+  "body": "每100毫升含糖量：测试配方A2g，测试配方B6g，测试配方A更低。\n\n第1页\n测试配方A｜外观：浅黄透明液体；杯中可见清澈光泽；颜色均匀无沉淀\n测试配方A｜口感：酸味清晰入口轻甜；柠檬香气较轻；无气泡口感平顺；回味偏清淡\n测试配方A｜价格：4元／500毫升；10月23日测试渠道\n测试配方B｜外观：琥珀色透明液体；瓶身可见均匀色泽；外观澄清无颗粒\n测试配方B｜口感：甜味较明显；酸味柔和果香浓；无气泡口感平顺；回味偏浓郁\n测试配方B｜价格：5元／500毫升；10月23日测试渠道\n第2页\n测试配方A｜热量：热量：12kcal\n测试配方A｜碳水：碳水：3g\n测试配方A｜含糖量：含糖量：2g\n测试配方A｜维生素C：维生素C：8mg\n测试配方A｜特色成分：特色成分：柠檬酸\n测试配方B｜热量：热量：28kcal\n测试配方B｜碳水：碳水：7g\n测试配方B｜含糖量：含糖量：6g\n测试配方B｜维生素C：维生素C：6mg\n测试配方B｜特色成分：特色成分：苹果酸\n第3页\n测试配方A｜食用场景：餐间搭配；按250毫升分装\n测试配方A｜选购建议：选购建议；核对500毫升规格；比价时换算同容量；关注每100毫升含糖；确认密封与保质期；查看配料与过敏原；按瓶身条件储存\n测试配方B｜食用场景：外出随餐；按200毫升分装\n测试配方B｜选购建议：选购建议；核对500毫升规格；比价时换算同容量；关注每100毫升含糖；确认密封与保质期；查看配料与过敏原；按瓶身条件储存",
+  "manifest": {
+    "schema_version": 1,
+    "category": "compare",
+    "mode": "reconstruction_test",
+    "item_order": [
+      "fixture_a",
+      "fixture_b"
+    ],
+    "pages": [
+      {
+        "template_id": "customer-compare-01-v1",
+        "item_ids": [
+          "fixture_a",
+          "fixture_b"
+        ],
+        "values": {
+          "title": "测试配方A含糖量更低",
+          "subtitle": "虚构配方｜每100毫升",
+          "left_photo": "left_photo",
+          "right_photo": "right_photo",
+          "field_1_left": "浅黄透明液体\n杯中可见清澈光泽\n颜色均匀无沉淀",
+          "field_1_right": "琥珀色透明液体\n瓶身可见均匀色泽\n外观澄清无颗粒",
+          "field_2_left": "酸味清晰入口轻甜\n柠檬香气较轻\n无气泡口感平顺\n回味偏清淡",
+          "field_2_right": "甜味较明显\n酸味柔和果香浓\n无气泡口感平顺\n回味偏浓郁",
+          "field_3_left": "4元／500毫升\n10月23日测试渠道",
+          "field_3_right": "5元／500毫升\n10月23日测试渠道",
+          "tag_1": "外观特点",
+          "tag_2": "口感区别",
+          "tag_3": "价格差异",
+          "name_left": "测试配方A",
+          "name_right": "测试配方B"
+        }
+      },
+      {
+        "template_id": "customer-compare-02-v1",
+        "item_ids": [
+          "fixture_a",
+          "fixture_b"
+        ],
+        "values": {
+          "title": "每100毫升营养对比",
+          "left_photo": "left_photo",
+          "right_photo": "right_photo",
+          "nutrient_1_left": "热量：12kcal",
+          "nutrient_2_left": "碳水：3g",
+          "nutrient_3_left": "含糖量：2g",
+          "nutrient_4_left": "维生素C：8mg",
+          "nutrient_5_left": "特色成分：柠檬酸",
+          "nutrient_1_right": "热量：28kcal",
+          "nutrient_2_right": "碳水：7g",
+          "nutrient_3_right": "含糖量：6g",
+          "nutrient_4_right": "维生素C：6mg",
+          "nutrient_5_right": "特色成分：苹果酸",
+          "name_left": "测试配方A",
+          "name_right": "测试配方B"
+        }
+      },
+      {
+        "template_id": "customer-compare-03-v1",
+        "item_ids": [
+          "fixture_a",
+          "fixture_b"
+        ],
+        "values": {
+          "title": "食用场景与选购",
+          "left_photo": "left_photo",
+          "right_photo": "right_photo",
+          "use_left": "餐间搭配\n按250毫升分装",
+          "select_left": "选购建议\n核对500毫升规格\n比价时换算同容量\n关注每100毫升含糖\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存",
+          "use_right": "外出随餐\n按200毫升分装",
+          "select_right": "选购建议\n核对500毫升规格\n比价时换算同容量\n关注每100毫升含糖\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存",
+          "name_left": "测试配方A",
+          "name_right": "测试配方B"
+        }
+      }
+    ]
+  },
+  "slot_bindings": {
+    "1.field_1_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_appearance",
+      "field": "appearance",
+      "subject_id": "fixture_a",
+      "text": "浅黄透明液体\n杯中可见清澈光泽\n颜色均匀无沉淀"
+    },
+    "1.field_2_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_taste",
+      "field": "taste",
+      "subject_id": "fixture_a",
+      "text": "酸味清晰入口轻甜\n柠檬香气较轻\n无气泡口感平顺\n回味偏清淡"
+    },
+    "1.field_3_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_price",
+      "field": "price",
+      "subject_id": "fixture_a",
+      "text": "4元／500毫升\n10月23日测试渠道"
+    },
+    "1.field_1_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_appearance",
+      "field": "appearance",
+      "subject_id": "fixture_b",
+      "text": "琥珀色透明液体\n瓶身可见均匀色泽\n外观澄清无颗粒"
+    },
+    "1.field_2_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_taste",
+      "field": "taste",
+      "subject_id": "fixture_b",
+      "text": "甜味较明显\n酸味柔和果香浓\n无气泡口感平顺\n回味偏浓郁"
+    },
+    "1.field_3_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_price",
+      "field": "price",
+      "subject_id": "fixture_b",
+      "text": "5元／500毫升\n10月23日测试渠道"
+    },
+    "2.nutrient_1_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_energy",
+      "field": "energy",
+      "subject_id": "fixture_a",
+      "text": "热量：12kcal"
+    },
+    "2.nutrient_2_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_carbohydrate",
+      "field": "carbohydrate",
+      "subject_id": "fixture_a",
+      "text": "碳水：3g"
+    },
+    "2.nutrient_3_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_sugars",
+      "field": "sugars",
+      "subject_id": "fixture_a",
+      "text": "含糖量：2g"
+    },
+    "2.nutrient_4_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_vitamin_c",
+      "field": "vitamin_c",
+      "subject_id": "fixture_a",
+      "text": "维生素C：8mg"
+    },
+    "2.nutrient_5_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_feature",
+      "field": "feature",
+      "subject_id": "fixture_a",
+      "text": "特色成分：柠檬酸"
+    },
+    "2.nutrient_1_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_energy",
+      "field": "energy",
+      "subject_id": "fixture_b",
+      "text": "热量：28kcal"
+    },
+    "2.nutrient_2_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_carbohydrate",
+      "field": "carbohydrate",
+      "subject_id": "fixture_b",
+      "text": "碳水：7g"
+    },
+    "2.nutrient_3_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_sugars",
+      "field": "sugars",
+      "subject_id": "fixture_b",
+      "text": "含糖量：6g"
+    },
+    "2.nutrient_4_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_vitamin_c",
+      "field": "vitamin_c",
+      "subject_id": "fixture_b",
+      "text": "维生素C：6mg"
+    },
+    "2.nutrient_5_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_feature",
+      "field": "feature",
+      "subject_id": "fixture_b",
+      "text": "特色成分：苹果酸"
+    },
+    "3.use_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_scene",
+      "field": "scene",
+      "subject_id": "fixture_a",
+      "text": "餐间搭配\n按250毫升分装"
+    },
+    "3.select_left": {
+      "source_id": "fixture",
+      "fact_id": "fixture_a_selection",
+      "field": "selection",
+      "subject_id": "fixture_a",
+      "text": "选购建议\n核对500毫升规格\n比价时换算同容量\n关注每100毫升含糖\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存"
+    },
+    "3.use_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_scene",
+      "field": "scene",
+      "subject_id": "fixture_b",
+      "text": "外出随餐\n按200毫升分装"
+    },
+    "3.select_right": {
+      "source_id": "fixture",
+      "fact_id": "fixture_b_selection",
+      "field": "selection",
+      "subject_id": "fixture_b",
+      "text": "选购建议\n核对500毫升规格\n比价时换算同容量\n关注每100毫升含糖\n确认密封与保质期\n查看配料与过敏原\n按瓶身条件储存"
+    }
+  },
+  "intent": {
+    "metric": "sugars",
+    "operation": "min",
+    "basis": {
+      "amount": 100,
+      "unit": "ml"
+    },
+    "subjects": [
+      "fixture_a",
+      "fixture_b"
+    ]
+  },
+  "focus": "sugars",
+  "evidence_mode": "synthetic_test",
+  "business_qc": {
+    "status": "PASS_STRUCTURED_BUSINESS_CHECKS",
+    "errors": [],
+    "customer_approved": false,
+    "semantic_review_required": true,
+    "human_checklist": [
+      "原始问题与直接答案是否一致",
+      "口感记录是否支持描述",
+      "产品身份与图片是否一致",
+      "事实来源是否权威且适用当前SKU",
+      "正文与每页信息是否一致",
+      "版面是否接近客户参考"
+    ],
+    "limitation": "结构、类型、数值和精确证据映射可自动检查；来源真实性与业务语义需人工核查"
+  },
+  "content_hash": "ac9516aff7146ee5d8a973db21a3161326011d61a503e30a66186abcc746d174"
+}

@@ -1,0 +1,22 @@
+{
+  "full_suite": {
+    "tests": 93,
+    "failures": 0,
+    "seconds": 73.078
+  },
+  "final_rework_suite": {
+    "tests": 14,
+    "failures": 0,
+    "seconds": 10.687
+  },
+  "production_success": 0,
+  "real_queries_blocked": 2,
+  "synthetic_groups_rendered": 2,
+  "unique_pngs": 6,
+  "canvas": [
+    1242,
+    1656
+  ],
+  "customer_approved": false,
+  "business_acceptance_passed": false
+}

@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "status": "PASS_CONTENT_BINDINGS",
+  "semantic_review_required": true,
+  "checks": [
+    "exact_typed_fact_bindings",
+    "query_focus_computation",
+    "article_poster_same_source",
+    "cross_page_identity"
+  ]
+}
