@@ -6,7 +6,7 @@
   "documents": [
     {
       "path": "acceptance/phase4/business_acceptance_preparation.md",
-      "sha256": "4d520d2eca763c8b13846ad436da574b038225d96fa57e95ef6c4b593283bc21"
+      "sha256": "3312d2f3dfa7868676ea23509d5620f2588909e9f9f66431377b4ed658fef4e2"
     },
     {
       "path": "acceptance/phase4/existing_output_integrity.json",
