@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "engineering_policy_not_customer_approval",
+  "weights": {
+    "question_coverage": 0.3,
+    "field_relevance": 0.25,
+    "evidence": 0.15,
+    "assets": 0.1,
+    "approval": 0.1,
+    "capacity": 0.1
+  },
+  "minimum_question_coverage": 1.0,
+  "minimum_field_relevance": 0.8,
+  "minimum_pages": 3,
+  "units": {
+    "ml": {
+      "dimension": "volume",
+      "factor": "1"
+    },
+    "l": {
+      "dimension": "volume",
+      "factor": "1000"
+    },
+    "g": {
+      "dimension": "mass",
+      "factor": "1"
+    },
+    "mg": {
+      "dimension": "mass",
+      "factor": "0.001"
+    },
+    "kg": {
+      "dimension": "mass",
+      "factor": "1000"
+    },
+    "kcal": {
+      "dimension": "energy",
+      "factor": "1"
+    },
+    "kJ": {
+      "dimension": "energy",
+      "factor": "0.2390057361376673"
+    }
+  },
+  "conversion_reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts",
+  "currencies": [
+    "CNY",
+    "USD",
+    "EUR",
+    "JPY",
+    "HKD",
+    "GBP"
+  ],
+  "unit_aliases": {
+    "mL": "ml",
+    "毫升": "ml",
+    "L": "l",
+    "升": "l",
+    "克": "g",
+    "毫克": "mg",
+    "千卡": "kcal",
+    "千焦": "kJ"
+  }
+}

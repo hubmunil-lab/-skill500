@@ -1,0 +1,46 @@
+{
+  "dark": {
+    "path": "delivery/sample_assets/dark-grapes.png",
+    "sha256": "3d898635814ef1eae2e65af7d87e75a3084f4ee113312ea130c3ce5c6a2dee14",
+    "subject": "dark",
+    "kind": "real_ingredient_photo",
+    "cutout": true,
+    "rights_status": "unverified_user_reference",
+    "rights_evidence": null,
+    "subject_review": "visually grape cluster; exact cultivar not verified",
+    "source_path": "assets/compare-1-detail.jpg",
+    "source_sha256": "3fac0c720cfb85de67488fb5a0f2b1173a9145b9c4036977941f0c97ac24f353",
+    "crop_box": [
+      105,
+      190,
+      342,
+      581
+    ],
+    "source_native_size": [
+      237,
+      391
+    ]
+  },
+  "red": {
+    "path": "delivery/sample_assets/red-grapes.png",
+    "sha256": "6eac73ce94a4ae9d8d2c2ab80854afba3beee140e9d24fac9f0d48d53d48af5f",
+    "subject": "red",
+    "kind": "real_ingredient_photo",
+    "cutout": true,
+    "rights_status": "unverified_user_reference",
+    "rights_evidence": null,
+    "subject_review": "visually grape cluster; exact cultivar not verified",
+    "source_path": "assets/compare-1-detail.jpg",
+    "source_sha256": "3fac0c720cfb85de67488fb5a0f2b1173a9145b9c4036977941f0c97ac24f353",
+    "crop_box": [
+      464,
+      185,
+      733,
+      582
+    ],
+    "source_native_size": [
+      269,
+      397
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "selected_template_id": null,
+  "scores": [],
+  "requested_content_directions": [
+    "cooking_steps"
+  ],
+  "unregistered_directions_are_not_templates": true,
+  "customer_approved": false,
+  "policy_status": "engineering_policy_not_customer_approval",
+  "reason": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+}

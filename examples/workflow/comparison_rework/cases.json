@@ -1,0 +1,14 @@
+[
+  {
+    "task_id": "fixture-sugar",
+    "query": "测试配方A与测试配方B每100毫升含糖量哪个更低",
+    "direction": "合成数据验收，不用于真实食品交付",
+    "packet": "examples/workflow/comparison_rework/sugar-packet.json"
+  },
+  {
+    "task_id": "fixture-vitamin",
+    "query": "测试配方C与测试配方D每100毫升维生素C哪个更多",
+    "direction": "合成数据验收，不用于真实食品交付",
+    "packet": "examples/workflow/comparison_rework/vitamin-packet.json"
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "customer-list-04-v1",
+  "category": "list",
+  "role": "detail",
+  "page_number": 4,
+  "reference": "assets/customer_reference/list/0f9f4bf7-ed77-4249-89b7-65fe797ccb18.png",
+  "reference_sha256": "98a14cdc026031db2b519623f8db056c4be35b5c35c765e3c6adacdbd6827ec5",
+  "source_size": [
+    732,
+    969
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "name_crab",
+      "kind": "text",
+      "box": [
+        40,
+        38,
+        363,
+        107
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#6c502c",
+      "erase_color": "#e9eadc",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "螃蟹",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_crab",
+      "kind": "image",
+      "box": [
+        409,
+        45,
+        700,
+        219
+      ],
+      "crop": [
+        409,
+        45,
+        700,
+        219
+      ],
+      "subject": "crab"
+    },
+    {
+      "id": "energy_crab",
+      "kind": "text",
+      "box": [
+        48,
+        117,
+        405,
+        149
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【热量】测试值待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "feature_crab",
+      "kind": "text",
+      "box": [
+        48,
+        157,
+        407,
+        206
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【特点】此处用于排版验证。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "reason_crab",
+      "kind": "text",
+      "box": [
+        116,
+        245,
+        693,
+        311
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#70502b",
+      "erase_color": "#fffbed",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "原因字段待核实，不作为健康结论。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_crab",
+      "kind": "text",
+      "box": [
+        70,
+        349,
+        691,
+        470
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_papaya",
+      "kind": "text",
+      "box": [
+        40,
+        512,
+        363,
+        581
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#6c502c",
+      "erase_color": "#e9eadc",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "木瓜",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_papaya",
+      "kind": "image",
+      "box": [
+        409,
+        519,
+        700,
+        693
+      ],
+      "crop": [
+        409,
+        519,
+        700,
+        693
+      ],
+      "subject": "papaya"
+    },
+    {
+      "id": "energy_papaya",
+      "kind": "text",
+      "box": [
+        48,
+        591,
+        405,
+        623
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【热量】测试值待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "feature_papaya",
+      "kind": "text",
+      "box": [
+        48,
+        631,
+        407,
+        680
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【特点】此处用于排版验证。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "reason_papaya",
+      "kind": "text",
+      "box": [
+        116,
+        719,
+        693,
+        785
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#70502b",
+      "erase_color": "#fffbed",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "原因字段待核实，不作为健康结论。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_papaya",
+      "kind": "text",
+      "box": [
+        70,
+        823,
+        691,
+        944
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "crab",
+    "papaya"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#e8f1ae",
+    "paper": "#fefffc"
+  }
+}

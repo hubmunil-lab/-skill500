@@ -1,0 +1,29 @@
+{
+  "task_id": "p5-vitamin",
+  "status": "REVIEW",
+  "generated": true,
+  "errors": [
+    {
+      "code": "CUSTOMER_APPROVAL_REQUIRED"
+    },
+    {
+      "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+    }
+  ],
+  "artifact_directory": "p5-vitamin/attempt-001",
+  "attempt": 1,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "reworks": 0,
+  "original_query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+  "content_generated": true,
+  "category": "comparison",
+  "template_id": "customer-compare-v1",
+  "template_decision": "MATCH_REVIEW_REQUIRED",
+  "data_kind": "synthetic_test",
+  "cache_key": "e736698f55c70ee3594444bd630277ea4782bb5cda24b698ff5ed1a87ce3574c",
+  "page_count": 3,
+  "render_directory": "render",
+  "poster_content_hash": "454ad1d50a49d96c7b5f21f56cb264f7ea14f64728cb3a88943798de832af296",
+  "body_hash": "f15318b5ac6c68c328a376781eee7a5f2b4917d856f8d2d0a58df48b6c1dbcb1"
+}

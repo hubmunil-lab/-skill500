@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "inventory_source": "references/library.json",
+  "review_method": "Read all 56 asset entries and inspect their contact sheet; inspect intro-4 cover/detail/taboo at native resolution",
+  "assets_inspected": 56,
+  "requested_subject": "青椒",
+  "complete_requested_five_page_reference_found": false,
+  "missing_inputs": [
+    {"slot": "青椒封面完整参考", "existing_path": null, "suggested_intake_name": "pepper-cover-reference.png"},
+    {"slot": "青椒三特点详情完整参考", "existing_path": null, "suggested_intake_name": "pepper-detail-reference.png"},
+    {"slot": "青椒食谱一真实操作步骤组及版式", "existing_path": null, "suggested_intake_name": "pepper-recipe-1-steps/"},
+    {"slot": "青椒食谱二真实操作步骤组及版式", "existing_path": null, "suggested_intake_name": "pepper-recipe-2-steps/"},
+    {"slot": "青椒食谱三真实操作步骤组及版式", "existing_path": null, "suggested_intake_name": "pepper-recipe-3-steps/"},
+    {"slot": "青椒封面、详情两张不同食材实拍及使用许可", "existing_path": null, "suggested_intake_name": "pepper-ingredient-photos/"},
+    {"slot": "经核实的青椒营养字段、计量基准和来源", "existing_path": null, "suggested_intake_name": "pepper-verified-content.json"},
+    {"slot": "五页固定坐标、字体、图层工程和客户验收", "existing_path": null, "suggested_intake_name": "pepper-approved-layout-spec.json"}
+  ],
+  "intake_name_note": "Suggested names are new input conventions, NOT filenames claimed to exist or original missing filenames.",
+  "fallback": {
+    "family": "intro-4",
+    "reference_pages": ["assets/intro-4-cover.png", "assets/intro-4-detail.png", "assets/intro-4-taboo.png"],
+    "completeness": "Existing three-page cover/detail/caution reference set; NOT the requested five-page recipe set",
+    "editable_source_exists": false,
+    "photo_issue": "Detail and caution photos visually resemble chickpeas whereas cover says soybeans; food identity requires human confirmation. Do not reuse as verified soybean photos.",
+    "test_images": "Self-created transparent abstract placeholders; explicitly not real ingredient or recipe photos",
+    "customer_approval": "not_obtained"
+  },
+  "visual_differences_requiring_approval": [
+    "原纸张纹理改为纯色背景；未复刻胶带、图钉、勾选、手绘装饰及斜带。",
+    "使用Noto Sans CJK SC及稳定的浏览器合成粗体，不冒充原字形或原字号。",
+    "标题、图片、表格和内容框使用新声明坐标；没有原始图层，不能声称像素级一致。",
+    "详情左右区与注意页图片区/文字区分离，未保留原图的叠层和照片裁切。",
+    "封面三特点、摘要、营养表保留独立槽位，间距、边框及表格样式与原图存在差异。",
+    "所有健康表述和数值替换为测试占位；所有食物照片替换为自制透明图形。",
+    "顶端及底端的测试标记仅用于工程验收，未登记为正式模板页脚。"
+  ],
+  "next_required_actions": ["提供青椒完整五页参考和授权真实步骤素材", "确认疑似混用豆类照片", "人工审阅重建版式差异", "取得固定工程和事实/授权证据后另行开发交付模式"]
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "p5-procedure",
+  "original_query": "青椒炒肉怎么做，火候和步骤是什么",
+  "status": "BLOCKED",
+  "generated": false,
+  "content_generated": false,
+  "category": "procedure",
+  "template_id": null,
+  "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "ingredients",
+        "steps",
+        "heat_control"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "reworks": 0,
+  "cache_key": "a4caa3b776a936f24e8bf380a04e945c562ccc17d3eb290fbf6b6ad1dba7dba0",
+  "software_expectations_passed": true
+}

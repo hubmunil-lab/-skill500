@@ -1,0 +1,15 @@
+{
+  "category": "comparison",
+  "confidence": 0,
+  "provider": "rules_fallback",
+  "reason": "多意图或信息不足，不自动选类",
+  "rules": {
+    "category": null,
+    "candidates": [],
+    "status": "needs_confirmation",
+    "reason": "多意图或信息不足，不自动选类"
+  },
+  "review_required": true,
+  "baseline_category": null,
+  "intent_override_reason": "原问题的实测或明确两对象选择语义，保留人工复核"
+}

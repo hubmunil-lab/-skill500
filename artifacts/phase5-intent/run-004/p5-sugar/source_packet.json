@@ -1,0 +1,360 @@
+{
+  "schema_version": 3,
+  "contract": "intent-first-evidence-1",
+  "mode": "synthetic_test",
+  "focus": "sugars",
+  "query_binding": {
+    "query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+    "direction": "合成软件测试，不是真实产品"
+  },
+  "subjects": [
+    {
+      "id": "p5_sugar_0",
+      "name": "示例甲",
+      "sku": "SYNTHETIC-P5-sugar-0",
+      "specification": "330ml/瓶；合成即饮配方"
+    },
+    {
+      "id": "p5_sugar_1",
+      "name": "示例乙",
+      "sku": "SYNTHETIC-P5-sugar-1",
+      "specification": "250ml/瓶；合成即饮配方"
+    }
+  ],
+  "sources": {
+    "fixture": {
+      "path": "examples/planning/sugar-source.json",
+      "sha256": "9be426daf0bcf586cf382fbe817052137f7a6555207d7d884264358e4f2184f8",
+      "verified_for_production": false
+    }
+  },
+  "pages": [
+    {
+      "number": 1,
+      "role": "appearance_taste_price",
+      "subject_order": [
+        "p5_sugar_0",
+        "p5_sugar_1"
+      ],
+      "left": {
+        "appearance": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_appearance",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "appearance",
+            "value": "浅黄透明液体\n杯中可见清澈光泽\n颜色均匀无沉淀"
+          }
+        },
+        "taste": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_taste",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "taste",
+            "value": "酸味清晰入口轻甜\n柠檬香气较轻\n无气泡口感平顺\n回味偏清淡"
+          }
+        },
+        "price": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_price",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "price",
+            "value": 1.2,
+            "unit": "USD",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 330,
+              "unit": "ml",
+              "count": 1
+            }
+          }
+        }
+      },
+      "right": {
+        "appearance": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_appearance",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "appearance",
+            "value": "琥珀色透明液体\n瓶身可见均匀色泽\n外观澄清无颗粒"
+          }
+        },
+        "taste": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_taste",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "taste",
+            "value": "甜味较明显\n酸味柔和果香浓\n无气泡口感平顺\n回味偏浓郁"
+          }
+        },
+        "price": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_price",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "price",
+            "value": 1.5,
+            "unit": "USD",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 250,
+              "unit": "ml",
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "number": 2,
+      "role": "nutrition",
+      "subject_order": [
+        "p5_sugar_0",
+        "p5_sugar_1"
+      ],
+      "left": {
+        "energy": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_energy",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "energy",
+            "value": 143.9296,
+            "unit": "kJ",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "carbohydrate": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_carbohydrate",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "carbohydrate",
+            "value": 8.6,
+            "unit": "g",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "sugars": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_sugars",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "sugars",
+            "value": 6.6,
+            "unit": "g",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "vitamin_c": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_vitamin_c",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "vitamin_c",
+            "value": 26.4,
+            "unit": "mg",
+            "basis": {
+              "amount": 100,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "feature": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_feature",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "feature",
+            "value": "柠檬酸",
+            "ingredient_basis": "虚构配料记录：水、柠檬酸"
+          }
+        }
+      },
+      "right": {
+        "energy": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_energy",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "energy",
+            "value": 242.672,
+            "unit": "kJ",
+            "basis": {
+              "amount": 125,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "carbohydrate": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_carbohydrate",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "carbohydrate",
+            "value": 14.5,
+            "unit": "g",
+            "basis": {
+              "amount": 125,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "sugars": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_sugars",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "sugars",
+            "value": 12.5,
+            "unit": "g",
+            "basis": {
+              "amount": 125,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "vitamin_c": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_vitamin_c",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "vitamin_c",
+            "value": 15,
+            "unit": "mg",
+            "basis": {
+              "amount": 125,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          }
+        },
+        "feature": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_feature",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "feature",
+            "value": "苹果酸",
+            "ingredient_basis": "虚构配料记录：水、苹果酸"
+          }
+        }
+      }
+    },
+    {
+      "number": 3,
+      "role": "scene_selection",
+      "subject_order": [
+        "p5_sugar_0",
+        "p5_sugar_1"
+      ],
+      "left": {
+        "scene": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_scene",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "scene",
+            "value": "随餐搭配\n先看实际包装容量"
+          }
+        },
+        "selection": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_0_selection",
+          "fact": {
+            "subject_id": "p5_sugar_0",
+            "field": "selection",
+            "value": "核对330ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看糖值与定义\n查看配料和储存条件"
+          }
+        }
+      },
+      "right": {
+        "scene": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_scene",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "scene",
+            "value": "外出携带\n留意瓶盖密封状态"
+          }
+        },
+        "selection": {
+          "source_id": "fixture",
+          "fact_id": "p5_sugar_1_selection",
+          "fact": {
+            "subject_id": "p5_sugar_1",
+            "field": "selection",
+            "value": "核对250ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看糖值与定义\n查看配料和储存条件"
+          }
+        }
+      }
+    }
+  ],
+  "assets": {
+    "left": {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/left-asset.png",
+      "sha256": "5ed917afc1f08483b9fd35550ed5adf772292388c58f7d953e5a82011b9a25eb",
+      "subject_id": "p5_sugar_0",
+      "sku": "SYNTHETIC-P5-sugar-0",
+      "license": "CC0-1.0",
+      "license_path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/left-LICENSE.txt",
+      "license_sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434",
+      "permitted_use": "synthetic_test",
+      "kind": "original_programmatic_illustration",
+      "size": [
+        1581,
+        2251
+      ]
+    },
+    "right": {
+      "path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/right-asset.png",
+      "sha256": "fd03d5c54d1fc0efff732f05ebed86d59e2239c78044b2846b7a4445185655b5",
+      "subject_id": "p5_sugar_1",
+      "sku": "SYNTHETIC-P5-sugar-1",
+      "license": "CC0-1.0",
+      "license_path": "artifacts/phase4-rework/run-004/fixture-sugar/inputs/right-LICENSE.txt",
+      "license_sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434",
+      "permitted_use": "synthetic_test",
+      "kind": "original_programmatic_illustration",
+      "size": [
+        1261,
+        2341
+      ]
+    }
+  },
+  "normalization": {
+    "target_basis": {
+      "amount": 100.0,
+      "unit": "ml",
+      "state": "ready_to_drink"
+    },
+    "metric_units": {
+      "energy": "kcal",
+      "carbohydrate": "g",
+      "sugars": "g",
+      "vitamin_c": "mg"
+    }
+  }
+}

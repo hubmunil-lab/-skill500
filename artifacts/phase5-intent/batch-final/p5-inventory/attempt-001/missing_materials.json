@@ -1,0 +1,45 @@
+{
+  "status": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "query": "常见苹果品种盘点（口感和用途）",
+  "errors": [
+    {
+      "field": "item_list",
+      "code": "QUERY_FACT_MISSING"
+    },
+    {
+      "field": "distinguishing_features",
+      "code": "QUERY_FACT_MISSING"
+    },
+    {
+      "field": "usage",
+      "code": "QUERY_FACT_MISSING"
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "required_for_original_question": {
+    "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+    "facts": [
+      {
+        "field": "item_list",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "item_list的可核实资料"
+      },
+      {
+        "field": "distinguishing_features",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "distinguishing_features的可核实资料"
+      },
+      {
+        "field": "usage",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "usage的可核实资料"
+      }
+    ],
+    "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+    "not_requested": [],
+    "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+  },
+  "not_a_demand_for_all_template_fields": true
+}

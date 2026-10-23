@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "id": "customer-recommend-02-v1",
+  "category": "recommend",
+  "role": "detail",
+  "page_number": 2,
+  "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+  "reference_sha256": "9cd21b0e5c740eb7d9498aae4b79270bd3f5d92c8cb318a5432354fefec78300",
+  "source_size": [
+    730,
+    973
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        219,
+        110,
+        693,
+        267
+      ],
+      "font_size": 55,
+      "line_height": 71.5,
+      "color": "#352919",
+      "erase_color": "#f8f7f3",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "serif",
+      "value": "水果推荐\n版式测试",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_grapefruit",
+      "kind": "image",
+      "box": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "subject": "grapefruit"
+    },
+    {
+      "id": "number_grapefruit",
+      "kind": "text",
+      "box": [
+        361,
+        393,
+        428,
+        448
+      ],
+      "font_size": 48,
+      "line_height": 55,
+      "color": "#748846",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "03",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_grapefruit",
+      "kind": "text",
+      "box": [
+        435,
+        398,
+        690,
+        450
+      ],
+      "font_size": 36,
+      "line_height": 46.8,
+      "color": "#171511",
+      "erase_color": "#f8f7f3",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "柚子",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "serving_grapefruit",
+      "kind": "text",
+      "box": [
+        364,
+        461,
+        697,
+        493
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#38352c",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "份量说明待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_1_grapefruit",
+      "kind": "text",
+      "box": [
+        488,
+        503,
+        697,
+        533
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段1：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_2_grapefruit",
+      "kind": "text",
+      "box": [
+        488,
+        552,
+        697,
+        582
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段2：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_3_grapefruit",
+      "kind": "text",
+      "box": [
+        488,
+        600,
+        697,
+        630
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段3：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_apple",
+      "kind": "image",
+      "box": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "subject": "apple"
+    },
+    {
+      "id": "number_apple",
+      "kind": "text",
+      "box": [
+        361,
+        687,
+        428,
+        742
+      ],
+      "font_size": 48,
+      "line_height": 55,
+      "color": "#748846",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "04",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_apple",
+      "kind": "text",
+      "box": [
+        435,
+        692,
+        690,
+        744
+      ],
+      "font_size": 36,
+      "line_height": 46.8,
+      "color": "#171511",
+      "erase_color": "#f8f7f3",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "苹果",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "serving_apple",
+      "kind": "text",
+      "box": [
+        364,
+        755,
+        697,
+        787
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#38352c",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "份量说明待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_1_apple",
+      "kind": "text",
+      "box": [
+        488,
+        797,
+        697,
+        827
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段1：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_2_apple",
+      "kind": "text",
+      "box": [
+        488,
+        846,
+        697,
+        876
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段2：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_3_apple",
+      "kind": "text",
+      "box": [
+        488,
+        894,
+        697,
+        924
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段3：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "grapefruit",
+    "apple"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [
+    "No overview cover was provided; no cover invented."
+  ],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#f7f6f2",
+    "paper": "#f7f6f2"
+  }
+}

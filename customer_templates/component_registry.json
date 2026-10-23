@@ -1,0 +1,964 @@
+{
+  "schema_version": 1,
+  "backgrounds": {
+    "customer-compare-01-v1": {
+      "path": "customer_templates/components/customer-compare-01-v1-background.png",
+      "sha256": "b4ddb13ac584adcd95a482e046a33bf10e05ddbcafff9bed8d1a72ad6ded41c5",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-compare-02-v1": {
+      "path": "customer_templates/components/customer-compare-02-v1-background.png",
+      "sha256": "a9b1a3cb93b4434024028337180f9847f862be3ecd10dc0a832a2eb859aa19c0",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-compare-03-v1": {
+      "path": "customer_templates/components/customer-compare-03-v1-background.png",
+      "sha256": "9ce1a4970d5df57335d09f5e0fa5b28c1d0297f12c47bbdc34b8527a9a2e8e9d",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-recommend-01-v1": {
+      "path": "customer_templates/components/customer-recommend-01-v1-background.png",
+      "sha256": "01db7734f8e7fd8335039cd6d9b3b1fa5be2d0fd2d0ccf5b29e8bbeef636c053",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-recommend-02-v1": {
+      "path": "customer_templates/components/customer-recommend-02-v1-background.png",
+      "sha256": "333ce91bf6d0bf77dc0fb43f0f4332c115c025cd731858d8248d006c00c4a773",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-recommend-03-v1": {
+      "path": "customer_templates/components/customer-recommend-03-v1-background.png",
+      "sha256": "47fa66a7cee9aaed94f6f7037d685b4f14e41511d4d9d96a5fbfb0fc49c86749",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-list-01-v1": {
+      "path": "customer_templates/components/customer-list-01-v1-background.png",
+      "sha256": "4236ef50ec1561f042f2fa3cd9f6a1c6402bcf0767fce6c4e930f85f0aa5e346",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-list-02-v1": {
+      "path": "customer_templates/components/customer-list-02-v1-background.png",
+      "sha256": "bd5860cedb5e43e73f45eb4e2c466f5f72906c51959def693eb111d6f82aa0f5",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-list-03-v1": {
+      "path": "customer_templates/components/customer-list-03-v1-background.png",
+      "sha256": "b817b495899746bbb27a01bbe4a113fcd3871651a1d8c98c30e38c8ebb0dfd56",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-list-04-v1": {
+      "path": "customer_templates/components/customer-list-04-v1-background.png",
+      "sha256": "661ab33629428c68f13980c8e63ed292cae873470591a71b89a7100981661980",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-intro-01-v1": {
+      "path": "customer_templates/components/customer-intro-01-v1-background.png",
+      "sha256": "4f8a0cd8d36ea850a292cc8783e1fddb74d1816d31ce2e70aa12752120c5107e",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-intro-02-v1": {
+      "path": "customer_templates/components/customer-intro-02-v1-background.png",
+      "sha256": "a293b7d26eb00f8c97d13edc4e3f612c79c6f7e14a3ada533745988f840c641a",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-intro-03-v1": {
+      "path": "customer_templates/components/customer-intro-03-v1-background.png",
+      "sha256": "95d95322c3fb224d5314ffcec7eac7180e7a560f498a8d1cf48004ebb223fea8",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-intro-04-v1": {
+      "path": "customer_templates/components/customer-intro-04-v1-background.png",
+      "sha256": "eb9f96d135d383b61bd5cd9876a28bccef7d60ec88739e8454e8296372e7ca29",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    },
+    "customer-intro-05-v1": {
+      "path": "customer_templates/components/customer-intro-05-v1-background.png",
+      "sha256": "b0dc1a968229e7910d4fd6dea513af948e6252570465deaaf1ad2813e758af69",
+      "method": "Original frozen decorations retained; editable regions cleared with documented colour backplates. Paper/brush repair is approximate."
+    }
+  },
+  "assets": {
+    "compare-left_photo": {
+      "path": "customer_templates/components/compare-left_photo.png",
+      "sha256": "766655bb26e1f99db105a1a7de40c738df97a007069ea0d7ab6788d6b86dc341",
+      "subject": "lemon_drink",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "crop": [
+        49,
+        216,
+        308,
+        470
+      ],
+      "size": [
+        259,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "compare-right_photo": {
+      "path": "customer_templates/components/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b",
+      "subject": "cola",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "crop": [
+        480,
+        218,
+        644,
+        471
+      ],
+      "size": [
+        164,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "recommend-photo_dragonfruit": {
+      "path": "customer_templates/components/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa",
+      "subject": "dragonfruit",
+      "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "size": [
+        308,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "recommend-photo_starfruit": {
+      "path": "customer_templates/components/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95",
+      "subject": "starfruit",
+      "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "size": [
+        308,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "recommend-photo_grapefruit": {
+      "path": "customer_templates/components/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79",
+      "subject": "grapefruit",
+      "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "size": [
+        308,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "recommend-photo_apple": {
+      "path": "customer_templates/components/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad",
+      "subject": "apple",
+      "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "size": [
+        308,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "recommend-photo_blueberry": {
+      "path": "customer_templates/components/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364",
+      "subject": "blueberry",
+      "reference": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "size": [
+        308,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "recommend-photo_strawberry": {
+      "path": "customer_templates/components/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434",
+      "subject": "strawberry",
+      "reference": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "size": [
+        308,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "list-photo_clam": {
+      "path": "customer_templates/components/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d",
+      "subject": "clam",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        43,
+        203,
+        346,
+        395
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "list-photo_hawthorn": {
+      "path": "customer_templates/components/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d",
+      "subject": "hawthorn",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        401,
+        203,
+        704,
+        395
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "list-photo_coix": {
+      "path": "customer_templates/components/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df",
+      "subject": "coix",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        43,
+        451,
+        346,
+        643
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "list-photo_lychee": {
+      "path": "customer_templates/components/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8",
+      "subject": "lychee",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        401,
+        451,
+        704,
+        643
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "list-photo_crab": {
+      "path": "customer_templates/components/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4",
+      "subject": "crab",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        43,
+        699,
+        346,
+        891
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "list-photo_papaya": {
+      "path": "customer_templates/components/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4",
+      "subject": "papaya",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        401,
+        699,
+        704,
+        891
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-01-v1-food": {
+      "path": "customer_templates/components/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee",
+      "subject": "pepper_cover",
+      "reference": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png",
+      "crop": [
+        0,
+        275,
+        365,
+        532
+      ],
+      "size": [
+        365,
+        257
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-02-v1-food": {
+      "path": "customer_templates/components/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b",
+      "subject": "pepper_detail",
+      "reference": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png",
+      "crop": [
+        410,
+        695,
+        718,
+        932
+      ],
+      "size": [
+        308,
+        237
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-hero_left": {
+      "path": "customer_templates/components/customer-intro-03-v1-hero_left.png",
+      "sha256": "db37a4aead166b58b067aa136e9be31598187a469d266c954a785660c8881896",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        3,
+        362,
+        450
+      ],
+      "size": [
+        360,
+        447
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-hero_right_top": {
+      "path": "customer_templates/components/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        3,
+        725,
+        233
+      ],
+      "size": [
+        360,
+        230
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-hero_right_bottom": {
+      "path": "customer_templates/components/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "de0fed8373726beebe271c970ea656e0e1f1ed8c8076d2f9d2d686a12e5efa3d",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        234,
+        725,
+        455
+      ],
+      "size": [
+        360,
+        221
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_1": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "c1a44615771a57e68c92e2b5f531bcc350b9bc1da5586e7220f437b9eeb1425e",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        518,
+        182,
+        588
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_2": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "586adfb8b6d1e41cefb53475932f7509c118c95e06a6e50c016d606fc0666c2a",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        184,
+        518,
+        364,
+        588
+      ],
+      "size": [
+        180,
+        70
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_3": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "68d2d0f912cf4b52416f951d83170be4bac8217e7c13decf9ba053f6bc7ee0ba",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        647,
+        182,
+        749
+      ],
+      "size": [
+        180,
+        102
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_4": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "8b2276569826d267e44844d085beda47b15cae3592124a706e2169da15f6021a",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        184,
+        647,
+        364,
+        749
+      ],
+      "size": [
+        180,
+        102
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_5": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "298e470764e75adc0ace240d6ae40cb16361c6314d07a37ad2676ce664632fd3",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        808,
+        182,
+        910
+      ],
+      "size": [
+        180,
+        102
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_6": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d68164e4069bb6c62e5f343a35e24275d829e42ac0bbee41c2689cafddfecd40",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        184,
+        808,
+        364,
+        910
+      ],
+      "size": [
+        180,
+        102
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_7": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "9eff26f37f6599bb65887d404d4ba3d6b7dd077020f27d8d54251cfd0069daab",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        518,
+        725,
+        589
+      ],
+      "size": [
+        360,
+        71
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_8": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "864d447924eef9478ad7353db52e1cc501747fd4710d4b000c083e1c390d6821",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        649,
+        725,
+        751
+      ],
+      "size": [
+        360,
+        102
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-03-v1-step_photo_9": {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "b228673e1348bee82e15a612ce4985b05caf827156b434b5f59109bf59a9815d",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        811,
+        725,
+        911
+      ],
+      "size": [
+        360,
+        100
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-hero_left": {
+      "path": "customer_templates/components/customer-intro-04-v1-hero_left.png",
+      "sha256": "d48a6dfe838377348ab61fd8c42f16a11a8dcd1c45a28b95ce61c23a03da1919",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        2,
+        3,
+        361,
+        454
+      ],
+      "size": [
+        359,
+        451
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-hero_right": {
+      "path": "customer_templates/components/customer-intro-04-v1-hero_right.png",
+      "sha256": "57b9610f0bb1bc7de33ff8e8d92632007cce80f5c10b97d3f71a411c8db33b89",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        364,
+        3,
+        725,
+        454
+      ],
+      "size": [
+        361,
+        451
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_1": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "f216171b1c5bdd1f491b9a9a051548ad2cca9d415b4c5ba605a6f152560e354f",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        2,
+        518,
+        181,
+        668
+      ],
+      "size": [
+        179,
+        150
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_2": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "7e872a40488f5a4da74392f3839e5851e095c7d6069e35193451fde39bc46755",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        182,
+        518,
+        362,
+        668
+      ],
+      "size": [
+        180,
+        150
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_3": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "a5c6aabd7fd5506fc4167b86d3db3120cdd6699434314ff40a3c358d22d27409",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        2,
+        733,
+        181,
+        909
+      ],
+      "size": [
+        179,
+        176
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_4": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "b749df54dbe20ab905be59e62c3271c610742920a80040501484553e3f5be836",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        182,
+        733,
+        362,
+        909
+      ],
+      "size": [
+        180,
+        176
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_5": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "13c4c79a738adfbb6e7cef2f38b47fecc528f75de5acc1369c5b81218e423e83",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        363,
+        518,
+        544,
+        588
+      ],
+      "size": [
+        181,
+        70
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_6": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "e607878a7ec38d420c89a4aba5a6e1df0010089ec4a688583b2cc52e93ea5b94",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        544,
+        518,
+        725,
+        588
+      ],
+      "size": [
+        181,
+        70
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_7": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "f4c335652e9c75f9f447f92d32ef9e4c5260435c49bd36c38afd6364f2269123",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        363,
+        652,
+        544,
+        750
+      ],
+      "size": [
+        181,
+        98
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_8": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "4ef12132f925b926b095b8bc08ff38b6c8c547b8b9616dc4febeb860cc9aa0aa",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        544,
+        652,
+        725,
+        750
+      ],
+      "size": [
+        181,
+        98
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_9": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "0335ef74df1c78aefdd5a34e3917e0138754411da61def4f7f2b75ce82bfb52e",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        363,
+        814,
+        544,
+        909
+      ],
+      "size": [
+        181,
+        95
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-04-v1-step_photo_10": {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "1b4b706114212be400b812d2b5e95370840b5e19440549d6bd0ee8fbe77e7cc2",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        544,
+        814,
+        725,
+        909
+      ],
+      "size": [
+        181,
+        95
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-hero_left": {
+      "path": "customer_templates/components/customer-intro-05-v1-hero_left.png",
+      "sha256": "7b823b5a955ce01d9d43b240c58bfeabcefdc7a860963776ac630ccbff580b7e",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        2,
+        3,
+        362,
+        452
+      ],
+      "size": [
+        360,
+        449
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-hero_right": {
+      "path": "customer_templates/components/customer-intro-05-v1-hero_right.png",
+      "sha256": "e6361270f7f698364cf7971670915e9bafdce1d47e837f8bf26d36bc573653a3",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        3,
+        728,
+        452
+      ],
+      "size": [
+        363,
+        449
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-hero_extra": {
+      "path": "customer_templates/components/customer-intro-05-v1-hero_extra.png",
+      "sha256": "0f3eaac9e7323e942c26eed174442d93e9ea4310ed45cd0e0320d4ed38ae7987",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        2,
+        489,
+        361,
+        962
+      ],
+      "size": [
+        359,
+        473
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-step_photo_1": {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "0820a904219a93e1d788b1286edfb9bbbfa697a4d26829713479042290fa66c3",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        518,
+        546,
+        587
+      ],
+      "size": [
+        181,
+        69
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-step_photo_2": {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "9a1ccc17561e43acf3035b3491329e508ab8e28e6a7df583bc051f4d64a48abf",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        546,
+        518,
+        727,
+        587
+      ],
+      "size": [
+        181,
+        69
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-step_photo_3": {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "4630ea0dcae84a2d83297bea614a913160dd7c856db2d310c082f0e2f49ca0f2",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        651,
+        546,
+        749
+      ],
+      "size": [
+        181,
+        98
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-step_photo_4": {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "6425ce9f6029b4efa326d5182b37bc522cf8ff1ccc6ecb81edae2de8b423720b",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        546,
+        651,
+        727,
+        749
+      ],
+      "size": [
+        181,
+        98
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-step_photo_5": {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "5297e2417047ecb322650c1b2784d4f98655ec096833562a0714168e9e384bdc",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        813,
+        546,
+        911
+      ],
+      "size": [
+        181,
+        98
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    },
+    "customer-intro-05-v1-step_photo_6": {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "3ab82f5d52982a14e9f5e3b4f174688a924e46038d6c6a1407197452ae3e76b9",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        546,
+        813,
+        727,
+        911
+      ],
+      "size": [
+        181,
+        98
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Excluded caption/title bands; visual recheck still required"
+    }
+  }
+}

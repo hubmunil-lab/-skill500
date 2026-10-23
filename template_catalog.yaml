@@ -1,0 +1,1078 @@
+{
+  "schema_version": 1,
+  "templates": [
+    {
+      "id": "compare-1",
+      "categories": [
+        "comparison"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/compare-1-cover.jpg",
+          "role": "template-page",
+          "sha256": "5603fc33710a3d98325b27e54d672ac8971adf867d927e3c0b1f2f8ec99d25ae"
+        },
+        {
+          "path": "assets/compare-1-detail.jpg",
+          "role": "template-page",
+          "sha256": "3fac0c720cfb85de67488fb5a0f2b1173a9145b9c4036977941f0c97ac24f353"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/7d1d49709c0201e30f33a91db7ebbecf.png",
+          "role": "template-page",
+          "sha256": "a8c1a561a4ee274b0003c4d0d6a6d17ea977b61166718819fb901563e7c07223"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/c1be1c728cb1cb20ee5382ea4aefdc02.png",
+          "role": "template-page",
+          "sha256": "06f04d1bf02734b2af49909b3ce03595cf400c68b64404d0ddd219d734cf9362"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/cfda7eb288f1017dc718fdaad103531e.png",
+          "role": "rules",
+          "sha256": "e3d05e62af075113246dd61a7365a6c36e24ba01aec0cbdc4dcad82b32c869e0"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "columns": 2,
+        "style": "粉底双列卡片",
+        "comparable_measurement_basis": true
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "compare-2",
+      "categories": [
+        "comparison"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/compare-2-cover.jpg",
+          "role": "template-page",
+          "sha256": "2c1b2fe8bee0ca78408c32f83f640fff1898e6c227c8adbab5627c899adbb1de"
+        },
+        {
+          "path": "assets/compare-2-detail.jpg",
+          "role": "template-page",
+          "sha256": "e4e87599d021160e56e330014f82623bbd04cfd72a4f19b3340594463cd95253"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/41da815f7150dc1c3a7a6947d954b19e.png",
+          "role": "template-page",
+          "sha256": "8ba720c7ced69b20180dfba5cee2b21258b9cec7633b531873af59033022c539"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/6e225f368dccdab4b8abb2599fbf241a.png",
+          "role": "template-page",
+          "sha256": "e47ef425b414259c794ebf9f93a35680a1fd129a4993ee5e74de5c60b0f2b739"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/6faf0ac88adc971e00ba8c542b5433b0.png",
+          "role": "rules",
+          "sha256": "6c54f506d58a39ad12bcf46d6a916e7f04896cd8918e4765aedd2a5d4300de29"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "columns": 2,
+        "style": "砖红笔记本框",
+        "comparable_measurement_basis": true
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "intro-1",
+      "categories": [
+        "intro"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/intro-1-cover.png",
+          "role": "template-page",
+          "sha256": "1571da9058bf547452b4fdbfeabab489c460986933cb97521d4ca22fd8d59823"
+        },
+        {
+          "path": "assets/intro-1-detail.png",
+          "role": "template-page",
+          "sha256": "da1c999267cf5d8804e3ca12c8444e79e7d6d1614790ddbc233bc8c3a775cc19"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/f8f66ee5904aeffad7e1c69dd5fa5f20.jpg",
+          "role": "template-page",
+          "sha256": "d21fcfc5734ba9ebb5d378698ec576570fa73bebdfc28137807480b955f2259f"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/c516c541e58bbfe66c1b17fa2d3de351.jpg",
+          "role": "template-page",
+          "sha256": "af7a4356b3ba354a4ba8a39824ff1da913876a19922887ae8d4137cf19ba2258"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/21405a490f9c059e9090ef4c974601d7.jpg",
+          "role": "rules",
+          "sha256": "10cc299a9c37466b18c745f7d5b4e93f73aab8f7cca609cade31a7580f84b8da"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "max_benefits": 3,
+        "aliases_word_count": [
+          2,
+          3
+        ],
+        "aliases_separator": "、",
+        "benefit_description_chars": [
+          20,
+          30
+        ],
+        "nutrition_table_aligned": true
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "intro-2",
+      "categories": [
+        "intro"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [
+        "营养价值"
+      ],
+      "assets": [
+        {
+          "path": "assets/intro-2-cover.png",
+          "role": "template-page",
+          "sha256": "01beb005e97d1263dd46b5aad569e9bd4203b43eb479f3aafb6186dee1fb4669"
+        },
+        {
+          "path": "assets/intro-2-taboo.png",
+          "role": "template-page",
+          "sha256": "1fba919d76df2e6d401d240fad3c56de6be4f9fc34f02708a287c02d10ee7239"
+        },
+        {
+          "path": "assets/intro-2-value.png",
+          "role": "template-page",
+          "sha256": "2c0544310af1ff34d8c93a02f23222bb16fa426cbe9ad4a2f307b0fa2d1dc4df"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/b0d52e55f6c5dae7c7ad6ba1d35f6cae.jpg",
+          "role": "template-page",
+          "sha256": "a0965088056b7ccc58ce617e5d53ca76660fcd2d4b82788a420fe68ee6d26261"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/93ab2aee90f8065b9b831869e8e0f0b6.jpg",
+          "role": "template-page",
+          "sha256": "797ff864bfd628808f01e295586fb2bc96869e7ddf359d9b69305a47b26eaf50"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/142cb1f6807d2e01522dabcb96360291.jpg",
+          "role": "template-page",
+          "sha256": "1d3708fe92ead99579d421b9b1d45dfeb6ba3df4ce6c01c661a507da9e0e094d"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/bc04041de73c13d1b755ec414bf09242.jpg",
+          "role": "rules",
+          "sha256": "f43d6a3e200be5ddb3096b3c4d4e90d25b870f1bef03eac8029c027de912476a"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "excluded_query_topics": [
+          "营养价值"
+        ],
+        "audience_text_chars_approx": 12,
+        "cover_usage_and_benefit_max_lines": 2,
+        "taboo_description_chars_approx": 30
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "intro-3",
+      "categories": [
+        "intro"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/intro-3-cover.png",
+          "role": "template-page",
+          "sha256": "2fdc3669738e9cb751c4ff2102f0f50fb8c91175b5c7355e6ab0b66e10b29880"
+        },
+        {
+          "path": "assets/intro-3-detail.png",
+          "role": "template-page",
+          "sha256": "e8479dcccfee51f7d9c8fa91ce4eb657697de2d0eaabf7bc9a15d8b05ac305d9"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/fb29f7d1f40ef7ac8c5641d742dbbccb.jpg",
+          "role": "template-page",
+          "sha256": "2c648a1f5812281bd1c5c456a59289f0cf178b380cbb4e3b9a8d65d15d7d122c"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/250188ff1af423403c92148787b07d1a.jpg",
+          "role": "template-page",
+          "sha256": "9d1a3cb3af285795febec887b68e840189223747a67645b11e637e974248d59d"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/bb2d276a2cccda7ef37d4356d9a39813.jpg",
+          "role": "rules",
+          "sha256": "0372c76a624a9f46e6fb9584215fb5cf705867d4774a6721adf184879747f353"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "cover_detail_benefit_names_identical": true,
+        "detail_benefit_max_lines": 3,
+        "benefit_description_chars": [
+          20,
+          30
+        ],
+        "cover_taboo_max_lines": 2
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "intro-4",
+      "categories": [
+        "intro"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/intro-4-cover.png",
+          "role": "template-page",
+          "sha256": "a697408730a1fc5af76552b4c85ba60fa630b05d7edb4c64c440a048f69db215"
+        },
+        {
+          "path": "assets/intro-4-detail.png",
+          "role": "template-page",
+          "sha256": "17df4a49ac5a5ed85bec5f24d110ff28d7d7a6cbb7a89462b3c6696c7ba66e6e"
+        },
+        {
+          "path": "assets/intro-4-taboo.png",
+          "role": "template-page",
+          "sha256": "31fee22fc6ada5a4136f41d54015bf7fddf3c228b2fdd09fc9ee03eddf6ef52e"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/4c815113a139e8dbff9d0e9422082fc1.jpg",
+          "role": "template-page",
+          "sha256": "071a7a1b5661e3b5ade1ba41bd834108210fd0a32d3e8623cbd54b5ca50d1013"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/97cd5f4f29c0812a392d31d6812a4933.jpg",
+          "role": "template-page",
+          "sha256": "c4fce5da065f32c0428188d2726e50f3a4f787150b7446bb7e81de5444d12e95"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/5e51171f972a5df92c9f1766a7e8795f.jpg",
+          "role": "template-page",
+          "sha256": "898c2b5ef8c78962c43bc61f437a12c441f82372e3c1699712867a5f773e8d34"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/e3609284ad7984b3a8c9cad769db0a8c.jpg",
+          "role": "rules",
+          "sha256": "ab657b17f392b2995e5ba07a098d28cb5db8bcea51e0f4c3ef98d485533dff76"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "cover_detail_benefit_names_identical": true,
+        "detail_benefit_max_lines": 3
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "intro-5",
+      "categories": [
+        "intro"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/intro-5-cover.png",
+          "role": "template-page",
+          "sha256": "aee2b93617953f41f8b361ecc9a5e87d9735c9958fbfbbb184cb22adda4db6aa"
+        },
+        {
+          "path": "assets/intro-5-detail.png",
+          "role": "template-page",
+          "sha256": "109c4dfecba4caface8b43099b153da837d2557f1be72bdb919e0bc0ae4b5799"
+        },
+        {
+          "path": "assets/intro-5-taboo.png",
+          "role": "template-page",
+          "sha256": "17f832c4ea880d535e95e6800f604bf966ad8fd1ad56fce197ee3fb2fa91566e"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "cover_detail_benefit_names_identical": true,
+        "detail_benefit_max_lines": 3
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "list-1",
+      "categories": [
+        "inventory",
+        "recommendation"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": 6,
+      "detail_slots": 2,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/list-1-cover.png",
+          "role": "template-page",
+          "sha256": "f3b6904ad8a6c0199c59660e47892fed99c5fe0a4d0e64fb1d70591c283b64fa"
+        },
+        {
+          "path": "assets/list-1-detail.png",
+          "role": "template-page",
+          "sha256": "c3de3ce16848f239bbe74187bb05c9b9abf56122cedb48062e95cfeb052860e5"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "foreground_cutout": true,
+        "read_order": "left_to_right_then_top_to_bottom"
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "list-2",
+      "categories": [
+        "inventory",
+        "recommendation"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": 9,
+      "detail_slots": 3,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/list-2-cover.png",
+          "role": "template-page",
+          "sha256": "6c86827ab25e5211b3350013eb83ce9182ed392a9b808c0c78c99073a59ba2b3"
+        },
+        {
+          "path": "assets/list-2-detail.png",
+          "role": "template-page",
+          "sha256": "30afacf71045c1b9b44031bc69370c4cb552df698aeb682916b7058d0e6e9226"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "foreground_cutout": true,
+        "read_order": "left_to_right_then_top_to_bottom"
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "list-3",
+      "categories": [
+        "inventory",
+        "recommendation"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": 4,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/list-3.png",
+          "role": "template-page",
+          "sha256": "33045ff62a30a40eed2661557b4ab3edc80ced65da0b073359a18ab4276ffa86"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "foreground_cutout": true,
+        "read_order": "left_to_right_then_top_to_bottom"
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "list-4",
+      "categories": [
+        "inventory",
+        "recommendation"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": 4,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/list-4.png",
+          "role": "template-page",
+          "sha256": "ada5b394e9437973437e9263a2373a6f0f3a8419f2b1e8fa3eb7bfea2027a809"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "foreground_cutout": true,
+        "read_order": "left_to_right_then_top_to_bottom"
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "recipe-1",
+      "categories": [
+        "procedure"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/recipe-1-cover.png",
+          "role": "template-page",
+          "sha256": "e91e1329312624a0ae342d322f6aef8090461c68ac606a05df82392c762e07ef"
+        },
+        {
+          "path": "assets/recipe-1-detail.png",
+          "role": "template-page",
+          "sha256": "06929c57204c74fe07651bee13502a226755d6bc8a8ac9a72a843c2493834966"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "cover_detail_benefits_identical": true,
+        "cover_subtitle_chars_approx": 12,
+        "recipe_value_chars_approx": [
+          25,
+          35
+        ]
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "review-1",
+      "categories": [
+        "review"
+      ],
+      "kind": "reference_bitmap",
+      "editable": false,
+      "editable_source": null,
+      "approval_status": "not_verified",
+      "layout_spec": null,
+      "production_ready": false,
+      "cover_slots": 3,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/review-1.jpg",
+          "role": "template-page",
+          "sha256": "238753f01b0c4948d117870811e9045d45cbd3ed6ace63dda8e8f7f7c4b9ecdb"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/fcfdd38d108d150ea48e04ca1f550b88.png",
+          "role": "template-page",
+          "sha256": "4d0566cb44e9871bd2556455e994e1d269082c63248a0036de023546c2c013ee"
+        },
+        {
+          "path": "assets/incoming/2026-10-14/a8742aa980957131d5c38be5cfbdc9fe.png",
+          "role": "rules",
+          "sha256": "8ed290fcaa4d7710f877f14b75b1511ee701579bc77d4e2b0d35dcc1c8c5ccca"
+        }
+      ],
+      "sources": [
+        "references/catalog.md",
+        "references/library.json",
+        "references/case-rules.md"
+      ],
+      "blockers": [
+        "需重建固定坐标、字体及槽位，并取得客户实物验收",
+        "缺页不可自行设计成已批准版式"
+      ],
+      "reference_constraints": {
+        "example_product_count": 3,
+        "require_real_experience_records": true,
+        "text_positions_locked": true
+      },
+      "constraint_status": "reference-derived; approximate text lengths are not hard numeric acceptance thresholds; layout coordinates and fonts unknown"
+    },
+    {
+      "id": "customer-compare-v1",
+      "categories": [
+        "comparison"
+      ],
+      "kind": "editable_reconstruction",
+      "editable": true,
+      "editable_source": "customer_templates/registry.json",
+      "approval_status": "not_verified",
+      "layout_spec": "customer_templates/registry.json",
+      "production_ready": false,
+      "cover_slots": 2,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+          "role": "template-page",
+          "sha256": "db662e9ba1332e261587c716253a61f20958d116834b65a57f2c89b5cd648d66"
+        },
+        {
+          "path": "assets/customer_reference/compare/ea68826f-81e5-4816-90cb-ecf7193fcd00.png",
+          "role": "template-page",
+          "sha256": "b502ac177bcfea5183b1e994dcbf28cfc0c31a54b571f85268e907b41ad4129e"
+        },
+        {
+          "path": "assets/customer_reference/compare/0d9ac319-df9b-4bd6-a2ca-3d6bf10a18ee.png",
+          "role": "template-page",
+          "sha256": "d8a491b13a3cc72bf28b0801f91b70a4e58a3a54d5e5ae177fca4d2e1c7a5acc"
+        }
+      ],
+      "sources": [
+        "assets/customer_reference/compare",
+        "customer_templates/registry.json"
+      ],
+      "legacy_related_ids": [
+        "compare-1"
+      ],
+      "page_sequence": [
+        {
+          "page": 1,
+          "role": "cover",
+          "layout_id": "customer-compare-01-v1",
+          "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png"
+        },
+        {
+          "page": 2,
+          "role": "nutrition",
+          "layout_id": "customer-compare-02-v1",
+          "reference": "assets/customer_reference/compare/ea68826f-81e5-4816-90cb-ecf7193fcd00.png"
+        },
+        {
+          "page": 3,
+          "role": "selection",
+          "layout_id": "customer-compare-03-v1",
+          "reference": "assets/customer_reference/compare/0d9ac319-df9b-4bd6-a2ca-3d6bf10a18ee.png"
+        }
+      ],
+      "blockers": [
+        "Original font/layer files missing; reconstruction needs visual approval",
+        "Reference fact claims and image rights remain unverified"
+      ],
+      "reference_background_exception": null
+    },
+    {
+      "id": "customer-recommend-v1",
+      "categories": [
+        "recommendation"
+      ],
+      "kind": "editable_reconstruction",
+      "editable": true,
+      "editable_source": "customer_templates/registry.json",
+      "approval_status": "not_verified",
+      "layout_spec": "customer_templates/registry.json",
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": 2,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+          "role": "template-page",
+          "sha256": "791544ac54e830407584137604002c802d302c3e99220df71a5cd4c454c1423e"
+        },
+        {
+          "path": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+          "role": "template-page",
+          "sha256": "9cd21b0e5c740eb7d9498aae4b79270bd3f5d92c8cb318a5432354fefec78300"
+        },
+        {
+          "path": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+          "role": "template-page",
+          "sha256": "4ea0ab56a3427014eaf4120bb36a161f66766ec2f8b02d20a48526685ae9ba8c"
+        }
+      ],
+      "sources": [
+        "assets/customer_reference/recommend",
+        "customer_templates/registry.json"
+      ],
+      "legacy_related_ids": [],
+      "page_sequence": [
+        {
+          "page": 1,
+          "role": "detail",
+          "layout_id": "customer-recommend-01-v1",
+          "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png"
+        },
+        {
+          "page": 2,
+          "role": "detail",
+          "layout_id": "customer-recommend-02-v1",
+          "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png"
+        },
+        {
+          "page": 3,
+          "role": "detail",
+          "layout_id": "customer-recommend-03-v1",
+          "reference": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png"
+        }
+      ],
+      "blockers": [
+        "Original font/layer files missing; reconstruction needs visual approval",
+        "Reference fact claims and image rights remain unverified",
+        "Overview cover absent; supplied three detail pages preserved pending business-rule clarification"
+      ],
+      "reference_background_exception": "Use the supplied scene photos for this reference set only"
+    },
+    {
+      "id": "customer-list-v1",
+      "categories": [
+        "inventory"
+      ],
+      "kind": "editable_reconstruction",
+      "editable": true,
+      "editable_source": "customer_templates/registry.json",
+      "approval_status": "not_verified",
+      "layout_spec": "customer_templates/registry.json",
+      "production_ready": false,
+      "cover_slots": 6,
+      "detail_slots": 2,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+          "role": "template-page",
+          "sha256": "d1dce9090beec507a5f9240f2e31cbc41c435080f4007e8779349be2d1a7c745"
+        },
+        {
+          "path": "assets/customer_reference/list/2e0b94bb-f421-4239-ad1b-f6e5fc88d360.png",
+          "role": "template-page",
+          "sha256": "dd951b7d5dd744a3c2e7269830ab6dc8bc48e5e14a204f3068ab3252282d9918"
+        },
+        {
+          "path": "assets/customer_reference/list/bab805d8-ff7a-417e-97aa-84f784283b42.png",
+          "role": "template-page",
+          "sha256": "64b22078af09497de3b8d9a6e72c4ec1470507060ba0b769294c8703bce918b1"
+        },
+        {
+          "path": "assets/customer_reference/list/0f9f4bf7-ed77-4249-89b7-65fe797ccb18.png",
+          "role": "template-page",
+          "sha256": "98a14cdc026031db2b519623f8db056c4be35b5c35c765e3c6adacdbd6827ec5"
+        }
+      ],
+      "sources": [
+        "assets/customer_reference/list",
+        "customer_templates/registry.json"
+      ],
+      "legacy_related_ids": [
+        "list-1",
+        "list-2"
+      ],
+      "page_sequence": [
+        {
+          "page": 1,
+          "role": "cover",
+          "layout_id": "customer-list-01-v1",
+          "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png"
+        },
+        {
+          "page": 2,
+          "role": "detail",
+          "layout_id": "customer-list-02-v1",
+          "reference": "assets/customer_reference/list/2e0b94bb-f421-4239-ad1b-f6e5fc88d360.png"
+        },
+        {
+          "page": 3,
+          "role": "detail",
+          "layout_id": "customer-list-03-v1",
+          "reference": "assets/customer_reference/list/bab805d8-ff7a-417e-97aa-84f784283b42.png"
+        },
+        {
+          "page": 4,
+          "role": "detail",
+          "layout_id": "customer-list-04-v1",
+          "reference": "assets/customer_reference/list/0f9f4bf7-ed77-4249-89b7-65fe797ccb18.png"
+        }
+      ],
+      "blockers": [
+        "Original font/layer files missing; reconstruction needs visual approval",
+        "Reference fact claims and image rights remain unverified"
+      ],
+      "reference_background_exception": null
+    },
+    {
+      "id": "customer-intro-v1",
+      "categories": [
+        "intro"
+      ],
+      "kind": "editable_reconstruction",
+      "editable": true,
+      "editable_source": "customer_templates/registry.json",
+      "approval_status": "not_verified",
+      "layout_spec": "customer_templates/registry.json",
+      "production_ready": false,
+      "cover_slots": null,
+      "detail_slots": null,
+      "excluded_topics": [],
+      "assets": [
+        {
+          "path": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png",
+          "role": "template-page",
+          "sha256": "42829f78da51098704586fa6c077b8c11a97d8436041e952f2e7baaddd3ca935"
+        },
+        {
+          "path": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png",
+          "role": "template-page",
+          "sha256": "ff2a809dc8cfb5df2e59c3787204af4eb14d1f501ed415f3f9128f60231bb2af"
+        },
+        {
+          "path": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+          "role": "template-page",
+          "sha256": "56a48635fbb9841fb6516384e6236d64ff594ab9b0f2c1370787b459f41b39f6"
+        },
+        {
+          "path": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+          "role": "template-page",
+          "sha256": "94ae232c6407005fc4b24b5471c48a30f4a38dd81b0cc89c58dc7a4044dce956"
+        },
+        {
+          "path": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+          "role": "template-page",
+          "sha256": "fba4f3da338a70ba0546cb69d317f63b374333f68e64c6a3fdf36df09f11b7f3"
+        }
+      ],
+      "sources": [
+        "assets/customer_reference/intro",
+        "customer_templates/registry.json"
+      ],
+      "legacy_related_ids": [
+        "intro-3"
+      ],
+      "page_sequence": [
+        {
+          "page": 1,
+          "role": "cover",
+          "layout_id": "customer-intro-01-v1",
+          "reference": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png"
+        },
+        {
+          "page": 2,
+          "role": "detail",
+          "layout_id": "customer-intro-02-v1",
+          "reference": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png"
+        },
+        {
+          "page": 3,
+          "role": "recipe",
+          "layout_id": "customer-intro-03-v1",
+          "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png"
+        },
+        {
+          "page": 4,
+          "role": "recipe",
+          "layout_id": "customer-intro-04-v1",
+          "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png"
+        },
+        {
+          "page": 5,
+          "role": "recipe",
+          "layout_id": "customer-intro-05-v1",
+          "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png"
+        }
+      ],
+      "blockers": [
+        "Original font/layer files missing; reconstruction needs visual approval",
+        "Reference fact claims and image rights remain unverified"
+      ],
+      "reference_background_exception": null
+    }
+  ],
+  "unassigned_assets": [
+    {
+      "path": "assets/incoming/2026-10-14/5b4e5f84efebf8f94e00a78276943f8c.png",
+      "sha256": "feed1f9247cc5c2f4605ee9925623463e6f0825d4acb4e528fc874479bd8c1e8",
+      "size": [
+        891,
+        1110
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 15,
+      "role": "negative-example",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/fd2f257eb69adcaa1594891da57036d9.png",
+      "sha256": "08c54635062de6b151887f284f7a9b30c71f10b99122b47c795b419080deb5e7",
+      "size": [
+        759,
+        993
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 16,
+      "role": "positive-example",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/4637cb7229e6701a23dffa6f292aca95.png",
+      "sha256": "cc9394b67e2155560b09f38fd6b4113d0bd7f5858b32e0d58e037e20b24abfc5",
+      "size": [
+        486,
+        294
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 17,
+      "role": "negative-example",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/a05f3013981a98a4de2615eaaaa9e0ea.png",
+      "sha256": "20aa605e8802cfc3dfd32f108f5d6355a2177ff01afbe55bbb6e70e45efccc7f",
+      "size": [
+        516,
+        369
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 18,
+      "role": "positive-example",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/5a97e13a1559892ca1686ed968d08429.png",
+      "sha256": "5630bdbe36411dd1bec50e56b3f61448cee49cbafe3bfd9812236a7cc57f9f79",
+      "size": [
+        1656,
+        1050
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 19,
+      "role": "procedure",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/45dbbbf58161089cab164f505f908f8f.png",
+      "sha256": "3874629d5935b4aac6216395e04ed7de11942922ac1687a34138739ec3665182",
+      "size": [
+        990,
+        554
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 20,
+      "role": "procedure",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/61147bb99a3271ed0b457edb9e776a96.png",
+      "sha256": "80104e86c71b386874e1db960820e4ada2b1155eded43d99754a9f0f6be5bd9f",
+      "size": [
+        1548,
+        1089
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 21,
+      "role": "procedure",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/incoming/2026-10-14/612518a6139347aba0ca3a6be6d7e643.png",
+      "sha256": "a0c0f34e4099844422ccaea3c7d8dca90a577a30ac4c6adc0e5814ba277e703e",
+      "size": [
+        1005,
+        1109
+      ],
+      "origin": "user-2026-10-14",
+      "image_number": 22,
+      "role": "rules",
+      "family": null,
+      "status": "visually-reviewed-in-chat"
+    }
+  ],
+  "notes": [
+    "26张原图和30张新增案例全部登记，规则图与错误案例不能作为可编辑模板",
+    "培训提到的新三套、12/16项模板尚未取得可确认的资产映射"
+  ]
+}

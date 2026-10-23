@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "id": "customer-compare-01-v1",
+  "category": "compare",
+  "role": "cover",
+  "page_number": 1,
+  "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+  "reference_sha256": "db662e9ba1332e261587c716253a61f20958d116834b65a57f2c89b5cd648d66",
+  "source_size": [
+    720,
+    967
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        28,
+        20,
+        692,
+        114
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#555150",
+      "erase_color": "#ffeafa",
+      "weight": 700,
+      "align": "center",
+      "outline": 5,
+      "font": "sans",
+      "value": "柠檬饮品与可乐",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "box": [
+        168,
+        141,
+        552,
+        203
+      ],
+      "font_size": 34,
+      "line_height": 44.2,
+      "color": "#555150",
+      "erase_color": "#ffc56f",
+      "weight": 700,
+      "align": "center",
+      "outline": 3,
+      "font": "sans",
+      "value": "双品固定版式测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "left_photo",
+      "kind": "image",
+      "box": [
+        49,
+        216,
+        308,
+        470
+      ],
+      "crop": [
+        49,
+        216,
+        308,
+        470
+      ],
+      "subject": "lemon_drink"
+    },
+    {
+      "id": "right_photo",
+      "kind": "image",
+      "box": [
+        480,
+        218,
+        644,
+        471
+      ],
+      "crop": [
+        480,
+        218,
+        644,
+        471
+      ],
+      "subject": "cola"
+    },
+    {
+      "id": "field_1_left",
+      "kind": "text",
+      "box": [
+        44,
+        569,
+        338,
+        671
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段1（测试）\n正式文案另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "field_1_right",
+      "kind": "text",
+      "box": [
+        408,
+        569,
+        684,
+        671
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段1（测试）\n正式文案另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "field_2_left",
+      "kind": "text",
+      "box": [
+        44,
+        686,
+        338,
+        823
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段2（测试）\n正式文案另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "field_2_right",
+      "kind": "text",
+      "box": [
+        408,
+        686,
+        684,
+        823
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段2（测试）\n正式文案另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "field_3_left",
+      "kind": "text",
+      "box": [
+        44,
+        843,
+        338,
+        915
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段3（测试）\n正式文案另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "field_3_right",
+      "kind": "text",
+      "box": [
+        408,
+        843,
+        684,
+        915
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段3（测试）\n正式文案另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "tag_1",
+      "kind": "text",
+      "box": [
+        286,
+        610,
+        404,
+        648
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#fff",
+      "erase_color": "#ee5f0b",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "外观字段",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "tag_2",
+      "kind": "text",
+      "box": [
+        284,
+        728,
+        405,
+        764
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#fff",
+      "erase_color": "#ed5f0b",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "口感字段",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "tag_3",
+      "kind": "text",
+      "box": [
+        283,
+        862,
+        405,
+        897
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#fff",
+      "erase_color": "#ed5f0b",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "价格字段",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_left",
+      "kind": "text",
+      "box": [
+        72,
+        486,
+        319,
+        560
+      ],
+      "font_size": 29,
+      "line_height": 37.7,
+      "color": "#fff",
+      "erase_color": "#5c2f56",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "柠檬饮品",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_right",
+      "kind": "text",
+      "box": [
+        409,
+        486,
+        671,
+        560
+      ],
+      "font_size": 29,
+      "line_height": 37.7,
+      "color": "#fff",
+      "erase_color": "#78303e",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "可乐",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "lemon_drink",
+    "cola"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#ffe8fa",
+    "paper": "#fdf4fc"
+  }
+}

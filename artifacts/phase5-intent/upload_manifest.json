@@ -1,0 +1,961 @@
+{
+  "customer_approved": false,
+  "files": [
+    {
+      "path": "artifacts/phase5-intent/run-004/report.json",
+      "sha256": "68cff46f32d9b8218c9b0304c0cbca01a95e05e5fbc0444bc65e9a4e429be87c"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/input.json",
+      "sha256": "6520f5a39b729571141348b4b5ee738d45e0345981db2ba1dbc21287b0d253c2"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/classification.json",
+      "sha256": "c499f825b60455f0ce183a716b1caae31cf271fb1214b50deda2adb6ec650e9e"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/intent.json",
+      "sha256": "462d2a4b7d9c9794e6212da3c778a67707cf33cf0fdb233bddec199edd28c29c"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/required_materials.json",
+      "sha256": "e4f5bde6c4dd94b16b5b67e03c89877ee2509819f9a74e26ea3a879e18384313"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/result.json",
+      "sha256": "0b582d29015aebda797f6a9f12ee8e84bd2bcc0d2b14852a816e1ef965fb6043"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/missing_materials.json",
+      "sha256": "16ced25fb0d8634b1b489ff4814b90e4bd2dad3532d661846f4f03c5f4e270bc"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/planning_brief.json",
+      "sha256": "de925749ce5d27e22a763c1bb9ab14fdf4699d46db3aa33b97ea4dc79df04581"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/template_match.json",
+      "sha256": "1a4fcf5dbf96f553db5034d04b36d11980ca76d4b3174451f5fa61da20609e40"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-review/qc_report.json",
+      "sha256": "08ebf83f54baa73bb3e0387b40b46bfdf2bce362bddd78b17e01e22ee9f519f0"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/input.json",
+      "sha256": "15b3b25ce834d80cabffb6a63bc1ed5d36528ff121d9598a607aa7897da97949"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/classification.json",
+      "sha256": "7f1ca9a30d7d38a51fe2c05bdd260782a0287a259dfb0a325a2a07901b31250d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/intent.json",
+      "sha256": "bdf7b35ef595261e7d684e173b75c7c93f8039287825f945335e784b784512ca"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/required_materials.json",
+      "sha256": "f593349a4c2817d6fea057254250ad6d1203536f796d63fac89ad7dd3c24e659"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/result.json",
+      "sha256": "88d1ec66a4b9cc2a7d512cee9c1a7ee3aff52ab888345ccc60484d5336123e8d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/missing_materials.json",
+      "sha256": "7b1785a809941ac1fd6f7c46e659309c593fd45d6e196f4bfee924b4f0c1bf9a"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/planning_brief.json",
+      "sha256": "691207790a423a087521144542a59a2d066a380b17cfa9a876a67d97faa93729"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/template_match.json",
+      "sha256": "b711f45adef163be6fcb7ddb9d042091af660fece2dd34cc745e7d92cd0595b4"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-intro/qc_report.json",
+      "sha256": "0ddddd2f828917d8e36b41c0e94373c1e319d53a174681a829bf9bdb7bd57ba8"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/input.json",
+      "sha256": "55f26d5fa9c2119dc873e49882dfe55dc2103f9b0b6e2b4b9ea42d67b9611157"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/intent.json",
+      "sha256": "cf95b593aaab0cd51ccac0f5865f13841178c425ec2089acb819d8d4b3531b31"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/required_materials.json",
+      "sha256": "b69bb22d730eab8d24edc52f144e89b979c9e5d210227b7e3a0fff1df50c1752"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/result.json",
+      "sha256": "c664600d9748d35bf99ce058abcacbf89d0a823a7447474533be8f6f172b5d41"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/missing_materials.json",
+      "sha256": "be9dc6028cd4582e3319c348b49c41fcd248589ec05d9edb049c012055f2e864"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/planning_brief.json",
+      "sha256": "67e35048f1303ea6f422a216f66aec0cc9f18e2f151492bc63cc1e3e08c1f223"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/template_match.json",
+      "sha256": "398036cf8b3c0db4a96363438a8efc477f52112842447728f43c558142f92abf"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-appearance/qc_report.json",
+      "sha256": "53312cdfbffe72b12d51247b51cb210a7f4eedbd43ba12f87df649a0b00d7174"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/input.json",
+      "sha256": "65e23d19c65093444a584f04e46baec42797f1832cfc1c1a2da9c98136f3b088"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/classification.json",
+      "sha256": "91fb553182148378db2790266b4cad6987b74d002b8136edc295ab3e32997cc8"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/intent.json",
+      "sha256": "862778fee2e0cf987e20740b246130a91572841d6cb38ba035226d701d1a8387"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/required_materials.json",
+      "sha256": "4dd50765e292ddcc489fedeec5c8d04f55125fb15566c6999595bae52545479b"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/result.json",
+      "sha256": "2bed56bcf38f16c21d5e1358ff43807eec9046e0c0230887439d5a5cddaf3c05"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/missing_materials.json",
+      "sha256": "ca0394811eee9a4fc2c6be0d40abbb1f973b6f0a23634b7c6019a6ae953b8950"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/planning_brief.json",
+      "sha256": "e996b3c0f39104b0c98d4aefa24ff5b81aba888e52e9b432b18376ae238299cc"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/template_match.json",
+      "sha256": "3cb5b573d4f47e0049f6c06152f0cda75fde9703adb2fcb2543b412157a0b7a4"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-procedure/qc_report.json",
+      "sha256": "729c3353024b4dc3cb1050304404efe41c01d361a2e03c6c64b4c70c3252b1bd"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/copy.json",
+      "sha256": "a7def43781da9bdb6f6bda89f755eebba88c728e9a86d6b891b448b8c08d3262"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/input.json",
+      "sha256": "d6e6ea249899ad04d8de257f05e6e1be27d2234c6f12d9f356b52ddf134638c8"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/content_qc.json",
+      "sha256": "2bf011afce72fb6117522bec0334ebc36ac1d0eef93eed4dc3e98d097cf33f4c"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/intent.json",
+      "sha256": "ede57f650c41a242be22bf6a8c4450bff75f5aa27254e6b9e94fe3a80983f1ec"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/required_materials.json",
+      "sha256": "39c27bba4b112e8c80bb3b1a7d5e9558c30090d051c57ee9fec6cdfa8a4a546b"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/result.json",
+      "sha256": "f2ac10ecac4761ab632807f4c3a7840597e779cc517d60629c971363e17cba9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/post.md",
+      "sha256": "df7254032f3962eee3a2128eff90e13c5f4be4701ef7887276786f0d209799e5"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/missing_materials.json",
+      "sha256": "de5c222df0bfc86546e4afc016c962ca7e073e1a3720baa925318da6399ab08d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/planning_brief.json",
+      "sha256": "c993af23287125611acbc49d6ccc3aa2c0c55a285236eaf3d1accafbfffb5668"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/source_packet.json",
+      "sha256": "36458c48db8f796aeccc614029f65f17f828672cc28a0c44ce50105637a53601"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/template_match.json",
+      "sha256": "0db0d44c485fc96d83e7d799412341d40f8bc3025c7eb9c8b41dca20ec3dc0ba"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/qc_report.json",
+      "sha256": "5841d3692cc194925c47c27eafe4a3ac0878e2f37d40490b7154b8b436fce641"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/copy.json",
+      "sha256": "ba4fde6496fc4f3fd218e85ba9cd0caa14394a0785f0d1814b593185554c9ea9"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/input.json",
+      "sha256": "6971fe7bcc7d3d112cfdce2d8d6cccaf306938ae5aecb3d3e97ba1344a54fc43"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/content_qc.json",
+      "sha256": "2bf011afce72fb6117522bec0334ebc36ac1d0eef93eed4dc3e98d097cf33f4c"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/intent.json",
+      "sha256": "c815f69addfa1be6ed68c6633b4da6ed54be8fb663992a146581a53e7e01aa3a"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/required_materials.json",
+      "sha256": "a9062d03d6d234441e680d7860a4339bc7b36dbfaa21fb8e5a8446809da20f74"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/result.json",
+      "sha256": "d5351e008cb11063bb05a26d3172dc6474b42f3f0202ab68d543c3f2fe2fa5db"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/post.md",
+      "sha256": "e4777fbd18ae657bd4082f5bda91208a9cbc1b24e220c8b7b25233d0b950e576"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/missing_materials.json",
+      "sha256": "9b238edf37a38fa468b01773cbd6de10edcf86b08325a3dd2d24270f5d5e8ead"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/planning_brief.json",
+      "sha256": "c7f5bb9922cb277e029ba4a4ed3080a430395abea34a703d8fd2005a7b2b30db"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/source_packet.json",
+      "sha256": "543ec2331582c933938517aa0e7c47a0e33f81f6d1d17c2ac2027d3d2a90a597"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/template_match.json",
+      "sha256": "0db0d44c485fc96d83e7d799412341d40f8bc3025c7eb9c8b41dca20ec3dc0ba"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/qc_report.json",
+      "sha256": "5324eb0b2268e38cf14416a9224b7f0cb0bc90fd171a5d16a23c1ec50c6391db"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/input.json",
+      "sha256": "23b5cfaae6e12f4a71045bf59acf9abd69d24142b0cea28eb98aa0a12259f373"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/classification.json",
+      "sha256": "bcdcb6566270dfe12d6d553716a415baa35fc17e131c02226052f6ff2f26f544"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/intent.json",
+      "sha256": "49cd16d3a7102ef26685666155215f52baa9dfcd887c81818968a1c886cf2091"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/required_materials.json",
+      "sha256": "0bc1fe4f2948cd5ed1c56d4354143388bdac71a2a0c3a375dfa20c9cc22fe920"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/result.json",
+      "sha256": "1104cfea8578085a1867d6fcc4513401982a8eaa145c10007958692b29a038e2"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/missing_materials.json",
+      "sha256": "382865f3de32c67c7b23abbaaed638e3d122e3a7d860c0507570e3fc6fb0a439"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/planning_brief.json",
+      "sha256": "f3c0971590f503b81ede992362e4dd8794ca45be6f78431bdf60fa0a24effbde"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/template_match.json",
+      "sha256": "ee32569c966650ad57951fd44ad6a7f38ca264b854496f6c696a9fb653bf327e"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-selection/qc_report.json",
+      "sha256": "f470745f0c4a6bdbaab1bb0e5355319e436dd8f4024954478e3a0109c6663369"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/input.json",
+      "sha256": "2532be18e52a1db2cde9ca79cb65d385985d8aa3ed7dce493cb1c22d873be34d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/classification.json",
+      "sha256": "b76a3aa16f02d6c3c19e3016e0039eb136a2ff298457d61f852afe31719f4924"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/intent.json",
+      "sha256": "50941a86a76385bc9c1becd48a1ce43f4f14aa664150d55ed078e3c18dfbd2cc"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/required_materials.json",
+      "sha256": "c78743be9d05857313d8e890dc22ebf4d359475ca10e71940f1bc1f876ab6c15"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/result.json",
+      "sha256": "1efa61dae8a7e0256aaeab74890a52dabff87f00ed9544bfeb0497d7dde35987"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/missing_materials.json",
+      "sha256": "306f1f0ced16499a0fe308fbd6286af2aa919d2a85ee4189315581aa284b5175"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/planning_brief.json",
+      "sha256": "e4c12cff8b3465121d4129213ae227f5944982f857e442940d6531b6125b217f"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/template_match.json",
+      "sha256": "d70461f186f5282103ed82234a0798fb00e76478c2c0ffade8c9dd7f91853ce3"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-recommend/qc_report.json",
+      "sha256": "9e8a8908515c8832d62da82835e61a2245e89b66fb5a66796e21750fa5933f00"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/input.json",
+      "sha256": "389546c4329de2d177dc55bf7e08ab68feae2b8852581b6059b6c318db3b3618"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/classification.json",
+      "sha256": "df11820666cceb7f94aa2151be9771c8feb7d2b5bc5e228b820bfbce840216d2"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/intent.json",
+      "sha256": "b8b15663e4cb2ab21df71ae19fe12ebd4d0b3af3204d63325e9dae2661842d96"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/required_materials.json",
+      "sha256": "16633e48ff458ddc997e77b1cc1c3d2b5cbfeef9da77aa2c57ff0c45014bac0e"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/result.json",
+      "sha256": "0f27ae044f73103848e5c3babbed5f0f12ccaf66ad90247117c01d00617d801a"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/missing_materials.json",
+      "sha256": "e043c511bf7ce53d41e6bdddd91089efcf4043f3126f7e0218221faa9e7bf4e3"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/planning_brief.json",
+      "sha256": "9c44d8336974ed8f2a84ca442b091f743bf19e25e9f247b82bd98331803452a7"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/template_match.json",
+      "sha256": "90d23c799ce03dc0465adf745399177fb7d6fe086a700af2e5d4d182ab86bc5a"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-inventory/qc_report.json",
+      "sha256": "3251ad3aaf46cbdf7e87733cdd1d8b0c09fcc5651d35824656bedb7346763489"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/input.json",
+      "sha256": "9364af05e660dc491b3af1149cb358d9100d1202b74c83f24820c3421a98aa9a"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/intent.json",
+      "sha256": "ca5c6bd03fa57bdf802be7cb84013cc54d7f5a0ec52ec86b0a4964045bfb5afb"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/required_materials.json",
+      "sha256": "8f5ce71c9ccb3b81a8615537a9c673f47662de145483e405086c2d0924cc0ded"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/result.json",
+      "sha256": "576cdb50dd49b3e1d8e640a90d66c20d26637355d0f7294089612958f750746d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/missing_materials.json",
+      "sha256": "6c5ae1d7925c25727039ed8e646bb23f274806bd3be172bc91bb12be520d52b1"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/planning_brief.json",
+      "sha256": "37d7089a439ae68292b6206e18e65a1a22ff91db2a09e188a69e23d38d7492be"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/template_match.json",
+      "sha256": "5bf5d2f158808509f59288d6df0a5896e6a3d153c2e3dd498e4ed5a3ad20940b"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-price/qc_report.json",
+      "sha256": "3e4a383318363e52479b120dc56e3895f2c712af783d19496b8f829118cf210d"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/inputs/right-asset.png",
+      "sha256": "697397b056243a58065b616c3703c7f14a9ae398e53eb304bef67cfc5501fac9"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/inputs/right-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/inputs/left-asset.png",
+      "sha256": "0468973a2558456646a168e37e301f46021a6f83cf273bfee099d1e2bcb9181b"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/inputs/left-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/inputs/fixture-source.json",
+      "sha256": "a9c1a7774c1d2850dc2ad1267c909a78c4b5576dd6b91e55b586a4ffaf3361b8"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/01-comparison.png",
+      "sha256": "c5119a84178aa0e3d369e9bfb79abee0ad68314dc88c49d261dc8548730937db"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/01.png",
+      "sha256": "377a158187d918f3df2282213d5e6eeae9422cf943ec84c7ff78ef38944110df"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/reference-comparison.png",
+      "sha256": "5ae5253be9a8ff031ce1b1e6fda3d532bb34ab5037c0dcd521a8d01140a4673e"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/02-difference.png",
+      "sha256": "56d88cba613d0d7d964cc53ce9c18003a8106cd82e3e18af94b82328d11dc6a0"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/preview.png",
+      "sha256": "71c56c08d72e686a4759d44cbce539478e7cd061d775a8c102e4c00bf1af7ea6"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/02-comparison.png",
+      "sha256": "1c73b0c3bcc7fa73f6af281574879b778a8a30c481c19a5e8c12d07a69ee2bf6"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/03-difference.png",
+      "sha256": "b24c6cd72d3bfbc8e08165461e99f154d7f6ba5fc435bd64e17c139d5fe5e123"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/02.png",
+      "sha256": "894a11c8851607ea50695df34b991ee2296198eea37883088f0f6eeab829d45e"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/01-difference.png",
+      "sha256": "a584d895c5ac580d0b675ba02a130dd83bcac40f926df95d99c56818fde8cfbb"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/03.png",
+      "sha256": "3911fadc885a0d651d81283a71d97418480213b1c62b3cd2f615375d688565fa"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/03-comparison.png",
+      "sha256": "dc7f84d60be175ff728564d620fb3503bf6da387be367b4e920e27dc2a537f1b"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-vitamin/render/qc_report.json",
+      "sha256": "611e39f785c683e82d3c5a81b675741483329953b090751b8475051c74c58d19"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/inputs/right-asset.png",
+      "sha256": "fd03d5c54d1fc0efff732f05ebed86d59e2239c78044b2846b7a4445185655b5"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/inputs/right-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/inputs/left-asset.png",
+      "sha256": "5ed917afc1f08483b9fd35550ed5adf772292388c58f7d953e5a82011b9a25eb"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/inputs/left-LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/inputs/fixture-source.json",
+      "sha256": "9be426daf0bcf586cf382fbe817052137f7a6555207d7d884264358e4f2184f8"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/01-comparison.png",
+      "sha256": "4b5a53e354434f7ec072b63af58dc61fb899ade6d131e8f44e209a5365726f7f"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/01.png",
+      "sha256": "a4a2f4268b23d976ac5821d33beb69704830218acad7032a82a7e7de64a79d7e"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/reference-comparison.png",
+      "sha256": "dad7c7276c2df87329bb053bb646f7e8150ea8a50f6e4ccefc2e46729b471e36"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/02-difference.png",
+      "sha256": "dabeaad903c6276c10aaae02cbcc45f57df7960511039a330984b1d4c89e3fdb"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/preview.png",
+      "sha256": "68fcbfa7a989df0641f9f26054beb5cc3d87543580250134671f109e72c2c052"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/02-comparison.png",
+      "sha256": "f12c1fcdff179fcbf59c2a1795fb90828160857531d733fbf2882a29ef081cf4"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/03-difference.png",
+      "sha256": "35ffecdb94f4c926f13638bc3bd0b73ecabf96eb6f408cfa856e45cc456893d1"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/02.png",
+      "sha256": "78d52a96a7cbeabda520d7a6875f95b2de8b8a60d31b4a42d5a6e6a7bcb5edcb"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/01-difference.png",
+      "sha256": "29ab185f6ef89f0f0553719aa7a04caa58cea7e87259625038d1ab0205ebbc2c"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/03.png",
+      "sha256": "03ed91e71da64980f2aa27ddf9f735637d29ae99aba340cda09107c82217ec87"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/03-comparison.png",
+      "sha256": "fff87c701341caa82dbc64df04409d8993ecb91fb4729645cfe7b18946115b76"
+    },
+    {
+      "path": "artifacts/phase5-intent/run-004/p5-sugar/render/qc_report.json",
+      "sha256": "b812dbd6979efde3cb79ce7f529ee38d4e3c23b34b8b2a44f46d3c7622f97118"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/batch_report.json",
+      "sha256": "d05c0717831bcf7f1b57a1072033fbcdb9482ca9e29955b464da1be8d056ffd7"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/input.json",
+      "sha256": "6520f5a39b729571141348b4b5ee738d45e0345981db2ba1dbc21287b0d253c2"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/classification.json",
+      "sha256": "c499f825b60455f0ce183a716b1caae31cf271fb1214b50deda2adb6ec650e9e"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/intent.json",
+      "sha256": "462d2a4b7d9c9794e6212da3c778a67707cf33cf0fdb233bddec199edd28c29c"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/required_materials.json",
+      "sha256": "e4f5bde6c4dd94b16b5b67e03c89877ee2509819f9a74e26ea3a879e18384313"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/result.json",
+      "sha256": "c27219fa38605cc8990c93cbbcaf1540490226c1641ec405eacaaa780649615d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/missing_materials.json",
+      "sha256": "16ced25fb0d8634b1b489ff4814b90e4bd2dad3532d661846f4f03c5f4e270bc"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/planning_brief.json",
+      "sha256": "de925749ce5d27e22a763c1bb9ab14fdf4699d46db3aa33b97ea4dc79df04581"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/template_match.json",
+      "sha256": "1a4fcf5dbf96f553db5034d04b36d11980ca76d4b3174451f5fa61da20609e40"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-review/attempt-001/qc_report.json",
+      "sha256": "9961573ca482886d0f02e5bcf4cdfa38761ee9da99312e08e8423a09d5342f6b"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/input.json",
+      "sha256": "15b3b25ce834d80cabffb6a63bc1ed5d36528ff121d9598a607aa7897da97949"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/classification.json",
+      "sha256": "7f1ca9a30d7d38a51fe2c05bdd260782a0287a259dfb0a325a2a07901b31250d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/intent.json",
+      "sha256": "bdf7b35ef595261e7d684e173b75c7c93f8039287825f945335e784b784512ca"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/required_materials.json",
+      "sha256": "f593349a4c2817d6fea057254250ad6d1203536f796d63fac89ad7dd3c24e659"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/result.json",
+      "sha256": "6bc803d861bb0efc3a98724f9257947db0456f6637edadecb58af20bcd64b663"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/missing_materials.json",
+      "sha256": "7b1785a809941ac1fd6f7c46e659309c593fd45d6e196f4bfee924b4f0c1bf9a"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/planning_brief.json",
+      "sha256": "691207790a423a087521144542a59a2d066a380b17cfa9a876a67d97faa93729"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/template_match.json",
+      "sha256": "b711f45adef163be6fcb7ddb9d042091af660fece2dd34cc745e7d92cd0595b4"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-intro/attempt-001/qc_report.json",
+      "sha256": "a37251637e64a7909b641b5c87eafe669b8f2e590ec3067ce630833c6de8d111"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/input.json",
+      "sha256": "55f26d5fa9c2119dc873e49882dfe55dc2103f9b0b6e2b4b9ea42d67b9611157"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/intent.json",
+      "sha256": "cf95b593aaab0cd51ccac0f5865f13841178c425ec2089acb819d8d4b3531b31"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/required_materials.json",
+      "sha256": "b69bb22d730eab8d24edc52f144e89b979c9e5d210227b7e3a0fff1df50c1752"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/result.json",
+      "sha256": "fc4eb8d992289ad704d9d36f72e192b4dbe3801bb6ff02d1e3182d54a94cbe5c"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/missing_materials.json",
+      "sha256": "be9dc6028cd4582e3319c348b49c41fcd248589ec05d9edb049c012055f2e864"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/planning_brief.json",
+      "sha256": "67e35048f1303ea6f422a216f66aec0cc9f18e2f151492bc63cc1e3e08c1f223"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/template_match.json",
+      "sha256": "398036cf8b3c0db4a96363438a8efc477f52112842447728f43c558142f92abf"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-appearance/attempt-001/qc_report.json",
+      "sha256": "56011a3c6ca0b98e1bcb39c5ea3396edfa921f73d5bac3934fae5c57f7527854"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/input.json",
+      "sha256": "65e23d19c65093444a584f04e46baec42797f1832cfc1c1a2da9c98136f3b088"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/classification.json",
+      "sha256": "91fb553182148378db2790266b4cad6987b74d002b8136edc295ab3e32997cc8"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/intent.json",
+      "sha256": "862778fee2e0cf987e20740b246130a91572841d6cb38ba035226d701d1a8387"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/required_materials.json",
+      "sha256": "4dd50765e292ddcc489fedeec5c8d04f55125fb15566c6999595bae52545479b"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/result.json",
+      "sha256": "6dafa8d7903c7cb910ef0f5022a0cadc56897751e670a9249b753d2713c59f9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/missing_materials.json",
+      "sha256": "ca0394811eee9a4fc2c6be0d40abbb1f973b6f0a23634b7c6019a6ae953b8950"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/planning_brief.json",
+      "sha256": "e996b3c0f39104b0c98d4aefa24ff5b81aba888e52e9b432b18376ae238299cc"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/template_match.json",
+      "sha256": "3cb5b573d4f47e0049f6c06152f0cda75fde9703adb2fcb2543b412157a0b7a4"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-procedure/attempt-001/qc_report.json",
+      "sha256": "03b1826a994c04e5f820db61d470711416b7ba4cf7badddb83d5906307d068e2"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/copy.json",
+      "sha256": "a7def43781da9bdb6f6bda89f755eebba88c728e9a86d6b891b448b8c08d3262"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/input.json",
+      "sha256": "d6e6ea249899ad04d8de257f05e6e1be27d2234c6f12d9f356b52ddf134638c8"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/content_qc.json",
+      "sha256": "2bf011afce72fb6117522bec0334ebc36ac1d0eef93eed4dc3e98d097cf33f4c"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/intent.json",
+      "sha256": "ede57f650c41a242be22bf6a8c4450bff75f5aa27254e6b9e94fe3a80983f1ec"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/required_materials.json",
+      "sha256": "39c27bba4b112e8c80bb3b1a7d5e9558c30090d051c57ee9fec6cdfa8a4a546b"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/result.json",
+      "sha256": "1b0327561d37ece2e6da7e018384d044f9f3f27ca120f0eabe6ccdb76ca4851c"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/post.md",
+      "sha256": "df7254032f3962eee3a2128eff90e13c5f4be4701ef7887276786f0d209799e5"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/missing_materials.json",
+      "sha256": "de5c222df0bfc86546e4afc016c962ca7e073e1a3720baa925318da6399ab08d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/planning_brief.json",
+      "sha256": "c993af23287125611acbc49d6ccc3aa2c0c55a285236eaf3d1accafbfffb5668"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/source_packet.json",
+      "sha256": "36458c48db8f796aeccc614029f65f17f828672cc28a0c44ce50105637a53601"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/template_match.json",
+      "sha256": "0db0d44c485fc96d83e7d799412341d40f8bc3025c7eb9c8b41dca20ec3dc0ba"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/qc_report.json",
+      "sha256": "1d36a90fcead5bd5feada24249f9edbb3cee31e22e57ba65134ef0bb7e06dfff"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-vitamin/attempt-001/render/qc_report.json",
+      "sha256": "611e39f785c683e82d3c5a81b675741483329953b090751b8475051c74c58d19"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/copy.json",
+      "sha256": "ba4fde6496fc4f3fd218e85ba9cd0caa14394a0785f0d1814b593185554c9ea9"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/input.json",
+      "sha256": "6971fe7bcc7d3d112cfdce2d8d6cccaf306938ae5aecb3d3e97ba1344a54fc43"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/content_qc.json",
+      "sha256": "2bf011afce72fb6117522bec0334ebc36ac1d0eef93eed4dc3e98d097cf33f4c"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/intent.json",
+      "sha256": "c815f69addfa1be6ed68c6633b4da6ed54be8fb663992a146581a53e7e01aa3a"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/required_materials.json",
+      "sha256": "a9062d03d6d234441e680d7860a4339bc7b36dbfaa21fb8e5a8446809da20f74"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/result.json",
+      "sha256": "9d5f366f66d60368b3e3ba59422a28f8bcae0ea0917bd8794e7451f55b6461d9"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/post.md",
+      "sha256": "e4777fbd18ae657bd4082f5bda91208a9cbc1b24e220c8b7b25233d0b950e576"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/missing_materials.json",
+      "sha256": "9b238edf37a38fa468b01773cbd6de10edcf86b08325a3dd2d24270f5d5e8ead"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/planning_brief.json",
+      "sha256": "c7f5bb9922cb277e029ba4a4ed3080a430395abea34a703d8fd2005a7b2b30db"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/source_packet.json",
+      "sha256": "543ec2331582c933938517aa0e7c47a0e33f81f6d1d17c2ac2027d3d2a90a597"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/template_match.json",
+      "sha256": "0db0d44c485fc96d83e7d799412341d40f8bc3025c7eb9c8b41dca20ec3dc0ba"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/qc_report.json",
+      "sha256": "1d36a90fcead5bd5feada24249f9edbb3cee31e22e57ba65134ef0bb7e06dfff"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-sugar/attempt-001/render/qc_report.json",
+      "sha256": "b812dbd6979efde3cb79ce7f529ee38d4e3c23b34b8b2a44f46d3c7622f97118"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/input.json",
+      "sha256": "23b5cfaae6e12f4a71045bf59acf9abd69d24142b0cea28eb98aa0a12259f373"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/classification.json",
+      "sha256": "bcdcb6566270dfe12d6d553716a415baa35fc17e131c02226052f6ff2f26f544"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/intent.json",
+      "sha256": "49cd16d3a7102ef26685666155215f52baa9dfcd887c81818968a1c886cf2091"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/required_materials.json",
+      "sha256": "0bc1fe4f2948cd5ed1c56d4354143388bdac71a2a0c3a375dfa20c9cc22fe920"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/result.json",
+      "sha256": "4ebe40ee14da6a3689559d5df7694c5974410738b64485bb697ea229450807ef"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/missing_materials.json",
+      "sha256": "382865f3de32c67c7b23abbaaed638e3d122e3a7d860c0507570e3fc6fb0a439"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/planning_brief.json",
+      "sha256": "f3c0971590f503b81ede992362e4dd8794ca45be6f78431bdf60fa0a24effbde"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/template_match.json",
+      "sha256": "ee32569c966650ad57951fd44ad6a7f38ca264b854496f6c696a9fb653bf327e"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-selection/attempt-001/qc_report.json",
+      "sha256": "acd5dda11bd4b3cd8614837bfb8bb2d3fada96b7b0e124243878e64b8776042d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/input.json",
+      "sha256": "2532be18e52a1db2cde9ca79cb65d385985d8aa3ed7dce493cb1c22d873be34d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/classification.json",
+      "sha256": "b76a3aa16f02d6c3c19e3016e0039eb136a2ff298457d61f852afe31719f4924"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/intent.json",
+      "sha256": "50941a86a76385bc9c1becd48a1ce43f4f14aa664150d55ed078e3c18dfbd2cc"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/required_materials.json",
+      "sha256": "c78743be9d05857313d8e890dc22ebf4d359475ca10e71940f1bc1f876ab6c15"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/result.json",
+      "sha256": "972a6931180e887a6d1b61032c7de9e13e0f896be675f6595f6e1ea33c2cd08b"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/missing_materials.json",
+      "sha256": "306f1f0ced16499a0fe308fbd6286af2aa919d2a85ee4189315581aa284b5175"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/planning_brief.json",
+      "sha256": "e4c12cff8b3465121d4129213ae227f5944982f857e442940d6531b6125b217f"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/template_match.json",
+      "sha256": "d70461f186f5282103ed82234a0798fb00e76478c2c0ffade8c9dd7f91853ce3"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-recommend/attempt-001/qc_report.json",
+      "sha256": "cf7c56e2edbce5bc311b36b3441eebf4e85e5b8cc4182e08e525bab953d0089d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/input.json",
+      "sha256": "389546c4329de2d177dc55bf7e08ab68feae2b8852581b6059b6c318db3b3618"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/classification.json",
+      "sha256": "df11820666cceb7f94aa2151be9771c8feb7d2b5bc5e228b820bfbce840216d2"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/intent.json",
+      "sha256": "b8b15663e4cb2ab21df71ae19fe12ebd4d0b3af3204d63325e9dae2661842d96"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/required_materials.json",
+      "sha256": "16633e48ff458ddc997e77b1cc1c3d2b5cbfeef9da77aa2c57ff0c45014bac0e"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/result.json",
+      "sha256": "77bb760200c090a2a3ae6ff9c49588126747d5e0a7459adc3fd4bed4333d80f9"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/missing_materials.json",
+      "sha256": "e043c511bf7ce53d41e6bdddd91089efcf4043f3126f7e0218221faa9e7bf4e3"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/planning_brief.json",
+      "sha256": "9c44d8336974ed8f2a84ca442b091f743bf19e25e9f247b82bd98331803452a7"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/template_match.json",
+      "sha256": "90d23c799ce03dc0465adf745399177fb7d6fe086a700af2e5d4d182ab86bc5a"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-inventory/attempt-001/qc_report.json",
+      "sha256": "a6c07ef28f0dc6c3eead865b0ade467a2961ff48128c66b603210344491b6fdb"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/input.json",
+      "sha256": "9364af05e660dc491b3af1149cb358d9100d1202b74c83f24820c3421a98aa9a"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/classification.json",
+      "sha256": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/intent.json",
+      "sha256": "ca5c6bd03fa57bdf802be7cb84013cc54d7f5a0ec52ec86b0a4964045bfb5afb"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/required_materials.json",
+      "sha256": "8f5ce71c9ccb3b81a8615537a9c673f47662de145483e405086c2d0924cc0ded"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/result.json",
+      "sha256": "77ded91dc7f439ea1515a28065a351baa924a4c64ddb82c8044dcb1dabdbf731"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/missing_materials.json",
+      "sha256": "6c5ae1d7925c25727039ed8e646bb23f274806bd3be172bc91bb12be520d52b1"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/planning_brief.json",
+      "sha256": "37d7089a439ae68292b6206e18e65a1a22ff91db2a09e188a69e23d38d7492be"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/template_match.json",
+      "sha256": "5bf5d2f158808509f59288d6df0a5896e6a3d153c2e3dd498e4ed5a3ad20940b"
+    },
+    {
+      "path": "artifacts/phase5-intent/batch-final/p5-price/attempt-001/qc_report.json",
+      "sha256": "e1e52a133da843494cbb37c7777357a097be7fe25b57e4c42da898bfa7e1654b"
+    },
+    {
+      "path": "artifacts/phase5-intent/README.md",
+      "sha256": "6335077f85e14b009211ff367d8e31dffead62f87f17f228270346bf372f5eba"
+    },
+    {
+      "path": "artifacts/phase5-intent/test_report.json",
+      "sha256": "623f4a9eb3f9137443fe37055be8fddde79ec50fc4144dcb7f46959ae027a5d1"
+    },
+    {
+      "path": "artifacts/phase5-intent/regression_tests.txt",
+      "sha256": "c7192580abf5f201e499777ca91400982ddff79efc314a3f5178596d443ccca3"
+    },
+    {
+      "path": "phase5_intent_report.md",
+      "sha256": "5b703ee8572ccde663ff34118119d3b192bb5352cc4a6a1510a4d9a8ad8ade31"
+    },
+    {
+      "path": "artifacts/phase5-intent/phase5-intent-review-bundle.zip",
+      "sha256": "2a53a6a4f024bc211981227124cec2979da973bc3ac707a87587450b5fe2c1b5"
+    }
+  ]
+}

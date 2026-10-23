@@ -1,0 +1,66 @@
+{
+  "decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "selected_template_id": null,
+  "scores": [
+    {
+      "template_id": "customer-list-v1",
+      "dimensions": {
+        "question_coverage": 1.0,
+        "field_relevance": 0.75,
+        "evidence": 0.0,
+        "assets": 0.0,
+        "approval": 0.0,
+        "capacity": 0
+      },
+      "score": 0.4875,
+      "semantic_rejection_reasons": [
+        "THEME_MISMATCH",
+        "IRRELEVANT_TEMPLATE_FIELDS",
+        "CAPACITY_UNKNOWN"
+      ],
+      "semantic_match": false,
+      "unrelated_required_fields": [
+        "population_evidence"
+      ],
+      "template_data_missing": [
+        "distinguishing_features",
+        "item_list",
+        "population_evidence",
+        "usage"
+      ],
+      "customer_approved": false,
+      "page_capacity": 4,
+      "text_capacity_status": "not_measured",
+      "profile": {
+        "template_id": "customer-list-v1",
+        "category": "inventory",
+        "themes": [
+          "pregnancy_inventory"
+        ],
+        "required_fields": [
+          "item_list",
+          "distinguishing_features",
+          "usage",
+          "population_evidence"
+        ],
+        "item_count": 6,
+        "pages": 4,
+        "page_roles": [
+          "cover",
+          "detail",
+          "detail",
+          "detail"
+        ],
+        "renderer": null
+      },
+      "warnings": []
+    }
+  ],
+  "requested_content_directions": [
+    "item_inventory"
+  ],
+  "unregistered_directions_are_not_templates": true,
+  "customer_approved": false,
+  "policy_status": "engineering_policy_not_customer_approval",
+  "reason": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_BINDINGS_NOT_CUSTOMER_APPROVAL",
+  "errors": [],
+  "checks": [
+    "exact_source_facts",
+    "preserved_raw_values",
+    "query_before_template",
+    "derived_answer",
+    "body_poster_binding"
+  ],
+  "semantic_review_required": true,
+  "data_kind": "synthetic_test"
+}

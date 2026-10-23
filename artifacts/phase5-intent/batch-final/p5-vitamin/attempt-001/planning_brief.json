@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "intent": {
+    "schema_version": 1,
+    "original_query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+    "core_question": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+    "direction": "合成软件测试，不是真实产品",
+    "direction_is_evidence": false,
+    "category": "comparison",
+    "classification": {
+      "category": "comparison",
+      "confidence": 0.65,
+      "provider": "rules_fallback",
+      "reason": "词面启发式，非已验证的语义判断",
+      "rules": {
+        "category": "comparison",
+        "candidates": [
+          "comparison"
+        ],
+        "status": "suggested",
+        "reason": "词面启发式，非已验证的语义判断"
+      },
+      "review_required": true
+    },
+    "themes": [
+      "appearance",
+      "taste",
+      "price",
+      "nutrition",
+      "scene",
+      "selection"
+    ],
+    "focus": "vitamin_c",
+    "operation": "max",
+    "search_context": [
+      "每100毫升"
+    ],
+    "required_facts": [
+      "appearance",
+      "taste",
+      "price",
+      "vitamin_c",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "feature",
+      "scene",
+      "selection"
+    ],
+    "useful_supplement": [
+      "具体使用条件与限制",
+      "同光照与容器条件",
+      "照片中是否真正可见被比较液体",
+      "容量与件数",
+      "渠道、日期与优惠条件",
+      "是否需要统一币种和容量",
+      "原始标签与计量基准",
+      "产品状态及换算依据",
+      "目标场景的选择标准及依据"
+    ],
+    "irrelevant_template_fields": [],
+    "explicit_exclusions": [],
+    "scope_conflicts": [],
+    "parser": "RuleIntentParser",
+    "confidence": 0.8,
+    "human_review_required": true,
+    "unknowns": [
+      "未提供的产品版本、受众健康条件、真实体验不得推断"
+    ]
+  },
+  "evidence": {
+    "facts": {
+      "left": {
+        "appearance": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "appearance",
+            "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_appearance"
+        },
+        "taste": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "taste",
+            "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_taste"
+        },
+        "price": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "price",
+            "value": 120,
+            "unit": "JPY",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 200,
+              "unit": "ml",
+              "count": 1
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_price"
+        },
+        "energy": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "energy",
+            "value": 167.36,
+            "unit": "kJ",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_energy"
+        },
+        "carbohydrate": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "carbohydrate",
+            "value": 10,
+            "unit": "g",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_carbohydrate"
+        },
+        "sugars": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "sugars",
+            "value": 8,
+            "unit": "g",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_sugars"
+        },
+        "vitamin_c": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "vitamin_c",
+            "value": 24,
+            "unit": "mg",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_vitamin_c"
+        },
+        "feature": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "feature",
+            "value": "抗坏血酸",
+            "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_feature"
+        },
+        "scene": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "scene",
+            "value": "随餐搭配\n先看实际包装容量"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_scene"
+        },
+        "selection": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "selection",
+            "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_selection"
+        }
+      },
+      "right": {
+        "appearance": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "appearance",
+            "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_appearance"
+        },
+        "taste": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "taste",
+            "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_taste"
+        },
+        "price": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "price",
+            "value": 400,
+            "unit": "JPY",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 1000,
+              "unit": "ml",
+              "count": 1
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_price"
+        },
+        "energy": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "energy",
+            "value": 870.272,
+            "unit": "kJ",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_energy"
+        },
+        "carbohydrate": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "carbohydrate",
+            "value": 52,
+            "unit": "g",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_carbohydrate"
+        },
+        "sugars": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "sugars",
+            "value": 50,
+            "unit": "g",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_sugars"
+        },
+        "vitamin_c": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "vitamin_c",
+            "value": 450,
+            "unit": "mg",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_vitamin_c"
+        },
+        "feature": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "feature",
+            "value": "柠檬酸",
+            "ingredient_basis": "虚构配料记录：水、柠檬酸"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_feature"
+        },
+        "scene": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "scene",
+            "value": "外出携带\n留意瓶盖密封状态"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_scene"
+        },
+        "selection": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "selection",
+            "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_selection"
+        }
+      }
+    },
+    "available_fields": [
+      "appearance",
+      "carbohydrate",
+      "energy",
+      "feature",
+      "price",
+      "scene",
+      "selection",
+      "sugars",
+      "taste",
+      "vitamin_c"
+    ],
+    "missing_query_facts": [],
+    "errors": [],
+    "assets_ready": true,
+    "asset_errors": [],
+    "identity_ready": true,
+    "source_mode": "synthetic_test",
+    "sources": {
+      "fixture": {
+        "path": "examples/planning/vitamin-source.json",
+        "sha256": "a9c1a7774c1d2850dc2ad1267c909a78c4b5576dd6b91e55b586a4ffaf3361b8",
+        "verified_for_production": false
+      }
+    }
+  },
+  "template_match": {
+    "decision": "MATCH_REVIEW_REQUIRED",
+    "selected_template_id": "customer-compare-v1",
+    "scores": [
+      {
+        "template_id": "customer-compare-v1",
+        "dimensions": {
+          "question_coverage": 1.0,
+          "field_relevance": 1.0,
+          "evidence": 1.0,
+          "assets": 1.0,
+          "approval": 0.0,
+          "capacity": 1
+        },
+        "score": 0.9,
+        "semantic_rejection_reasons": [],
+        "semantic_match": true,
+        "unrelated_required_fields": [],
+        "template_data_missing": [],
+        "customer_approved": false,
+        "page_capacity": 3,
+        "text_capacity_status": "not_measured",
+        "profile": {
+          "template_id": "customer-compare-v1",
+          "category": "comparison",
+          "themes": [
+            "appearance",
+            "taste",
+            "price",
+            "nutrition",
+            "scene",
+            "selection"
+          ],
+          "required_fields": [
+            "appearance",
+            "taste",
+            "price",
+            "energy",
+            "carbohydrate",
+            "sugars",
+            "vitamin_c",
+            "feature",
+            "scene",
+            "selection"
+          ],
+          "object_count": 2,
+          "pages": 3,
+          "page_roles": [
+            "appearance_taste_price",
+            "nutrition",
+            "scene_selection"
+          ],
+          "renderer": "compare_revision"
+        },
+        "warnings": []
+      }
+    ],
+    "requested_content_directions": [
+      "appearance",
+      "taste",
+      "price",
+      "nutrition",
+      "scene",
+      "selection"
+    ],
+    "unregistered_directions_are_not_templates": true,
+    "customer_approved": false,
+    "policy_status": "engineering_policy_not_customer_approval",
+    "reason": "已登记模板业务语义适配，审批/事实/素材/真实容量仍独立检查"
+  },
+  "required_materials": {
+    "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+    "facts": [
+      {
+        "field": "appearance",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "被比较对象实物/液体外观记录及同条件照片；不可从罐体推断液体"
+      },
+      {
+        "field": "taste",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "对应产品的口感实测记录或厂家描述，注明主观性和条件"
+      },
+      {
+        "field": "price",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "价格、币种、实际容量/件数、渠道、采集日期、优惠条件和原始记录"
+      },
+      {
+        "field": "vitamin_c",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "维生素C值、单位、基准及产品来源；未标示不是0"
+      },
+      {
+        "field": "energy",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "原标签能量、单位、基准、制备状态及对应来源"
+      },
+      {
+        "field": "carbohydrate",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "原标签碳水、单位、基准及对应来源"
+      },
+      {
+        "field": "sugars",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "糖值及定义、单位、原始基准和产品来源；未标示不是0"
+      },
+      {
+        "field": "feature",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "适用特色成分和配料/检测依据"
+      },
+      {
+        "field": "scene",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "原问题场景的实际条件与适用依据，不自动填份量"
+      },
+      {
+        "field": "selection",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "针对原问题的选择标准及支持记录，不附无关健康建议"
+      }
+    ],
+    "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+    "not_requested": [],
+    "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+  },
+  "data_kind": "synthetic_test",
+  "customer_approved": false,
+  "delivery_ready": false
+}

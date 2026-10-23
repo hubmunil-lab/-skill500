@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "category": "recommend",
+  "mode": "reconstruction_test",
+  "item_order": [
+    "dragonfruit",
+    "starfruit",
+    "grapefruit",
+    "apple",
+    "blueberry",
+    "strawberry"
+  ],
+  "pages": [
+    {
+      "template_id": "customer-recommend-01-v1",
+      "item_ids": [
+        "dragonfruit",
+        "starfruit"
+      ],
+      "values": {
+        "title": "水果推荐\n版式测试",
+        "photo_dragonfruit": "photo_dragonfruit",
+        "number_dragonfruit": "01",
+        "name_dragonfruit": "火龙果",
+        "serving_dragonfruit": "份量说明待核实",
+        "row_1_dragonfruit": "字段1：排版测试",
+        "row_2_dragonfruit": "字段2：排版测试",
+        "row_3_dragonfruit": "字段3：排版测试",
+        "photo_starfruit": "photo_starfruit",
+        "number_starfruit": "02",
+        "name_starfruit": "杨桃",
+        "serving_starfruit": "份量说明待核实",
+        "row_1_starfruit": "字段1：排版测试",
+        "row_2_starfruit": "字段2：排版测试",
+        "row_3_starfruit": "字段3：排版测试"
+      }
+    },
+    {
+      "template_id": "customer-recommend-02-v1",
+      "item_ids": [
+        "grapefruit",
+        "apple"
+      ],
+      "values": {
+        "title": "水果推荐\n版式测试",
+        "photo_grapefruit": "photo_grapefruit",
+        "number_grapefruit": "03",
+        "name_grapefruit": "柚子",
+        "serving_grapefruit": "份量说明待核实",
+        "row_1_grapefruit": "字段1：排版测试",
+        "row_2_grapefruit": "字段2：排版测试",
+        "row_3_grapefruit": "字段3：排版测试",
+        "photo_apple": "photo_apple",
+        "number_apple": "04",
+        "name_apple": "苹果",
+        "serving_apple": "份量说明待核实",
+        "row_1_apple": "字段1：排版测试",
+        "row_2_apple": "字段2：排版测试",
+        "row_3_apple": "字段3：排版测试"
+      }
+    },
+    {
+      "template_id": "customer-recommend-03-v1",
+      "item_ids": [
+        "blueberry",
+        "strawberry"
+      ],
+      "values": {
+        "title": "水果推荐\n版式测试",
+        "photo_blueberry": "photo_blueberry",
+        "number_blueberry": "05",
+        "name_blueberry": "蓝莓",
+        "serving_blueberry": "份量说明待核实",
+        "row_1_blueberry": "字段1：排版测试",
+        "row_2_blueberry": "字段2：排版测试",
+        "row_3_blueberry": "字段3：排版测试",
+        "photo_strawberry": "photo_strawberry",
+        "number_strawberry": "06",
+        "name_strawberry": "草莓",
+        "serving_strawberry": "份量说明待核实",
+        "row_1_strawberry": "字段1：排版测试",
+        "row_2_strawberry": "字段2：排版测试",
+        "row_3_strawberry": "字段3：排版测试"
+      }
+    }
+  ]
+}

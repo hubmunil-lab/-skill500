@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "templates": {
+    "intro4-cover-prototype-v1": {
+      "path": "rendering/templates/intro4-cover-prototype-v1.json",
+      "sha256": "166270ce7200f8aea09c1621d59cae9ce52e528e2efcb62b54daff10408512c1"
+    },
+    "intro4-detail-prototype-v1": {
+      "path": "rendering/templates/intro4-detail-prototype-v1.json",
+      "sha256": "98e62c4de8a7c96f372a953e71ce6aa77308481221ac30f6030825bb639d2e19"
+    },
+    "intro4-caution-prototype-v1": {
+      "path": "rendering/templates/intro4-caution-prototype-v1.json",
+      "sha256": "e5e4e1cb9406939c1d41f899f86606b4862d6804bb1e24ce082601c45a34d8da"
+    }
+  },
+  "font_source_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "intent": {
+    "schema_version": 1,
+    "original_query": "常见苹果品种盘点（口感和用途）",
+    "core_question": "常见苹果品种盘点",
+    "direction": "口感和用途",
+    "direction_is_evidence": false,
+    "category": "inventory",
+    "classification": {
+      "category": "inventory",
+      "confidence": 0.65,
+      "provider": "rules_fallback",
+      "reason": "词面启发式，非已验证的语义判断",
+      "rules": {
+        "category": "inventory",
+        "candidates": [
+          "inventory"
+        ],
+        "status": "suggested",
+        "reason": "词面启发式，非已验证的语义判断"
+      },
+      "review_required": true
+    },
+    "themes": [
+      "item_inventory"
+    ],
+    "focus": null,
+    "operation": "describe",
+    "search_context": [],
+    "required_facts": [
+      "item_list",
+      "distinguishing_features",
+      "usage"
+    ],
+    "useful_supplement": [],
+    "irrelevant_template_fields": [],
+    "explicit_exclusions": [],
+    "scope_conflicts": [],
+    "parser": "RuleIntentParser",
+    "confidence": 0.8,
+    "human_review_required": true,
+    "unknowns": [
+      "未提供的产品版本、受众健康条件、真实体验不得推断"
+    ]
+  },
+  "evidence": {
+    "available_fields": [],
+    "facts": {},
+    "missing_query_facts": [
+      {
+        "field": "item_list",
+        "code": "QUERY_FACT_MISSING"
+      },
+      {
+        "field": "distinguishing_features",
+        "code": "QUERY_FACT_MISSING"
+      },
+      {
+        "field": "usage",
+        "code": "QUERY_FACT_MISSING"
+      }
+    ],
+    "errors": [],
+    "assets_ready": false,
+    "asset_errors": [
+      {
+        "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+      }
+    ],
+    "identity_ready": false
+  },
+  "template_match": {
+    "decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+    "selected_template_id": null,
+    "scores": [
+      {
+        "template_id": "customer-list-v1",
+        "dimensions": {
+          "question_coverage": 1.0,
+          "field_relevance": 0.75,
+          "evidence": 0.0,
+          "assets": 0.0,
+          "approval": 0.0,
+          "capacity": 0
+        },
+        "score": 0.4875,
+        "semantic_rejection_reasons": [
+          "THEME_MISMATCH",
+          "IRRELEVANT_TEMPLATE_FIELDS",
+          "CAPACITY_UNKNOWN"
+        ],
+        "semantic_match": false,
+        "unrelated_required_fields": [
+          "population_evidence"
+        ],
+        "template_data_missing": [
+          "distinguishing_features",
+          "item_list",
+          "population_evidence",
+          "usage"
+        ],
+        "customer_approved": false,
+        "page_capacity": 4,
+        "text_capacity_status": "not_measured",
+        "profile": {
+          "template_id": "customer-list-v1",
+          "category": "inventory",
+          "themes": [
+            "pregnancy_inventory"
+          ],
+          "required_fields": [
+            "item_list",
+            "distinguishing_features",
+            "usage",
+            "population_evidence"
+          ],
+          "item_count": 6,
+          "pages": 4,
+          "page_roles": [
+            "cover",
+            "detail",
+            "detail",
+            "detail"
+          ],
+          "renderer": null
+        },
+        "warnings": []
+      }
+    ],
+    "requested_content_directions": [
+      "item_inventory"
+    ],
+    "unregistered_directions_are_not_templates": true,
+    "customer_approved": false,
+    "policy_status": "engineering_policy_not_customer_approval",
+    "reason": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+  },
+  "required_materials": {
+    "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+    "facts": [
+      {
+        "field": "item_list",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "item_list的可核实资料"
+      },
+      {
+        "field": "distinguishing_features",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "distinguishing_features的可核实资料"
+      },
+      {
+        "field": "usage",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "usage的可核实资料"
+      }
+    ],
+    "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+    "not_requested": [],
+    "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+  },
+  "data_kind": "real_query_no_product_data",
+  "customer_approved": false,
+  "delivery_ready": false
+}

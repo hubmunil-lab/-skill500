@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "git_main": "3a6e45345aed82b9c60e25b90e53c40f03973bb1",
+  "templates": {
+    "customer-compare-01-v1": {
+      "path": "customer_templates/configs/customer-compare-01-v1.json",
+      "sha256": "85df2d394d38d3da474ecf14395d1deacd688a31e0d02c7a6caf87a6f410599f"
+    },
+    "customer-compare-02-v1": {
+      "path": "customer_templates/configs/customer-compare-02-v1.json",
+      "sha256": "f46656240ac4209e011006876eed28bc733a51208dabea0d8958945365f91dfd"
+    },
+    "customer-compare-03-v1": {
+      "path": "customer_templates/configs/customer-compare-03-v1.json",
+      "sha256": "285ef4b6b5a91d6ed5f77c743b84cf5cf073193e946f565d295604ce448062c3"
+    },
+    "customer-recommend-01-v1": {
+      "path": "customer_templates/configs/customer-recommend-01-v1.json",
+      "sha256": "e6e1c4cbb60aade0abd2eb2b5e6d55ef3fe37f6a9db955533a15291b903ea9c9"
+    },
+    "customer-recommend-02-v1": {
+      "path": "customer_templates/configs/customer-recommend-02-v1.json",
+      "sha256": "850f555a0d7dc75dc596ea1713bcf8701dc5bfa3703d0fe42080afe02520f6c7"
+    },
+    "customer-recommend-03-v1": {
+      "path": "customer_templates/configs/customer-recommend-03-v1.json",
+      "sha256": "a4ae964b890b40429ad4a7374a87fee93fc2dd7dc886dbcb5311e6881bc9ebc9"
+    },
+    "customer-list-01-v1": {
+      "path": "customer_templates/configs/customer-list-01-v1.json",
+      "sha256": "e35de419666783580373555ea7c08d399b1e4a10878befcc6f121797f56a9e6f"
+    },
+    "customer-list-02-v1": {
+      "path": "customer_templates/configs/customer-list-02-v1.json",
+      "sha256": "663ad2a64329246d0c6ec01dd6e1f341c05dfa4e1ba1dee2a72dd37d041df0a7"
+    },
+    "customer-list-03-v1": {
+      "path": "customer_templates/configs/customer-list-03-v1.json",
+      "sha256": "791fd2b632ff31aa0f10fb89e2b7a0bc15acfb40c8a922099e6e03ba783850b7"
+    },
+    "customer-list-04-v1": {
+      "path": "customer_templates/configs/customer-list-04-v1.json",
+      "sha256": "ddc57f15aeb564ecfd39f0701e9636ac539b101e9a640ddcdf22d30ba8f30f3c"
+    },
+    "customer-intro-01-v1": {
+      "path": "customer_templates/configs/customer-intro-01-v1.json",
+      "sha256": "e2218226a210d1ca5b54b6fd91aaa1cc30d14ef19329fd09c9cd9ac6e68a0cfa"
+    },
+    "customer-intro-02-v1": {
+      "path": "customer_templates/configs/customer-intro-02-v1.json",
+      "sha256": "27ea85c4de3a5b27919ea05a99c9d81b8b3cce4b775a6f7864d22b8bf8be82dd"
+    },
+    "customer-intro-03-v1": {
+      "path": "customer_templates/configs/customer-intro-03-v1.json",
+      "sha256": "a9dc6638dc6a9dad7d9f5592fadec2650a09a3799e4a1179efe3389576a5865a"
+    },
+    "customer-intro-04-v1": {
+      "path": "customer_templates/configs/customer-intro-04-v1.json",
+      "sha256": "cfe6e223694533fc060f0483485aa1e3f87b0b8170cebe4a6dfe20546c294b2d"
+    },
+    "customer-intro-05-v1": {
+      "path": "customer_templates/configs/customer-intro-05-v1.json",
+      "sha256": "4476932d3b8381071fa4c4df5f89edb9d04819577921a608bdcbf0ba32afce7e"
+    }
+  },
+  "font_files": {
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+    "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d",
+    "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc": "1505ee3b9c0890fae6302ee0e9c6fd74d690f4a55a6ace1d9944f3f6352d622d"
+  }
+}

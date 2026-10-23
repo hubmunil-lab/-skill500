@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "family": "business-01",
+  "candidate_name": "正式模板1号候选｜对比1",
+  "category": "comparison",
+  "page_roles": [
+    "cover",
+    "nutrition",
+    "selection"
+  ],
+  "customer_approval": null,
+  "font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+  "templates": {
+    "business-01-cover-v1": {
+      "path": "delivery/templates/business-01-cover-v1.json",
+      "sha256": "a5544805703f7bac108068805cd1b811b887c1ec2481baacffe8f2463d518a11"
+    },
+    "business-01-nutrition-v1": {
+      "path": "delivery/templates/business-01-nutrition-v1.json",
+      "sha256": "7e86ba1927f9106b5836d573d963eb5d6a783ad4493c5a2ebc87c82d5dd40945"
+    },
+    "business-01-selection-v1": {
+      "path": "delivery/templates/business-01-selection-v1.json",
+      "sha256": "574d93ee162d3944d91141da4388eaff7571a819698724a5c4135e949bc94711"
+    }
+  },
+  "policy": {
+    "overflow": "error_no_truncation_no_font_shrinking; edited text requires new review",
+    "missing_asset": "hard_error_no_placeholder",
+    "delivery_max_upscale": 1.0,
+    "title_max_exclusive": 20
+  }
+}

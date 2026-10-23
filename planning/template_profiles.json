@@ -1,0 +1,10 @@
+{
+ "schema_version":1,
+ "status":"semantic_annotations_of_existing_templates_not_new_approval",
+ "profiles":[
+  {"template_id":"customer-compare-v1","category":"comparison","themes":["appearance","taste","price","nutrition","scene","selection"],"required_fields":["appearance","taste","price","energy","carbohydrate","sugars","vitamin_c","feature","scene","selection"],"object_count":2,"pages":3,"page_roles":["appearance_taste_price","nutrition","scene_selection"],"renderer":"compare_revision"},
+  {"template_id":"customer-intro-v1","category":"intro","themes":["ingredient_introduction"],"required_fields":["identity","nutrition_summary","recipes","real_step_photos"],"object_count":1,"pages":5,"page_roles":["cover","detail","recipe","recipe","recipe"],"renderer":null},
+  {"template_id":"customer-recommend-v1","category":"recommendation","themes":["scenario_recommendation"],"required_fields":["candidate_items","selection_reasons","constraints"],"item_count":6,"pages":3,"page_roles":["detail","detail","detail"],"renderer":null,"warnings":["客户提供3页详情，无独立封面；需确认生产结构"]},
+  {"template_id":"customer-list-v1","category":"inventory","themes":["pregnancy_inventory"],"required_fields":["item_list","distinguishing_features","usage","population_evidence"],"item_count":6,"pages":4,"page_roles":["cover","detail","detail","detail"],"renderer":null}
+ ]
+}

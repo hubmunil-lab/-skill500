@@ -1,0 +1,337 @@
+{
+  "tasks": [
+    {
+      "task_id": "p5-appearance",
+      "original_query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）",
+      "status": "REVIEW",
+      "generated": false,
+      "content_generated": false,
+      "category": "comparison",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "appearance"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "74144b89b1b0dc92c5d60c5899d1072854ccb2e6e4edf14df9f18fdb3ce55ad9",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-price",
+      "original_query": "250ml果汁和330ml果汁哪个更划算（统一容量比价）",
+      "status": "REVIEW",
+      "generated": false,
+      "content_generated": false,
+      "category": "comparison",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "price"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "eb5a295ebe256969a9e9999e63c7cf98db2ef2f3ec63e88c436af8cee17254f7",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-selection",
+      "original_query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）",
+      "status": "REVIEW",
+      "generated": false,
+      "content_generated": false,
+      "category": "comparison",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "selection",
+            "packaging",
+            "portability",
+            "sealing"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "9673309fd75fc564872c2721d01f522fb97081a3e518e9cf70ecf05a85ea28b7",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-sugar",
+      "original_query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+      "status": "REVIEW",
+      "generated": true,
+      "content_generated": true,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "template_decision": "MATCH_REVIEW_REQUIRED",
+      "data_kind": "synthetic_test",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "1baa4a50d58af8cfeef0ffa3139896692d69504556cbfd7cc52061b1f2c56fe5",
+      "page_count": 3,
+      "render_directory": "render",
+      "poster_content_hash": "879d12e5e10baebdfc6518e2d57c8a7cce9ea23196319e9e3b41bba28e059e93",
+      "body_hash": "c5e382476f4362314c0e01a784141d9e61114de22c599a6efbf22e5133850a31",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-vitamin",
+      "original_query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+      "status": "REVIEW",
+      "generated": true,
+      "content_generated": true,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "template_decision": "MATCH_REVIEW_REQUIRED",
+      "data_kind": "synthetic_test",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "e736698f55c70ee3594444bd630277ea4782bb5cda24b698ff5ed1a87ce3574c",
+      "page_count": 3,
+      "render_directory": "render",
+      "poster_content_hash": "454ad1d50a49d96c7b5f21f56cb264f7ea14f64728cb3a88943798de832af296",
+      "body_hash": "f15318b5ac6c68c328a376781eee7a5f2b4917d856f8d2d0a58df48b6c1dbcb1",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-intro",
+      "original_query": "青椒有什么营养特点",
+      "status": "REVIEW",
+      "generated": false,
+      "content_generated": false,
+      "category": "intro",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "identity",
+            "nutrition_summary"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "3b64102fece65be028f0c33d48d11522a081d9f4806f1e72d3f43bb1ced5ec74",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-procedure",
+      "original_query": "青椒炒肉怎么做，火候和步骤是什么",
+      "status": "BLOCKED",
+      "generated": false,
+      "content_generated": false,
+      "category": "procedure",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "ingredients",
+            "steps",
+            "heat_control"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "a4caa3b776a936f24e8bf380a04e945c562ccc17d3eb290fbf6b6ad1dba7dba0",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-recommend",
+      "original_query": "早餐水果推荐（方便携带）",
+      "status": "REVIEW",
+      "generated": false,
+      "content_generated": false,
+      "category": "recommendation",
+      "template_id": null,
+      "template_decision": "CAPACITY_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "CAPACITY_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "candidate_items",
+            "selection_reasons",
+            "constraints"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "e89b0534f4181314d9741c59adff41547546af8806621bc2a182e8ae023c9d9a",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-inventory",
+      "original_query": "常见苹果品种盘点（口感和用途）",
+      "status": "REVIEW",
+      "generated": false,
+      "content_generated": false,
+      "category": "inventory",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "item_list",
+            "distinguishing_features",
+            "usage"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "20e4c450ca2a5cd978487fca6eb596468ea956b09fad73e0b98d1af3846b1d8d",
+      "software_expectations_passed": true
+    },
+    {
+      "task_id": "p5-review",
+      "original_query": "三款无糖饮料实测体验（口感和价格）",
+      "status": "BLOCKED",
+      "generated": false,
+      "content_generated": false,
+      "category": "review",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "customer_approved": false,
+      "delivery_ready": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "product_identities",
+            "test_protocol",
+            "observations",
+            "limitations"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "reworks": 0,
+      "cache_key": "a739c9403b38883bd713772cb7740aa25322be60f3a189502126432ea231e7ca",
+      "software_expectations_passed": true
+    }
+  ],
+  "software_expectations": {
+    "passed": 10,
+    "total": 10
+  },
+  "synthetic_software_rendering": {
+    "success": 2,
+    "total": 2
+  },
+  "real_business": {
+    "delivered": 0,
+    "rendered": 0,
+    "total": 8
+  },
+  "duplicates": [],
+  "customer_approved": false,
+  "business_acceptance_passed": false
+}

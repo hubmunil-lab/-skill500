@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "category": "compare",
+  "mode": "reconstruction_test",
+  "item_order": [
+    "lemon_drink",
+    "cola"
+  ],
+  "pages": [
+    {
+      "template_id": "customer-compare-01-v1",
+      "item_ids": [
+        "lemon_drink",
+        "cola"
+      ],
+      "values": {
+        "title": "柠檬饮品与可乐",
+        "subtitle": "双品固定版式测试",
+        "left_photo": "left_photo",
+        "right_photo": "right_photo",
+        "field_1_left": "字段1（测试）\n正式文案另行核实。",
+        "field_1_right": "字段1（测试）\n正式文案另行核实。",
+        "field_2_left": "字段2（测试）\n正式文案另行核实。",
+        "field_2_right": "字段2（测试）\n正式文案另行核实。",
+        "field_3_left": "字段3（测试）\n正式文案另行核实。",
+        "field_3_right": "字段3（测试）\n正式文案另行核实。",
+        "tag_1": "外观字段",
+        "tag_2": "口感字段",
+        "tag_3": "价格字段",
+        "name_left": "柠檬饮品",
+        "name_right": "可乐"
+      }
+    },
+    {
+      "template_id": "customer-compare-02-v1",
+      "item_ids": [
+        "lemon_drink",
+        "cola"
+      ],
+      "values": {
+        "title": "营养字段排版测试",
+        "left_photo": "left_photo",
+        "right_photo": "right_photo",
+        "nutrient_1_left": "字段1：待核实",
+        "nutrient_2_left": "字段2：待核实",
+        "nutrient_3_left": "字段3：待核实",
+        "nutrient_4_left": "字段4：待核实",
+        "nutrient_5_left": "字段5：待核实",
+        "nutrient_1_right": "字段1：待核实",
+        "nutrient_2_right": "字段2：待核实",
+        "nutrient_3_right": "字段3：待核实",
+        "nutrient_4_right": "字段4：待核实",
+        "nutrient_5_right": "字段5：待核实",
+        "name_left": "柠檬饮品",
+        "name_right": "可乐"
+      }
+    },
+    {
+      "template_id": "customer-compare-03-v1",
+      "item_ids": [
+        "lemon_drink",
+        "cola"
+      ],
+      "values": {
+        "title": "场景选择排版测试",
+        "left_photo": "left_photo",
+        "right_photo": "right_photo",
+        "use_left": "食用\n场景说明待核实。",
+        "select_left": "选购\n此处用于测试多行文字。\n未经核实不作结论。",
+        "use_right": "食用\n场景说明待核实。",
+        "select_right": "选购\n此处用于测试多行文字。\n未经核实不作结论。",
+        "name_left": "柠檬饮品",
+        "name_right": "可乐"
+      }
+    }
+  ]
+}

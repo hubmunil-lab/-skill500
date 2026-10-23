@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "id": "customer-compare-03-v1",
+  "category": "compare",
+  "role": "selection",
+  "page_number": 3,
+  "reference": "assets/customer_reference/compare/0d9ac319-df9b-4bd6-a2ca-3d6bf10a18ee.png",
+  "reference_sha256": "d8a491b13a3cc72bf28b0801f91b70a4e58a3a54d5e5ae177fca4d2e1c7a5acc",
+  "source_size": [
+    723,
+    973
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        28,
+        20,
+        692,
+        114
+      ],
+      "font_size": 48,
+      "line_height": 62.4,
+      "color": "#555150",
+      "erase_color": "#ffeafa",
+      "weight": 700,
+      "align": "center",
+      "outline": 3,
+      "font": "sans",
+      "value": "场景选择排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "left_photo",
+      "kind": "image",
+      "box": [
+        50,
+        210,
+        309,
+        477
+      ],
+      "crop": [
+        50,
+        210,
+        309,
+        477
+      ],
+      "subject": "lemon_drink"
+    },
+    {
+      "id": "right_photo",
+      "kind": "image",
+      "box": [
+        482,
+        218,
+        648,
+        478
+      ],
+      "crop": [
+        482,
+        218,
+        648,
+        478
+      ],
+      "subject": "cola"
+    },
+    {
+      "id": "use_left",
+      "kind": "text",
+      "box": [
+        50,
+        622,
+        328,
+        698
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#fff",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "食用\n场景说明待核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "select_left",
+      "kind": "text",
+      "box": [
+        50,
+        715,
+        328,
+        922
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#fff",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "选购\n此处用于测试多行文字。\n未经核实不作结论。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "use_right",
+      "kind": "text",
+      "box": [
+        404,
+        622,
+        682,
+        698
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#fff",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "食用\n场景说明待核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "select_right",
+      "kind": "text",
+      "box": [
+        404,
+        715,
+        682,
+        922
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#fff",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "选购\n此处用于测试多行文字。\n未经核实不作结论。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_left",
+      "kind": "text",
+      "box": [
+        72,
+        551,
+        319,
+        613
+      ],
+      "font_size": 27,
+      "line_height": 35.1,
+      "color": "#fff",
+      "erase_color": "#5c2f56",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "柠檬饮品",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_right",
+      "kind": "text",
+      "box": [
+        409,
+        551,
+        671,
+        613
+      ],
+      "font_size": 27,
+      "line_height": 35.1,
+      "color": "#fff",
+      "erase_color": "#78303e",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "可乐",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "lemon_drink",
+    "cola"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#ffe8fa",
+    "paper": "#fffeff"
+  },
+  "visual_revision": "compare-visual-rework-1"
+}

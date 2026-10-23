@@ -1,0 +1,151 @@
+{
+  "id": "intro4-cover-prototype-v1",
+  "role": "cover",
+  "reference": "assets/intro-4-cover.png",
+  "elements": [
+    {
+      "id": "test_label",
+      "kind": "text",
+      "x": 64,
+      "y": 24,
+      "width": 1114,
+      "height": 40,
+      "font_size": 22,
+      "line_height": 33,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "page_number",
+      "kind": "text",
+      "x": 64,
+      "y": 1598,
+      "width": 1114,
+      "height": 32,
+      "font_size": 18,
+      "line_height": 27,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "x": 64,
+      "y": 98,
+      "width": 1114,
+      "height": 125,
+      "font_size": 70,
+      "line_height": 105,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "summary_panel",
+      "kind": "decoration",
+      "x": 64,
+      "y": 250,
+      "width": 1114,
+      "height": 120,
+      "background": "#4b230f"
+    },
+    {
+      "id": "summary",
+      "kind": "text",
+      "x": 88,
+      "y": 268,
+      "width": 1066,
+      "height": 80,
+      "font_size": 27,
+      "line_height": 40,
+      "weight": 400,
+      "color": "#fff6dc"
+    },
+    {
+      "id": "food",
+      "kind": "image",
+      "x": 264,
+      "y": 580,
+      "width": 714,
+      "height": 510,
+      "fit": "contain"
+    },
+    {
+      "id": "feature_1",
+      "kind": "text",
+      "x": 64,
+      "y": 400,
+      "width": 440,
+      "height": 65,
+      "font_size": 30,
+      "line_height": 45,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "feature_2",
+      "kind": "text",
+      "x": 810,
+      "y": 480,
+      "width": 368,
+      "height": 65,
+      "font_size": 30,
+      "line_height": 45,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "feature_3",
+      "kind": "text",
+      "x": 64,
+      "y": 1118,
+      "width": 1114,
+      "height": 60,
+      "font_size": 30,
+      "line_height": 45,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "table_title",
+      "kind": "text",
+      "x": 64,
+      "y": 1220,
+      "width": 1114,
+      "height": 60,
+      "font_size": 30,
+      "line_height": 45,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "nutrition",
+      "kind": "table",
+      "x": 64,
+      "y": 1300,
+      "width": 1114,
+      "height": 230,
+      "font_size": 24,
+      "line_height": 36,
+      "columns": 5,
+      "rows": 2,
+      "color": "#462312"
+    }
+  ],
+  "schema_version": 1,
+  "width": 1242,
+  "height": 1656,
+  "background": "#f5efcf",
+  "approval_status": "prototype_not_customer_approved",
+  "font_family": "PosterCJK",
+  "locked_properties": [
+    "x",
+    "y",
+    "width",
+    "height",
+    "font_size",
+    "line_height",
+    "weight",
+    "fit",
+    "color"
+  ]
+}

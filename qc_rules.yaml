@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "sources": [
+    "SKILL.md",
+    "references/acceptance-v3.md",
+    "references/training-rules.md",
+    "references/page-sets.md",
+    "references/rules.md",
+    "references/case-rules.md"
+  ],
+  "checks": [
+    {
+      "id": "PAGE_COUNT",
+      "mode": "machine",
+      "requirement": "至少3页；介绍默认5页，可保留额外禁忌页",
+      "on_missing": "blocking",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "TEXT",
+      "mode": "machine",
+      "requirement": "标题非空且少于20字，正文和直接答案非空",
+      "on_missing": "blocking",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "ORDER",
+      "mode": "machine",
+      "requirement": "推荐盘点封面、详情、正文的ID顺序一致",
+      "on_missing": "blocking",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "DUPLICATE",
+      "mode": "machine",
+      "requirement": "推荐盘点详情不重复条目",
+      "on_missing": "blocking",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "COMPLETENESS",
+      "mode": "machine_and_human",
+      "requirement": "至少3个必答点，逐页对应，正文覆盖；语义人工复核",
+      "on_missing": "review",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "HEALTH",
+      "mode": "machine_and_human",
+      "requirement": "禁用医疗功效，健康和营养主张必须附核实证据；语义人工复核",
+      "on_missing": "review",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "LAYOUT",
+      "mode": "machine_and_human",
+      "requirement": "版式锁定；像素溢出、错字、遮挡需最终图审查",
+      "on_missing": "review",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "TEMPLATE",
+      "mode": "machine",
+      "requirement": "仅已验收可编辑模板可进入渲染",
+      "on_missing": "blocking",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "RIGHTS",
+      "mode": "machine_and_human",
+      "requirement": "素材授权证据，真实步骤照片",
+      "on_missing": "review",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "RECIPE",
+      "mode": "machine_and_human",
+      "requirement": "介绍三道不同食谱，食材和query匹配",
+      "on_missing": "review",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    },
+    {
+      "id": "COMPARISON",
+      "mode": "machine_and_human",
+      "requirement": "恰好两个同类对象，同照片同左右身份",
+      "on_missing": "review",
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ]
+    }
+  ],
+  "banned_health_phrases": [
+    "防癌",
+    "抗癌",
+    "延缓衰老",
+    "治疗疾病",
+    "消除肿瘤",
+    "修复黏膜"
+  ],
+  "note": "关键词命中仅用于阻断后复核，否定句可能误报；未命中不证明健康表述合规。manifest自报布尔值不等同审查证据。"
+}

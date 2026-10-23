@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "mode": "test",
+  "subject": "黄豆",
+  "test_only": true,
+  "source_family": "intro-4",
+  "pages": [
+    {
+      "template_id": "intro4-cover-prototype-v1",
+      "values": {
+        "test_label": "排版工程测试 · 占位内容 · 非客户交付成品",
+        "page_number": "固定模板测试 / 01 · 仅用于人工验收版式",
+        "title": "黄豆｜封面排版测试",
+        "summary": "测试摘要：仅验证文本、图片和表格的独立排版；不提供营养结论。",
+        "feature_1": "营养特点一｜待核实",
+        "feature_2": "特点二｜待核实",
+        "feature_3": "营养特点三｜待核实",
+        "table_title": "营养成分表 · 测试占位 · 无真实数值",
+        "nutrition": [
+          [
+            "字段甲",
+            "字段乙",
+            "字段丙",
+            "字段丁",
+            "字段戊"
+          ],
+          [
+            "待核实",
+            "待核实",
+            "待核实",
+            "待核实",
+            "待核实"
+          ]
+        ],
+        "food": "placeholder-1"
+      }
+    },
+    {
+      "template_id": "intro4-detail-prototype-v1",
+      "values": {
+        "test_label": "排版工程测试 · 占位内容 · 非客户交付成品",
+        "page_number": "固定模板测试 / 02 · 仅用于人工验收版式",
+        "title": "黄豆｜详情排版测试",
+        "sidebar": "测试素材占位\n不是食材照片\n图片与正文独立",
+        "feature_1": "营养特点1｜待核实",
+        "description_1": "这段文字仅测试固定字号下的换行和完整显示。正式内容须先提供事实来源，再由审核人员确认；本段不包含健康功效。",
+        "feature_2": "营养特点2｜待核实",
+        "description_2": "这段文字仅测试固定字号下的换行和完整显示。正式内容须先提供事实来源，再由审核人员确认；本段不包含健康功效。",
+        "feature_3": "营养特点3｜待核实",
+        "description_3": "这段文字仅测试固定字号下的换行和完整显示。正式内容须先提供事实来源，再由审核人员确认；本段不包含健康功效。",
+        "food": "placeholder-2"
+      }
+    },
+    {
+      "template_id": "intro4-caution-prototype-v1",
+      "values": {
+        "test_label": "排版工程测试 · 占位内容 · 非客户交付成品",
+        "page_number": "固定模板测试 / 03 · 仅用于人工验收版式",
+        "title": "黄豆｜注意事项测试",
+        "heading_1": "待审核事项1",
+        "description_1": "测试占位：此区域只验证版式。未提供可靠证据，不生成食用限制、疾病建议或其他确定性健康表述。",
+        "heading_2": "待审核事项2",
+        "description_2": "测试占位：此区域只验证版式。未提供可靠证据，不生成食用限制、疾病建议或其他确定性健康表述。",
+        "heading_3": "待审核事项3",
+        "description_3": "测试占位：此区域只验证版式。未提供可靠证据，不生成食用限制、疾病建议或其他确定性健康表述。",
+        "food": "placeholder-3"
+      }
+    }
+  ],
+  "assets": {
+    "placeholder-1": {
+      "path": "artifacts/phase2-fixtures/placeholder-1.png",
+      "subject": "黄豆",
+      "kind": "test_placeholder",
+      "rights": "self_created_test_graphic",
+      "reviewed": false,
+      "cutout": true
+    },
+    "placeholder-2": {
+      "path": "artifacts/phase2-fixtures/placeholder-2.png",
+      "subject": "黄豆",
+      "kind": "test_placeholder",
+      "rights": "self_created_test_graphic",
+      "reviewed": false,
+      "cutout": true
+    },
+    "placeholder-3": {
+      "path": "artifacts/phase2-fixtures/placeholder-3.png",
+      "subject": "黄豆",
+      "kind": "test_placeholder",
+      "rights": "self_created_test_graphic",
+      "reviewed": false,
+      "cutout": true
+    }
+  }
+}

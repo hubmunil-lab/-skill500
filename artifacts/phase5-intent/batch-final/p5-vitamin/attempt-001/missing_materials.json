@@ -1,0 +1,64 @@
+{
+  "status": "MATCH_REVIEW_REQUIRED",
+  "query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+  "errors": [],
+  "required_for_original_question": {
+    "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+    "facts": [
+      {
+        "field": "appearance",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "被比较对象实物/液体外观记录及同条件照片；不可从罐体推断液体"
+      },
+      {
+        "field": "taste",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "对应产品的口感实测记录或厂家描述，注明主观性和条件"
+      },
+      {
+        "field": "price",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "价格、币种、实际容量/件数、渠道、采集日期、优惠条件和原始记录"
+      },
+      {
+        "field": "vitamin_c",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "维生素C值、单位、基准及产品来源；未标示不是0"
+      },
+      {
+        "field": "energy",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "原标签能量、单位、基准、制备状态及对应来源"
+      },
+      {
+        "field": "carbohydrate",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "原标签碳水、单位、基准及对应来源"
+      },
+      {
+        "field": "sugars",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "糖值及定义、单位、原始基准和产品来源；未标示不是0"
+      },
+      {
+        "field": "feature",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "适用特色成分和配料/检测依据"
+      },
+      {
+        "field": "scene",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "原问题场景的实际条件与适用依据，不自动填份量"
+      },
+      {
+        "field": "selection",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "针对原问题的选择标准及支持记录，不附无关健康建议"
+      }
+    ],
+    "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+    "not_requested": [],
+    "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+  },
+  "not_a_demand_for_all_template_fields": true
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "p5-sugar",
+  "original_query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+  "status": "REVIEW",
+  "generated": true,
+  "content_generated": true,
+  "category": "comparison",
+  "template_id": "customer-compare-v1",
+  "template_decision": "MATCH_REVIEW_REQUIRED",
+  "data_kind": "synthetic_test",
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "CUSTOMER_APPROVAL_REQUIRED"
+    },
+    {
+      "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+    }
+  ],
+  "reworks": 0,
+  "cache_key": "1baa4a50d58af8cfeef0ffa3139896692d69504556cbfd7cc52061b1f2c56fe5",
+  "page_count": 3,
+  "render_directory": "render",
+  "poster_content_hash": "879d12e5e10baebdfc6518e2d57c8a7cce9ea23196319e9e3b41bba28e059e93",
+  "body_hash": "c5e382476f4362314c0e01a784141d9e61114de22c599a6efbf22e5133850a31",
+  "software_expectations_passed": true
+}

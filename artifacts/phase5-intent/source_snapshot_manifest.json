@@ -1,0 +1,1789 @@
+{
+  "note": "Runtime dependencies from phases 1-4 plus phase 5 incremental changes; tested together in this checkout",
+  "files": [
+    {
+      "path": "production/__init__.py",
+      "sha256": "5ae45c2702237617db42aea1817a19a83d8c898f0ade2cabdec36ffec3938ef5"
+    },
+    {
+      "path": "production/__main__.py",
+      "sha256": "7a7d9a24b9dd6174a32a07769a7b3dfd88fb470dc5ba2c7917cf0f416908d9c2"
+    },
+    {
+      "path": "production/classifier.py",
+      "sha256": "f0f1ec7485cf2418ecfc5786cfcc23640d1917704bcfe5e66757fccd2e0cb1ab"
+    },
+    {
+      "path": "production/config.py",
+      "sha256": "a2bc0a15ceeb9900cc4ac52948657b00082daa87386db35aa3b4968dcc3a2c3d"
+    },
+    {
+      "path": "production/intent.py",
+      "sha256": "47b88eb4eebff012fe14a63d234f30468ba0af1fb860dfe5061ddf85060844a0"
+    },
+    {
+      "path": "production/planner.py",
+      "sha256": "6fae9863e2ac22c3d4bbc5a1fa0af6458f5928b09a08a887bad75e0285bd9da1"
+    },
+    {
+      "path": "production/qc.py",
+      "sha256": "56148c7f846058e9d4f864cf05aca71adc6ac20d55879b60e34a5416bb527da0"
+    },
+    {
+      "path": "rendering/FONT_LICENSE.txt",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "rendering/README.md",
+      "sha256": "12cd430eb835ba854e06df8990b42bf43ca92caf26b81c4ca05e5440145d4f29"
+    },
+    {
+      "path": "rendering/__init__.py",
+      "sha256": "ac18d20499c5d2d6e80df164cf22d6e15d5554c4c768d13ce97c04c09f289a7c"
+    },
+    {
+      "path": "rendering/__main__.py",
+      "sha256": "cb18170ac8f72d27980342462fa332c0e0969ca8a56092ff88c6bde0d2d1fc54"
+    },
+    {
+      "path": "rendering/engine.py",
+      "sha256": "ca92ea640eaca65cd8012e55ec54d6af0d449be0180ef92b113f6c5303036d2f"
+    },
+    {
+      "path": "rendering/fixtures.py",
+      "sha256": "0fa903831660c280c3db81143c89d8097716b477a873d24646dd4f4a10b33523"
+    },
+    {
+      "path": "rendering/requirements.txt",
+      "sha256": "29afb2219b93dd9b811d5f4eede22d1f831280e66c935fef35fc466a16ad90e4"
+    },
+    {
+      "path": "rendering/template_registry.json",
+      "sha256": "6a6e21da50650b35badc0e71c9bc697a6ad4543398fec8ce3d82a494ebe40ff5"
+    },
+    {
+      "path": "rendering/templates/intro4-caution-prototype-v1.json",
+      "sha256": "e5e4e1cb9406939c1d41f899f86606b4862d6804bb1e24ce082601c45a34d8da"
+    },
+    {
+      "path": "rendering/templates/intro4-cover-prototype-v1.json",
+      "sha256": "166270ce7200f8aea09c1621d59cae9ce52e528e2efcb62b54daff10408512c1"
+    },
+    {
+      "path": "rendering/templates/intro4-detail-prototype-v1.json",
+      "sha256": "98e62c4de8a7c96f372a953e71ce6aa77308481221ac30f6030825bb639d2e19"
+    },
+    {
+      "path": "customer_templates/component_registry_v4.json",
+      "sha256": "a59633b13c640832ee8a5a8f3637ed347697073e578eac591ffee46b667a3e33"
+    },
+    {
+      "path": "customer_templates/reference_audit.json",
+      "sha256": "5a71139213c10e567b333f237e6fdbb96cd199b1496d3d4e754e24f99e51ee62"
+    },
+    {
+      "path": "customer_templates/prepare.py",
+      "sha256": "eee4a6cfaf7d898acec89f2bf96535641a517ef66018d438d2763f5362a7247e"
+    },
+    {
+      "path": "customer_templates/registry.json",
+      "sha256": "34c3d2eefb9c8d4468bcffc919a5cad471c403dfacd5b6a5ee41f850807a440b"
+    },
+    {
+      "path": "customer_templates/__init__.py",
+      "sha256": "a04098be1540d54b76829a23f3ad61f48d785f05d30f8af4abafd8d76c0c44a6"
+    },
+    {
+      "path": "customer_templates/__main__.py",
+      "sha256": "01f850e405ceec0bee6a7e5e58209248ea2db91b841d4f73d1290bb4e26bc628"
+    },
+    {
+      "path": "customer_templates/engine.py",
+      "sha256": "4f738d12d70a0be6003ed00037ddb8c69632e01c157cecc7b5a9590e31afcd0a"
+    },
+    {
+      "path": "customer_templates/component_registry.json",
+      "sha256": "f9987d700c8e5f28a3e27bbedb6caac2bc816d7beb779b3a81de49ffca3544f1"
+    },
+    {
+      "path": "customer_templates/README.md",
+      "sha256": "218aa096016c2b6d85a27fe4aea2e414a17cf3fdc7772f69ab29068d72fd3052"
+    },
+    {
+      "path": "customer_templates/component_registry_v5.json",
+      "sha256": "99fafebc53bf6ecb92f4f40e4da61325d2d99188d60529be6f1c08ab3bc8f349"
+    },
+    {
+      "path": "customer_templates/requirements.txt",
+      "sha256": "21f7342b5240ad200cbe166b3524df405fc5cc8374aae9a8131d38916573ca86"
+    },
+    {
+      "path": "customer_templates/compare_revision.py",
+      "sha256": "32c240373a49d434ce699d13c0447d9d6dcaf6f3ba6f8b7c04a3e4464934152f"
+    },
+    {
+      "path": "customer_templates/component_registry_v2.json",
+      "sha256": "64f1785c33463fad5edec1810bfc87f7ab9579cb1f9c5e2de192d58e442db400"
+    },
+    {
+      "path": "customer_templates/component_registry_v3.json",
+      "sha256": "442eb26a63b697f6bf746e2cde4103f328c63a871bb8350aff083ccf47078e0c"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "fc60ce7e536540683b406121e1fa92da15dd8ed6b9bc75eee3bc21180ce59345"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "913927cf4534c7c9cfcb7c9f27392275dae9c1e3f1b6df8ea6868d9b65b23d33"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "4c9aa2be232b293c76cf3eee13d25db170325ffe27fe4b3624eaf47131137d00"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "6b2bce62d1982ea246779cd58d67808e4d062fe29c11f97c40b2bc214dd7e922"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "cbc676168c9f9e310a1814741db9b83e503ea4f36e63c985cd3334ed8336cb49"
+    },
+    {
+      "path": "customer_templates/components-v2/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b"
+    },
+    {
+      "path": "customer_templates/components-v2/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "b2f6ed32baae9dedb4989ba96cce13a6efd5c8187fd63d9562fa08eea49d6612"
+    },
+    {
+      "path": "customer_templates/components-v2/compare-left_photo.png",
+      "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-background.png",
+      "sha256": "468e553c36bf9f9f3216d5a7a742129fa5a1989d520ee266096d2c841c4868cc"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "bbf1c03506bb3dcdf06266aee040e8edfa183f24b0ee7820f6d6260940945a30"
+    },
+    {
+      "path": "customer_templates/components-v2/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-hero_extra.png",
+      "sha256": "2c41eac859d92cc5050b97a88b4326f5cbdf5d83e94a04964a2f71548c7dbbd0"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-compare-02-v1-background.png",
+      "sha256": "88a934ef2edf235b431a10b0ae1aab1c4a9a3e4bf5e74ecb3fb9b1994c875cae"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-list-03-v1-background.png",
+      "sha256": "19ddc9f3b96b10316b6375fa4df61e3fd93529a469d3dd83c9234d2f7ef40692"
+    },
+    {
+      "path": "customer_templates/components-v2/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-hero_left.png",
+      "sha256": "b84decee2308b80b34210af696e9aab556615781dd4326a6225c8a81facbb560"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "cebfff751d676b9a076d0e6316872ba29d36cf16307feddc989f5595fb6f1035"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "cc507e70f3330ae0d91591323dc24d469f6833b9ee5fb032aaf0dc8e424a323c"
+    },
+    {
+      "path": "customer_templates/components-v2/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "441271c03ce9bcb9ff408aa053f1204b173c03f1110cea6f1d639ce8df840240"
+    },
+    {
+      "path": "customer_templates/components-v2/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-recommend-01-v1-background.png",
+      "sha256": "b3354874577e37a1d4a34cdc089171e8b41f3b33a61f76081dbfe44941ec5292"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-hero_left.png",
+      "sha256": "ba48e88cffe1b6a4a7d64d0679cb3a62e1b4c52c4fc8255befe23ff3389570d4"
+    },
+    {
+      "path": "customer_templates/components-v2/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "2bd1770bc01a84f1365edb3df5d67ff1bc0c687034d03c45ab34b8f38d878dee"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-compare-03-v1-background.png",
+      "sha256": "e7ee2e68dce96580029562eed69c37ded2cc1bf415a8bdd8545a2feceead9d0f"
+    },
+    {
+      "path": "customer_templates/components-v2/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-list-02-v1-background.png",
+      "sha256": "8796b15aa942a4c612e226d96b812c5f71a6c7126915007fb787bfaf18cfd0a1"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "28950b4ef30dd8e9c949b36af65328f1b6983d93a57d809e70f9d31e9b25d272"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "196688cb942e102543ec487ece75020dcdf8daa8e509e2299558aaeced43e760"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-list-04-v1-background.png",
+      "sha256": "f2dc6261000602a9b5d8c2c4f358f48a156939b73ec5c4d41ed97be2f088d84b"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "2002d45008ba6ccc23b0ecf8679ab8851a501b26518908c78f648964f0a224de"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-recommend-03-v1-background.png",
+      "sha256": "75533603ceccb295445f533cf7519d48bbf0d2d110e74341e3098271516cb220"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "12ae55031b47b6f417e1636697924a02c5a9a8120c1059ce74da4f72ae1839d5"
+    },
+    {
+      "path": "customer_templates/components-v2/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "d24e2a5a648847e1e4d478f8e84c1bb61ec6f88cbc897c475ded0e2423281a2b"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-compare-01-v1-background.png",
+      "sha256": "75344ecc35db40bad6d27e9250445f31315d6d0ee31a039e4d1b849d837a4d22"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "1a95373b4562ac7011cfbd680499734fe7583775c5f39f6db466e3e5ee4e5099"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "8d75cdd2fd220b8248c9ea72eff2b4363247d7c996c3b50ef650bc1264451256"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-02-v1-background.png",
+      "sha256": "13be6ec9da5db3cc80de35e1922e02f7167b337ef7cc92a2099c388d4f074288"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-hero_right.png",
+      "sha256": "2868654c032b80881874e1907a29f3b1d7e033f1a528b4099bb024b6e4ae6db3"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "e690b297b7739c0583224a29cacda8fb5cfff0b29af483f418bf7274637789c5"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-background.png",
+      "sha256": "ba072df8da7740d9a436c940c9021b9dfca9f51f5a3233d7111662a6a252a46b"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "428ea54c9434abeb259228e6e088c8eb063cbbbc0e2ef31de7648bb0efabf437"
+    },
+    {
+      "path": "customer_templates/components-v2/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434"
+    },
+    {
+      "path": "customer_templates/components-v2/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d"
+    },
+    {
+      "path": "customer_templates/components-v2/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "635fc060d2b9e9a4c1448b704ec78839180448b2842821df1362537ba05e6049"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-recommend-02-v1-background.png",
+      "sha256": "2f5de5891f2aece9a4dddc00986e21965b96012363d4a23b4029f2de7c4bfb80"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "54fabcc1e185ab520f2c20be403663d79650e64edac83574769e524527175a99"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "efe673fdf408d70e6279d9db4a0df8610cb147223a9f1f75f6bdf088dc02609f"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-list-01-v1-background.png",
+      "sha256": "f71e1b8f3ec3b3bc13233d1008c543b4712e4ddece859c35cef20ede274ea87c"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d9f8a208997e14eee5b1149b921e22d978a502dd31b9b1a209043c7985d459df"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "67240a01ab9b5287c81af5a934f49aa187d802593006f6d3ad29e7480f42a36d"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-01-v1-background.png",
+      "sha256": "d598f2fb50f4f447499ed78ecde24d524067506c7ef69e47d35fe4cb6dec89f1"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-background.png",
+      "sha256": "2102f7a3c85de0b4d6ac8a2fa010ee197135f5a52967b8d5e0225a4fec953a7f"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-hero_right.png",
+      "sha256": "b7b11a524557f960ccfcf9611ae12c83e924966e70b383eaec7a47954ebcdde9"
+    },
+    {
+      "path": "customer_templates/components-v2/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-hero_left.png",
+      "sha256": "9d7f6acf9fefb2abc0ad9078058cbb9f98ccb7e8c7c8bfef917459054fc11c85"
+    },
+    {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "4e31cc5166d593d60c5c5b901b74d4e8065e6c968551dd740ef8ca2439484d0f"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "6425ce9f6029b4efa326d5182b37bc522cf8ff1ccc6ecb81edae2de8b423720b"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "c1a44615771a57e68c92e2b5f531bcc350b9bc1da5586e7220f437b9eeb1425e"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "1b4b706114212be400b812d2b5e95370840b5e19440549d6bd0ee8fbe77e7cc2"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "a5c6aabd7fd5506fc4167b86d3db3120cdd6699434314ff40a3c358d22d27409"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "586adfb8b6d1e41cefb53475932f7509c118c95e06a6e50c016d606fc0666c2a"
+    },
+    {
+      "path": "customer_templates/components/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b"
+    },
+    {
+      "path": "customer_templates/components/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "298e470764e75adc0ace240d6ae40cb16361c6314d07a37ad2676ce664632fd3"
+    },
+    {
+      "path": "customer_templates/components/compare-left_photo.png",
+      "sha256": "766655bb26e1f99db105a1a7de40c738df97a007069ea0d7ab6788d6b86dc341"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-background.png",
+      "sha256": "95d95322c3fb224d5314ffcec7eac7180e7a560f498a8d1cf48004ebb223fea8"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "b228673e1348bee82e15a612ce4985b05caf827156b434b5f59109bf59a9815d"
+    },
+    {
+      "path": "customer_templates/components/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-hero_extra.png",
+      "sha256": "0f3eaac9e7323e942c26eed174442d93e9ea4310ed45cd0e0320d4ed38ae7987"
+    },
+    {
+      "path": "customer_templates/components/customer-compare-02-v1-background.png",
+      "sha256": "a9b1a3cb93b4434024028337180f9847f862be3ecd10dc0a832a2eb859aa19c0"
+    },
+    {
+      "path": "customer_templates/components/customer-list-03-v1-background.png",
+      "sha256": "b817b495899746bbb27a01bbe4a113fcd3871651a1d8c98c30e38c8ebb0dfd56"
+    },
+    {
+      "path": "customer_templates/components/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-hero_left.png",
+      "sha256": "d48a6dfe838377348ab61fd8c42f16a11a8dcd1c45a28b95ce61c23a03da1919"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "e607878a7ec38d420c89a4aba5a6e1df0010089ec4a688583b2cc52e93ea5b94"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "de0fed8373726beebe271c970ea656e0e1f1ed8c8076d2f9d2d686a12e5efa3d"
+    },
+    {
+      "path": "customer_templates/components/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "68d2d0f912cf4b52416f951d83170be4bac8217e7c13decf9ba053f6bc7ee0ba"
+    },
+    {
+      "path": "customer_templates/components/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad"
+    },
+    {
+      "path": "customer_templates/components/customer-recommend-01-v1-background.png",
+      "sha256": "01db7734f8e7fd8335039cd6d9b3b1fa5be2d0fd2d0ccf5b29e8bbeef636c053"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-hero_left.png",
+      "sha256": "db37a4aead166b58b067aa136e9be31598187a469d266c954a785660c8881896"
+    },
+    {
+      "path": "customer_templates/components/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "8b2276569826d267e44844d085beda47b15cae3592124a706e2169da15f6021a"
+    },
+    {
+      "path": "customer_templates/components/customer-compare-03-v1-background.png",
+      "sha256": "9ce1a4970d5df57335d09f5e0fa5b28c1d0297f12c47bbdc34b8527a9a2e8e9d"
+    },
+    {
+      "path": "customer_templates/components/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df"
+    },
+    {
+      "path": "customer_templates/components/customer-list-02-v1-background.png",
+      "sha256": "bd5860cedb5e43e73f45eb4e2c466f5f72906c51959def693eb111d6f82aa0f5"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "f4c335652e9c75f9f447f92d32ef9e4c5260435c49bd36c38afd6364f2269123"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "13c4c79a738adfbb6e7cef2f38b47fecc528f75de5acc1369c5b81218e423e83"
+    },
+    {
+      "path": "customer_templates/components/customer-list-04-v1-background.png",
+      "sha256": "661ab33629428c68f13980c8e63ed292cae873470591a71b89a7100981661980"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "3ab82f5d52982a14e9f5e3b4f174688a924e46038d6c6a1407197452ae3e76b9"
+    },
+    {
+      "path": "customer_templates/components/customer-recommend-03-v1-background.png",
+      "sha256": "47fa66a7cee9aaed94f6f7037d685b4f14e41511d4d9d96a5fbfb0fc49c86749"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "0335ef74df1c78aefdd5a34e3917e0138754411da61def4f7f2b75ce82bfb52e"
+    },
+    {
+      "path": "customer_templates/components/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "4ef12132f925b926b095b8bc08ff38b6c8c547b8b9616dc4febeb860cc9aa0aa"
+    },
+    {
+      "path": "customer_templates/components/customer-compare-01-v1-background.png",
+      "sha256": "b4ddb13ac584adcd95a482e046a33bf10e05ddbcafff9bed8d1a72ad6ded41c5"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "b749df54dbe20ab905be59e62c3271c610742920a80040501484553e3f5be836"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "9a1ccc17561e43acf3035b3491329e508ab8e28e6a7df583bc051f4d64a48abf"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-02-v1-background.png",
+      "sha256": "a293b7d26eb00f8c97d13edc4e3f612c79c6f7e14a3ada533745988f840c641a"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-hero_right.png",
+      "sha256": "57b9610f0bb1bc7de33ff8e8d92632007cce80f5c10b97d3f71a411c8db33b89"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "0820a904219a93e1d788b1286edfb9bbbfa697a4d26829713479042290fa66c3"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-background.png",
+      "sha256": "b0dc1a968229e7910d4fd6dea513af948e6252570465deaaf1ad2813e758af69"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "864d447924eef9478ad7353db52e1cc501747fd4710d4b000c083e1c390d6821"
+    },
+    {
+      "path": "customer_templates/components/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434"
+    },
+    {
+      "path": "customer_templates/components/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d"
+    },
+    {
+      "path": "customer_templates/components/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "5297e2417047ecb322650c1b2784d4f98655ec096833562a0714168e9e384bdc"
+    },
+    {
+      "path": "customer_templates/components/customer-recommend-02-v1-background.png",
+      "sha256": "333ce91bf6d0bf77dc0fb43f0f4332c115c025cd731858d8248d006c00c4a773"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "9eff26f37f6599bb65887d404d4ba3d6b7dd077020f27d8d54251cfd0069daab"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "7e872a40488f5a4da74392f3839e5851e095c7d6069e35193451fde39bc46755"
+    },
+    {
+      "path": "customer_templates/components/customer-list-01-v1-background.png",
+      "sha256": "4236ef50ec1561f042f2fa3cd9f6a1c6402bcf0767fce6c4e930f85f0aa5e346"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d68164e4069bb6c62e5f343a35e24275d829e42ac0bbee41c2689cafddfecd40"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "4630ea0dcae84a2d83297bea614a913160dd7c856db2d310c082f0e2f49ca0f2"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-01-v1-background.png",
+      "sha256": "4f8a0cd8d36ea850a292cc8783e1fddb74d1816d31ce2e70aa12752120c5107e"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-background.png",
+      "sha256": "eb9f96d135d383b61bd5cd9876a28bccef7d60ec88739e8454e8296372e7ca29"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-hero_right.png",
+      "sha256": "e6361270f7f698364cf7971670915e9bafdce1d47e837f8bf26d36bc573653a3"
+    },
+    {
+      "path": "customer_templates/components/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-05-v1-hero_left.png",
+      "sha256": "7b823b5a955ce01d9d43b240c58bfeabcefdc7a860963776ac630ccbff580b7e"
+    },
+    {
+      "path": "customer_templates/components/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "f216171b1c5bdd1f491b9a9a051548ad2cca9d415b4c5ba605a6f152560e354f"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "fc60ce7e536540683b406121e1fa92da15dd8ed6b9bc75eee3bc21180ce59345"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "913927cf4534c7c9cfcb7c9f27392275dae9c1e3f1b6df8ea6868d9b65b23d33"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "4c9aa2be232b293c76cf3eee13d25db170325ffe27fe4b3624eaf47131137d00"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "6b2bce62d1982ea246779cd58d67808e4d062fe29c11f97c40b2bc214dd7e922"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "cbc676168c9f9e310a1814741db9b83e503ea4f36e63c985cd3334ed8336cb49"
+    },
+    {
+      "path": "customer_templates/components-v3/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b"
+    },
+    {
+      "path": "customer_templates/components-v3/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "b2f6ed32baae9dedb4989ba96cce13a6efd5c8187fd63d9562fa08eea49d6612"
+    },
+    {
+      "path": "customer_templates/components-v3/compare-left_photo.png",
+      "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-background.png",
+      "sha256": "468e553c36bf9f9f3216d5a7a742129fa5a1989d520ee266096d2c841c4868cc"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "bbf1c03506bb3dcdf06266aee040e8edfa183f24b0ee7820f6d6260940945a30"
+    },
+    {
+      "path": "customer_templates/components-v3/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-hero_extra.png",
+      "sha256": "2c41eac859d92cc5050b97a88b4326f5cbdf5d83e94a04964a2f71548c7dbbd0"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-compare-02-v1-background.png",
+      "sha256": "88a934ef2edf235b431a10b0ae1aab1c4a9a3e4bf5e74ecb3fb9b1994c875cae"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-list-03-v1-background.png",
+      "sha256": "e29dd62e9c15e5bd8e9924fcf26738439de7c0489ee5034446a8c870949128d4"
+    },
+    {
+      "path": "customer_templates/components-v3/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-hero_left.png",
+      "sha256": "b84decee2308b80b34210af696e9aab556615781dd4326a6225c8a81facbb560"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "cebfff751d676b9a076d0e6316872ba29d36cf16307feddc989f5595fb6f1035"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "cc507e70f3330ae0d91591323dc24d469f6833b9ee5fb032aaf0dc8e424a323c"
+    },
+    {
+      "path": "customer_templates/components-v3/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "441271c03ce9bcb9ff408aa053f1204b173c03f1110cea6f1d639ce8df840240"
+    },
+    {
+      "path": "customer_templates/components-v3/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-recommend-01-v1-background.png",
+      "sha256": "ad8ef96b7b9a161f9c69de2fd9adb28639f81558f6897492bed5093798fe728a"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-hero_left.png",
+      "sha256": "ba48e88cffe1b6a4a7d64d0679cb3a62e1b4c52c4fc8255befe23ff3389570d4"
+    },
+    {
+      "path": "customer_templates/components-v3/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "2bd1770bc01a84f1365edb3df5d67ff1bc0c687034d03c45ab34b8f38d878dee"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-compare-03-v1-background.png",
+      "sha256": "e7ee2e68dce96580029562eed69c37ded2cc1bf415a8bdd8545a2feceead9d0f"
+    },
+    {
+      "path": "customer_templates/components-v3/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-list-02-v1-background.png",
+      "sha256": "206c289524344036960ef4d8e82f0ec136a85f1330c743d0ac1d0ed6c80f3202"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "28950b4ef30dd8e9c949b36af65328f1b6983d93a57d809e70f9d31e9b25d272"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "196688cb942e102543ec487ece75020dcdf8daa8e509e2299558aaeced43e760"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-list-04-v1-background.png",
+      "sha256": "1cf9295cf7bf2c34db81d62379ae5cad454b8edf109eb020b96c294ecaf7a302"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "2002d45008ba6ccc23b0ecf8679ab8851a501b26518908c78f648964f0a224de"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-recommend-03-v1-background.png",
+      "sha256": "38c8bfc11cbf6a5efc51e63555bd7f20569bbdb684213cd58eec02aca3508149"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "12ae55031b47b6f417e1636697924a02c5a9a8120c1059ce74da4f72ae1839d5"
+    },
+    {
+      "path": "customer_templates/components-v3/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "d24e2a5a648847e1e4d478f8e84c1bb61ec6f88cbc897c475ded0e2423281a2b"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-compare-01-v1-background.png",
+      "sha256": "75344ecc35db40bad6d27e9250445f31315d6d0ee31a039e4d1b849d837a4d22"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "1a95373b4562ac7011cfbd680499734fe7583775c5f39f6db466e3e5ee4e5099"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "8d75cdd2fd220b8248c9ea72eff2b4363247d7c996c3b50ef650bc1264451256"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-02-v1-background.png",
+      "sha256": "13be6ec9da5db3cc80de35e1922e02f7167b337ef7cc92a2099c388d4f074288"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-hero_right.png",
+      "sha256": "2868654c032b80881874e1907a29f3b1d7e033f1a528b4099bb024b6e4ae6db3"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "e690b297b7739c0583224a29cacda8fb5cfff0b29af483f418bf7274637789c5"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-background.png",
+      "sha256": "ba072df8da7740d9a436c940c9021b9dfca9f51f5a3233d7111662a6a252a46b"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "428ea54c9434abeb259228e6e088c8eb063cbbbc0e2ef31de7648bb0efabf437"
+    },
+    {
+      "path": "customer_templates/components-v3/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434"
+    },
+    {
+      "path": "customer_templates/components-v3/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d"
+    },
+    {
+      "path": "customer_templates/components-v3/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "635fc060d2b9e9a4c1448b704ec78839180448b2842821df1362537ba05e6049"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-recommend-02-v1-background.png",
+      "sha256": "f6235d8b8a60b0ee7314e540d3acddd75b8bee1975f1b3890ec0805addba76c5"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "54fabcc1e185ab520f2c20be403663d79650e64edac83574769e524527175a99"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "efe673fdf408d70e6279d9db4a0df8610cb147223a9f1f75f6bdf088dc02609f"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-list-01-v1-background.png",
+      "sha256": "f71e1b8f3ec3b3bc13233d1008c543b4712e4ddece859c35cef20ede274ea87c"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d9f8a208997e14eee5b1149b921e22d978a502dd31b9b1a209043c7985d459df"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "67240a01ab9b5287c81af5a934f49aa187d802593006f6d3ad29e7480f42a36d"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-01-v1-background.png",
+      "sha256": "d598f2fb50f4f447499ed78ecde24d524067506c7ef69e47d35fe4cb6dec89f1"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-background.png",
+      "sha256": "2102f7a3c85de0b4d6ac8a2fa010ee197135f5a52967b8d5e0225a4fec953a7f"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-hero_right.png",
+      "sha256": "b7b11a524557f960ccfcf9611ae12c83e924966e70b383eaec7a47954ebcdde9"
+    },
+    {
+      "path": "customer_templates/components-v3/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-05-v1-hero_left.png",
+      "sha256": "9d7f6acf9fefb2abc0ad9078058cbb9f98ccb7e8c7c8bfef917459054fc11c85"
+    },
+    {
+      "path": "customer_templates/components-v3/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "4e31cc5166d593d60c5c5b901b74d4e8065e6c968551dd740ef8ca2439484d0f"
+    },
+    {
+      "path": "customer_templates/configs/customer-list-03-v1.json",
+      "sha256": "791fd2b632ff31aa0f10fb89e2b7a0bc15acfb40c8a922099e6e03ba783850b7"
+    },
+    {
+      "path": "customer_templates/configs/customer-intro-05-v1.json",
+      "sha256": "4476932d3b8381071fa4c4df5f89edb9d04819577921a608bdcbf0ba32afce7e"
+    },
+    {
+      "path": "customer_templates/configs/customer-recommend-01-v1.json",
+      "sha256": "e6e1c4cbb60aade0abd2eb2b5e6d55ef3fe37f6a9db955533a15291b903ea9c9"
+    },
+    {
+      "path": "customer_templates/configs/customer-intro-01-v1.json",
+      "sha256": "e2218226a210d1ca5b54b6fd91aaa1cc30d14ef19329fd09c9cd9ac6e68a0cfa"
+    },
+    {
+      "path": "customer_templates/configs/customer-intro-04-v1.json",
+      "sha256": "cfe6e223694533fc060f0483485aa1e3f87b0b8170cebe4a6dfe20546c294b2d"
+    },
+    {
+      "path": "customer_templates/configs/customer-recommend-02-v1.json",
+      "sha256": "850f555a0d7dc75dc596ea1713bcf8701dc5bfa3703d0fe42080afe02520f6c7"
+    },
+    {
+      "path": "customer_templates/configs/customer-recommend-03-v1.json",
+      "sha256": "a4ae964b890b40429ad4a7374a87fee93fc2dd7dc886dbcb5311e6881bc9ebc9"
+    },
+    {
+      "path": "customer_templates/configs/customer-intro-02-v1.json",
+      "sha256": "27ea85c4de3a5b27919ea05a99c9d81b8b3cce4b775a6f7864d22b8bf8be82dd"
+    },
+    {
+      "path": "customer_templates/configs/customer-list-01-v1.json",
+      "sha256": "e35de419666783580373555ea7c08d399b1e4a10878befcc6f121797f56a9e6f"
+    },
+    {
+      "path": "customer_templates/configs/customer-intro-03-v1.json",
+      "sha256": "a9dc6638dc6a9dad7d9f5592fadec2650a09a3799e4a1179efe3389576a5865a"
+    },
+    {
+      "path": "customer_templates/configs/customer-compare-02-v1.json",
+      "sha256": "f46656240ac4209e011006876eed28bc733a51208dabea0d8958945365f91dfd"
+    },
+    {
+      "path": "customer_templates/configs/customer-list-04-v1.json",
+      "sha256": "ddc57f15aeb564ecfd39f0701e9636ac539b101e9a640ddcdf22d30ba8f30f3c"
+    },
+    {
+      "path": "customer_templates/configs/customer-compare-03-v1.json",
+      "sha256": "285ef4b6b5a91d6ed5f77c743b84cf5cf073193e946f565d295604ce448062c3"
+    },
+    {
+      "path": "customer_templates/configs/customer-list-02-v1.json",
+      "sha256": "663ad2a64329246d0c6ec01dd6e1f341c05dfa4e1ba1dee2a72dd37d041df0a7"
+    },
+    {
+      "path": "customer_templates/configs/customer-compare-01-v1.json",
+      "sha256": "85df2d394d38d3da474ecf14395d1deacd688a31e0d02c7a6caf87a6f410599f"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "fc60ce7e536540683b406121e1fa92da15dd8ed6b9bc75eee3bc21180ce59345"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "913927cf4534c7c9cfcb7c9f27392275dae9c1e3f1b6df8ea6868d9b65b23d33"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "4c9aa2be232b293c76cf3eee13d25db170325ffe27fe4b3624eaf47131137d00"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "6b2bce62d1982ea246779cd58d67808e4d062fe29c11f97c40b2bc214dd7e922"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "cbc676168c9f9e310a1814741db9b83e503ea4f36e63c985cd3334ed8336cb49"
+    },
+    {
+      "path": "customer_templates/components-v4/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b"
+    },
+    {
+      "path": "customer_templates/components-v4/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "b2f6ed32baae9dedb4989ba96cce13a6efd5c8187fd63d9562fa08eea49d6612"
+    },
+    {
+      "path": "customer_templates/components-v4/compare-left_photo.png",
+      "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-background.png",
+      "sha256": "468e553c36bf9f9f3216d5a7a742129fa5a1989d520ee266096d2c841c4868cc"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "bbf1c03506bb3dcdf06266aee040e8edfa183f24b0ee7820f6d6260940945a30"
+    },
+    {
+      "path": "customer_templates/components-v4/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-hero_extra.png",
+      "sha256": "2c41eac859d92cc5050b97a88b4326f5cbdf5d83e94a04964a2f71548c7dbbd0"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-compare-02-v1-background.png",
+      "sha256": "60dd35dc0502ddecb5872594911374237f0371af3f799ec41b8f318967082837"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-list-03-v1-background.png",
+      "sha256": "e29dd62e9c15e5bd8e9924fcf26738439de7c0489ee5034446a8c870949128d4"
+    },
+    {
+      "path": "customer_templates/components-v4/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-hero_left.png",
+      "sha256": "b84decee2308b80b34210af696e9aab556615781dd4326a6225c8a81facbb560"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "cebfff751d676b9a076d0e6316872ba29d36cf16307feddc989f5595fb6f1035"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "cc507e70f3330ae0d91591323dc24d469f6833b9ee5fb032aaf0dc8e424a323c"
+    },
+    {
+      "path": "customer_templates/components-v4/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "441271c03ce9bcb9ff408aa053f1204b173c03f1110cea6f1d639ce8df840240"
+    },
+    {
+      "path": "customer_templates/components-v4/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-recommend-01-v1-background.png",
+      "sha256": "ad8ef96b7b9a161f9c69de2fd9adb28639f81558f6897492bed5093798fe728a"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-hero_left.png",
+      "sha256": "ba48e88cffe1b6a4a7d64d0679cb3a62e1b4c52c4fc8255befe23ff3389570d4"
+    },
+    {
+      "path": "customer_templates/components-v4/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "2bd1770bc01a84f1365edb3df5d67ff1bc0c687034d03c45ab34b8f38d878dee"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-compare-03-v1-background.png",
+      "sha256": "ea8e38a35fb11ad2c3e46a4f5cf32bf46a25e2ff08ca79ee6ae0a524dcd6dc15"
+    },
+    {
+      "path": "customer_templates/components-v4/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-list-02-v1-background.png",
+      "sha256": "206c289524344036960ef4d8e82f0ec136a85f1330c743d0ac1d0ed6c80f3202"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "28950b4ef30dd8e9c949b36af65328f1b6983d93a57d809e70f9d31e9b25d272"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "196688cb942e102543ec487ece75020dcdf8daa8e509e2299558aaeced43e760"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-list-04-v1-background.png",
+      "sha256": "1cf9295cf7bf2c34db81d62379ae5cad454b8edf109eb020b96c294ecaf7a302"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "2002d45008ba6ccc23b0ecf8679ab8851a501b26518908c78f648964f0a224de"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-recommend-03-v1-background.png",
+      "sha256": "38c8bfc11cbf6a5efc51e63555bd7f20569bbdb684213cd58eec02aca3508149"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "12ae55031b47b6f417e1636697924a02c5a9a8120c1059ce74da4f72ae1839d5"
+    },
+    {
+      "path": "customer_templates/components-v4/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "d24e2a5a648847e1e4d478f8e84c1bb61ec6f88cbc897c475ded0e2423281a2b"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-compare-01-v1-background.png",
+      "sha256": "9973738d79c628a57c50bab20fc7c183689fabd4db4aef2a8d40b4464297f022"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "1a95373b4562ac7011cfbd680499734fe7583775c5f39f6db466e3e5ee4e5099"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "8d75cdd2fd220b8248c9ea72eff2b4363247d7c996c3b50ef650bc1264451256"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-02-v1-background.png",
+      "sha256": "13be6ec9da5db3cc80de35e1922e02f7167b337ef7cc92a2099c388d4f074288"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-hero_right.png",
+      "sha256": "2868654c032b80881874e1907a29f3b1d7e033f1a528b4099bb024b6e4ae6db3"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "e690b297b7739c0583224a29cacda8fb5cfff0b29af483f418bf7274637789c5"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-background.png",
+      "sha256": "ba072df8da7740d9a436c940c9021b9dfca9f51f5a3233d7111662a6a252a46b"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "428ea54c9434abeb259228e6e088c8eb063cbbbc0e2ef31de7648bb0efabf437"
+    },
+    {
+      "path": "customer_templates/components-v4/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434"
+    },
+    {
+      "path": "customer_templates/components-v4/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d"
+    },
+    {
+      "path": "customer_templates/components-v4/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "635fc060d2b9e9a4c1448b704ec78839180448b2842821df1362537ba05e6049"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-recommend-02-v1-background.png",
+      "sha256": "f6235d8b8a60b0ee7314e540d3acddd75b8bee1975f1b3890ec0805addba76c5"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "54fabcc1e185ab520f2c20be403663d79650e64edac83574769e524527175a99"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "efe673fdf408d70e6279d9db4a0df8610cb147223a9f1f75f6bdf088dc02609f"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-list-01-v1-background.png",
+      "sha256": "1857c045719b068103a86b42bb00bb753ea2d292fd69cb1a0e157767c6bd8435"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d9f8a208997e14eee5b1149b921e22d978a502dd31b9b1a209043c7985d459df"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "67240a01ab9b5287c81af5a934f49aa187d802593006f6d3ad29e7480f42a36d"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-01-v1-background.png",
+      "sha256": "d598f2fb50f4f447499ed78ecde24d524067506c7ef69e47d35fe4cb6dec89f1"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-background.png",
+      "sha256": "2102f7a3c85de0b4d6ac8a2fa010ee197135f5a52967b8d5e0225a4fec953a7f"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-hero_right.png",
+      "sha256": "b7b11a524557f960ccfcf9611ae12c83e924966e70b383eaec7a47954ebcdde9"
+    },
+    {
+      "path": "customer_templates/components-v4/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-05-v1-hero_left.png",
+      "sha256": "9d7f6acf9fefb2abc0ad9078058cbb9f98ccb7e8c7c8bfef917459054fc11c85"
+    },
+    {
+      "path": "customer_templates/components-v4/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "4e31cc5166d593d60c5c5b901b74d4e8065e6c968551dd740ef8ca2439484d0f"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "fc60ce7e536540683b406121e1fa92da15dd8ed6b9bc75eee3bc21180ce59345"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "913927cf4534c7c9cfcb7c9f27392275dae9c1e3f1b6df8ea6868d9b65b23d33"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "4c9aa2be232b293c76cf3eee13d25db170325ffe27fe4b3624eaf47131137d00"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "6b2bce62d1982ea246779cd58d67808e4d062fe29c11f97c40b2bc214dd7e922"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "cbc676168c9f9e310a1814741db9b83e503ea4f36e63c985cd3334ed8336cb49"
+    },
+    {
+      "path": "customer_templates/components-v5/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b"
+    },
+    {
+      "path": "customer_templates/components-v5/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "b2f6ed32baae9dedb4989ba96cce13a6efd5c8187fd63d9562fa08eea49d6612"
+    },
+    {
+      "path": "customer_templates/components-v5/compare-left_photo.png",
+      "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-background.png",
+      "sha256": "7f25db069191e728fc0d34181f3c719ad77059c0618a393d771326adc568c2ec"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "bbf1c03506bb3dcdf06266aee040e8edfa183f24b0ee7820f6d6260940945a30"
+    },
+    {
+      "path": "customer_templates/components-v5/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-hero_extra.png",
+      "sha256": "2c41eac859d92cc5050b97a88b4326f5cbdf5d83e94a04964a2f71548c7dbbd0"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-compare-02-v1-background.png",
+      "sha256": "60dd35dc0502ddecb5872594911374237f0371af3f799ec41b8f318967082837"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-list-03-v1-background.png",
+      "sha256": "e29dd62e9c15e5bd8e9924fcf26738439de7c0489ee5034446a8c870949128d4"
+    },
+    {
+      "path": "customer_templates/components-v5/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-hero_left.png",
+      "sha256": "b84decee2308b80b34210af696e9aab556615781dd4326a6225c8a81facbb560"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "cebfff751d676b9a076d0e6316872ba29d36cf16307feddc989f5595fb6f1035"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "cc507e70f3330ae0d91591323dc24d469f6833b9ee5fb032aaf0dc8e424a323c"
+    },
+    {
+      "path": "customer_templates/components-v5/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "441271c03ce9bcb9ff408aa053f1204b173c03f1110cea6f1d639ce8df840240"
+    },
+    {
+      "path": "customer_templates/components-v5/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-recommend-01-v1-background.png",
+      "sha256": "ad8ef96b7b9a161f9c69de2fd9adb28639f81558f6897492bed5093798fe728a"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-hero_left.png",
+      "sha256": "ba48e88cffe1b6a4a7d64d0679cb3a62e1b4c52c4fc8255befe23ff3389570d4"
+    },
+    {
+      "path": "customer_templates/components-v5/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "2bd1770bc01a84f1365edb3df5d67ff1bc0c687034d03c45ab34b8f38d878dee"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-compare-03-v1-background.png",
+      "sha256": "ea8e38a35fb11ad2c3e46a4f5cf32bf46a25e2ff08ca79ee6ae0a524dcd6dc15"
+    },
+    {
+      "path": "customer_templates/components-v5/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-list-02-v1-background.png",
+      "sha256": "206c289524344036960ef4d8e82f0ec136a85f1330c743d0ac1d0ed6c80f3202"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "28950b4ef30dd8e9c949b36af65328f1b6983d93a57d809e70f9d31e9b25d272"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "196688cb942e102543ec487ece75020dcdf8daa8e509e2299558aaeced43e760"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-list-04-v1-background.png",
+      "sha256": "1cf9295cf7bf2c34db81d62379ae5cad454b8edf109eb020b96c294ecaf7a302"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "2002d45008ba6ccc23b0ecf8679ab8851a501b26518908c78f648964f0a224de"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-recommend-03-v1-background.png",
+      "sha256": "38c8bfc11cbf6a5efc51e63555bd7f20569bbdb684213cd58eec02aca3508149"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "12ae55031b47b6f417e1636697924a02c5a9a8120c1059ce74da4f72ae1839d5"
+    },
+    {
+      "path": "customer_templates/components-v5/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "d24e2a5a648847e1e4d478f8e84c1bb61ec6f88cbc897c475ded0e2423281a2b"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-compare-01-v1-background.png",
+      "sha256": "9973738d79c628a57c50bab20fc7c183689fabd4db4aef2a8d40b4464297f022"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "1a95373b4562ac7011cfbd680499734fe7583775c5f39f6db466e3e5ee4e5099"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "8d75cdd2fd220b8248c9ea72eff2b4363247d7c996c3b50ef650bc1264451256"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-02-v1-background.png",
+      "sha256": "13be6ec9da5db3cc80de35e1922e02f7167b337ef7cc92a2099c388d4f074288"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-hero_right.png",
+      "sha256": "2868654c032b80881874e1907a29f3b1d7e033f1a528b4099bb024b6e4ae6db3"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "e690b297b7739c0583224a29cacda8fb5cfff0b29af483f418bf7274637789c5"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-background.png",
+      "sha256": "c7fb42928cf5b0996b9fd9491cb3a426ea5ee6e473d8c3d17a9fc5ed9f926dd4"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "428ea54c9434abeb259228e6e088c8eb063cbbbc0e2ef31de7648bb0efabf437"
+    },
+    {
+      "path": "customer_templates/components-v5/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434"
+    },
+    {
+      "path": "customer_templates/components-v5/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d"
+    },
+    {
+      "path": "customer_templates/components-v5/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "635fc060d2b9e9a4c1448b704ec78839180448b2842821df1362537ba05e6049"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-recommend-02-v1-background.png",
+      "sha256": "f6235d8b8a60b0ee7314e540d3acddd75b8bee1975f1b3890ec0805addba76c5"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "54fabcc1e185ab520f2c20be403663d79650e64edac83574769e524527175a99"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "efe673fdf408d70e6279d9db4a0df8610cb147223a9f1f75f6bdf088dc02609f"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-list-01-v1-background.png",
+      "sha256": "1857c045719b068103a86b42bb00bb753ea2d292fd69cb1a0e157767c6bd8435"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d9f8a208997e14eee5b1149b921e22d978a502dd31b9b1a209043c7985d459df"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "67240a01ab9b5287c81af5a934f49aa187d802593006f6d3ad29e7480f42a36d"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-01-v1-background.png",
+      "sha256": "d598f2fb50f4f447499ed78ecde24d524067506c7ef69e47d35fe4cb6dec89f1"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-background.png",
+      "sha256": "4f7e9696619d7dbb442d3875b252859600e5ce529f843b56640b0a8d462ff585"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-hero_right.png",
+      "sha256": "b7b11a524557f960ccfcf9611ae12c83e924966e70b383eaec7a47954ebcdde9"
+    },
+    {
+      "path": "customer_templates/components-v5/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-05-v1-hero_left.png",
+      "sha256": "9d7f6acf9fefb2abc0ad9078058cbb9f98ccb7e8c7c8bfef917459054fc11c85"
+    },
+    {
+      "path": "customer_templates/components-v5/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "4e31cc5166d593d60c5c5b901b74d4e8065e6c968551dd740ef8ca2439484d0f"
+    },
+    {
+      "path": "customer_templates/compare-rework/fa4ff39612db/customer-compare-01-v1-background.png",
+      "sha256": "5de6e01606b3ec19016f31fa88c7927c464a8af3a1b011aebbce580f19da45fc"
+    },
+    {
+      "path": "customer_templates/compare-rework/fa4ff39612db/customer-compare-01-v1.json",
+      "sha256": "fa4ff39612db0697bade90cf5b79dd0bc6ea553af036139db60370e52039653c"
+    },
+    {
+      "path": "customer_templates/compare-rework/bb56f6fa270f/customer-compare-02-v1-background.png",
+      "sha256": "d43f64a1791a68a4edbe5308224a22603e138ca674881df5e21c835f38cdf198"
+    },
+    {
+      "path": "customer_templates/compare-rework/bb56f6fa270f/customer-compare-02-v1.json",
+      "sha256": "bb56f6fa270f091aff8d3de065332894175e5e5dba19cb8d822ba40d3b2126c6"
+    },
+    {
+      "path": "customer_templates/compare-rework/4e4181550126/customer-compare-03-v1-background.png",
+      "sha256": "a24c3ea55fcd9818e05f8127e5a7c921f44d2c7168fe2a59768ff52a19c1885c"
+    },
+    {
+      "path": "customer_templates/compare-rework/4e4181550126/customer-compare-03-v1.json",
+      "sha256": "4e4181550126d02f5ca184efbd0f7328d045a217f6a56bf34a51c87b2e789cca"
+    },
+    {
+      "path": "delivery/CONTRACT.md",
+      "sha256": "320cf228cf70eff1cee4258dc5a200f85cccd31f09dc999dec274acf10b9d583"
+    },
+    {
+      "path": "delivery/__init__.py",
+      "sha256": "d8b024b60df88d465d1683ae498739f5c0d53b67b02bfe8589c1a21ec7e24e41"
+    },
+    {
+      "path": "delivery/__main__.py",
+      "sha256": "71a0bd7e9bcbdc2b5ce9a2a32b2d4734b86182a2fc5202a4d251761d767f2a30"
+    },
+    {
+      "path": "delivery/engine.py",
+      "sha256": "7c67492020ea8ad1259a3520e2ab7f93a9d09379462066898306e59d5c648737"
+    },
+    {
+      "path": "delivery/prepare_sample.py",
+      "sha256": "3a974da8bd518516a92720932a040ffa1c48299436a798db02b395ebeed1bf73"
+    },
+    {
+      "path": "delivery/template_registry.json",
+      "sha256": "f429da506a3dbc75d05d5dfce7f142bc4b1de2c11104b9c14a2cb18aafe610b5"
+    },
+    {
+      "path": "delivery/evidence/FOOD_DES-extract.txt",
+      "sha256": "93c0929f9913e3c7701658d205976caaf882d54554ff94fa2dd3efb13c82040d"
+    },
+    {
+      "path": "delivery/evidence/NUTR_DEF-extract.txt",
+      "sha256": "b62d1396ce9ed0708fc01f451a09549510dfa277b214eb4e5aa2e14ab4b85bfc"
+    },
+    {
+      "path": "delivery/evidence/NUT_DATA-extract.txt",
+      "sha256": "bcc34046d35816bfca1ad74bb4dce9c2c6b3d7da5c32fe9864481d81d9cc8f22"
+    },
+    {
+      "path": "delivery/evidence/photo_provenance.json",
+      "sha256": "62449a0b17f2529f27569b453dd8ee7116d382dd5898c6fb7b11a374f8d35ec1"
+    },
+    {
+      "path": "delivery/evidence/source_record.json",
+      "sha256": "de2e68664e07e883218096624993b7b97ae076067c1a39c2a5dad5fd9015640d"
+    },
+    {
+      "path": "delivery/evidence/sr28-documentation-extract.txt",
+      "sha256": "6f680fe665a41c73e361e05daba3f50d66beb072f87fbd48ff562eada7d4ebba"
+    },
+    {
+      "path": "delivery/sample_assets/dark-grapes.png",
+      "sha256": "3d898635814ef1eae2e65af7d87e75a3084f4ee113312ea130c3ce5c6a2dee14"
+    },
+    {
+      "path": "delivery/sample_assets/red-grapes.png",
+      "sha256": "6eac73ce94a4ae9d8d2c2ab80854afba3beee140e9d24fac9f0d48d53d48af5f"
+    },
+    {
+      "path": "delivery/templates/business-01-cover-v1.json",
+      "sha256": "a5544805703f7bac108068805cd1b811b887c1ec2481baacffe8f2463d518a11"
+    },
+    {
+      "path": "delivery/templates/business-01-nutrition-v1.json",
+      "sha256": "7e86ba1927f9106b5836d573d963eb5d6a783ad4493c5a2ebc87c82d5dd40945"
+    },
+    {
+      "path": "delivery/templates/business-01-selection-v1.json",
+      "sha256": "574d93ee162d3944d91141da4388eaff7571a819698724a5c4135e949bc94711"
+    },
+    {
+      "path": "workflow/pipeline.py",
+      "sha256": "36f3d2cce9ed0d5bccda66899dabb322b9c28a2417fa7b9da8a47af9b097bfd6"
+    },
+    {
+      "path": "workflow/comparison_runner.py",
+      "sha256": "81d7116037726606f18bee09ed75fc1ca7cd70643b5254e16e4a249d03c0c594"
+    },
+    {
+      "path": "workflow/__init__.py",
+      "sha256": "864815a8ff92a646cb3762e335092aee1959a6342a24284df2449cc7a82074e3"
+    },
+    {
+      "path": "workflow/copy.py",
+      "sha256": "4b8fb0c1b4e7c0fcfb53f6ab86757855a23fb33937ea36b251ae7289f4910e70"
+    },
+    {
+      "path": "workflow/COMPARISON_CONTRACT.md",
+      "sha256": "b53c6ab0d6b280dc2ab94d1bd1997529540268bd5de00a4369761d6ca0756e7d"
+    },
+    {
+      "path": "workflow/README.md",
+      "sha256": "cada6d379047ed367e46f97b8c131c5f2a6bcf4c4b85a0e2d3ff3bdf35ab427b"
+    },
+    {
+      "path": "workflow/comparison_fixtures.py",
+      "sha256": "8aacff853331462105b1b0429fe82aa96253680a99ca6d8690cbe7714d465d95"
+    },
+    {
+      "path": "workflow/core.py",
+      "sha256": "bb26e9e5b4216431ab96d42c45f1fcf3eac22768b87018d957b2e6d424f3f1e2"
+    },
+    {
+      "path": "workflow/comparison_contract.py",
+      "sha256": "a1bfc6945eef7177dbe3063bfd727120421188d6de00e23d3786851adbf72a15"
+    },
+    {
+      "path": "planning/pipeline.py",
+      "sha256": "9891bafc948e2efa256d6371a562609feab16a5de8122103bbd899133fa0c42a"
+    },
+    {
+      "path": "planning/product_adapter.py",
+      "sha256": "12399e443e92d08941e7e835520b7d62be3e3110f5d23718f0a9d09e45fd451f"
+    },
+    {
+      "path": "planning/__init__.py",
+      "sha256": "65b857f17d94df1a72c73252aed449885f394a432922941f56de94f7c0b14063"
+    },
+    {
+      "path": "planning/template_profiles.json",
+      "sha256": "c29afd5fde912038bbd16ab9734f3d33c319519da3ec7fec94ffe529bc0847bc"
+    },
+    {
+      "path": "planning/__main__.py",
+      "sha256": "7fe14f56714f121e44fed8de2f390202528b0a17e7c36e3be345f1682ee4ccd9"
+    },
+    {
+      "path": "planning/intent.py",
+      "sha256": "ae7d4b96e6dc218de049a7236b05ca506e3c1a37046c4bbfbdeae19c42f1dec0"
+    },
+    {
+      "path": "planning/README.md",
+      "sha256": "8cd9a10c47cd913494c5847d6702fae1406fea21a15b99eb80cb5d72081e555c"
+    },
+    {
+      "path": "planning/template_fit.py",
+      "sha256": "9b9b581eb63c57274abfb28f1506d02bd201a242a5fdb00ebfe0f5562b494ac2"
+    },
+    {
+      "path": "planning/policy.json",
+      "sha256": "c575eb1512098f89890b6491c6e98ca3d84769681629dcecd02cf6ea9521c8a5"
+    },
+    {
+      "path": "planning/fixtures.py",
+      "sha256": "fb70f0b994fef5c90eeee97eafbdcd553a76064cfcb916e4b615fecdfdd7fa25"
+    },
+    {
+      "path": "planning/publish_copy.py",
+      "sha256": "42ee642712404fbab9d8d098b9cb03ecf49bd8570a0c34bba9dcc9124c7fc633"
+    },
+    {
+      "path": "planning/evidence.py",
+      "sha256": "a1d1abb5b2e60a96016bcf05fac3d4fad695062eb308e9b504e81ac37c08c523"
+    },
+    {
+      "path": "examples/delivery-manifest.example.json",
+      "sha256": "471aaff8dacbc2b082f6ab1ffd6a6c686c5b3d35a8e6c3fc78b35fe3d1d8e6ed"
+    },
+    {
+      "path": "examples/production-brief.example.json",
+      "sha256": "c01682f4c8c7fa6cd0f53e453e09d62ddc7872f8c3122131325605a0aff9ff8a"
+    },
+    {
+      "path": "examples/delivery/grapes-comparison.json",
+      "sha256": "67abad2c039d62322dc16189557bf09d8158c12d44b039bbce665aa16c2b333b"
+    },
+    {
+      "path": "examples/rendering/intro4-test.json",
+      "sha256": "27632b4d7583d162207417d05644e5b4bde35510ea4e8870e1ce4796098f930b"
+    },
+    {
+      "path": "examples/planning/batch_inputs.json",
+      "sha256": "099e20b6f24936bcdcf1460ffa19663b9a199488cfc6ae60fc6507998faa1d03"
+    },
+    {
+      "path": "examples/planning/ten_queries.json",
+      "sha256": "42c2bf44c268d837a4d7dc12de189b9894436fb7ff22944bedd79eed698d656f"
+    },
+    {
+      "path": "examples/planning/packet_index.json",
+      "sha256": "b310e10a6ff5688fb660e59bbfb57766a9f60f688168e960095ebebf3839482a"
+    },
+    {
+      "path": "examples/planning/vitamin-source.json",
+      "sha256": "a9c1a7774c1d2850dc2ad1267c909a78c4b5576dd6b91e55b586a4ffaf3361b8"
+    },
+    {
+      "path": "examples/planning/sugar-source.json",
+      "sha256": "9be426daf0bcf586cf382fbe817052137f7a6555207d7d884264358e4f2184f8"
+    },
+    {
+      "path": "examples/planning/vitamin-packet.json",
+      "sha256": "36458c48db8f796aeccc614029f65f17f828672cc28a0c44ce50105637a53601"
+    },
+    {
+      "path": "examples/planning/sugar-packet.json",
+      "sha256": "543ec2331582c933938517aa0e7c47a0e33f81f6d1d17c2ac2027d3d2a90a597"
+    },
+    {
+      "path": "examples/customer_templates/list.json",
+      "sha256": "82b2d55dc79254f54c6f69597bffe39aa09c19b3cd7852705167912f3515f2ec"
+    },
+    {
+      "path": "examples/customer_templates/recommend.json",
+      "sha256": "f73c12b6795433fdce909387523a2c23cc37972a6099367fd7d78334f0400ab9"
+    },
+    {
+      "path": "examples/customer_templates/compare.json",
+      "sha256": "9cf72fefe47485be48f7ba350d9ef748621ded9b8593553736f1ca2666f47f0d"
+    },
+    {
+      "path": "examples/customer_templates/intro.json",
+      "sha256": "c85ce39694809da65bb2ea9ae2a67823fb5f61ca81dadc1193af4998ec0e1d33"
+    },
+    {
+      "path": "examples/workflow/ten_queries.json",
+      "sha256": "fa8f6d315ff4c1b500ac9d76aee498906ef47a9752b28fa4dafa66643fbbf25f"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/fixture_c.png",
+      "sha256": "0468973a2558456646a168e37e301f46021a6f83cf273bfee099d1e2bcb9181b"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/fixture_a.png",
+      "sha256": "5ed917afc1f08483b9fd35550ed5adf772292388c58f7d953e5a82011b9a25eb"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/fixture_d.png",
+      "sha256": "697397b056243a58065b616c3703c7f14a9ae398e53eb304bef67cfc5501fac9"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/fixture_b.png",
+      "sha256": "fd03d5c54d1fc0efff732f05ebed86d59e2239c78044b2846b7a4445185655b5"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/vitamin-source.json",
+      "sha256": "8fd7c4aeab6391210a1eb7a10a7ef22ef607325d73f1cf2a794538d619b787b0"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/cases.json",
+      "sha256": "238b1cbd638103bb1e88a1886582fe57b5bfe2f0bc1d3699a829b8f795d87a7e"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/LICENSE.txt",
+      "sha256": "9c0c730b2c6a0fcd144d0fa041738cea5c587db36e9bca9080aaf8dbf39d4434"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/original_queries.json",
+      "sha256": "cdcf67d0d4e023f092d67e7218dcb2f8f035cd0cd651a32aa341b183084875a8"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/sugar-source.json",
+      "sha256": "5e56019ffa3b5e9f1cd9c2847f054fc07afbf9f5356fabd5a9bd1e1abdb2d691"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/vitamin-packet.json",
+      "sha256": "a00f0d33829963e013fb5338e7b0d1e884b081fa08e98dcf39848c978a6e5816"
+    },
+    {
+      "path": "examples/workflow/comparison_rework/sugar-packet.json",
+      "sha256": "b7d8285f7656ab72628b6727357a894dae6196aebd4dfded37c8004013d2f130"
+    },
+    {
+      "path": "tests/test_delivery_business.py",
+      "sha256": "e3d26d8956b59be0289057570b57fb777b963d4254ce8cccd0f7d824ab57c102"
+    },
+    {
+      "path": "tests/test_delivery_validator.py",
+      "sha256": "91054537bbe7854051e99813b79316143c33ecdb32ddc5b272486b6a1c2bd03f"
+    },
+    {
+      "path": "tests/test_production.py",
+      "sha256": "a6834ea59f13228d7d2d37ee94638dcef9da5aa54eac16cd873d5c106ee0d455"
+    },
+    {
+      "path": "tests/test_rendering.py",
+      "sha256": "a190d90fecf176a4f64c118f774c6175e9617c1ab21a83786b0539f19e04044b"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "8e8506bfd8b76608551ef387c8d9125b52e895fd1d887e1cd896ac4b666b07b7"
+    },
+    {
+      "path": "tests/test_comparison_rework.py",
+      "sha256": "93158ce643a6afd76520fe9adf52b655d53bec1fb56be29c9bdaf344c342e934"
+    },
+    {
+      "path": "tests/test_customer_templates.py",
+      "sha256": "8c6e847adcc452ccc67d0ed015781fd47dcec9b1f2b8ba1a575a4a0367c6ed84"
+    },
+    {
+      "path": "tests/test_intent_planning.py",
+      "sha256": "20b531c74e2b1cd2ef7e4168bb8f149cc91b3c8b00677f4b034aedf51cf01ada"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_id": "USDA-SR28-09132",
+  "dataset": "USDA National Nutrient Database for Standard Reference, Release 28 (2015)",
+  "food_id": "09132",
+  "food_description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+  "basis": "per 100 g edible portion, raw",
+  "not_applicable_to": "Not a separate assay of the photographed red/dark grape varieties; not current FDC data",
+  "retrieval": "GitHub third-party mirror; live USDA API blocked by network policy, official origin not independently re-downloaded",
+  "mirror": "https://github.com/alyssaq/usda-sqlite",
+  "commit": "1e457b599af101ce463a195867574eba16c81acb",
+  "upstream_documentation": "http://www.ars.usda.gov/ba/bhnrc/ndl",
+  "retrieved_date": "2026-10-23",
+  "source_file_hashes": {
+    "FOOD_DES.txt": "bb2047218cdad1d830da69e760386409fde3b7afabceae604c5479f280d4fa2e",
+    "NUT_DATA.txt": "506c9ee39a276ac8f53565d270597e430944ec3363adb53a91cc6ee8c061fac5",
+    "NUTR_DEF.txt": "b0d6b559eaf0cf9f9a1c13e938395e1bb3513057f3c4c0f21c046b061e599fee",
+    "sr28_doc.pdf": "0d6c3d90be6ad90f6cf942031e7b869d6f7f45dfaf9f0efda9c8aae20fb42314"
+  },
+  "extract_hashes": {
+    "NUT_DATA-extract.txt": "bcc34046d35816bfca1ad74bb4dce9c2c6b3d7da5c32fe9864481d81d9cc8f22",
+    "sr28-documentation-extract.txt": "6f680fe665a41c73e361e05daba3f50d66beb072f87fbd48ff562eada7d4ebba",
+    "FOOD_DES-extract.txt": "93c0929f9913e3c7701658d205976caaf882d54554ff94fa2dd3efb13c82040d",
+    "NUTR_DEF-extract.txt": "b62d1396ce9ed0708fc01f451a09549510dfa277b214eb4e5aa2e14ab4b85bfc"
+  },
+  "human_fact_approval": null
+}

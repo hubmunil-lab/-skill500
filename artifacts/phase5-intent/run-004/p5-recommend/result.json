@@ -1,0 +1,33 @@
+{
+  "task_id": "p5-recommend",
+  "original_query": "早餐水果推荐（方便携带）",
+  "status": "REVIEW",
+  "generated": false,
+  "content_generated": false,
+  "category": "recommendation",
+  "template_id": null,
+  "template_decision": "CAPACITY_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "CAPACITY_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "candidate_items",
+        "selection_reasons",
+        "constraints"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "reworks": 0,
+  "cache_key": "e89b0534f4181314d9741c59adff41547546af8806621bc2a182e8ae023c9d9a",
+  "software_expectations_passed": true
+}

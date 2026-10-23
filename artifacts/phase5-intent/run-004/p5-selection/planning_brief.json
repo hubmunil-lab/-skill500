@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "intent": {
+    "schema_version": 1,
+    "original_query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）",
+    "core_question": "玻璃瓶和塑料瓶饮料通勤怎么选",
+    "direction": "选购对比，不看营养",
+    "direction_is_evidence": false,
+    "category": "comparison",
+    "classification": {
+      "category": "comparison",
+      "confidence": 0,
+      "provider": "rules_fallback",
+      "reason": "多意图或信息不足，不自动选类",
+      "rules": {
+        "category": null,
+        "candidates": [],
+        "status": "needs_confirmation",
+        "reason": "多意图或信息不足，不自动选类"
+      },
+      "review_required": true,
+      "baseline_category": null,
+      "intent_override_reason": "原问题的实测或明确两对象选择语义，保留人工复核"
+    },
+    "themes": [
+      "selection"
+    ],
+    "focus": "selection",
+    "operation": "describe",
+    "search_context": [
+      "通勤"
+    ],
+    "required_facts": [
+      "selection",
+      "packaging",
+      "portability",
+      "sealing"
+    ],
+    "useful_supplement": [
+      "具体使用条件与限制",
+      "目标场景的选择标准及依据"
+    ],
+    "irrelevant_template_fields": [
+      "appearance",
+      "taste",
+      "price",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "vitamin_c",
+      "feature",
+      "scene"
+    ],
+    "explicit_exclusions": [
+      "nutrition"
+    ],
+    "scope_conflicts": [],
+    "parser": "RuleIntentParser",
+    "confidence": 0.8,
+    "human_review_required": true,
+    "unknowns": [
+      "未提供的产品版本、受众健康条件、真实体验不得推断"
+    ]
+  },
+  "evidence": {
+    "available_fields": [],
+    "facts": {},
+    "missing_query_facts": [
+      {
+        "field": "selection",
+        "code": "QUERY_FACT_MISSING"
+      },
+      {
+        "field": "packaging",
+        "code": "QUERY_FACT_MISSING"
+      },
+      {
+        "field": "portability",
+        "code": "QUERY_FACT_MISSING"
+      },
+      {
+        "field": "sealing",
+        "code": "QUERY_FACT_MISSING"
+      }
+    ],
+    "errors": [],
+    "assets_ready": false,
+    "asset_errors": [
+      {
+        "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+      }
+    ],
+    "identity_ready": false
+  },
+  "template_match": {
+    "decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+    "selected_template_id": null,
+    "scores": [
+      {
+        "template_id": "customer-compare-v1",
+        "dimensions": {
+          "question_coverage": 0.25,
+          "field_relevance": 0.1,
+          "evidence": 0.0,
+          "assets": 0.0,
+          "approval": 0.0,
+          "capacity": 1
+        },
+        "score": 0.2,
+        "semantic_rejection_reasons": [
+          "QUESTION_NOT_COVERED",
+          "IRRELEVANT_TEMPLATE_FIELDS"
+        ],
+        "semantic_match": false,
+        "unrelated_required_fields": [
+          "appearance",
+          "carbohydrate",
+          "energy",
+          "feature",
+          "price",
+          "scene",
+          "sugars",
+          "taste",
+          "vitamin_c"
+        ],
+        "template_data_missing": [
+          "appearance",
+          "carbohydrate",
+          "energy",
+          "feature",
+          "price",
+          "scene",
+          "selection",
+          "sugars",
+          "taste",
+          "vitamin_c"
+        ],
+        "customer_approved": false,
+        "page_capacity": 3,
+        "text_capacity_status": "not_measured",
+        "profile": {
+          "template_id": "customer-compare-v1",
+          "category": "comparison",
+          "themes": [
+            "appearance",
+            "taste",
+            "price",
+            "nutrition",
+            "scene",
+            "selection"
+          ],
+          "required_fields": [
+            "appearance",
+            "taste",
+            "price",
+            "energy",
+            "carbohydrate",
+            "sugars",
+            "vitamin_c",
+            "feature",
+            "scene",
+            "selection"
+          ],
+          "object_count": 2,
+          "pages": 3,
+          "page_roles": [
+            "appearance_taste_price",
+            "nutrition",
+            "scene_selection"
+          ],
+          "renderer": "compare_revision"
+        },
+        "warnings": []
+      }
+    ],
+    "requested_content_directions": [
+      "selection"
+    ],
+    "unregistered_directions_are_not_templates": true,
+    "customer_approved": false,
+    "policy_status": "engineering_policy_not_customer_approval",
+    "reason": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+  },
+  "required_materials": {
+    "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+    "facts": [
+      {
+        "field": "selection",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "针对原问题的选择标准及支持记录，不附无关健康建议"
+      },
+      {
+        "field": "packaging",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "两对象真实包装材质、规格及产品依据"
+      },
+      {
+        "field": "portability",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "通勤携带所需实际重量、尺寸与携带条件记录"
+      },
+      {
+        "field": "sealing",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "瓶盖/封口、能否重新封闭及对应说明或实际记录"
+      }
+    ],
+    "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+    "not_requested": [
+      "appearance",
+      "taste",
+      "price",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "vitamin_c",
+      "feature",
+      "scene"
+    ],
+    "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+  },
+  "data_kind": "real_query_no_product_data",
+  "customer_approved": false,
+  "delivery_ready": false
+}

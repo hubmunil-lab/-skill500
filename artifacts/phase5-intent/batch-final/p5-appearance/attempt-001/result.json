@@ -1,0 +1,32 @@
+{
+  "task_id": "p5-appearance",
+  "status": "REVIEW",
+  "generated": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "appearance"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "artifact_directory": "p5-appearance/attempt-001",
+  "attempt": 1,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "reworks": 0,
+  "original_query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）",
+  "content_generated": false,
+  "category": "comparison",
+  "template_id": null,
+  "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "cache_key": "74144b89b1b0dc92c5d60c5899d1072854ccb2e6e4edf14df9f18fdb3ce55ad9"
+}

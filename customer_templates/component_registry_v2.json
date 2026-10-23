@@ -1,0 +1,964 @@
+{
+  "schema_version": 2,
+  "backgrounds": {
+    "customer-compare-01-v1": {
+      "path": "customer_templates/components-v2/customer-compare-01-v1-background.png",
+      "sha256": "75344ecc35db40bad6d27e9250445f31315d6d0ee31a039e4d1b849d837a4d22",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-compare-02-v1": {
+      "path": "customer_templates/components-v2/customer-compare-02-v1-background.png",
+      "sha256": "88a934ef2edf235b431a10b0ae1aab1c4a9a3e4bf5e74ecb3fb9b1994c875cae",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-compare-03-v1": {
+      "path": "customer_templates/components-v2/customer-compare-03-v1-background.png",
+      "sha256": "e7ee2e68dce96580029562eed69c37ded2cc1bf415a8bdd8545a2feceead9d0f",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-recommend-01-v1": {
+      "path": "customer_templates/components-v2/customer-recommend-01-v1-background.png",
+      "sha256": "b3354874577e37a1d4a34cdc089171e8b41f3b33a61f76081dbfe44941ec5292",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-recommend-02-v1": {
+      "path": "customer_templates/components-v2/customer-recommend-02-v1-background.png",
+      "sha256": "2f5de5891f2aece9a4dddc00986e21965b96012363d4a23b4029f2de7c4bfb80",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-recommend-03-v1": {
+      "path": "customer_templates/components-v2/customer-recommend-03-v1-background.png",
+      "sha256": "75533603ceccb295445f533cf7519d48bbf0d2d110e74341e3098271516cb220",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-list-01-v1": {
+      "path": "customer_templates/components-v2/customer-list-01-v1-background.png",
+      "sha256": "f71e1b8f3ec3b3bc13233d1008c543b4712e4ddece859c35cef20ede274ea87c",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-list-02-v1": {
+      "path": "customer_templates/components-v2/customer-list-02-v1-background.png",
+      "sha256": "8796b15aa942a4c612e226d96b812c5f71a6c7126915007fb787bfaf18cfd0a1",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-list-03-v1": {
+      "path": "customer_templates/components-v2/customer-list-03-v1-background.png",
+      "sha256": "19ddc9f3b96b10316b6375fa4df61e3fd93529a469d3dd83c9234d2f7ef40692",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-list-04-v1": {
+      "path": "customer_templates/components-v2/customer-list-04-v1-background.png",
+      "sha256": "f2dc6261000602a9b5d8c2c4f358f48a156939b73ec5c4d41ed97be2f088d84b",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-intro-01-v1": {
+      "path": "customer_templates/components-v2/customer-intro-01-v1-background.png",
+      "sha256": "d598f2fb50f4f447499ed78ecde24d524067506c7ef69e47d35fe4cb6dec89f1",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-intro-02-v1": {
+      "path": "customer_templates/components-v2/customer-intro-02-v1-background.png",
+      "sha256": "13be6ec9da5db3cc80de35e1922e02f7167b337ef7cc92a2099c388d4f074288",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-intro-03-v1": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-background.png",
+      "sha256": "468e553c36bf9f9f3216d5a7a742129fa5a1989d520ee266096d2c841c4868cc",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-intro-04-v1": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-background.png",
+      "sha256": "2102f7a3c85de0b4d6ac8a2fa010ee197135f5a52967b8d5e0225a4fec953a7f",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    },
+    "customer-intro-05-v1": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-background.png",
+      "sha256": "ba072df8da7740d9a436c940c9021b9dfca9f51f5a3233d7111662a6a252a46b",
+      "method": "Reference decoration pixels retained; variable regions cleaned with source-coordinate masks and explicit paper/brush inpainting. Hidden source layers remain unknown."
+    }
+  },
+  "assets": {
+    "compare-left_photo": {
+      "path": "customer_templates/components-v2/compare-left_photo.png",
+      "sha256": "1e9621b3aedf1736a711af14caa76905bc453b1d5681333fda08585f74bd2af4",
+      "subject": "lemon_drink",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "crop": [
+        49,
+        216,
+        308,
+        470
+      ],
+      "size": [
+        259,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "compare-right_photo": {
+      "path": "customer_templates/components-v2/compare-right_photo.png",
+      "sha256": "6987ba2f56d04a50ca66900377535fb8bb8223283d5cd53bb68bb440b8d6417b",
+      "subject": "cola",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "crop": [
+        480,
+        218,
+        644,
+        471
+      ],
+      "size": [
+        164,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "recommend-photo_dragonfruit": {
+      "path": "customer_templates/components-v2/recommend-photo_dragonfruit.png",
+      "sha256": "8b8f1ccfdfd5463ae4c7223ae92c181629bbf96310939bf338ef4dc5332830aa",
+      "subject": "dragonfruit",
+      "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "size": [
+        308,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "recommend-photo_starfruit": {
+      "path": "customer_templates/components-v2/recommend-photo_starfruit.png",
+      "sha256": "910404e5e42a78f65935cccd30d538bc4bbbbd519ca334c2af7b85ee39c91f95",
+      "subject": "starfruit",
+      "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "size": [
+        308,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "recommend-photo_grapefruit": {
+      "path": "customer_templates/components-v2/recommend-photo_grapefruit.png",
+      "sha256": "a5c10be1d8278001456ea17a3373cf6a6818a44e5f1d3116901a0c584dfdce79",
+      "subject": "grapefruit",
+      "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "size": [
+        308,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "recommend-photo_apple": {
+      "path": "customer_templates/components-v2/recommend-photo_apple.png",
+      "sha256": "537cecbe593400618bd2c1b0e4be7a682cd051f2a4da92fe3a7687a3e52225ad",
+      "subject": "apple",
+      "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "size": [
+        308,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "recommend-photo_blueberry": {
+      "path": "customer_templates/components-v2/recommend-photo_blueberry.png",
+      "sha256": "f65f8117c7a38b60a6e3fd4ef5d9dce2d0d6d8b0e1e29cec885ab25e7cb67364",
+      "subject": "blueberry",
+      "reference": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "size": [
+        308,
+        253
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "recommend-photo_strawberry": {
+      "path": "customer_templates/components-v2/recommend-photo_strawberry.png",
+      "sha256": "529225ffa1fdec18820d5b9bf6c78c5f2e8860474c29cd8fc8bbafed22579434",
+      "subject": "strawberry",
+      "reference": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "size": [
+        308,
+        254
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "list-photo_clam": {
+      "path": "customer_templates/components-v2/list-photo_clam.png",
+      "sha256": "a2b917a7309834898a0f142c26fa1ad77d8cd43b5ff9f1bd2d835d4679d9331d",
+      "subject": "clam",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        43,
+        203,
+        346,
+        395
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "list-photo_hawthorn": {
+      "path": "customer_templates/components-v2/list-photo_hawthorn.png",
+      "sha256": "65293e2f575dc0c48f368acdde9af1ef3a6db33b035a6dabb938c5686ad5ac0d",
+      "subject": "hawthorn",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        401,
+        203,
+        704,
+        395
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "list-photo_coix": {
+      "path": "customer_templates/components-v2/list-photo_coix.png",
+      "sha256": "758617433321bb7d129564ac35aeb43f5b14100778887b684bd46f2fcad7f7df",
+      "subject": "coix",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        43,
+        451,
+        346,
+        643
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "list-photo_lychee": {
+      "path": "customer_templates/components-v2/list-photo_lychee.png",
+      "sha256": "7e92059e2ee428e635f9ccb7760f701b21a1c3627e9c79f570bdcacaecf52ce8",
+      "subject": "lychee",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        401,
+        451,
+        704,
+        643
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "list-photo_crab": {
+      "path": "customer_templates/components-v2/list-photo_crab.png",
+      "sha256": "b883f578e55d97b1869416e685b2738aca27df9ee66f1857a1e76b7a39a814b4",
+      "subject": "crab",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        43,
+        699,
+        346,
+        891
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "list-photo_papaya": {
+      "path": "customer_templates/components-v2/list-photo_papaya.png",
+      "sha256": "26b9814f2e38451b2f43ac9d21258163cbee39208846d1ede34d612e24a7cbf4",
+      "subject": "papaya",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "crop": [
+        401,
+        699,
+        704,
+        891
+      ],
+      "size": [
+        303,
+        192
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-01-v1-food": {
+      "path": "customer_templates/components-v2/customer-intro-01-v1-food.png",
+      "sha256": "cc900f22e8b364b336056ce5489e2730d87e70506357dae22dbd4b52caa5f0ee",
+      "subject": "pepper_cover",
+      "reference": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png",
+      "crop": [
+        0,
+        275,
+        365,
+        532
+      ],
+      "size": [
+        365,
+        257
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-02-v1-food": {
+      "path": "customer_templates/components-v2/customer-intro-02-v1-food.png",
+      "sha256": "7111b8ee059dc6080f470b285cfa74fba89b4a173ad4b691463d398f5335899b",
+      "subject": "pepper_detail",
+      "reference": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png",
+      "crop": [
+        410,
+        695,
+        718,
+        932
+      ],
+      "size": [
+        308,
+        237
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-hero_left": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-hero_left.png",
+      "sha256": "ba48e88cffe1b6a4a7d64d0679cb3a62e1b4c52c4fc8255befe23ff3389570d4",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        3,
+        364,
+        486
+      ],
+      "size": [
+        362,
+        483
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-hero_right_top": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-hero_right_top.png",
+      "sha256": "815683b9cfacb2847af3932829211ce38ffb3063602611ef86cc8e7f58bf8062",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        3,
+        725,
+        233
+      ],
+      "size": [
+        360,
+        230
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-hero_right_bottom": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-hero_right_bottom.png",
+      "sha256": "cc507e70f3330ae0d91591323dc24d469f6833b9ee5fb032aaf0dc8e424a323c",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        234,
+        725,
+        486
+      ],
+      "size": [
+        360,
+        252
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_1": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_1.png",
+      "sha256": "913927cf4534c7c9cfcb7c9f27392275dae9c1e3f1b6df8ea6868d9b65b23d33",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        486,
+        182,
+        647
+      ],
+      "size": [
+        180,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_2": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_2.png",
+      "sha256": "cbc676168c9f9e310a1814741db9b83e503ea4f36e63c985cd3334ed8336cb49",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        184,
+        486,
+        364,
+        647
+      ],
+      "size": [
+        180,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_3": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_3.png",
+      "sha256": "441271c03ce9bcb9ff408aa053f1204b173c03f1110cea6f1d639ce8df840240",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        647,
+        182,
+        808
+      ],
+      "size": [
+        180,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_4": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_4.png",
+      "sha256": "2bd1770bc01a84f1365edb3df5d67ff1bc0c687034d03c45ab34b8f38d878dee",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        184,
+        647,
+        364,
+        808
+      ],
+      "size": [
+        180,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_5": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_5.png",
+      "sha256": "b2f6ed32baae9dedb4989ba96cce13a6efd5c8187fd63d9562fa08eea49d6612",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        2,
+        808,
+        182,
+        969
+      ],
+      "size": [
+        180,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_6": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_6.png",
+      "sha256": "d9f8a208997e14eee5b1149b921e22d978a502dd31b9b1a209043c7985d459df",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        184,
+        808,
+        364,
+        969
+      ],
+      "size": [
+        180,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_7": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_7.png",
+      "sha256": "54fabcc1e185ab520f2c20be403663d79650e64edac83574769e524527175a99",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        486,
+        725,
+        648
+      ],
+      "size": [
+        360,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_8": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_8.png",
+      "sha256": "428ea54c9434abeb259228e6e088c8eb063cbbbc0e2ef31de7648bb0efabf437",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        649,
+        725,
+        810
+      ],
+      "size": [
+        360,
+        161
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-03-v1-step_photo_9": {
+      "path": "customer_templates/components-v2/customer-intro-03-v1-step_photo_9.png",
+      "sha256": "bbf1c03506bb3dcdf06266aee040e8edfa183f24b0ee7820f6d6260940945a30",
+      "subject": "pie",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "crop": [
+        365,
+        811,
+        725,
+        970
+      ],
+      "size": [
+        360,
+        159
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-hero_left": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-hero_left.png",
+      "sha256": "b84decee2308b80b34210af696e9aab556615781dd4326a6225c8a81facbb560",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        2,
+        3,
+        363,
+        489
+      ],
+      "size": [
+        361,
+        486
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-hero_right": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-hero_right.png",
+      "sha256": "2868654c032b80881874e1907a29f3b1d7e033f1a528b4099bb024b6e4ae6db3",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        364,
+        3,
+        725,
+        489
+      ],
+      "size": [
+        361,
+        486
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_1": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_1.png",
+      "sha256": "4e31cc5166d593d60c5c5b901b74d4e8065e6c968551dd740ef8ca2439484d0f",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        2,
+        490,
+        181,
+        732
+      ],
+      "size": [
+        179,
+        242
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_2": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_2.png",
+      "sha256": "efe673fdf408d70e6279d9db4a0df8610cb147223a9f1f75f6bdf088dc02609f",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        182,
+        490,
+        362,
+        732
+      ],
+      "size": [
+        180,
+        242
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_3": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_3.png",
+      "sha256": "6b2bce62d1982ea246779cd58d67808e4d062fe29c11f97c40b2bc214dd7e922",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        2,
+        733,
+        181,
+        973
+      ],
+      "size": [
+        179,
+        240
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_4": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_4.png",
+      "sha256": "1a95373b4562ac7011cfbd680499734fe7583775c5f39f6db466e3e5ee4e5099",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        182,
+        733,
+        362,
+        973
+      ],
+      "size": [
+        180,
+        240
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_5": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_5.png",
+      "sha256": "196688cb942e102543ec487ece75020dcdf8daa8e509e2299558aaeced43e760",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        363,
+        490,
+        544,
+        652
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_6": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_6.png",
+      "sha256": "cebfff751d676b9a076d0e6316872ba29d36cf16307feddc989f5595fb6f1035",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        544,
+        490,
+        725,
+        652
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_7": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_7.png",
+      "sha256": "28950b4ef30dd8e9c949b36af65328f1b6983d93a57d809e70f9d31e9b25d272",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        363,
+        652,
+        544,
+        814
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_8": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_8.png",
+      "sha256": "d24e2a5a648847e1e4d478f8e84c1bb61ec6f88cbc897c475ded0e2423281a2b",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        544,
+        652,
+        725,
+        814
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_9": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_9.png",
+      "sha256": "12ae55031b47b6f417e1636697924a02c5a9a8120c1059ce74da4f72ae1839d5",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        363,
+        814,
+        544,
+        973
+      ],
+      "size": [
+        181,
+        159
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-04-v1-step_photo_10": {
+      "path": "customer_templates/components-v2/customer-intro-04-v1-step_photo_10.png",
+      "sha256": "4c9aa2be232b293c76cf3eee13d25db170325ffe27fe4b3624eaf47131137d00",
+      "subject": "tiger_pepper",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "crop": [
+        544,
+        814,
+        725,
+        973
+      ],
+      "size": [
+        181,
+        159
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-hero_left": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-hero_left.png",
+      "sha256": "9d7f6acf9fefb2abc0ad9078058cbb9f98ccb7e8c7c8bfef917459054fc11c85",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        2,
+        3,
+        364,
+        488
+      ],
+      "size": [
+        362,
+        485
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-hero_right": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-hero_right.png",
+      "sha256": "b7b11a524557f960ccfcf9611ae12c83e924966e70b383eaec7a47954ebcdde9",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        3,
+        728,
+        488
+      ],
+      "size": [
+        363,
+        485
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-hero_extra": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-hero_extra.png",
+      "sha256": "2c41eac859d92cc5050b97a88b4326f5cbdf5d83e94a04964a2f71548c7dbbd0",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        2,
+        489,
+        364,
+        975
+      ],
+      "size": [
+        362,
+        486
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-step_photo_1": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_1.png",
+      "sha256": "e690b297b7739c0583224a29cacda8fb5cfff0b29af483f418bf7274637789c5",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        489,
+        546,
+        651
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-step_photo_2": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_2.png",
+      "sha256": "8d75cdd2fd220b8248c9ea72eff2b4363247d7c996c3b50ef650bc1264451256",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        546,
+        489,
+        727,
+        651
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-step_photo_3": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_3.png",
+      "sha256": "67240a01ab9b5287c81af5a934f49aa187d802593006f6d3ad29e7480f42a36d",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        651,
+        546,
+        813
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-step_photo_4": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_4.png",
+      "sha256": "fc60ce7e536540683b406121e1fa92da15dd8ed6b9bc75eee3bc21180ce59345",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        546,
+        651,
+        727,
+        813
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-step_photo_5": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_5.png",
+      "sha256": "635fc060d2b9e9a4c1448b704ec78839180448b2842821df1362537ba05e6049",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        365,
+        813,
+        546,
+        975
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    },
+    "customer-intro-05-v1-step_photo_6": {
+      "path": "customer_templates/components-v2/customer-intro-05-v1-step_photo_6.png",
+      "sha256": "2002d45008ba6ccc23b0ecf8679ab8851a501b26518908c78f648964f0a224de",
+      "subject": "pepper_pork",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "crop": [
+        546,
+        813,
+        727,
+        975
+      ],
+      "size": [
+        181,
+        162
+      ],
+      "rights": "reference_reconstruction_only_not_confirmed_for_delivery",
+      "embedded_text_status": "Recipe captions repaired by local inpainting; exact hidden pixels cannot be recovered"
+    }
+  }
+}

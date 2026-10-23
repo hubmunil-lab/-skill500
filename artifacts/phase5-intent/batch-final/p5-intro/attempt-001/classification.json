@@ -1,0 +1,15 @@
+{
+  "category": "intro",
+  "confidence": 0.65,
+  "provider": "rules_fallback",
+  "reason": "词面启发式，非已验证的语义判断",
+  "rules": {
+    "category": "intro",
+    "candidates": [
+      "intro"
+    ],
+    "status": "suggested",
+    "reason": "词面启发式，非已验证的语义判断"
+  },
+  "review_required": true
+}

@@ -1,0 +1,35 @@
+{
+  "task_id": "p5-selection",
+  "status": "REVIEW",
+  "generated": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "selection",
+        "packaging",
+        "portability",
+        "sealing"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "artifact_directory": "p5-selection/attempt-001",
+  "attempt": 1,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "reworks": 0,
+  "original_query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）",
+  "content_generated": false,
+  "category": "comparison",
+  "template_id": null,
+  "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "cache_key": "9673309fd75fc564872c2721d01f522fb97081a3e518e9cf70ecf05a85ea28b7"
+}

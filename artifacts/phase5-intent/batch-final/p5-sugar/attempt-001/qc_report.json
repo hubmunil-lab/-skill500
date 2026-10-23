@@ -1,0 +1,16 @@
+{
+  "status": "REVIEW",
+  "generated": true,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "CUSTOMER_APPROVAL_REQUIRED"
+    },
+    {
+      "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+    }
+  ],
+  "content_report": "content_qc.json",
+  "layout_report": "render/qc_report.json"
+}

@@ -1,0 +1,1862 @@
+{
+  "original_query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+  "intent": {
+    "schema_version": 1,
+    "original_query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+    "core_question": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+    "direction": "合成软件测试，不是真实产品",
+    "direction_is_evidence": false,
+    "category": "comparison",
+    "classification": {
+      "category": "comparison",
+      "confidence": 0.65,
+      "provider": "rules_fallback",
+      "reason": "词面启发式，非已验证的语义判断",
+      "rules": {
+        "category": "comparison",
+        "candidates": [
+          "comparison"
+        ],
+        "status": "suggested",
+        "reason": "词面启发式，非已验证的语义判断"
+      },
+      "review_required": true
+    },
+    "themes": [
+      "appearance",
+      "taste",
+      "price",
+      "nutrition",
+      "scene",
+      "selection"
+    ],
+    "focus": "vitamin_c",
+    "operation": "max",
+    "search_context": [
+      "每100毫升"
+    ],
+    "required_facts": [
+      "appearance",
+      "taste",
+      "price",
+      "vitamin_c",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "feature",
+      "scene",
+      "selection"
+    ],
+    "useful_supplement": [
+      "具体使用条件与限制",
+      "同光照与容器条件",
+      "照片中是否真正可见被比较液体",
+      "容量与件数",
+      "渠道、日期与优惠条件",
+      "是否需要统一币种和容量",
+      "原始标签与计量基准",
+      "产品状态及换算依据",
+      "目标场景的选择标准及依据"
+    ],
+    "irrelevant_template_fields": [],
+    "explicit_exclusions": [],
+    "scope_conflicts": [],
+    "parser": "RuleIntentParser",
+    "confidence": 0.8,
+    "human_review_required": true,
+    "unknowns": [
+      "未提供的产品版本、受众健康条件、真实体验不得推断"
+    ]
+  },
+  "direct_answer": "每100ml的维生素C：示例丙为12mg，示例丁为45mg，示例丁更多。",
+  "title": "示例丙和示例丁怎么选？先看维生素C",
+  "body": "每100ml的维生素C：示例丙为12mg，示例丁为45mg，示例丁更多。\n\n比较时先对齐计量基准，再看标签数值；整瓶含量和每单位含量不要混着比。\n\n示例丙，外观：浅橙色透明液体，杯中呈均匀色泽，外观清澈无颗粒；口感：酸甜均衡果香轻，无气泡入口平顺，橙香回味较短，口感偏清淡。\n示例丁，外观：浅绿色透明液体，瓶中颜色均匀，可见清澈光泽；口感：酸味较明显，无气泡入口平顺，苹果香气较清晰，回味偏酸爽。\n\n示例丙，价格：JPY 120/200ml（2026-10-23，合成测试渠道）。\n示例丁，价格：JPY 400/1000ml（2026-10-23，合成测试渠道）。\n\n示例丙，热量：20kcal；碳水：5g；含糖量：4g；维生素C：12mg；特色成分：抗坏血酸。\n示例丁，热量：20.8kcal；碳水：5.2g；含糖量：5g；维生素C：45mg；特色成分：柠檬酸。\n\n示例丙，食用场景：随餐搭配，先看实际包装容量；选购建议：维生素C优先：另一款更多，维生素C：12mg，JPY 120/200ml，口感可结合上页记录，核对实际版本与标签。\n示例丁，食用场景：外出携带，留意瓶盖密封状态；选购建议：维生素C优先：本品更多，维生素C：45mg，JPY 400/1000ml，口感可结合上页记录，核对实际版本与标签。",
+  "normalized_fields": {
+    "left": {
+      "appearance": {
+        "display": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "appearance",
+            "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+          },
+          "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "appearance",
+            "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_appearance"
+        }
+      },
+      "taste": {
+        "display": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "taste",
+            "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+          },
+          "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "taste",
+            "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_taste"
+        }
+      },
+      "price": {
+        "display": "JPY 120/200ml",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "price",
+            "value": 120,
+            "unit": "JPY",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 200,
+              "unit": "ml",
+              "count": 1
+            }
+          },
+          "value": 120.0,
+          "currency": "JPY",
+          "comparison_quantity": {
+            "amount": 200,
+            "unit": "ml",
+            "count": 1
+          },
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "price",
+            "value": 120,
+            "unit": "JPY",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 200,
+              "unit": "ml",
+              "count": 1
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_price"
+        }
+      },
+      "vitamin_c": {
+        "display": "12mg",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "vitamin_c",
+            "value": 24,
+            "unit": "mg",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 12.0,
+          "unit": "mg",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "mg",
+              "to_unit": "mg",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "vitamin_c",
+            "value": 24,
+            "unit": "mg",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_vitamin_c"
+        }
+      },
+      "energy": {
+        "display": "20kcal",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "energy",
+            "value": 167.36,
+            "unit": "kJ",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 20.0,
+          "unit": "kcal",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "kJ",
+              "to_unit": "kcal",
+              "factor": "0.2390057361376673",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "energy",
+            "value": 167.36,
+            "unit": "kJ",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_energy"
+        }
+      },
+      "carbohydrate": {
+        "display": "5g",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "carbohydrate",
+            "value": 10,
+            "unit": "g",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 5.0,
+          "unit": "g",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "g",
+              "to_unit": "g",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "carbohydrate",
+            "value": 10,
+            "unit": "g",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_carbohydrate"
+        }
+      },
+      "sugars": {
+        "display": "4g",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "sugars",
+            "value": 8,
+            "unit": "g",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 4.0,
+          "unit": "g",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "g",
+              "to_unit": "g",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "sugars",
+            "value": 8,
+            "unit": "g",
+            "basis": {
+              "amount": 200,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_sugars"
+        }
+      },
+      "feature": {
+        "display": "抗坏血酸",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "feature",
+            "value": "抗坏血酸",
+            "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+          },
+          "value": "抗坏血酸",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "feature",
+            "value": "抗坏血酸",
+            "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_feature"
+        }
+      },
+      "scene": {
+        "display": "随餐搭配\n先看实际包装容量",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "scene",
+            "value": "随餐搭配\n先看实际包装容量"
+          },
+          "value": "随餐搭配\n先看实际包装容量",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "scene",
+            "value": "随餐搭配\n先看实际包装容量"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_scene"
+        }
+      },
+      "selection": {
+        "display": "维生素C优先：另一款更多\n维生素C：12mg\nJPY 120/200ml\n口感可结合上页记录\n核对实际版本与标签",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_0",
+            "field": "selection",
+            "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+          },
+          "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件",
+          "derivation": {
+            "method": "query_metric_and_pack_context",
+            "source_bindings": [
+              {
+                "fact": {
+                  "subject_id": "p5_vitamin_0",
+                  "field": "vitamin_c",
+                  "value": 24,
+                  "unit": "mg",
+                  "basis": {
+                    "amount": 200,
+                    "unit": "ml",
+                    "state": "ready_to_drink"
+                  }
+                },
+                "source_id": "fixture",
+                "fact_id": "p5_vitamin_0_vitamin_c"
+              },
+              {
+                "fact": {
+                  "subject_id": "p5_vitamin_1",
+                  "field": "vitamin_c",
+                  "value": 450,
+                  "unit": "mg",
+                  "basis": {
+                    "amount": 1000,
+                    "unit": "ml",
+                    "state": "ready_to_drink"
+                  }
+                },
+                "source_id": "fixture",
+                "fact_id": "p5_vitamin_1_vitamin_c"
+              }
+            ],
+            "price_binding": {
+              "fact": {
+                "subject_id": "p5_vitamin_0",
+                "field": "price",
+                "value": 120,
+                "unit": "JPY",
+                "date": "2026-10-23",
+                "channel": "合成测试渠道",
+                "quantity": {
+                  "amount": 200,
+                  "unit": "ml",
+                  "count": 1
+                }
+              },
+              "source_id": "fixture",
+              "fact_id": "p5_vitamin_0_price"
+            },
+            "note": "比较建议来自可追溯数值与规格，不是新的营养功效或人群建议"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_0",
+            "field": "selection",
+            "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_0_selection"
+        }
+      }
+    },
+    "right": {
+      "appearance": {
+        "display": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "appearance",
+            "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+          },
+          "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "appearance",
+            "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_appearance"
+        }
+      },
+      "taste": {
+        "display": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "taste",
+            "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+          },
+          "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "taste",
+            "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_taste"
+        }
+      },
+      "price": {
+        "display": "JPY 400/1000ml",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "price",
+            "value": 400,
+            "unit": "JPY",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 1000,
+              "unit": "ml",
+              "count": 1
+            }
+          },
+          "value": 400.0,
+          "currency": "JPY",
+          "comparison_quantity": {
+            "amount": 1000,
+            "unit": "ml",
+            "count": 1
+          },
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "price",
+            "value": 400,
+            "unit": "JPY",
+            "date": "2026-10-23",
+            "channel": "合成测试渠道",
+            "quantity": {
+              "amount": 1000,
+              "unit": "ml",
+              "count": 1
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_price"
+        }
+      },
+      "vitamin_c": {
+        "display": "45mg",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "vitamin_c",
+            "value": 450,
+            "unit": "mg",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 45.0,
+          "unit": "mg",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "mg",
+              "to_unit": "mg",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "vitamin_c",
+            "value": 450,
+            "unit": "mg",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_vitamin_c"
+        }
+      },
+      "energy": {
+        "display": "20.8kcal",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "energy",
+            "value": 870.272,
+            "unit": "kJ",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 20.8,
+          "unit": "kcal",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "kJ",
+              "to_unit": "kcal",
+              "factor": "0.2390057361376673",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "energy",
+            "value": 870.272,
+            "unit": "kJ",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_energy"
+        }
+      },
+      "carbohydrate": {
+        "display": "5.2g",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "carbohydrate",
+            "value": 52,
+            "unit": "g",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 5.2,
+          "unit": "g",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "g",
+              "to_unit": "g",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "carbohydrate",
+            "value": 52,
+            "unit": "g",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_carbohydrate"
+        }
+      },
+      "sugars": {
+        "display": "5g",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "sugars",
+            "value": 50,
+            "unit": "g",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "value": 5.0,
+          "unit": "g",
+          "basis": {
+            "amount": 100.0,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          },
+          "derivation": {
+            "numerator": {
+              "from_unit": "g",
+              "to_unit": "g",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "basis_conversion": {
+              "from_unit": "ml",
+              "to_unit": "ml",
+              "factor": "1",
+              "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+            },
+            "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "sugars",
+            "value": 50,
+            "unit": "g",
+            "basis": {
+              "amount": 1000,
+              "unit": "ml",
+              "state": "ready_to_drink"
+            }
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_sugars"
+        }
+      },
+      "feature": {
+        "display": "柠檬酸",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "feature",
+            "value": "柠檬酸",
+            "ingredient_basis": "虚构配料记录：水、柠檬酸"
+          },
+          "value": "柠檬酸",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "feature",
+            "value": "柠檬酸",
+            "ingredient_basis": "虚构配料记录：水、柠檬酸"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_feature"
+        }
+      },
+      "scene": {
+        "display": "外出携带\n留意瓶盖密封状态",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "scene",
+            "value": "外出携带\n留意瓶盖密封状态"
+          },
+          "value": "外出携带\n留意瓶盖密封状态",
+          "derivation": []
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "scene",
+            "value": "外出携带\n留意瓶盖密封状态"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_scene"
+        }
+      },
+      "selection": {
+        "display": "维生素C优先：本品更多\n维生素C：45mg\nJPY 400/1000ml\n口感可结合上页记录\n核对实际版本与标签",
+        "adaptation": {
+          "raw_record": {
+            "subject_id": "p5_vitamin_1",
+            "field": "selection",
+            "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+          },
+          "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件",
+          "derivation": {
+            "method": "query_metric_and_pack_context",
+            "source_bindings": [
+              {
+                "fact": {
+                  "subject_id": "p5_vitamin_0",
+                  "field": "vitamin_c",
+                  "value": 24,
+                  "unit": "mg",
+                  "basis": {
+                    "amount": 200,
+                    "unit": "ml",
+                    "state": "ready_to_drink"
+                  }
+                },
+                "source_id": "fixture",
+                "fact_id": "p5_vitamin_0_vitamin_c"
+              },
+              {
+                "fact": {
+                  "subject_id": "p5_vitamin_1",
+                  "field": "vitamin_c",
+                  "value": 450,
+                  "unit": "mg",
+                  "basis": {
+                    "amount": 1000,
+                    "unit": "ml",
+                    "state": "ready_to_drink"
+                  }
+                },
+                "source_id": "fixture",
+                "fact_id": "p5_vitamin_1_vitamin_c"
+              }
+            ],
+            "price_binding": {
+              "fact": {
+                "subject_id": "p5_vitamin_1",
+                "field": "price",
+                "value": 400,
+                "unit": "JPY",
+                "date": "2026-10-23",
+                "channel": "合成测试渠道",
+                "quantity": {
+                  "amount": 1000,
+                  "unit": "ml",
+                  "count": 1
+                }
+              },
+              "source_id": "fixture",
+              "fact_id": "p5_vitamin_1_price"
+            },
+            "note": "比较建议来自可追溯数值与规格，不是新的营养功效或人群建议"
+          }
+        },
+        "binding": {
+          "fact": {
+            "subject_id": "p5_vitamin_1",
+            "field": "selection",
+            "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+          },
+          "source_id": "fixture",
+          "fact_id": "p5_vitamin_1_selection"
+        }
+      }
+    }
+  },
+  "winner": "示例丁",
+  "data_kind": "synthetic_test",
+  "customer_approved": false,
+  "delivery_ready": false,
+  "publisher_review_required": true,
+  "provider": "IntentGroundedCopyV1",
+  "manifest": {
+    "schema_version": 1,
+    "category": "compare",
+    "mode": "reconstruction_test",
+    "item_order": [
+      "p5_vitamin_0",
+      "p5_vitamin_1"
+    ],
+    "pages": [
+      {
+        "template_id": "customer-compare-01-v1",
+        "item_ids": [
+          "p5_vitamin_0",
+          "p5_vitamin_1"
+        ],
+        "values": {
+          "title": "示例丁维生素C更多",
+          "subtitle": "虚构配方｜每100ml",
+          "left_photo": "left_photo",
+          "right_photo": "right_photo",
+          "field_1_left": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒",
+          "field_1_right": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽",
+          "field_2_left": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡",
+          "field_2_right": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽",
+          "field_3_left": "JPY 120/200ml\n2026-10-23",
+          "field_3_right": "JPY 400/1000ml\n2026-10-23",
+          "tag_1": "外观特点",
+          "tag_2": "口感区别",
+          "tag_3": "价格差异",
+          "name_left": "示例丙",
+          "name_right": "示例丁"
+        }
+      },
+      {
+        "template_id": "customer-compare-02-v1",
+        "item_ids": [
+          "p5_vitamin_0",
+          "p5_vitamin_1"
+        ],
+        "values": {
+          "title": "每100ml营养对比",
+          "left_photo": "left_photo",
+          "right_photo": "right_photo",
+          "nutrient_1_left": "热量：20kcal",
+          "nutrient_2_left": "碳水：5g",
+          "nutrient_3_left": "含糖量：4g",
+          "nutrient_4_left": "维生素C：12mg",
+          "nutrient_5_left": "特色成分：抗坏血酸",
+          "nutrient_1_right": "热量：20.8kcal",
+          "nutrient_2_right": "碳水：5.2g",
+          "nutrient_3_right": "含糖量：5g",
+          "nutrient_4_right": "维生素C：45mg",
+          "nutrient_5_right": "特色成分：柠檬酸",
+          "name_left": "示例丙",
+          "name_right": "示例丁"
+        }
+      },
+      {
+        "template_id": "customer-compare-03-v1",
+        "item_ids": [
+          "p5_vitamin_0",
+          "p5_vitamin_1"
+        ],
+        "values": {
+          "title": "食用场景与选购",
+          "left_photo": "left_photo",
+          "right_photo": "right_photo",
+          "use_left": "随餐搭配\n先看实际包装容量",
+          "select_left": "维生素C优先：另一款更多\n维生素C：12mg\nJPY 120/200ml\n口感可结合上页记录\n核对实际版本与标签",
+          "use_right": "外出携带\n留意瓶盖密封状态",
+          "select_right": "维生素C优先：本品更多\n维生素C：45mg\nJPY 400/1000ml\n口感可结合上页记录\n核对实际版本与标签",
+          "name_left": "示例丙",
+          "name_right": "示例丁"
+        }
+      }
+    ]
+  },
+  "slot_bindings": {
+    "1.field_1_left": {
+      "field": "appearance",
+      "subject_id": "p5_vitamin_0",
+      "display": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "appearance",
+          "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+        },
+        "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "appearance",
+          "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_appearance"
+      }
+    },
+    "1.field_2_left": {
+      "field": "taste",
+      "subject_id": "p5_vitamin_0",
+      "display": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "taste",
+          "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+        },
+        "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "taste",
+          "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_taste"
+      }
+    },
+    "1.field_3_left": {
+      "field": "price",
+      "subject_id": "p5_vitamin_0",
+      "display": "JPY 120/200ml",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "price",
+          "value": 120,
+          "unit": "JPY",
+          "date": "2026-10-23",
+          "channel": "合成测试渠道",
+          "quantity": {
+            "amount": 200,
+            "unit": "ml",
+            "count": 1
+          }
+        },
+        "value": 120.0,
+        "currency": "JPY",
+        "comparison_quantity": {
+          "amount": 200,
+          "unit": "ml",
+          "count": 1
+        },
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "price",
+          "value": 120,
+          "unit": "JPY",
+          "date": "2026-10-23",
+          "channel": "合成测试渠道",
+          "quantity": {
+            "amount": 200,
+            "unit": "ml",
+            "count": 1
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_price"
+      }
+    },
+    "1.field_1_right": {
+      "field": "appearance",
+      "subject_id": "p5_vitamin_1",
+      "display": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "appearance",
+          "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+        },
+        "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "appearance",
+          "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_appearance"
+      }
+    },
+    "1.field_2_right": {
+      "field": "taste",
+      "subject_id": "p5_vitamin_1",
+      "display": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "taste",
+          "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+        },
+        "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "taste",
+          "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_taste"
+      }
+    },
+    "1.field_3_right": {
+      "field": "price",
+      "subject_id": "p5_vitamin_1",
+      "display": "JPY 400/1000ml",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "price",
+          "value": 400,
+          "unit": "JPY",
+          "date": "2026-10-23",
+          "channel": "合成测试渠道",
+          "quantity": {
+            "amount": 1000,
+            "unit": "ml",
+            "count": 1
+          }
+        },
+        "value": 400.0,
+        "currency": "JPY",
+        "comparison_quantity": {
+          "amount": 1000,
+          "unit": "ml",
+          "count": 1
+        },
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "price",
+          "value": 400,
+          "unit": "JPY",
+          "date": "2026-10-23",
+          "channel": "合成测试渠道",
+          "quantity": {
+            "amount": 1000,
+            "unit": "ml",
+            "count": 1
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_price"
+      }
+    },
+    "2.nutrient_1_left": {
+      "field": "energy",
+      "subject_id": "p5_vitamin_0",
+      "display": "20kcal",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "energy",
+          "value": 167.36,
+          "unit": "kJ",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 20.0,
+        "unit": "kcal",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "kJ",
+            "to_unit": "kcal",
+            "factor": "0.2390057361376673",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "energy",
+          "value": 167.36,
+          "unit": "kJ",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_energy"
+      }
+    },
+    "2.nutrient_2_left": {
+      "field": "carbohydrate",
+      "subject_id": "p5_vitamin_0",
+      "display": "5g",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "carbohydrate",
+          "value": 10,
+          "unit": "g",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 5.0,
+        "unit": "g",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "g",
+            "to_unit": "g",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "carbohydrate",
+          "value": 10,
+          "unit": "g",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_carbohydrate"
+      }
+    },
+    "2.nutrient_3_left": {
+      "field": "sugars",
+      "subject_id": "p5_vitamin_0",
+      "display": "4g",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "sugars",
+          "value": 8,
+          "unit": "g",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 4.0,
+        "unit": "g",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "g",
+            "to_unit": "g",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "sugars",
+          "value": 8,
+          "unit": "g",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_sugars"
+      }
+    },
+    "2.nutrient_4_left": {
+      "field": "vitamin_c",
+      "subject_id": "p5_vitamin_0",
+      "display": "12mg",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "vitamin_c",
+          "value": 24,
+          "unit": "mg",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 12.0,
+        "unit": "mg",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "mg",
+            "to_unit": "mg",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "vitamin_c",
+          "value": 24,
+          "unit": "mg",
+          "basis": {
+            "amount": 200,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_vitamin_c"
+      }
+    },
+    "2.nutrient_5_left": {
+      "field": "feature",
+      "subject_id": "p5_vitamin_0",
+      "display": "抗坏血酸",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "feature",
+          "value": "抗坏血酸",
+          "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+        },
+        "value": "抗坏血酸",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "feature",
+          "value": "抗坏血酸",
+          "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_feature"
+      }
+    },
+    "2.nutrient_1_right": {
+      "field": "energy",
+      "subject_id": "p5_vitamin_1",
+      "display": "20.8kcal",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "energy",
+          "value": 870.272,
+          "unit": "kJ",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 20.8,
+        "unit": "kcal",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "kJ",
+            "to_unit": "kcal",
+            "factor": "0.2390057361376673",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "energy",
+          "value": 870.272,
+          "unit": "kJ",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_energy"
+      }
+    },
+    "2.nutrient_2_right": {
+      "field": "carbohydrate",
+      "subject_id": "p5_vitamin_1",
+      "display": "5.2g",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "carbohydrate",
+          "value": 52,
+          "unit": "g",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 5.2,
+        "unit": "g",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "g",
+            "to_unit": "g",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "carbohydrate",
+          "value": 52,
+          "unit": "g",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_carbohydrate"
+      }
+    },
+    "2.nutrient_3_right": {
+      "field": "sugars",
+      "subject_id": "p5_vitamin_1",
+      "display": "5g",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "sugars",
+          "value": 50,
+          "unit": "g",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 5.0,
+        "unit": "g",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "g",
+            "to_unit": "g",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "sugars",
+          "value": 50,
+          "unit": "g",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_sugars"
+      }
+    },
+    "2.nutrient_4_right": {
+      "field": "vitamin_c",
+      "subject_id": "p5_vitamin_1",
+      "display": "45mg",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "vitamin_c",
+          "value": 450,
+          "unit": "mg",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "value": 45.0,
+        "unit": "mg",
+        "basis": {
+          "amount": 100.0,
+          "unit": "ml",
+          "state": "ready_to_drink"
+        },
+        "derivation": {
+          "numerator": {
+            "from_unit": "mg",
+            "to_unit": "mg",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "basis_conversion": {
+            "from_unit": "ml",
+            "to_unit": "ml",
+            "factor": "1",
+            "reference": "BIPM SI unit definitions; thermochemical calorie: 1 kcal = 4.184 kJ; engineering conversion constants, not food facts"
+          },
+          "formula": "converted_nutrient * target_basis_amount / converted_source_basis_amount"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "vitamin_c",
+          "value": 450,
+          "unit": "mg",
+          "basis": {
+            "amount": 1000,
+            "unit": "ml",
+            "state": "ready_to_drink"
+          }
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_vitamin_c"
+      }
+    },
+    "2.nutrient_5_right": {
+      "field": "feature",
+      "subject_id": "p5_vitamin_1",
+      "display": "柠檬酸",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "feature",
+          "value": "柠檬酸",
+          "ingredient_basis": "虚构配料记录：水、柠檬酸"
+        },
+        "value": "柠檬酸",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "feature",
+          "value": "柠檬酸",
+          "ingredient_basis": "虚构配料记录：水、柠檬酸"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_feature"
+      }
+    },
+    "3.use_left": {
+      "field": "scene",
+      "subject_id": "p5_vitamin_0",
+      "display": "随餐搭配\n先看实际包装容量",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "scene",
+          "value": "随餐搭配\n先看实际包装容量"
+        },
+        "value": "随餐搭配\n先看实际包装容量",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "scene",
+          "value": "随餐搭配\n先看实际包装容量"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_scene"
+      }
+    },
+    "3.select_left": {
+      "field": "selection",
+      "subject_id": "p5_vitamin_0",
+      "display": "维生素C优先：另一款更多\n维生素C：12mg\nJPY 120/200ml\n口感可结合上页记录\n核对实际版本与标签",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_0",
+          "field": "selection",
+          "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+        },
+        "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件",
+        "derivation": {
+          "method": "query_metric_and_pack_context",
+          "source_bindings": [
+            {
+              "fact": {
+                "subject_id": "p5_vitamin_0",
+                "field": "vitamin_c",
+                "value": 24,
+                "unit": "mg",
+                "basis": {
+                  "amount": 200,
+                  "unit": "ml",
+                  "state": "ready_to_drink"
+                }
+              },
+              "source_id": "fixture",
+              "fact_id": "p5_vitamin_0_vitamin_c"
+            },
+            {
+              "fact": {
+                "subject_id": "p5_vitamin_1",
+                "field": "vitamin_c",
+                "value": 450,
+                "unit": "mg",
+                "basis": {
+                  "amount": 1000,
+                  "unit": "ml",
+                  "state": "ready_to_drink"
+                }
+              },
+              "source_id": "fixture",
+              "fact_id": "p5_vitamin_1_vitamin_c"
+            }
+          ],
+          "price_binding": {
+            "fact": {
+              "subject_id": "p5_vitamin_0",
+              "field": "price",
+              "value": 120,
+              "unit": "JPY",
+              "date": "2026-10-23",
+              "channel": "合成测试渠道",
+              "quantity": {
+                "amount": 200,
+                "unit": "ml",
+                "count": 1
+              }
+            },
+            "source_id": "fixture",
+            "fact_id": "p5_vitamin_0_price"
+          },
+          "note": "比较建议来自可追溯数值与规格，不是新的营养功效或人群建议"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_0",
+          "field": "selection",
+          "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_0_selection"
+      }
+    },
+    "3.use_right": {
+      "field": "scene",
+      "subject_id": "p5_vitamin_1",
+      "display": "外出携带\n留意瓶盖密封状态",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "scene",
+          "value": "外出携带\n留意瓶盖密封状态"
+        },
+        "value": "外出携带\n留意瓶盖密封状态",
+        "derivation": []
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "scene",
+          "value": "外出携带\n留意瓶盖密封状态"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_scene"
+      }
+    },
+    "3.select_right": {
+      "field": "selection",
+      "subject_id": "p5_vitamin_1",
+      "display": "维生素C优先：本品更多\n维生素C：45mg\nJPY 400/1000ml\n口感可结合上页记录\n核对实际版本与标签",
+      "adaptation": {
+        "raw_record": {
+          "subject_id": "p5_vitamin_1",
+          "field": "selection",
+          "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+        },
+        "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件",
+        "derivation": {
+          "method": "query_metric_and_pack_context",
+          "source_bindings": [
+            {
+              "fact": {
+                "subject_id": "p5_vitamin_0",
+                "field": "vitamin_c",
+                "value": 24,
+                "unit": "mg",
+                "basis": {
+                  "amount": 200,
+                  "unit": "ml",
+                  "state": "ready_to_drink"
+                }
+              },
+              "source_id": "fixture",
+              "fact_id": "p5_vitamin_0_vitamin_c"
+            },
+            {
+              "fact": {
+                "subject_id": "p5_vitamin_1",
+                "field": "vitamin_c",
+                "value": 450,
+                "unit": "mg",
+                "basis": {
+                  "amount": 1000,
+                  "unit": "ml",
+                  "state": "ready_to_drink"
+                }
+              },
+              "source_id": "fixture",
+              "fact_id": "p5_vitamin_1_vitamin_c"
+            }
+          ],
+          "price_binding": {
+            "fact": {
+              "subject_id": "p5_vitamin_1",
+              "field": "price",
+              "value": 400,
+              "unit": "JPY",
+              "date": "2026-10-23",
+              "channel": "合成测试渠道",
+              "quantity": {
+                "amount": 1000,
+                "unit": "ml",
+                "count": 1
+              }
+            },
+            "source_id": "fixture",
+            "fact_id": "p5_vitamin_1_price"
+          },
+          "note": "比较建议来自可追溯数值与规格，不是新的营养功效或人群建议"
+        }
+      },
+      "binding": {
+        "fact": {
+          "subject_id": "p5_vitamin_1",
+          "field": "selection",
+          "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+        },
+        "source_id": "fixture",
+        "fact_id": "p5_vitamin_1_selection"
+      }
+    }
+  },
+  "content_hash": "2842a453dee77402e6dc2257778565711b14afff86f052a2cf527fe0a46f7dc7"
+}

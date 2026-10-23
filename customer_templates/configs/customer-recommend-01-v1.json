@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "id": "customer-recommend-01-v1",
+  "category": "recommend",
+  "role": "detail",
+  "page_number": 1,
+  "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+  "reference_sha256": "791544ac54e830407584137604002c802d302c3e99220df71a5cd4c454c1423e",
+  "source_size": [
+    730,
+    973
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        219,
+        110,
+        693,
+        267
+      ],
+      "font_size": 55,
+      "line_height": 71.5,
+      "color": "#352919",
+      "erase_color": "#f8f7f3",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "serif",
+      "value": "水果推荐\n版式测试",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_dragonfruit",
+      "kind": "image",
+      "box": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "crop": [
+        25,
+        386,
+        333,
+        639
+      ],
+      "subject": "dragonfruit"
+    },
+    {
+      "id": "number_dragonfruit",
+      "kind": "text",
+      "box": [
+        361,
+        393,
+        428,
+        448
+      ],
+      "font_size": 48,
+      "line_height": 55,
+      "color": "#748846",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "01",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_dragonfruit",
+      "kind": "text",
+      "box": [
+        435,
+        398,
+        690,
+        450
+      ],
+      "font_size": 36,
+      "line_height": 46.8,
+      "color": "#171511",
+      "erase_color": "#f8f7f3",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "火龙果",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "serving_dragonfruit",
+      "kind": "text",
+      "box": [
+        364,
+        461,
+        697,
+        493
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#38352c",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "份量说明待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_1_dragonfruit",
+      "kind": "text",
+      "box": [
+        488,
+        503,
+        697,
+        533
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段1：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_2_dragonfruit",
+      "kind": "text",
+      "box": [
+        488,
+        552,
+        697,
+        582
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段2：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_3_dragonfruit",
+      "kind": "text",
+      "box": [
+        488,
+        600,
+        697,
+        630
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段3：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_starfruit",
+      "kind": "image",
+      "box": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "crop": [
+        25,
+        680,
+        333,
+        934
+      ],
+      "subject": "starfruit"
+    },
+    {
+      "id": "number_starfruit",
+      "kind": "text",
+      "box": [
+        361,
+        687,
+        428,
+        742
+      ],
+      "font_size": 48,
+      "line_height": 55,
+      "color": "#748846",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "02",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_starfruit",
+      "kind": "text",
+      "box": [
+        435,
+        692,
+        690,
+        744
+      ],
+      "font_size": 36,
+      "line_height": 46.8,
+      "color": "#171511",
+      "erase_color": "#f8f7f3",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "杨桃",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "serving_starfruit",
+      "kind": "text",
+      "box": [
+        364,
+        755,
+        697,
+        787
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#38352c",
+      "erase_color": "#f8f7f3",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "份量说明待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_1_starfruit",
+      "kind": "text",
+      "box": [
+        488,
+        797,
+        697,
+        827
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段1：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_2_starfruit",
+      "kind": "text",
+      "box": [
+        488,
+        846,
+        697,
+        876
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段2：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "row_3_starfruit",
+      "kind": "text",
+      "box": [
+        488,
+        894,
+        697,
+        924
+      ],
+      "font_size": 18,
+      "line_height": 23.4,
+      "color": "#646a47",
+      "erase_color": "#f1f1e6",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "serif",
+      "value": "字段3：排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "dragonfruit",
+    "starfruit"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [
+    "No overview cover was provided; no cover invented."
+  ],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#f7f6f2",
+    "paper": "#f7f6f2"
+  }
+}

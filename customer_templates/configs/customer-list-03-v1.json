@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "customer-list-03-v1",
+  "category": "list",
+  "role": "detail",
+  "page_number": 3,
+  "reference": "assets/customer_reference/list/bab805d8-ff7a-417e-97aa-84f784283b42.png",
+  "reference_sha256": "64b22078af09497de3b8d9a6e72c4ec1470507060ba0b769294c8703bce918b1",
+  "source_size": [
+    721,
+    957
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "name_coix",
+      "kind": "text",
+      "box": [
+        40,
+        37,
+        363,
+        106
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#6c502c",
+      "erase_color": "#e9eadc",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "薏米",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_coix",
+      "kind": "image",
+      "box": [
+        409,
+        44,
+        700,
+        218
+      ],
+      "crop": [
+        409,
+        44,
+        700,
+        218
+      ],
+      "subject": "coix"
+    },
+    {
+      "id": "energy_coix",
+      "kind": "text",
+      "box": [
+        48,
+        116,
+        405,
+        148
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【热量】测试值待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "feature_coix",
+      "kind": "text",
+      "box": [
+        48,
+        156,
+        407,
+        205
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【特点】此处用于排版验证。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "reason_coix",
+      "kind": "text",
+      "box": [
+        116,
+        244,
+        693,
+        310
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#70502b",
+      "erase_color": "#fffbed",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "原因字段待核实，不作为健康结论。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_coix",
+      "kind": "text",
+      "box": [
+        70,
+        348,
+        691,
+        469
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_lychee",
+      "kind": "text",
+      "box": [
+        40,
+        506,
+        363,
+        575
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#6c502c",
+      "erase_color": "#e9eadc",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "荔枝",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_lychee",
+      "kind": "image",
+      "box": [
+        409,
+        513,
+        700,
+        687
+      ],
+      "crop": [
+        409,
+        513,
+        700,
+        687
+      ],
+      "subject": "lychee"
+    },
+    {
+      "id": "energy_lychee",
+      "kind": "text",
+      "box": [
+        48,
+        585,
+        405,
+        617
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【热量】测试值待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "feature_lychee",
+      "kind": "text",
+      "box": [
+        48,
+        625,
+        407,
+        674
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【特点】此处用于排版验证。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "reason_lychee",
+      "kind": "text",
+      "box": [
+        116,
+        713,
+        693,
+        779
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#70502b",
+      "erase_color": "#fffbed",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "原因字段待核实，不作为健康结论。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_lychee",
+      "kind": "text",
+      "box": [
+        70,
+        817,
+        691,
+        930
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "coix",
+    "lychee"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#e8f1ae",
+    "paper": "#eef0e3"
+  }
+}

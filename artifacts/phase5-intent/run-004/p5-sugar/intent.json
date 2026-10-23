@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "original_query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+  "core_question": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+  "direction": "合成软件测试，不是真实产品",
+  "direction_is_evidence": false,
+  "category": "comparison",
+  "classification": {
+    "category": "comparison",
+    "confidence": 0.65,
+    "provider": "rules_fallback",
+    "reason": "词面启发式，非已验证的语义判断",
+    "rules": {
+      "category": "comparison",
+      "candidates": [
+        "comparison"
+      ],
+      "status": "suggested",
+      "reason": "词面启发式，非已验证的语义判断"
+    },
+    "review_required": true
+  },
+  "themes": [
+    "appearance",
+    "taste",
+    "price",
+    "nutrition",
+    "scene",
+    "selection"
+  ],
+  "focus": "sugars",
+  "operation": "min",
+  "search_context": [
+    "每100毫升"
+  ],
+  "required_facts": [
+    "appearance",
+    "taste",
+    "price",
+    "sugars",
+    "energy",
+    "carbohydrate",
+    "vitamin_c",
+    "feature",
+    "scene",
+    "selection"
+  ],
+  "useful_supplement": [
+    "具体使用条件与限制",
+    "同光照与容器条件",
+    "照片中是否真正可见被比较液体",
+    "容量与件数",
+    "渠道、日期与优惠条件",
+    "是否需要统一币种和容量",
+    "原始标签与计量基准",
+    "产品状态及换算依据",
+    "目标场景的选择标准及依据"
+  ],
+  "irrelevant_template_fields": [],
+  "explicit_exclusions": [],
+  "scope_conflicts": [],
+  "parser": "RuleIntentParser",
+  "confidence": 0.8,
+  "human_review_required": true,
+  "unknowns": [
+    "未提供的产品版本、受众健康条件、真实体验不得推断"
+  ]
+}

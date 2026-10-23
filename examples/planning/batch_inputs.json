@@ -1,0 +1,44 @@
+[
+  {
+    "task_id": "p5-appearance",
+    "query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）"
+  },
+  {
+    "task_id": "p5-price",
+    "query": "250ml果汁和330ml果汁哪个更划算（统一容量比价）"
+  },
+  {
+    "task_id": "p5-selection",
+    "query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）"
+  },
+  {
+    "task_id": "p5-sugar",
+    "query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+    "direction": "合成软件测试，不是真实产品"
+  },
+  {
+    "task_id": "p5-vitamin",
+    "query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+    "direction": "合成软件测试，不是真实产品"
+  },
+  {
+    "task_id": "p5-intro",
+    "query": "青椒有什么营养特点"
+  },
+  {
+    "task_id": "p5-procedure",
+    "query": "青椒炒肉怎么做，火候和步骤是什么"
+  },
+  {
+    "task_id": "p5-recommend",
+    "query": "早餐水果推荐（方便携带）"
+  },
+  {
+    "task_id": "p5-inventory",
+    "query": "常见苹果品种盘点（口感和用途）"
+  },
+  {
+    "task_id": "p5-review",
+    "query": "三款无糖饮料实测体验（口感和价格）"
+  }
+]

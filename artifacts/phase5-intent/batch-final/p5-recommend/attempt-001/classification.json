@@ -1,0 +1,15 @@
+{
+  "category": "recommendation",
+  "confidence": 0.65,
+  "provider": "rules_fallback",
+  "reason": "明确推荐指令优先于枚举问法",
+  "rules": {
+    "category": "recommendation",
+    "candidates": [
+      "recommendation"
+    ],
+    "status": "suggested",
+    "reason": "明确推荐指令优先于枚举问法"
+  },
+  "review_required": true
+}

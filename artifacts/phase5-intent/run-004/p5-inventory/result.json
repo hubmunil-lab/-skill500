@@ -1,0 +1,33 @@
+{
+  "task_id": "p5-inventory",
+  "original_query": "常见苹果品种盘点（口感和用途）",
+  "status": "REVIEW",
+  "generated": false,
+  "content_generated": false,
+  "category": "inventory",
+  "template_id": null,
+  "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "item_list",
+        "distinguishing_features",
+        "usage"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "reworks": 0,
+  "cache_key": "20e4c450ca2a5cd978487fca6eb596468ea956b09fad73e0b98d1af3846b1d8d",
+  "software_expectations_passed": true
+}

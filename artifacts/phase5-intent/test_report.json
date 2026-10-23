@@ -1,0 +1,31 @@
+{
+  "full_suite": {
+    "total": 107,
+    "failed": 0,
+    "seconds": 70.238,
+    "location": "independent_review_checkout"
+  },
+  "prior_regression_cases": 93,
+  "new_cases": 14,
+  "legacy_assertion_updated": 1,
+  "deleted_tests": 0,
+  "query_expectations": {
+    "passed": 10,
+    "total": 10
+  },
+  "synthetic_rendering": {
+    "groups": 2,
+    "total": 2,
+    "pngs": 6
+  },
+  "real_business": {
+    "delivered": 0,
+    "rendered": 0,
+    "queries": 8
+  },
+  "default_batch_resume": {
+    "reused": 10,
+    "total": 10
+  },
+  "customer_approved": false
+}

@@ -1,0 +1,70 @@
+{
+  "decision": "MATCH_REVIEW_REQUIRED",
+  "selected_template_id": "customer-compare-v1",
+  "scores": [
+    {
+      "template_id": "customer-compare-v1",
+      "dimensions": {
+        "question_coverage": 1.0,
+        "field_relevance": 1.0,
+        "evidence": 1.0,
+        "assets": 1.0,
+        "approval": 0.0,
+        "capacity": 1
+      },
+      "score": 0.9,
+      "semantic_rejection_reasons": [],
+      "semantic_match": true,
+      "unrelated_required_fields": [],
+      "template_data_missing": [],
+      "customer_approved": false,
+      "page_capacity": 3,
+      "text_capacity_status": "not_measured",
+      "profile": {
+        "template_id": "customer-compare-v1",
+        "category": "comparison",
+        "themes": [
+          "appearance",
+          "taste",
+          "price",
+          "nutrition",
+          "scene",
+          "selection"
+        ],
+        "required_fields": [
+          "appearance",
+          "taste",
+          "price",
+          "energy",
+          "carbohydrate",
+          "sugars",
+          "vitamin_c",
+          "feature",
+          "scene",
+          "selection"
+        ],
+        "object_count": 2,
+        "pages": 3,
+        "page_roles": [
+          "appearance_taste_price",
+          "nutrition",
+          "scene_selection"
+        ],
+        "renderer": "compare_revision"
+      },
+      "warnings": []
+    }
+  ],
+  "requested_content_directions": [
+    "appearance",
+    "taste",
+    "price",
+    "nutrition",
+    "scene",
+    "selection"
+  ],
+  "unregistered_directions_are_not_templates": true,
+  "customer_approved": false,
+  "policy_status": "engineering_policy_not_customer_approval",
+  "reason": "已登记模板业务语义适配，审批/事实/素材/真实容量仍独立检查"
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "id": "customer-intro-01-v1",
+  "category": "intro",
+  "role": "cover",
+  "page_number": 1,
+  "reference": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png",
+  "reference_sha256": "42829f78da51098704586fa6c077b8c11a97d8436041e952f2e7baaddd3ca935",
+  "source_size": [
+    729,
+    972
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        75,
+        87,
+        335,
+        221
+      ],
+      "font_size": 96,
+      "line_height": 124.8,
+      "color": "#000",
+      "erase_color": "#eeeeea",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "青椒",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "topic",
+      "kind": "text",
+      "box": [
+        408,
+        110,
+        600,
+        170
+      ],
+      "font_size": 41,
+      "line_height": 53.3,
+      "color": "#000",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "营养字段",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "food",
+      "kind": "image",
+      "box": [
+        0,
+        275,
+        365,
+        532
+      ],
+      "crop": [
+        0,
+        275,
+        365,
+        532
+      ],
+      "subject": "pepper_cover"
+    },
+    {
+      "id": "benefit_1",
+      "kind": "text",
+      "box": [
+        474,
+        317,
+        666,
+        364
+      ],
+      "font_size": 30,
+      "line_height": 39.0,
+      "color": "#fff",
+      "erase_color": "#9291e8",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "亮点1测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "benefit_2",
+      "kind": "text",
+      "box": [
+        474,
+        410,
+        666,
+        457
+      ],
+      "font_size": 30,
+      "line_height": 39.0,
+      "color": "#fff",
+      "erase_color": "#9291e8",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "亮点2测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "benefit_3",
+      "kind": "text",
+      "box": [
+        474,
+        500,
+        666,
+        547
+      ],
+      "font_size": 30,
+      "line_height": 39.0,
+      "color": "#fff",
+      "erase_color": "#9291e8",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "亮点3测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_title",
+      "kind": "text",
+      "box": [
+        48,
+        613,
+        300,
+        646
+      ],
+      "font_size": 24,
+      "line_height": 31.2,
+      "color": "#000",
+      "erase_color": "#eeeeea",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "营养成分｜待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_1",
+      "kind": "text",
+      "box": [
+        48,
+        655,
+        235,
+        687
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段1：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_2",
+      "kind": "text",
+      "box": [
+        288,
+        655,
+        475,
+        687
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段2：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_3",
+      "kind": "text",
+      "box": [
+        502,
+        655,
+        689,
+        687
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段3：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_4",
+      "kind": "text",
+      "box": [
+        48,
+        696,
+        235,
+        728
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段4：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_5",
+      "kind": "text",
+      "box": [
+        288,
+        696,
+        475,
+        728
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段5：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrition_6",
+      "kind": "text",
+      "box": [
+        502,
+        696,
+        689,
+        728
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段6：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "summary",
+      "kind": "text",
+      "box": [
+        49,
+        810,
+        690,
+        920
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "此页仅验证青椒固定模板的文字、图片与表格区域。\n营养数据与健康表述需另行核实。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "pepper"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#f6f6f2",
+    "paper": "#f5f6f3"
+  }
+}

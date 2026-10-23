@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "customer-list-02-v1",
+  "category": "list",
+  "role": "detail",
+  "page_number": 2,
+  "reference": "assets/customer_reference/list/2e0b94bb-f421-4239-ad1b-f6e5fc88d360.png",
+  "reference_sha256": "dd951b7d5dd744a3c2e7269830ab6dc8bc48e5e14a204f3068ab3252282d9918",
+  "source_size": [
+    727,
+    976
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "name_clam",
+      "kind": "text",
+      "box": [
+        40,
+        42,
+        363,
+        111
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#6c502c",
+      "erase_color": "#e9eadc",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "花甲",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_clam",
+      "kind": "image",
+      "box": [
+        409,
+        49,
+        700,
+        223
+      ],
+      "crop": [
+        409,
+        49,
+        700,
+        223
+      ],
+      "subject": "clam"
+    },
+    {
+      "id": "energy_clam",
+      "kind": "text",
+      "box": [
+        48,
+        121,
+        405,
+        153
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【热量】测试值待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "feature_clam",
+      "kind": "text",
+      "box": [
+        48,
+        161,
+        407,
+        210
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【特点】此处用于排版验证。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "reason_clam",
+      "kind": "text",
+      "box": [
+        116,
+        249,
+        693,
+        315
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#70502b",
+      "erase_color": "#fffbed",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "原因字段待核实，不作为健康结论。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_clam",
+      "kind": "text",
+      "box": [
+        70,
+        353,
+        691,
+        474
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_hawthorn",
+      "kind": "text",
+      "box": [
+        40,
+        516,
+        363,
+        585
+      ],
+      "font_size": 52,
+      "line_height": 67.6,
+      "color": "#6c502c",
+      "erase_color": "#e9eadc",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "山楂",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_hawthorn",
+      "kind": "image",
+      "box": [
+        409,
+        523,
+        700,
+        697
+      ],
+      "crop": [
+        409,
+        523,
+        700,
+        697
+      ],
+      "subject": "hawthorn"
+    },
+    {
+      "id": "energy_hawthorn",
+      "kind": "text",
+      "box": [
+        48,
+        595,
+        405,
+        627
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【热量】测试值待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "feature_hawthorn",
+      "kind": "text",
+      "box": [
+        48,
+        635,
+        407,
+        684
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "【特点】此处用于排版验证。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "reason_hawthorn",
+      "kind": "text",
+      "box": [
+        116,
+        723,
+        693,
+        789
+      ],
+      "font_size": 20,
+      "line_height": 26.0,
+      "color": "#70502b",
+      "erase_color": "#fffbed",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "原因字段待核实，不作为健康结论。",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_hawthorn",
+      "kind": "text",
+      "box": [
+        70,
+        827,
+        691,
+        948
+      ],
+      "font_size": 23,
+      "line_height": 29.9,
+      "color": "#95453d",
+      "erase_color": "#fff",
+      "weight": 700,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "clam",
+    "hawthorn"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#e8f1b2",
+    "paper": "#fffffb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+  "facts": [
+    {
+      "field": "price",
+      "needed_for": "direct_answer_or_explicit_useful_scope",
+      "material": "价格、币种、实际容量/件数、渠道、采集日期、优惠条件和原始记录"
+    }
+  ],
+  "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+  "not_requested": [
+    "appearance",
+    "taste",
+    "energy",
+    "carbohydrate",
+    "sugars",
+    "vitamin_c",
+    "feature",
+    "scene",
+    "selection"
+  ],
+  "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+}

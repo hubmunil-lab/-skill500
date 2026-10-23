@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "category": "list",
+  "mode": "reconstruction_test",
+  "item_order": [
+    "clam",
+    "hawthorn",
+    "coix",
+    "lychee",
+    "crab",
+    "papaya"
+  ],
+  "pages": [
+    {
+      "template_id": "customer-list-01-v1",
+      "item_ids": [
+        "clam",
+        "hawthorn",
+        "coix",
+        "lychee",
+        "crab",
+        "papaya"
+      ],
+      "values": {
+        "title": "六种食材｜排版测试",
+        "photo_clam": "photo_clam",
+        "name_clam": "花甲",
+        "photo_hawthorn": "photo_hawthorn",
+        "name_hawthorn": "山楂",
+        "photo_coix": "photo_coix",
+        "name_coix": "薏米",
+        "photo_lychee": "photo_lychee",
+        "name_lychee": "荔枝",
+        "photo_crab": "photo_crab",
+        "name_crab": "螃蟹",
+        "photo_papaya": "photo_papaya",
+        "name_papaya": "木瓜"
+      }
+    },
+    {
+      "template_id": "customer-list-02-v1",
+      "item_ids": [
+        "clam",
+        "hawthorn"
+      ],
+      "values": {
+        "name_clam": "花甲",
+        "photo_clam": "photo_clam",
+        "energy_clam": "【热量】测试值待核实",
+        "feature_clam": "【特点】此处用于排版验证。",
+        "reason_clam": "原因字段待核实，不作为健康结论。",
+        "description_clam": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+        "name_hawthorn": "山楂",
+        "photo_hawthorn": "photo_hawthorn",
+        "energy_hawthorn": "【热量】测试值待核实",
+        "feature_hawthorn": "【特点】此处用于排版验证。",
+        "reason_hawthorn": "原因字段待核实，不作为健康结论。",
+        "description_hawthorn": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。"
+      }
+    },
+    {
+      "template_id": "customer-list-03-v1",
+      "item_ids": [
+        "coix",
+        "lychee"
+      ],
+      "values": {
+        "name_coix": "薏米",
+        "photo_coix": "photo_coix",
+        "energy_coix": "【热量】测试值待核实",
+        "feature_coix": "【特点】此处用于排版验证。",
+        "reason_coix": "原因字段待核实，不作为健康结论。",
+        "description_coix": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+        "name_lychee": "荔枝",
+        "photo_lychee": "photo_lychee",
+        "energy_lychee": "【热量】测试值待核实",
+        "feature_lychee": "【特点】此处用于排版验证。",
+        "reason_lychee": "原因字段待核实，不作为健康结论。",
+        "description_lychee": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。"
+      }
+    },
+    {
+      "template_id": "customer-list-04-v1",
+      "item_ids": [
+        "crab",
+        "papaya"
+      ],
+      "values": {
+        "name_crab": "螃蟹",
+        "photo_crab": "photo_crab",
+        "energy_crab": "【热量】测试值待核实",
+        "feature_crab": "【特点】此处用于排版验证。",
+        "reason_crab": "原因字段待核实，不作为健康结论。",
+        "description_crab": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。",
+        "name_papaya": "木瓜",
+        "photo_papaya": "photo_papaya",
+        "energy_papaya": "【热量】测试值待核实",
+        "feature_papaya": "【特点】此处用于排版验证。",
+        "reason_papaya": "原因字段待核实，不作为健康结论。",
+        "description_papaya": "说明文字排版测试。\n参考图中的健康判断与食用份量未作为事实沿用。"
+      }
+    }
+  ]
+}

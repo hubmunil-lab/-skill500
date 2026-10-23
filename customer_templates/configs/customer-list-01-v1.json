@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "id": "customer-list-01-v1",
+  "category": "list",
+  "role": "cover",
+  "page_number": 1,
+  "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+  "reference_sha256": "d1dce9090beec507a5f9240f2e31cbc41c435080f4007e8779349be2d1a7c745",
+  "source_size": [
+    730,
+    976
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        8,
+        27,
+        721,
+        112
+      ],
+      "font_size": 43,
+      "line_height": 55.9,
+      "color": "#6c502c",
+      "erase_color": "#e9f1ad",
+      "weight": 700,
+      "align": "center",
+      "outline": 4,
+      "font": "sans",
+      "value": "六种食材｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_clam",
+      "kind": "image",
+      "box": [
+        43,
+        203,
+        346,
+        395
+      ],
+      "crop": [
+        43,
+        203,
+        346,
+        395
+      ],
+      "subject": "clam"
+    },
+    {
+      "id": "name_clam",
+      "kind": "text",
+      "box": [
+        124,
+        414,
+        286,
+        446
+      ],
+      "font_size": 26,
+      "line_height": 32,
+      "color": "#664d2e",
+      "erase_color": "#fceaa0",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "花甲",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_hawthorn",
+      "kind": "image",
+      "box": [
+        401,
+        203,
+        704,
+        395
+      ],
+      "crop": [
+        401,
+        203,
+        704,
+        395
+      ],
+      "subject": "hawthorn"
+    },
+    {
+      "id": "name_hawthorn",
+      "kind": "text",
+      "box": [
+        444,
+        414,
+        606,
+        446
+      ],
+      "font_size": 26,
+      "line_height": 32,
+      "color": "#664d2e",
+      "erase_color": "#fceaa0",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "山楂",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_coix",
+      "kind": "image",
+      "box": [
+        43,
+        451,
+        346,
+        643
+      ],
+      "crop": [
+        43,
+        451,
+        346,
+        643
+      ],
+      "subject": "coix"
+    },
+    {
+      "id": "name_coix",
+      "kind": "text",
+      "box": [
+        124,
+        664,
+        286,
+        696
+      ],
+      "font_size": 26,
+      "line_height": 32,
+      "color": "#664d2e",
+      "erase_color": "#fceaa0",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "薏米",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_lychee",
+      "kind": "image",
+      "box": [
+        401,
+        451,
+        704,
+        643
+      ],
+      "crop": [
+        401,
+        451,
+        704,
+        643
+      ],
+      "subject": "lychee"
+    },
+    {
+      "id": "name_lychee",
+      "kind": "text",
+      "box": [
+        444,
+        664,
+        606,
+        696
+      ],
+      "font_size": 26,
+      "line_height": 32,
+      "color": "#664d2e",
+      "erase_color": "#fceaa0",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "荔枝",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_crab",
+      "kind": "image",
+      "box": [
+        43,
+        699,
+        346,
+        891
+      ],
+      "crop": [
+        43,
+        699,
+        346,
+        891
+      ],
+      "subject": "crab"
+    },
+    {
+      "id": "name_crab",
+      "kind": "text",
+      "box": [
+        124,
+        914,
+        286,
+        946
+      ],
+      "font_size": 26,
+      "line_height": 32,
+      "color": "#664d2e",
+      "erase_color": "#fceaa0",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "螃蟹",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "photo_papaya",
+      "kind": "image",
+      "box": [
+        401,
+        699,
+        704,
+        891
+      ],
+      "crop": [
+        401,
+        699,
+        704,
+        891
+      ],
+      "subject": "papaya"
+    },
+    {
+      "id": "name_papaya",
+      "kind": "text",
+      "box": [
+        444,
+        914,
+        606,
+        946
+      ],
+      "font_size": 26,
+      "line_height": 32,
+      "color": "#664d2e",
+      "erase_color": "#fceaa0",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "木瓜",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "clam",
+    "hawthorn",
+    "coix",
+    "lychee",
+    "crab",
+    "papaya"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#e8f1ae",
+    "paper": "#fbfdf2"
+  }
+}

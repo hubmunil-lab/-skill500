@@ -1,0 +1,89 @@
+Composition of Foods
+Raw, Processed, Prepared
+USDA National Nutrient Database for
+Standard Reference, Release 28 (2015)
+Documentation and User Guide
+
+September 2015
+
+US Department of Agriculture
+Agricultural Research Service
+Beltsville Human Nutrition Research Center
+Nutrient Data Laboratory
+10300 Baltimore Avenue
+Building 005, Room 107, BARC-West
+Beltsville, Maryland 20705
+
+Suggested Citation:
+US Department of Agriculture, Agricultural Research Service, Nutrient Data Laboratory.
+USDA National Nutrient Database for Standard Reference, Release 28. Version Current:
+September 2015. Internet: http://www.ars.usda.gov/ba/bhnrc/ndl
+
+Disclaimers:
+Mention of trade names, commercial products, or companies in this publication is solely
+for the purpose of providing specific information and does not imply recommendation or
+endorsement by the US Department of Agriculture over others not mentioned.
+The US Department of Agriculture (USDA) prohibits discrimination in all its programs
+and activities on the basis of race, color, national origin, age, disability, and where
+applicable, sex, marital status, familial status, parental status, religion, sexual
+orientation, genetic information, political beliefs, reprisal, or because all or part of an
+individual's income is derived from any public assistance program. (Not all prohibited
+bases apply to all programs.) Persons with disabilities who require alternative means for
+communication of program information (Braille, large print, audiotape, etc.) should
+contact USDA's TARGET Center at (202) 720-2600 (voice and TDD). To file a
+complaint of discrimination, write to USDA, Director, Office of Civil Rights, 1400
+Independence Avenue, S.W., Washington, D.C. 20250-9410, or call (800) 795-3272
+(voice) or (202) 720-6382 (TDD). USDA is an equal opportunity provider and employer.
+Issued September 2015
+
+i
+
+The USDA National Nutrient Database for Standard Reference, Release 28 was
+prepared by the following staff members of the Nutrient Data Laboratory, Beltsville
+Human Nutrition Research Center, Agricultural Research Service, US Department of
+Agriculture:
+Co-Coordinators
+Senior Scientists
+
+Scientists
+
+Research Leader
+IT Support
+Administrative Support
+
+David B. Haytowitz and Jaspreet K.C. Ahuja
+Jaspreet K.C. Ahuja
+David B. Haytowitz
+Pamela R. Pehrsson
+Janet M. Roseland
+Jacob Exler (Ret.)
+Mona Khan
+Melissa Nickle
+Quynhanh Nguyen
+Kris Patterson (Ret.)
+Bethany Showell
+Meena Somanchi
+Robin Thomas
+Denise Trainer
+Shirley Wasswa-Kintu
+Juhi Williams
+Pamela R. Pehrsson
+Kim Klingenstein
+Cevon McLean
+Amanda Moran
+Jenny Jung
+
+Acknowledgements: The authors gratefully acknowledge the constructive
+contributions of the peer reviewers: Rhonda Sebastian, Food Surveys Research Group,
+ARS-USDA; Wen Yen Juan, Food and Drug Administration; Lisa Harnack and staff,
+Nutrition Coordinating Center, University of Minnesota.
+.
+
+ii
+
+Contents
+Introduction ..................................................................................................................... 1
+SR28 Highlights .............................................................................................................. 2
+Database Reports ........................................................................................................... 4
+Database Content ........................................................................................................... 5
+Food Descriptions .....................................................................................

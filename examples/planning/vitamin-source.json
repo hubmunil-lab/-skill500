@@ -1,0 +1,188 @@
+{
+  "synthetic": true,
+  "license": "CC0-1.0",
+  "not_real_product_information": true,
+  "purpose": "unit_currency_and_query_software_testing",
+  "subjects": [
+    {
+      "id": "p5_vitamin_0",
+      "name": "示例丙",
+      "sku": "SYNTHETIC-P5-vitamin-0",
+      "specification": "200ml/瓶；合成即饮配方"
+    },
+    {
+      "id": "p5_vitamin_1",
+      "name": "示例丁",
+      "sku": "SYNTHETIC-P5-vitamin-1",
+      "specification": "1000ml/瓶；合成即饮配方"
+    }
+  ],
+  "facts": {
+    "p5_vitamin_0_appearance": {
+      "subject_id": "p5_vitamin_0",
+      "field": "appearance",
+      "value": "浅橙色透明液体\n杯中呈均匀色泽\n外观清澈无颗粒"
+    },
+    "p5_vitamin_0_taste": {
+      "subject_id": "p5_vitamin_0",
+      "field": "taste",
+      "value": "酸甜均衡果香轻\n无气泡入口平顺\n橙香回味较短\n口感偏清淡"
+    },
+    "p5_vitamin_0_price": {
+      "subject_id": "p5_vitamin_0",
+      "field": "price",
+      "value": 120,
+      "unit": "JPY",
+      "date": "2026-10-23",
+      "channel": "合成测试渠道",
+      "quantity": {
+        "amount": 200,
+        "unit": "ml",
+        "count": 1
+      }
+    },
+    "p5_vitamin_1_appearance": {
+      "subject_id": "p5_vitamin_1",
+      "field": "appearance",
+      "value": "浅绿色透明液体\n瓶中颜色均匀\n可见清澈光泽"
+    },
+    "p5_vitamin_1_taste": {
+      "subject_id": "p5_vitamin_1",
+      "field": "taste",
+      "value": "酸味较明显\n无气泡入口平顺\n苹果香气较清晰\n回味偏酸爽"
+    },
+    "p5_vitamin_1_price": {
+      "subject_id": "p5_vitamin_1",
+      "field": "price",
+      "value": 400,
+      "unit": "JPY",
+      "date": "2026-10-23",
+      "channel": "合成测试渠道",
+      "quantity": {
+        "amount": 1000,
+        "unit": "ml",
+        "count": 1
+      }
+    },
+    "p5_vitamin_0_energy": {
+      "subject_id": "p5_vitamin_0",
+      "field": "energy",
+      "value": 167.36,
+      "unit": "kJ",
+      "basis": {
+        "amount": 200,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_0_carbohydrate": {
+      "subject_id": "p5_vitamin_0",
+      "field": "carbohydrate",
+      "value": 10,
+      "unit": "g",
+      "basis": {
+        "amount": 200,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_0_sugars": {
+      "subject_id": "p5_vitamin_0",
+      "field": "sugars",
+      "value": 8,
+      "unit": "g",
+      "basis": {
+        "amount": 200,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_0_vitamin_c": {
+      "subject_id": "p5_vitamin_0",
+      "field": "vitamin_c",
+      "value": 24,
+      "unit": "mg",
+      "basis": {
+        "amount": 200,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_0_feature": {
+      "subject_id": "p5_vitamin_0",
+      "field": "feature",
+      "value": "抗坏血酸",
+      "ingredient_basis": "虚构配料记录：水、抗坏血酸"
+    },
+    "p5_vitamin_1_energy": {
+      "subject_id": "p5_vitamin_1",
+      "field": "energy",
+      "value": 870.272,
+      "unit": "kJ",
+      "basis": {
+        "amount": 1000,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_1_carbohydrate": {
+      "subject_id": "p5_vitamin_1",
+      "field": "carbohydrate",
+      "value": 52,
+      "unit": "g",
+      "basis": {
+        "amount": 1000,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_1_sugars": {
+      "subject_id": "p5_vitamin_1",
+      "field": "sugars",
+      "value": 50,
+      "unit": "g",
+      "basis": {
+        "amount": 1000,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_1_vitamin_c": {
+      "subject_id": "p5_vitamin_1",
+      "field": "vitamin_c",
+      "value": 450,
+      "unit": "mg",
+      "basis": {
+        "amount": 1000,
+        "unit": "ml",
+        "state": "ready_to_drink"
+      }
+    },
+    "p5_vitamin_1_feature": {
+      "subject_id": "p5_vitamin_1",
+      "field": "feature",
+      "value": "柠檬酸",
+      "ingredient_basis": "虚构配料记录：水、柠檬酸"
+    },
+    "p5_vitamin_0_scene": {
+      "subject_id": "p5_vitamin_0",
+      "field": "scene",
+      "value": "随餐搭配\n先看实际包装容量"
+    },
+    "p5_vitamin_0_selection": {
+      "subject_id": "p5_vitamin_0",
+      "field": "selection",
+      "value": "核对200ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+    },
+    "p5_vitamin_1_scene": {
+      "subject_id": "p5_vitamin_1",
+      "field": "scene",
+      "value": "外出携带\n留意瓶盖密封状态"
+    },
+    "p5_vitamin_1_selection": {
+      "subject_id": "p5_vitamin_1",
+      "field": "selection",
+      "value": "核对1000ml实际规格\n保留标签原始口径\n对齐每100ml再比较\n重点看维C数值单位\n查看配料和储存条件"
+    }
+  }
+}

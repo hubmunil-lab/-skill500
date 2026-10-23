@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "intent": {
+    "schema_version": 1,
+    "original_query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）",
+    "core_question": "柠檬水和可乐哪个颜色更深",
+    "direction": "只看液体外观，不要营养",
+    "direction_is_evidence": false,
+    "category": "comparison",
+    "classification": {
+      "category": "comparison",
+      "confidence": 0.65,
+      "provider": "rules_fallback",
+      "reason": "词面启发式，非已验证的语义判断",
+      "rules": {
+        "category": "comparison",
+        "candidates": [
+          "comparison"
+        ],
+        "status": "suggested",
+        "reason": "词面启发式，非已验证的语义判断"
+      },
+      "review_required": true
+    },
+    "themes": [
+      "appearance"
+    ],
+    "focus": "appearance",
+    "operation": "max",
+    "search_context": [],
+    "required_facts": [
+      "appearance"
+    ],
+    "useful_supplement": [
+      "同光照与容器条件",
+      "照片中是否真正可见被比较液体"
+    ],
+    "irrelevant_template_fields": [
+      "taste",
+      "price",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "vitamin_c",
+      "feature",
+      "scene",
+      "selection"
+    ],
+    "explicit_exclusions": [
+      "nutrition"
+    ],
+    "scope_conflicts": [],
+    "parser": "RuleIntentParser",
+    "confidence": 0.8,
+    "human_review_required": true,
+    "unknowns": [
+      "未提供的产品版本、受众健康条件、真实体验不得推断"
+    ]
+  },
+  "evidence": {
+    "available_fields": [],
+    "facts": {},
+    "missing_query_facts": [
+      {
+        "field": "appearance",
+        "code": "QUERY_FACT_MISSING"
+      }
+    ],
+    "errors": [],
+    "assets_ready": false,
+    "asset_errors": [
+      {
+        "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+      }
+    ],
+    "identity_ready": false
+  },
+  "template_match": {
+    "decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+    "selected_template_id": null,
+    "scores": [
+      {
+        "template_id": "customer-compare-v1",
+        "dimensions": {
+          "question_coverage": 1.0,
+          "field_relevance": 0.1,
+          "evidence": 0.0,
+          "assets": 0.0,
+          "approval": 0.0,
+          "capacity": 1
+        },
+        "score": 0.425,
+        "semantic_rejection_reasons": [
+          "IRRELEVANT_TEMPLATE_FIELDS"
+        ],
+        "semantic_match": false,
+        "unrelated_required_fields": [
+          "carbohydrate",
+          "energy",
+          "feature",
+          "price",
+          "scene",
+          "selection",
+          "sugars",
+          "taste",
+          "vitamin_c"
+        ],
+        "template_data_missing": [
+          "appearance",
+          "carbohydrate",
+          "energy",
+          "feature",
+          "price",
+          "scene",
+          "selection",
+          "sugars",
+          "taste",
+          "vitamin_c"
+        ],
+        "customer_approved": false,
+        "page_capacity": 3,
+        "text_capacity_status": "not_measured",
+        "profile": {
+          "template_id": "customer-compare-v1",
+          "category": "comparison",
+          "themes": [
+            "appearance",
+            "taste",
+            "price",
+            "nutrition",
+            "scene",
+            "selection"
+          ],
+          "required_fields": [
+            "appearance",
+            "taste",
+            "price",
+            "energy",
+            "carbohydrate",
+            "sugars",
+            "vitamin_c",
+            "feature",
+            "scene",
+            "selection"
+          ],
+          "object_count": 2,
+          "pages": 3,
+          "page_roles": [
+            "appearance_taste_price",
+            "nutrition",
+            "scene_selection"
+          ],
+          "renderer": "compare_revision"
+        },
+        "warnings": []
+      }
+    ],
+    "requested_content_directions": [
+      "appearance"
+    ],
+    "unregistered_directions_are_not_templates": true,
+    "customer_approved": false,
+    "policy_status": "engineering_policy_not_customer_approval",
+    "reason": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+  },
+  "required_materials": {
+    "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+    "facts": [
+      {
+        "field": "appearance",
+        "needed_for": "direct_answer_or_explicit_useful_scope",
+        "material": "被比较对象实物/液体外观记录及同条件照片；不可从罐体推断液体"
+      }
+    ],
+    "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+    "not_requested": [
+      "taste",
+      "price",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "vitamin_c",
+      "feature",
+      "scene",
+      "selection"
+    ],
+    "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+  },
+  "data_kind": "real_query_no_product_data",
+  "customer_approved": false,
+  "delivery_ready": false
+}

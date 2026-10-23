@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "category": "intro",
+  "mode": "reconstruction_test",
+  "item_order": [
+    "pepper",
+    "pie",
+    "tiger_pepper",
+    "pepper_pork"
+  ],
+  "pages": [
+    {
+      "template_id": "customer-intro-01-v1",
+      "item_ids": [
+        "pepper"
+      ],
+      "values": {
+        "title": "青椒",
+        "topic": "营养字段",
+        "food": "food",
+        "benefit_1": "亮点1测试",
+        "benefit_2": "亮点2测试",
+        "benefit_3": "亮点3测试",
+        "nutrition_title": "营养成分｜待核实",
+        "nutrition_1": "字段1：待核实",
+        "nutrition_2": "字段2：待核实",
+        "nutrition_3": "字段3：待核实",
+        "nutrition_4": "字段4：待核实",
+        "nutrition_5": "字段5：待核实",
+        "nutrition_6": "字段6：待核实",
+        "summary": "此页仅验证青椒固定模板的文字、图片与表格区域。\n营养数据与健康表述需另行核实。"
+      }
+    },
+    {
+      "template_id": "customer-intro-02-v1",
+      "item_ids": [
+        "pepper"
+      ],
+      "values": {
+        "title": "青椒营养说明",
+        "food": "food",
+        "benefit_1": "亮点1测试",
+        "description_1": "这是固定文字框的测试内容。\n未经核实，不输出确定健康结论。",
+        "benefit_2": "亮点2测试",
+        "description_2": "这是固定文字框的测试内容。\n未经核实，不输出确定健康结论。",
+        "benefit_3": "亮点3测试",
+        "description_3": "这是固定文字框的测试内容。\n未经核实，不输出确定健康结论。"
+      }
+    },
+    {
+      "template_id": "customer-intro-03-v1",
+      "item_ids": [
+        "pie"
+      ],
+      "values": {
+        "hero_left": "hero_left",
+        "hero_right_top": "hero_right_top",
+        "hero_right_bottom": "hero_right_bottom",
+        "step_photo_1": "step_photo_1",
+        "step_caption_1": "步骤1｜排版测试",
+        "step_photo_2": "step_photo_2",
+        "step_caption_2": "步骤2｜排版测试",
+        "step_photo_3": "step_photo_3",
+        "step_caption_3": "步骤3｜排版测试",
+        "step_photo_4": "step_photo_4",
+        "step_caption_4": "步骤4｜排版测试",
+        "step_photo_5": "step_photo_5",
+        "step_caption_5": "步骤5｜排版测试",
+        "step_photo_6": "step_photo_6",
+        "step_caption_6": "步骤6｜排版测试",
+        "step_photo_7": "step_photo_7",
+        "step_caption_7": "步骤7｜排版测试",
+        "step_photo_8": "step_photo_8",
+        "step_caption_8": "步骤8｜排版测试",
+        "step_photo_9": "step_photo_9",
+        "step_caption_9": "步骤9｜排版测试",
+        "recipe_title": "青椒火腿小馅饼"
+      }
+    },
+    {
+      "template_id": "customer-intro-04-v1",
+      "item_ids": [
+        "tiger_pepper"
+      ],
+      "values": {
+        "hero_left": "hero_left",
+        "hero_right": "hero_right",
+        "step_photo_1": "step_photo_1",
+        "step_caption_1": "步骤1｜排版测试",
+        "step_photo_2": "step_photo_2",
+        "step_caption_2": "步骤2｜排版测试",
+        "step_photo_3": "step_photo_3",
+        "step_caption_3": "步骤3｜排版测试",
+        "step_photo_4": "step_photo_4",
+        "step_caption_4": "步骤4｜排版测试",
+        "step_photo_5": "step_photo_5",
+        "step_caption_5": "步骤5｜排版测试",
+        "step_photo_6": "step_photo_6",
+        "step_caption_6": "步骤6｜排版测试",
+        "step_photo_7": "step_photo_7",
+        "step_caption_7": "步骤7｜排版测试",
+        "step_photo_8": "step_photo_8",
+        "step_caption_8": "步骤8｜排版测试",
+        "step_photo_9": "step_photo_9",
+        "step_caption_9": "步骤9｜排版测试",
+        "step_photo_10": "step_photo_10",
+        "step_caption_10": "步骤10｜排版测试",
+        "recipe_title": "虎皮青椒"
+      }
+    },
+    {
+      "template_id": "customer-intro-05-v1",
+      "item_ids": [
+        "pepper_pork"
+      ],
+      "values": {
+        "hero_left": "hero_left",
+        "hero_right": "hero_right",
+        "hero_extra": "hero_extra",
+        "step_photo_1": "step_photo_1",
+        "step_caption_1": "步骤1｜排版测试",
+        "step_photo_2": "step_photo_2",
+        "step_caption_2": "步骤2｜排版测试",
+        "step_photo_3": "step_photo_3",
+        "step_caption_3": "步骤3｜排版测试",
+        "step_photo_4": "step_photo_4",
+        "step_caption_4": "步骤4｜排版测试",
+        "step_photo_5": "step_photo_5",
+        "step_caption_5": "步骤5｜排版测试",
+        "step_photo_6": "step_photo_6",
+        "step_caption_6": "步骤6｜排版测试",
+        "recipe_title": "青椒炒肉丝"
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "git_head": "3a6e45345aed82b9c60e25b90e53c40f03973bb1",
+  "expected_counts": {
+    "compare": 3,
+    "recommend": 3,
+    "list": 4,
+    "intro": 5
+  },
+  "actual_counts": {
+    "compare": 3,
+    "recommend": 3,
+    "list": 4,
+    "intro": 5
+  },
+  "inspection": "All 15 original images viewed individually at native resolution; page order assigned from visible content, not UUID sort order",
+  "files": [
+    {
+      "category": "compare",
+      "page_number": 1,
+      "role": "cover",
+      "reference": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "reference_sha256": "db662e9ba1332e261587c716253a61f20958d116834b65a57f2c89b5cd648d66",
+      "source_size": [
+        720,
+        967
+      ],
+      "id": "customer-compare-01-v1",
+      "item_order": [
+        "lemon_drink",
+        "cola"
+      ]
+    },
+    {
+      "category": "compare",
+      "page_number": 2,
+      "role": "nutrition",
+      "reference": "assets/customer_reference/compare/ea68826f-81e5-4816-90cb-ecf7193fcd00.png",
+      "reference_sha256": "b502ac177bcfea5183b1e994dcbf28cfc0c31a54b571f85268e907b41ad4129e",
+      "source_size": [
+        726,
+        976
+      ],
+      "id": "customer-compare-02-v1",
+      "item_order": [
+        "lemon_drink",
+        "cola"
+      ]
+    },
+    {
+      "category": "compare",
+      "page_number": 3,
+      "role": "selection",
+      "reference": "assets/customer_reference/compare/0d9ac319-df9b-4bd6-a2ca-3d6bf10a18ee.png",
+      "reference_sha256": "d8a491b13a3cc72bf28b0801f91b70a4e58a3a54d5e5ae177fca4d2e1c7a5acc",
+      "source_size": [
+        723,
+        973
+      ],
+      "id": "customer-compare-03-v1",
+      "item_order": [
+        "lemon_drink",
+        "cola"
+      ]
+    },
+    {
+      "category": "recommend",
+      "page_number": 1,
+      "role": "detail",
+      "reference": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+      "reference_sha256": "791544ac54e830407584137604002c802d302c3e99220df71a5cd4c454c1423e",
+      "source_size": [
+        730,
+        973
+      ],
+      "id": "customer-recommend-01-v1",
+      "item_order": [
+        "dragonfruit",
+        "starfruit"
+      ]
+    },
+    {
+      "category": "recommend",
+      "page_number": 2,
+      "role": "detail",
+      "reference": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+      "reference_sha256": "9cd21b0e5c740eb7d9498aae4b79270bd3f5d92c8cb318a5432354fefec78300",
+      "source_size": [
+        730,
+        973
+      ],
+      "id": "customer-recommend-02-v1",
+      "item_order": [
+        "grapefruit",
+        "apple"
+      ]
+    },
+    {
+      "category": "recommend",
+      "page_number": 3,
+      "role": "detail",
+      "reference": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+      "reference_sha256": "4ea0ab56a3427014eaf4120bb36a161f66766ec2f8b02d20a48526685ae9ba8c",
+      "source_size": [
+        727,
+        976
+      ],
+      "id": "customer-recommend-03-v1",
+      "item_order": [
+        "blueberry",
+        "strawberry"
+      ]
+    },
+    {
+      "category": "list",
+      "page_number": 1,
+      "role": "cover",
+      "reference": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "reference_sha256": "d1dce9090beec507a5f9240f2e31cbc41c435080f4007e8779349be2d1a7c745",
+      "source_size": [
+        730,
+        976
+      ],
+      "id": "customer-list-01-v1",
+      "item_order": [
+        "clam",
+        "hawthorn",
+        "coix",
+        "lychee",
+        "crab",
+        "papaya"
+      ]
+    },
+    {
+      "category": "list",
+      "page_number": 2,
+      "role": "detail",
+      "reference": "assets/customer_reference/list/2e0b94bb-f421-4239-ad1b-f6e5fc88d360.png",
+      "reference_sha256": "dd951b7d5dd744a3c2e7269830ab6dc8bc48e5e14a204f3068ab3252282d9918",
+      "source_size": [
+        727,
+        976
+      ],
+      "id": "customer-list-02-v1",
+      "item_order": [
+        "clam",
+        "hawthorn"
+      ]
+    },
+    {
+      "category": "list",
+      "page_number": 3,
+      "role": "detail",
+      "reference": "assets/customer_reference/list/bab805d8-ff7a-417e-97aa-84f784283b42.png",
+      "reference_sha256": "64b22078af09497de3b8d9a6e72c4ec1470507060ba0b769294c8703bce918b1",
+      "source_size": [
+        721,
+        957
+      ],
+      "id": "customer-list-03-v1",
+      "item_order": [
+        "coix",
+        "lychee"
+      ]
+    },
+    {
+      "category": "list",
+      "page_number": 4,
+      "role": "detail",
+      "reference": "assets/customer_reference/list/0f9f4bf7-ed77-4249-89b7-65fe797ccb18.png",
+      "reference_sha256": "98a14cdc026031db2b519623f8db056c4be35b5c35c765e3c6adacdbd6827ec5",
+      "source_size": [
+        732,
+        969
+      ],
+      "id": "customer-list-04-v1",
+      "item_order": [
+        "crab",
+        "papaya"
+      ]
+    },
+    {
+      "category": "intro",
+      "page_number": 1,
+      "role": "cover",
+      "reference": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png",
+      "reference_sha256": "42829f78da51098704586fa6c077b8c11a97d8436041e952f2e7baaddd3ca935",
+      "source_size": [
+        729,
+        972
+      ],
+      "id": "customer-intro-01-v1",
+      "item_order": [
+        "pepper"
+      ]
+    },
+    {
+      "category": "intro",
+      "page_number": 2,
+      "role": "detail",
+      "reference": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png",
+      "reference_sha256": "ff2a809dc8cfb5df2e59c3787204af4eb14d1f501ed415f3f9128f60231bb2af",
+      "source_size": [
+        724,
+        966
+      ],
+      "id": "customer-intro-02-v1",
+      "item_order": [
+        "pepper"
+      ]
+    },
+    {
+      "category": "intro",
+      "page_number": 3,
+      "role": "recipe",
+      "reference": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "reference_sha256": "56a48635fbb9841fb6516384e6236d64ff594ab9b0f2c1370787b459f41b39f6",
+      "source_size": [
+        727,
+        973
+      ],
+      "id": "customer-intro-03-v1",
+      "item_order": [
+        "pie"
+      ]
+    },
+    {
+      "category": "intro",
+      "page_number": 4,
+      "role": "recipe",
+      "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "reference_sha256": "94ae232c6407005fc4b24b5471c48a30f4a38dd81b0cc89c58dc7a4044dce956",
+      "source_size": [
+        727,
+        976
+      ],
+      "id": "customer-intro-04-v1",
+      "item_order": [
+        "tiger_pepper"
+      ]
+    },
+    {
+      "category": "intro",
+      "page_number": 5,
+      "role": "recipe",
+      "reference": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "reference_sha256": "fba4f3da338a70ba0546cb69d317f63b374333f68e64c6a3fdf36df09f11b7f3",
+      "source_size": [
+        730,
+        978
+      ],
+      "id": "customer-intro-05-v1",
+      "item_order": [
+        "pepper_pork"
+      ]
+    }
+  ]
+}

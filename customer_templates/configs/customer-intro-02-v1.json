@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "id": "customer-intro-02-v1",
+  "category": "intro",
+  "role": "detail",
+  "page_number": 2,
+  "reference": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png",
+  "reference_sha256": "ff2a809dc8cfb5df2e59c3787204af4eb14d1f501ed415f3f9128f60231bb2af",
+  "source_size": [
+    724,
+    966
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        114,
+        70,
+        645,
+        154
+      ],
+      "font_size": 56,
+      "line_height": 72.8,
+      "color": "#000",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "青椒营养说明",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "food",
+      "kind": "image",
+      "box": [
+        410,
+        695,
+        718,
+        932
+      ],
+      "crop": [
+        410,
+        695,
+        718,
+        932
+      ],
+      "subject": "pepper_detail"
+    },
+    {
+      "id": "benefit_1",
+      "kind": "text",
+      "box": [
+        86,
+        210,
+        244,
+        257
+      ],
+      "font_size": 30,
+      "line_height": 39.0,
+      "color": "#fff",
+      "erase_color": "#9291e8",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "亮点1测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_1",
+      "kind": "text",
+      "box": [
+        92,
+        267,
+        673,
+        326
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "这是固定文字框的测试内容。\n未经核实，不输出确定健康结论。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "benefit_2",
+      "kind": "text",
+      "box": [
+        86,
+        381,
+        244,
+        428
+      ],
+      "font_size": 30,
+      "line_height": 39.0,
+      "color": "#fff",
+      "erase_color": "#9291e8",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "亮点2测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_2",
+      "kind": "text",
+      "box": [
+        92,
+        438,
+        673,
+        500
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "这是固定文字框的测试内容。\n未经核实，不输出确定健康结论。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "benefit_3",
+      "kind": "text",
+      "box": [
+        86,
+        556,
+        244,
+        603
+      ],
+      "font_size": 30,
+      "line_height": 39.0,
+      "color": "#fff",
+      "erase_color": "#9291e8",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "亮点3测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "description_3",
+      "kind": "text",
+      "box": [
+        92,
+        613,
+        673,
+        673
+      ],
+      "font_size": 22,
+      "line_height": 28.6,
+      "color": "#222",
+      "erase_color": "#eeeeea",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "这是固定文字框的测试内容。\n未经核实，不输出确定健康结论。",
+      "vertical_align": "top",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "pepper"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#f6f5f1",
+    "paper": "#f4f4f1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "p5-price",
+  "status": "REVIEW",
+  "generated": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "price"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "artifact_directory": "p5-price/attempt-001",
+  "attempt": 1,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "reworks": 0,
+  "original_query": "250ml果汁和330ml果汁哪个更划算（统一容量比价）",
+  "content_generated": false,
+  "category": "comparison",
+  "template_id": null,
+  "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "cache_key": "eb5a295ebe256969a9e9999e63c7cf98db2ef2f3ec63e88c436af8cee17254f7"
+}

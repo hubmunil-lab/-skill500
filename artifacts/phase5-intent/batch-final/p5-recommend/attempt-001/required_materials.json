@@ -1,0 +1,23 @@
+{
+  "identity": "原问题涉及的对象身份、真实规格与版本；食材可用可追溯身份，不编造SKU",
+  "facts": [
+    {
+      "field": "candidate_items",
+      "needed_for": "direct_answer_or_explicit_useful_scope",
+      "material": "candidate_items的可核实资料"
+    },
+    {
+      "field": "selection_reasons",
+      "needed_for": "direct_answer_or_explicit_useful_scope",
+      "material": "selection_reasons的可核实资料"
+    },
+    {
+      "field": "constraints",
+      "needed_for": "direct_answer_or_explicit_useful_scope",
+      "material": "constraints的可核实资料"
+    }
+  ],
+  "assets": "只有生成图片时需要匹配授权素材，依用途选择实拍/步骤/产品图",
+  "not_requested": [],
+  "template_confirmation": "无匹配模板时只申请对应方向的固定版式确认，不将其无关字段变成用户资料义务"
+}

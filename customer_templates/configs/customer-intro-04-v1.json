@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "id": "customer-intro-04-v1",
+  "category": "intro",
+  "role": "recipe",
+  "page_number": 4,
+  "reference": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+  "reference_sha256": "94ae232c6407005fc4b24b5471c48a30f4a38dd81b0cc89c58dc7a4044dce956",
+  "source_size": [
+    727,
+    976
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "hero_left",
+      "kind": "image",
+      "box": [
+        2,
+        3,
+        363,
+        489
+      ],
+      "crop": [
+        2,
+        3,
+        363,
+        489
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "hero_right",
+      "kind": "image",
+      "box": [
+        364,
+        3,
+        725,
+        489
+      ],
+      "crop": [
+        364,
+        3,
+        725,
+        489
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_photo_1",
+      "kind": "image",
+      "box": [
+        2,
+        490,
+        181,
+        732
+      ],
+      "crop": [
+        2,
+        490,
+        181,
+        732
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_1",
+      "kind": "text",
+      "box": [
+        2,
+        704,
+        181,
+        732
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤1｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_2",
+      "kind": "image",
+      "box": [
+        182,
+        490,
+        362,
+        732
+      ],
+      "crop": [
+        182,
+        490,
+        362,
+        732
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_2",
+      "kind": "text",
+      "box": [
+        182,
+        704,
+        362,
+        732
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤2｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_3",
+      "kind": "image",
+      "box": [
+        2,
+        733,
+        181,
+        973
+      ],
+      "crop": [
+        2,
+        733,
+        181,
+        973
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_3",
+      "kind": "text",
+      "box": [
+        2,
+        945,
+        181,
+        973
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤3｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_4",
+      "kind": "image",
+      "box": [
+        182,
+        733,
+        362,
+        973
+      ],
+      "crop": [
+        182,
+        733,
+        362,
+        973
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_4",
+      "kind": "text",
+      "box": [
+        182,
+        945,
+        362,
+        973
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤4｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_5",
+      "kind": "image",
+      "box": [
+        363,
+        490,
+        544,
+        652
+      ],
+      "crop": [
+        363,
+        490,
+        544,
+        652
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_5",
+      "kind": "text",
+      "box": [
+        363,
+        624,
+        544,
+        652
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤5｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_6",
+      "kind": "image",
+      "box": [
+        544,
+        490,
+        725,
+        652
+      ],
+      "crop": [
+        544,
+        490,
+        725,
+        652
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_6",
+      "kind": "text",
+      "box": [
+        544,
+        624,
+        725,
+        652
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤6｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_7",
+      "kind": "image",
+      "box": [
+        363,
+        652,
+        544,
+        814
+      ],
+      "crop": [
+        363,
+        652,
+        544,
+        814
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_7",
+      "kind": "text",
+      "box": [
+        363,
+        786,
+        544,
+        814
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤7｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_8",
+      "kind": "image",
+      "box": [
+        544,
+        652,
+        725,
+        814
+      ],
+      "crop": [
+        544,
+        652,
+        725,
+        814
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_8",
+      "kind": "text",
+      "box": [
+        544,
+        786,
+        725,
+        814
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤8｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_9",
+      "kind": "image",
+      "box": [
+        363,
+        814,
+        544,
+        973
+      ],
+      "crop": [
+        363,
+        814,
+        544,
+        973
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_9",
+      "kind": "text",
+      "box": [
+        363,
+        945,
+        544,
+        973
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤9｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "step_photo_10",
+      "kind": "image",
+      "box": [
+        544,
+        814,
+        725,
+        973
+      ],
+      "crop": [
+        544,
+        814,
+        725,
+        973
+      ],
+      "subject": "tiger_pepper"
+    },
+    {
+      "id": "step_caption_10",
+      "kind": "text",
+      "box": [
+        544,
+        945,
+        725,
+        973
+      ],
+      "font_size": 16,
+      "line_height": 20.8,
+      "color": "#fff",
+      "erase_color": "#655f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 1,
+      "font": "sans",
+      "value": "步骤10｜排版测试",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    },
+    {
+      "id": "recipe_title",
+      "kind": "text",
+      "box": [
+        150,
+        456,
+        624,
+        515
+      ],
+      "font_size": 39,
+      "line_height": 50.7,
+      "color": "#fff",
+      "erase_color": "#665f4e",
+      "weight": 700,
+      "align": "center",
+      "outline": 2,
+      "font": "sans",
+      "value": "虎皮青椒",
+      "vertical_align": "center",
+      "outline_color": "#000000"
+    }
+  ],
+  "item_order": [
+    "tiger_pepper"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [
+    "Recipe hero title is intentionally overlaid as in reference; only this named pair overlap is allowed.",
+    "Caption strips are editable test labels; original recipe quantities are not reused."
+  ],
+  "allowed_overlaps": [
+    [
+      "recipe_title",
+      "hero_left"
+    ],
+    [
+      "recipe_title",
+      "hero_right"
+    ],
+    [
+      "recipe_title",
+      "step_photo_1"
+    ],
+    [
+      "recipe_title",
+      "step_photo_2"
+    ],
+    [
+      "recipe_title",
+      "step_photo_5"
+    ],
+    [
+      "recipe_title",
+      "step_photo_6"
+    ],
+    [
+      "step_photo_1",
+      "step_caption_1"
+    ],
+    [
+      "step_photo_10",
+      "step_caption_10"
+    ],
+    [
+      "step_photo_2",
+      "step_caption_2"
+    ],
+    [
+      "step_photo_3",
+      "step_caption_3"
+    ],
+    [
+      "step_photo_4",
+      "step_caption_4"
+    ],
+    [
+      "step_photo_5",
+      "step_caption_5"
+    ],
+    [
+      "step_photo_6",
+      "step_caption_6"
+    ],
+    [
+      "step_photo_7",
+      "step_caption_7"
+    ],
+    [
+      "step_photo_8",
+      "step_caption_8"
+    ],
+    [
+      "step_photo_9",
+      "step_caption_9"
+    ]
+  ],
+  "background_samples": {
+    "header": "#bccdd6",
+    "paper": "#b7a147"
+  }
+}

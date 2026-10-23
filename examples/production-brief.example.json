@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "intent": {
+    "query": "青椒营养价值",
+    "classification": {
+      "category": "intro",
+      "candidates": [
+        "intro"
+      ],
+      "status": "suggested",
+      "reason": "词面启发式，非已验证的语义判断"
+    },
+    "search_motivation": "希望获得针对「青椒营养价值」的可用答案；此为词面分析，需编辑复核",
+    "explicit_constraints": [],
+    "unknowns": [
+      "未提供的病史、个体耐受、对象规格和实际体验不得推断"
+    ],
+    "direction_hint": null,
+    "direction_hint_is_evidence": false,
+    "direct_answer": null,
+    "answer_status": "pending_verification",
+    "required_answers": [
+      {
+        "id": "A1",
+        "question": "该食材对原问题的直接答案是什么？",
+        "query": "青椒营养价值"
+      },
+      {
+        "id": "A2",
+        "question": "有哪些可核实的营养或作用及其边界？",
+        "query": "青椒营养价值"
+      },
+      {
+        "id": "A3",
+        "question": "怎样食用及哪些情况不适合？",
+        "query": "青椒营养价值"
+      }
+    ],
+    "facts_to_verify": [
+      "任何健康功效、营养数值及其生熟/干鲜/可食部/产品规格基准"
+    ],
+    "review_required": true
+  },
+  "category": "intro",
+  "template_id": "intro-1",
+  "status": "blocked",
+  "render_ready": false,
+  "pages": [
+    {
+      "number": 1,
+      "role": "cover",
+      "answer_ids": [
+        "A1"
+      ],
+      "layout_id": null,
+      "layout_status": "awaiting_approved_spec",
+      "content_status": "brief_only"
+    },
+    {
+      "number": 2,
+      "role": "detail",
+      "answer_ids": [
+        "A2",
+        "A3"
+      ],
+      "layout_id": null,
+      "layout_status": "awaiting_approved_spec",
+      "content_status": "brief_only"
+    },
+    {
+      "number": 3,
+      "role": "recipe",
+      "answer_ids": [
+        "A2",
+        "A3"
+      ],
+      "layout_id": null,
+      "layout_status": "awaiting_approved_spec",
+      "content_status": "brief_only",
+      "recipe_id": null,
+      "recipe_title": null,
+      "steps": [],
+      "asset_kind": "licensed_or_owned_real_step_photos",
+      "must_include_subject": true,
+      "query_match_required": true
+    },
+    {
+      "number": 4,
+      "role": "recipe",
+      "answer_ids": [
+        "A2",
+        "A3"
+      ],
+      "layout_id": null,
+      "layout_status": "awaiting_approved_spec",
+      "content_status": "brief_only",
+      "recipe_id": null,
+      "recipe_title": null,
+      "steps": [],
+      "asset_kind": "licensed_or_owned_real_step_photos",
+      "must_include_subject": true,
+      "query_match_required": true
+    },
+    {
+      "number": 5,
+      "role": "recipe",
+      "answer_ids": [
+        "A2",
+        "A3"
+      ],
+      "layout_id": null,
+      "layout_status": "awaiting_approved_spec",
+      "content_status": "brief_only",
+      "recipe_id": null,
+      "recipe_title": null,
+      "steps": [],
+      "asset_kind": "licensed_or_owned_real_step_photos",
+      "must_include_subject": true,
+      "query_match_required": true
+    }
+  ],
+  "blockers": [
+    "DIRECT_ANSWER_UNVERIFIED",
+    "FACTS_AND_RIGHTS_UNVERIFIED",
+    "EDITORIAL_REVIEW_REQUIRED",
+    "TEMPLATE_NOT_EDITABLE_OR_APPROVED"
+  ],
+  "required_fields": [
+    "subject",
+    "nutrition",
+    "benefits",
+    "recipes"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "format": "JSON-compatible YAML 1.2; standard-library loader",
+  "sources": [
+    "SKILL.md",
+    "references/acceptance-v3.md",
+    "references/training-rules.md",
+    "references/page-sets.md",
+    "references/rules.md",
+    "references/case-rules.md"
+  ],
+  "precedence": [
+    "当前用户要求",
+    "references/acceptance-v3.md",
+    "培训转录及映射",
+    "截图及旧规则"
+  ],
+  "global": {
+    "min_pages": 3,
+    "canvas": [
+      1242,
+      1656
+    ],
+    "title_max_exclusive": 20,
+    "min_information_points": 3,
+    "required_fields": [
+      "query",
+      "direct_answer",
+      "required_answers",
+      "title",
+      "body",
+      "template_id"
+    ],
+    "layout_locked": [
+      "font",
+      "font_size",
+      "text_anchors",
+      "image_positions",
+      "spacing",
+      "colors"
+    ],
+    "facts": "健康功效和营养数据逐条核实；AI输出和例图数字不是证据",
+    "rights": "优先自有或授权真实照片，去水印不构成授权",
+    "human_review": [
+      "原问题回答完整性",
+      "最终像素错字、溢出遮挡、主体比例",
+      "事实及授权证据"
+    ],
+    "legacy_recipe_min_steps": 2,
+    "legacy_recipe_min_steps_source": "scripts/validate_delivery.py; existing machine heuristic, not a confirmed universal client requirement"
+  },
+  "categories": {
+    "intro": {
+      "name": "单一介绍",
+      "aliases": [
+        "介绍"
+      ],
+      "rule_status": "documented",
+      "min_pages": 3,
+      "default_roles": [
+        "cover",
+        "detail",
+        "recipe",
+        "recipe",
+        "recipe"
+      ],
+      "required_fields": [
+        "subject",
+        "nutrition",
+        "benefits",
+        "recipes"
+      ],
+      "field_contract": "规划输入字段；未获客户定义的字段细节不得视为确定验收标准",
+      "asset_requirements": [
+        "前两页不同实物照片",
+        "三道不同食谱，含介绍食材且符合query",
+        "自有或授权真实步骤照片，菜名和实际步骤"
+      ],
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ],
+      "unresolved": []
+    },
+    "procedure": {
+      "name": "步骤操作",
+      "aliases": [
+        "固定搭配",
+        "菜谱"
+      ],
+      "rule_status": "partial",
+      "min_pages": 3,
+      "default_roles": null,
+      "required_fields": [
+        "subject",
+        "materials",
+        "steps",
+        "precautions"
+      ],
+      "field_contract": "规划输入字段；未获客户定义的字段细节不得视为确定验收标准",
+      "asset_requirements": [
+        "优先授权真实步骤照片；完整类目规则待确认"
+      ],
+      "sources": [
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ],
+      "unresolved": [
+        "类目独立页序、字段细则及验收待确认"
+      ]
+    },
+    "recommendation": {
+      "name": "推荐",
+      "aliases": [],
+      "rule_status": "documented",
+      "min_pages": 3,
+      "default_roles": [
+        "cover",
+        "detail",
+        "detail"
+      ],
+      "required_fields": [
+        "items",
+        "selection_reasons",
+        "usage",
+        "limitations"
+      ],
+      "field_contract": "规划输入字段；未获客户定义的字段细节不得视为确定验收标准",
+      "asset_requirements": [
+        "食材而非成品菜",
+        "透明背景食材前景，无水印"
+      ],
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ],
+      "unresolved": []
+    },
+    "inventory": {
+      "name": "盘点",
+      "aliases": [],
+      "rule_status": "documented",
+      "min_pages": 3,
+      "default_roles": [
+        "cover",
+        "detail",
+        "detail"
+      ],
+      "required_fields": [
+        "items",
+        "distinguishing_features",
+        "usage"
+      ],
+      "field_contract": "规划输入字段；未获客户定义的字段细节不得视为确定验收标准",
+      "asset_requirements": [
+        "食材而非成品菜",
+        "透明背景食材前景，无水印"
+      ],
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ],
+      "unresolved": []
+    },
+    "comparison": {
+      "name": "对比",
+      "aliases": [],
+      "rule_status": "documented",
+      "min_pages": 3,
+      "default_roles": [
+        "cover",
+        "comparison_detail",
+        "selection_detail"
+      ],
+      "required_fields": [
+        "objects",
+        "comparison_fields",
+        "measurement_basis",
+        "selection_scenarios"
+      ],
+      "field_contract": "规划输入字段；未获客户定义的字段细节不得视为确定验收标准",
+      "asset_requirements": [
+        "恰好两个对象",
+        "同对象跨页同照片及左右身份",
+        "不混比自制饮品和商品饮品"
+      ],
+      "sources": [
+        "SKILL.md",
+        "references/acceptance-v3.md",
+        "references/training-rules.md",
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ],
+      "unresolved": []
+    },
+    "review": {
+      "name": "多品测评",
+      "aliases": [
+        "测评"
+      ],
+      "rule_status": "partial",
+      "min_pages": 3,
+      "default_roles": null,
+      "required_fields": [
+        "products",
+        "evaluation_dimensions",
+        "experience_records",
+        "limitations"
+      ],
+      "field_contract": "规划输入字段；未获客户定义的字段细节不得视为确定验收标准",
+      "asset_requirements": [
+        "产品抠图",
+        "主观体验须有实际测评记录"
+      ],
+      "sources": [
+        "references/page-sets.md",
+        "references/rules.md",
+        "references/case-rules.md"
+      ],
+      "unresolved": [
+        "类目独立页序、字段细则及验收待确认"
+      ]
+    }
+  }
+}

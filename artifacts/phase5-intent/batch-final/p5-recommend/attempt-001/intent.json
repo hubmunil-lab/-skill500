@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "original_query": "早餐水果推荐（方便携带）",
+  "core_question": "早餐水果推荐",
+  "direction": "方便携带",
+  "direction_is_evidence": false,
+  "category": "recommendation",
+  "classification": {
+    "category": "recommendation",
+    "confidence": 0.65,
+    "provider": "rules_fallback",
+    "reason": "明确推荐指令优先于枚举问法",
+    "rules": {
+      "category": "recommendation",
+      "candidates": [
+        "recommendation"
+      ],
+      "status": "suggested",
+      "reason": "明确推荐指令优先于枚举问法"
+    },
+    "review_required": true
+  },
+  "themes": [
+    "scenario_recommendation"
+  ],
+  "focus": null,
+  "operation": "describe",
+  "search_context": [
+    "早餐",
+    "方便携带"
+  ],
+  "required_facts": [
+    "candidate_items",
+    "selection_reasons",
+    "constraints"
+  ],
+  "useful_supplement": [],
+  "irrelevant_template_fields": [],
+  "explicit_exclusions": [],
+  "scope_conflicts": [],
+  "parser": "RuleIntentParser",
+  "confidence": 0.8,
+  "human_review_required": true,
+  "unknowns": [
+    "未提供的产品版本、受众健康条件、真实体验不得推断"
+  ]
+}

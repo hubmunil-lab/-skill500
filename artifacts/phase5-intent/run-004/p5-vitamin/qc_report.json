@@ -1,0 +1,27 @@
+{
+  "status": "REVIEW",
+  "generated": true,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "CUSTOMER_APPROVAL_REQUIRED"
+    },
+    {
+      "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+    }
+  ],
+  "intent_required_facts": [
+    "appearance",
+    "taste",
+    "price",
+    "vitamin_c",
+    "energy",
+    "carbohydrate",
+    "sugars",
+    "feature",
+    "scene",
+    "selection"
+  ],
+  "layout_report": "render/qc_report.json"
+}

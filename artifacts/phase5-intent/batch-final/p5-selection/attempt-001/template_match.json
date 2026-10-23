@@ -1,0 +1,89 @@
+{
+  "decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "selected_template_id": null,
+  "scores": [
+    {
+      "template_id": "customer-compare-v1",
+      "dimensions": {
+        "question_coverage": 0.25,
+        "field_relevance": 0.1,
+        "evidence": 0.0,
+        "assets": 0.0,
+        "approval": 0.0,
+        "capacity": 1
+      },
+      "score": 0.2,
+      "semantic_rejection_reasons": [
+        "QUESTION_NOT_COVERED",
+        "IRRELEVANT_TEMPLATE_FIELDS"
+      ],
+      "semantic_match": false,
+      "unrelated_required_fields": [
+        "appearance",
+        "carbohydrate",
+        "energy",
+        "feature",
+        "price",
+        "scene",
+        "sugars",
+        "taste",
+        "vitamin_c"
+      ],
+      "template_data_missing": [
+        "appearance",
+        "carbohydrate",
+        "energy",
+        "feature",
+        "price",
+        "scene",
+        "selection",
+        "sugars",
+        "taste",
+        "vitamin_c"
+      ],
+      "customer_approved": false,
+      "page_capacity": 3,
+      "text_capacity_status": "not_measured",
+      "profile": {
+        "template_id": "customer-compare-v1",
+        "category": "comparison",
+        "themes": [
+          "appearance",
+          "taste",
+          "price",
+          "nutrition",
+          "scene",
+          "selection"
+        ],
+        "required_fields": [
+          "appearance",
+          "taste",
+          "price",
+          "energy",
+          "carbohydrate",
+          "sugars",
+          "vitamin_c",
+          "feature",
+          "scene",
+          "selection"
+        ],
+        "object_count": 2,
+        "pages": 3,
+        "page_roles": [
+          "appearance_taste_price",
+          "nutrition",
+          "scene_selection"
+        ],
+        "renderer": "compare_revision"
+      },
+      "warnings": []
+    }
+  ],
+  "requested_content_directions": [
+    "selection"
+  ],
+  "unregistered_directions_are_not_templates": true,
+  "customer_approved": false,
+  "policy_status": "engineering_policy_not_customer_approval",
+  "reason": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+}

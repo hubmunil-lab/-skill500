@@ -682,6 +682,186 @@
       "role": "rules",
       "family": "review-1",
       "status": "visually-reviewed-in-chat"
+    },
+    {
+      "path": "assets/customer_reference/compare/1167c9fe-9822-419f-8d82-f6d1ad23b2cc.png",
+      "sha256": "db662e9ba1332e261587c716253a61f20958d116834b65a57f2c89b5cd648d66",
+      "size": [
+        720,
+        967
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-compare-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/compare/ea68826f-81e5-4816-90cb-ecf7193fcd00.png",
+      "sha256": "b502ac177bcfea5183b1e994dcbf28cfc0c31a54b571f85268e907b41ad4129e",
+      "size": [
+        726,
+        976
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-compare-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/compare/0d9ac319-df9b-4bd6-a2ca-3d6bf10a18ee.png",
+      "sha256": "d8a491b13a3cc72bf28b0801f91b70a4e58a3a54d5e5ae177fca4d2e1c7a5acc",
+      "size": [
+        723,
+        973
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-compare-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/recommend/6c44d1cc-a954-4774-9433-798b36144bcb.png",
+      "sha256": "791544ac54e830407584137604002c802d302c3e99220df71a5cd4c454c1423e",
+      "size": [
+        730,
+        973
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-recommend-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/recommend/da26d06f-4a2b-4326-a3f9-b1e46855f954.png",
+      "sha256": "9cd21b0e5c740eb7d9498aae4b79270bd3f5d92c8cb318a5432354fefec78300",
+      "size": [
+        730,
+        973
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-recommend-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/recommend/fd0fe681-4f9c-4451-9bb8-f361445d4b99.png",
+      "sha256": "4ea0ab56a3427014eaf4120bb36a161f66766ec2f8b02d20a48526685ae9ba8c",
+      "size": [
+        727,
+        976
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-recommend-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/list/bd73bcf0-f931-429f-9bf8-6c7810fffe19.png",
+      "sha256": "d1dce9090beec507a5f9240f2e31cbc41c435080f4007e8779349be2d1a7c745",
+      "size": [
+        730,
+        976
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-list-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/list/2e0b94bb-f421-4239-ad1b-f6e5fc88d360.png",
+      "sha256": "dd951b7d5dd744a3c2e7269830ab6dc8bc48e5e14a204f3068ab3252282d9918",
+      "size": [
+        727,
+        976
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-list-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/list/bab805d8-ff7a-417e-97aa-84f784283b42.png",
+      "sha256": "64b22078af09497de3b8d9a6e72c4ec1470507060ba0b769294c8703bce918b1",
+      "size": [
+        721,
+        957
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-list-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/list/0f9f4bf7-ed77-4249-89b7-65fe797ccb18.png",
+      "sha256": "98a14cdc026031db2b519623f8db056c4be35b5c35c765e3c6adacdbd6827ec5",
+      "size": [
+        732,
+        969
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-list-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/intro/a0c2303f-2b0e-4890-b2ae-ac6a1bd5ca0e.png",
+      "sha256": "42829f78da51098704586fa6c077b8c11a97d8436041e952f2e7baaddd3ca935",
+      "size": [
+        729,
+        972
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-intro-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/intro/410daa43-47e6-41ee-bf7b-fbc360c1ce3d.png",
+      "sha256": "ff2a809dc8cfb5df2e59c3787204af4eb14d1f501ed415f3f9128f60231bb2af",
+      "size": [
+        724,
+        966
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-intro-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/intro/6a1521cf-936d-40c6-8099-b4b7260acd06.png",
+      "sha256": "56a48635fbb9841fb6516384e6236d64ff594ab9b0f2c1370787b459f41b39f6",
+      "size": [
+        727,
+        973
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-intro-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/intro/c7367b78-0e75-479a-9181-2f71bff2d9ad.png",
+      "sha256": "94ae232c6407005fc4b24b5471c48a30f4a38dd81b0cc89c58dc7a4044dce956",
+      "size": [
+        727,
+        976
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-intro-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
+    },
+    {
+      "path": "assets/customer_reference/intro/e392d62e-3fdb-44a3-839e-c05f985c832a.png",
+      "sha256": "fba4f3da338a70ba0546cb69d317f63b374333f68e64c6a3fdf36df09f11b7f3",
+      "size": [
+        730,
+        978
+      ],
+      "origin": "customer-reference-main-3a6e453",
+      "role": "template-page",
+      "family": "customer-intro-v1",
+      "status": "read-and-mapped-not-fact-or-rights-approved"
     }
   ],
   "training_transcripts": [

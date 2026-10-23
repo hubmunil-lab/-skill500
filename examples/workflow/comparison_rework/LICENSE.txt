@@ -1,0 +1,9 @@
+SPDX-License-Identifier: CC0-1.0
+The original programmatic product illustrations and fictional test dataset in this
+folder are dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+They were authored for software testing, not downloaded from the web.
+All prices, nutrition, ingredients and sensory descriptions are SYNTHETIC TEST
+DATA, not measurements or claims about actual foods or commercial products.
+Customer template reference images, fonts and other repository assets are NOT
+covered by this dedication. No customer approval is implied.

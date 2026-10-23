@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "original_query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）",
+  "core_question": "柠檬水和可乐哪个颜色更深",
+  "direction": "只看液体外观，不要营养",
+  "direction_is_evidence": false,
+  "category": "comparison",
+  "classification": {
+    "category": "comparison",
+    "confidence": 0.65,
+    "provider": "rules_fallback",
+    "reason": "词面启发式，非已验证的语义判断",
+    "rules": {
+      "category": "comparison",
+      "candidates": [
+        "comparison"
+      ],
+      "status": "suggested",
+      "reason": "词面启发式，非已验证的语义判断"
+    },
+    "review_required": true
+  },
+  "themes": [
+    "appearance"
+  ],
+  "focus": "appearance",
+  "operation": "max",
+  "search_context": [],
+  "required_facts": [
+    "appearance"
+  ],
+  "useful_supplement": [
+    "同光照与容器条件",
+    "照片中是否真正可见被比较液体"
+  ],
+  "irrelevant_template_fields": [
+    "taste",
+    "price",
+    "energy",
+    "carbohydrate",
+    "sugars",
+    "vitamin_c",
+    "feature",
+    "scene",
+    "selection"
+  ],
+  "explicit_exclusions": [
+    "nutrition"
+  ],
+  "scope_conflicts": [],
+  "parser": "RuleIntentParser",
+  "confidence": 0.8,
+  "human_review_required": true,
+  "unknowns": [
+    "未提供的产品版本、受众健康条件、真实体验不得推断"
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "tasks": [
+    {
+      "task_id": "p5-appearance",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "appearance"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-appearance/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）",
+      "content_generated": false,
+      "category": "comparison",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "74144b89b1b0dc92c5d60c5899d1072854ccb2e6e4edf14df9f18fdb3ce55ad9",
+      "artifact_hashes": {
+        "input.json": "55f26d5fa9c2119dc873e49882dfe55dc2103f9b0b6e2b4b9ea42d67b9611157",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "cf95b593aaab0cd51ccac0f5865f13841178c425ec2089acb819d8d4b3531b31",
+        "required_materials.json": "b69bb22d730eab8d24edc52f144e89b979c9e5d210227b7e3a0fff1df50c1752",
+        "result.json": "fc4eb8d992289ad704d9d36f72e192b4dbe3801bb6ff02d1e3182d54a94cbe5c",
+        "missing_materials.json": "be9dc6028cd4582e3319c348b49c41fcd248589ec05d9edb049c012055f2e864",
+        "planning_brief.json": "67e35048f1303ea6f422a216f66aec0cc9f18e2f151492bc63cc1e3e08c1f223",
+        "template_match.json": "398036cf8b3c0db4a96363438a8efc477f52112842447728f43c558142f92abf",
+        "qc_report.json": "56011a3c6ca0b98e1bcb39c5ea3396edfa921f73d5bac3934fae5c57f7527854"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-price",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "price"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-price/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "250ml果汁和330ml果汁哪个更划算（统一容量比价）",
+      "content_generated": false,
+      "category": "comparison",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "eb5a295ebe256969a9e9999e63c7cf98db2ef2f3ec63e88c436af8cee17254f7",
+      "artifact_hashes": {
+        "input.json": "9364af05e660dc491b3af1149cb358d9100d1202b74c83f24820c3421a98aa9a",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "ca5c6bd03fa57bdf802be7cb84013cc54d7f5a0ec52ec86b0a4964045bfb5afb",
+        "required_materials.json": "8f5ce71c9ccb3b81a8615537a9c673f47662de145483e405086c2d0924cc0ded",
+        "result.json": "77ded91dc7f439ea1515a28065a351baa924a4c64ddb82c8044dcb1dabdbf731",
+        "missing_materials.json": "6c5ae1d7925c25727039ed8e646bb23f274806bd3be172bc91bb12be520d52b1",
+        "planning_brief.json": "37d7089a439ae68292b6206e18e65a1a22ff91db2a09e188a69e23d38d7492be",
+        "template_match.json": "5bf5d2f158808509f59288d6df0a5896e6a3d153c2e3dd498e4ed5a3ad20940b",
+        "qc_report.json": "e1e52a133da843494cbb37c7777357a097be7fe25b57e4c42da898bfa7e1654b"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-selection",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "selection",
+            "packaging",
+            "portability",
+            "sealing"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-selection/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）",
+      "content_generated": false,
+      "category": "comparison",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "9673309fd75fc564872c2721d01f522fb97081a3e518e9cf70ecf05a85ea28b7",
+      "artifact_hashes": {
+        "input.json": "23b5cfaae6e12f4a71045bf59acf9abd69d24142b0cea28eb98aa0a12259f373",
+        "classification.json": "bcdcb6566270dfe12d6d553716a415baa35fc17e131c02226052f6ff2f26f544",
+        "intent.json": "49cd16d3a7102ef26685666155215f52baa9dfcd887c81818968a1c886cf2091",
+        "required_materials.json": "0bc1fe4f2948cd5ed1c56d4354143388bdac71a2a0c3a375dfa20c9cc22fe920",
+        "result.json": "4ebe40ee14da6a3689559d5df7694c5974410738b64485bb697ea229450807ef",
+        "missing_materials.json": "382865f3de32c67c7b23abbaaed638e3d122e3a7d860c0507570e3fc6fb0a439",
+        "planning_brief.json": "f3c0971590f503b81ede992362e4dd8794ca45be6f78431bdf60fa0a24effbde",
+        "template_match.json": "ee32569c966650ad57951fd44ad6a7f38ca264b854496f6c696a9fb653bf327e",
+        "qc_report.json": "acd5dda11bd4b3cd8614837bfb8bb2d3fada96b7b0e124243878e64b8776042d"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-sugar",
+      "status": "REVIEW",
+      "generated": true,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+        }
+      ],
+      "artifact_directory": "p5-sugar/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+      "content_generated": true,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "template_decision": "MATCH_REVIEW_REQUIRED",
+      "data_kind": "synthetic_test",
+      "cache_key": "1baa4a50d58af8cfeef0ffa3139896692d69504556cbfd7cc52061b1f2c56fe5",
+      "page_count": 3,
+      "render_directory": "render",
+      "poster_content_hash": "879d12e5e10baebdfc6518e2d57c8a7cce9ea23196319e9e3b41bba28e059e93",
+      "body_hash": "c5e382476f4362314c0e01a784141d9e61114de22c599a6efbf22e5133850a31",
+      "artifact_hashes": {
+        "copy.json": "ba4fde6496fc4f3fd218e85ba9cd0caa14394a0785f0d1814b593185554c9ea9",
+        "input.json": "6971fe7bcc7d3d112cfdce2d8d6cccaf306938ae5aecb3d3e97ba1344a54fc43",
+        "content_qc.json": "2bf011afce72fb6117522bec0334ebc36ac1d0eef93eed4dc3e98d097cf33f4c",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "c815f69addfa1be6ed68c6633b4da6ed54be8fb663992a146581a53e7e01aa3a",
+        "required_materials.json": "a9062d03d6d234441e680d7860a4339bc7b36dbfaa21fb8e5a8446809da20f74",
+        "result.json": "9d5f366f66d60368b3e3ba59422a28f8bcae0ea0917bd8794e7451f55b6461d9",
+        "post.md": "e4777fbd18ae657bd4082f5bda91208a9cbc1b24e220c8b7b25233d0b950e576",
+        "missing_materials.json": "9b238edf37a38fa468b01773cbd6de10edcf86b08325a3dd2d24270f5d5e8ead",
+        "planning_brief.json": "c7f5bb9922cb277e029ba4a4ed3080a430395abea34a703d8fd2005a7b2b30db",
+        "source_packet.json": "543ec2331582c933938517aa0e7c47a0e33f81f6d1d17c2ac2027d3d2a90a597",
+        "template_match.json": "0db0d44c485fc96d83e7d799412341d40f8bc3025c7eb9c8b41dca20ec3dc0ba",
+        "qc_report.json": "1d36a90fcead5bd5feada24249f9edbb3cee31e22e57ba65134ef0bb7e06dfff",
+        "render/01-comparison.png": "4b5a53e354434f7ec072b63af58dc61fb899ade6d131e8f44e209a5365726f7f",
+        "render/01.png": "a4a2f4268b23d976ac5821d33beb69704830218acad7032a82a7e7de64a79d7e",
+        "render/reference-comparison.png": "dad7c7276c2df87329bb053bb646f7e8150ea8a50f6e4ccefc2e46729b471e36",
+        "render/02-difference.png": "dabeaad903c6276c10aaae02cbcc45f57df7960511039a330984b1d4c89e3fdb",
+        "render/preview.png": "68fcbfa7a989df0641f9f26054beb5cc3d87543580250134671f109e72c2c052",
+        "render/02.html": "6cb294bee9f16c932d0ced15a011541c3296ec99662492988fb65dae5074126e",
+        "render/02-comparison.png": "f12c1fcdff179fcbf59c2a1795fb90828160857531d733fbf2882a29ef081cf4",
+        "render/03.html": "0aa272a65a029e2f48a1053cd42f0a3713bd7bb7271a7e918707fb7898544148",
+        "render/03-difference.png": "35ffecdb94f4c926f13638bc3bd0b73ecabf96eb6f408cfa856e45cc456893d1",
+        "render/01.html": "22c46c476686e3882dc53600a6ad2571e1f3c6f7b44997d268496842987e42d5",
+        "render/02.png": "78d52a96a7cbeabda520d7a6875f95b2de8b8a60d31b4a42d5a6e6a7bcb5edcb",
+        "render/01-difference.png": "29ab185f6ef89f0f0553719aa7a04caa58cea7e87259625038d1ab0205ebbc2c",
+        "render/03.png": "03ed91e71da64980f2aa27ddf9f735637d29ae99aba340cda09107c82217ec87",
+        "render/03-comparison.png": "fff87c701341caa82dbc64df04409d8993ecb91fb4729645cfe7b18946115b76",
+        "render/qc_report.json": "b812dbd6979efde3cb79ce7f529ee38d4e3c23b34b8b2a44f46d3c7622f97118"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-vitamin",
+      "status": "REVIEW",
+      "generated": true,
+      "errors": [
+        {
+          "code": "CUSTOMER_APPROVAL_REQUIRED"
+        },
+        {
+          "code": "SYNTHETIC_SOFTWARE_TEST_ONLY"
+        }
+      ],
+      "artifact_directory": "p5-vitamin/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+      "content_generated": true,
+      "category": "comparison",
+      "template_id": "customer-compare-v1",
+      "template_decision": "MATCH_REVIEW_REQUIRED",
+      "data_kind": "synthetic_test",
+      "cache_key": "e736698f55c70ee3594444bd630277ea4782bb5cda24b698ff5ed1a87ce3574c",
+      "page_count": 3,
+      "render_directory": "render",
+      "poster_content_hash": "454ad1d50a49d96c7b5f21f56cb264f7ea14f64728cb3a88943798de832af296",
+      "body_hash": "f15318b5ac6c68c328a376781eee7a5f2b4917d856f8d2d0a58df48b6c1dbcb1",
+      "artifact_hashes": {
+        "copy.json": "a7def43781da9bdb6f6bda89f755eebba88c728e9a86d6b891b448b8c08d3262",
+        "input.json": "d6e6ea249899ad04d8de257f05e6e1be27d2234c6f12d9f356b52ddf134638c8",
+        "content_qc.json": "2bf011afce72fb6117522bec0334ebc36ac1d0eef93eed4dc3e98d097cf33f4c",
+        "classification.json": "57df82acbde8a57189a87f6f7bd5f3bf50bdf6f736fd787a329ac916d4a8af9d",
+        "intent.json": "ede57f650c41a242be22bf6a8c4450bff75f5aa27254e6b9e94fe3a80983f1ec",
+        "required_materials.json": "39c27bba4b112e8c80bb3b1a7d5e9558c30090d051c57ee9fec6cdfa8a4a546b",
+        "result.json": "1b0327561d37ece2e6da7e018384d044f9f3f27ca120f0eabe6ccdb76ca4851c",
+        "post.md": "df7254032f3962eee3a2128eff90e13c5f4be4701ef7887276786f0d209799e5",
+        "missing_materials.json": "de5c222df0bfc86546e4afc016c962ca7e073e1a3720baa925318da6399ab08d",
+        "planning_brief.json": "c993af23287125611acbc49d6ccc3aa2c0c55a285236eaf3d1accafbfffb5668",
+        "source_packet.json": "36458c48db8f796aeccc614029f65f17f828672cc28a0c44ce50105637a53601",
+        "template_match.json": "0db0d44c485fc96d83e7d799412341d40f8bc3025c7eb9c8b41dca20ec3dc0ba",
+        "qc_report.json": "1d36a90fcead5bd5feada24249f9edbb3cee31e22e57ba65134ef0bb7e06dfff",
+        "render/01-comparison.png": "c5119a84178aa0e3d369e9bfb79abee0ad68314dc88c49d261dc8548730937db",
+        "render/01.png": "377a158187d918f3df2282213d5e6eeae9422cf943ec84c7ff78ef38944110df",
+        "render/reference-comparison.png": "5ae5253be9a8ff031ce1b1e6fda3d532bb34ab5037c0dcd521a8d01140a4673e",
+        "render/02-difference.png": "56d88cba613d0d7d964cc53ce9c18003a8106cd82e3e18af94b82328d11dc6a0",
+        "render/preview.png": "71c56c08d72e686a4759d44cbce539478e7cd061d775a8c102e4c00bf1af7ea6",
+        "render/02.html": "7c2aea088dc7d138e39f8759443bb3d7d9cb72a33a166ad00f087322de9460b5",
+        "render/02-comparison.png": "1c73b0c3bcc7fa73f6af281574879b778a8a30c481c19a5e8c12d07a69ee2bf6",
+        "render/03.html": "f5ff4aa915206d57ed162178d62dc84a8bdadb5353663308fe3a7b8bf15e3451",
+        "render/03-difference.png": "b24c6cd72d3bfbc8e08165461e99f154d7f6ba5fc435bd64e17c139d5fe5e123",
+        "render/01.html": "86ac1cf559d815669464540bcc360ddd18ef15e40db07bae93b22c94d424dbed",
+        "render/02.png": "894a11c8851607ea50695df34b991ee2296198eea37883088f0f6eeab829d45e",
+        "render/01-difference.png": "a584d895c5ac580d0b675ba02a130dd83bcac40f926df95d99c56818fde8cfbb",
+        "render/03.png": "3911fadc885a0d651d81283a71d97418480213b1c62b3cd2f615375d688565fa",
+        "render/03-comparison.png": "dc7f84d60be175ff728564d620fb3503bf6da387be367b4e920e27dc2a537f1b",
+        "render/qc_report.json": "611e39f785c683e82d3c5a81b675741483329953b090751b8475051c74c58d19"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-intro",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "identity",
+            "nutrition_summary"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-intro/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "青椒有什么营养特点",
+      "content_generated": false,
+      "category": "intro",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "3b64102fece65be028f0c33d48d11522a081d9f4806f1e72d3f43bb1ced5ec74",
+      "artifact_hashes": {
+        "input.json": "15b3b25ce834d80cabffb6a63bc1ed5d36528ff121d9598a607aa7897da97949",
+        "classification.json": "7f1ca9a30d7d38a51fe2c05bdd260782a0287a259dfb0a325a2a07901b31250d",
+        "intent.json": "bdf7b35ef595261e7d684e173b75c7c93f8039287825f945335e784b784512ca",
+        "required_materials.json": "f593349a4c2817d6fea057254250ad6d1203536f796d63fac89ad7dd3c24e659",
+        "result.json": "6bc803d861bb0efc3a98724f9257947db0456f6637edadecb58af20bcd64b663",
+        "missing_materials.json": "7b1785a809941ac1fd6f7c46e659309c593fd45d6e196f4bfee924b4f0c1bf9a",
+        "planning_brief.json": "691207790a423a087521144542a59a2d066a380b17cfa9a876a67d97faa93729",
+        "template_match.json": "b711f45adef163be6fcb7ddb9d042091af660fece2dd34cc745e7d92cd0595b4",
+        "qc_report.json": "a37251637e64a7909b641b5c87eafe669b8f2e590ec3067ce630833c6de8d111"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-procedure",
+      "status": "BLOCKED",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "ingredients",
+            "steps",
+            "heat_control"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-procedure/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "青椒炒肉怎么做，火候和步骤是什么",
+      "content_generated": false,
+      "category": "procedure",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "a4caa3b776a936f24e8bf380a04e945c562ccc17d3eb290fbf6b6ad1dba7dba0",
+      "artifact_hashes": {
+        "input.json": "65e23d19c65093444a584f04e46baec42797f1832cfc1c1a2da9c98136f3b088",
+        "classification.json": "91fb553182148378db2790266b4cad6987b74d002b8136edc295ab3e32997cc8",
+        "intent.json": "862778fee2e0cf987e20740b246130a91572841d6cb38ba035226d701d1a8387",
+        "required_materials.json": "4dd50765e292ddcc489fedeec5c8d04f55125fb15566c6999595bae52545479b",
+        "result.json": "6dafa8d7903c7cb910ef0f5022a0cadc56897751e670a9249b753d2713c59f9d",
+        "missing_materials.json": "ca0394811eee9a4fc2c6be0d40abbb1f973b6f0a23634b7c6019a6ae953b8950",
+        "planning_brief.json": "e996b3c0f39104b0c98d4aefa24ff5b81aba888e52e9b432b18376ae238299cc",
+        "template_match.json": "3cb5b573d4f47e0049f6c06152f0cda75fde9703adb2fcb2543b412157a0b7a4",
+        "qc_report.json": "03b1826a994c04e5f820db61d470711416b7ba4cf7badddb83d5906307d068e2"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-recommend",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "CAPACITY_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "candidate_items",
+            "selection_reasons",
+            "constraints"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-recommend/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "早餐水果推荐（方便携带）",
+      "content_generated": false,
+      "category": "recommendation",
+      "template_id": null,
+      "template_decision": "CAPACITY_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "e89b0534f4181314d9741c59adff41547546af8806621bc2a182e8ae023c9d9a",
+      "artifact_hashes": {
+        "input.json": "2532be18e52a1db2cde9ca79cb65d385985d8aa3ed7dce493cb1c22d873be34d",
+        "classification.json": "b76a3aa16f02d6c3c19e3016e0039eb136a2ff298457d61f852afe31719f4924",
+        "intent.json": "50941a86a76385bc9c1becd48a1ce43f4f14aa664150d55ed078e3c18dfbd2cc",
+        "required_materials.json": "c78743be9d05857313d8e890dc22ebf4d359475ca10e71940f1bc1f876ab6c15",
+        "result.json": "972a6931180e887a6d1b61032c7de9e13e0f896be675f6595f6e1ea33c2cd08b",
+        "missing_materials.json": "306f1f0ced16499a0fe308fbd6286af2aa919d2a85ee4189315581aa284b5175",
+        "planning_brief.json": "e4c12cff8b3465121d4129213ae227f5944982f857e442940d6531b6125b217f",
+        "template_match.json": "d70461f186f5282103ed82234a0798fb00e76478c2c0ffade8c9dd7f91853ce3",
+        "qc_report.json": "cf7c56e2edbce5bc311b36b3441eebf4e85e5b8cc4182e08e525bab953d0089d"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-inventory",
+      "status": "REVIEW",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "item_list",
+            "distinguishing_features",
+            "usage"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-inventory/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "常见苹果品种盘点（口感和用途）",
+      "content_generated": false,
+      "category": "inventory",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "20e4c450ca2a5cd978487fca6eb596468ea956b09fad73e0b98d1af3846b1d8d",
+      "artifact_hashes": {
+        "input.json": "389546c4329de2d177dc55bf7e08ab68feae2b8852581b6059b6c318db3b3618",
+        "classification.json": "df11820666cceb7f94aa2151be9771c8feb7d2b5bc5e228b820bfbce840216d2",
+        "intent.json": "b8b15663e4cb2ab21df71ae19fe12ebd4d0b3af3204d63325e9dae2661842d96",
+        "required_materials.json": "16633e48ff458ddc997e77b1cc1c3d2b5cbfeef9da77aa2c57ff0c45014bac0e",
+        "result.json": "77bb760200c090a2a3ae6ff9c49588126747d5e0a7459adc3fd4bed4333d80f9",
+        "missing_materials.json": "e043c511bf7ce53d41e6bdddd91089efcf4043f3126f7e0218221faa9e7bf4e3",
+        "planning_brief.json": "9c44d8336974ed8f2a84ca442b091f743bf19e25e9f247b82bd98331803452a7",
+        "template_match.json": "90d23c799ce03dc0465adf745399177fb7d6fe086a700af2e5d4d182ab86bc5a",
+        "qc_report.json": "a6c07ef28f0dc6c3eead865b0ade467a2961ff48128c66b603210344491b6fdb"
+      },
+      "resumed": true
+    },
+    {
+      "task_id": "p5-review",
+      "status": "BLOCKED",
+      "generated": false,
+      "errors": [
+        {
+          "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+          "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+        },
+        {
+          "code": "QUERY_EVIDENCE_REQUIRED",
+          "fields": [
+            "product_identities",
+            "test_protocol",
+            "observations",
+            "limitations"
+          ]
+        },
+        {
+          "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+        }
+      ],
+      "artifact_directory": "p5-review/attempt-001",
+      "attempt": 1,
+      "customer_approved": false,
+      "delivery_ready": false,
+      "reworks": 0,
+      "original_query": "三款无糖饮料实测体验（口感和价格）",
+      "content_generated": false,
+      "category": "review",
+      "template_id": null,
+      "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "data_kind": "real_query_no_product_data",
+      "cache_key": "a739c9403b38883bd713772cb7740aa25322be60f3a189502126432ea231e7ca",
+      "artifact_hashes": {
+        "input.json": "6520f5a39b729571141348b4b5ee738d45e0345981db2ba1dbc21287b0d253c2",
+        "classification.json": "c499f825b60455f0ce183a716b1caae31cf271fb1214b50deda2adb6ec650e9e",
+        "intent.json": "462d2a4b7d9c9794e6212da3c778a67707cf33cf0fdb233bddec199edd28c29c",
+        "required_materials.json": "e4f5bde6c4dd94b16b5b67e03c89877ee2509819f9a74e26ea3a879e18384313",
+        "result.json": "c27219fa38605cc8990c93cbbcaf1540490226c1641ec405eacaaa780649615d",
+        "missing_materials.json": "16ced25fb0d8634b1b489ff4814b90e4bd2dad3532d661846f4f03c5f4e270bc",
+        "planning_brief.json": "de925749ce5d27e22a763c1bb9ab14fdf4699d46db3aa33b97ea4dc79df04581",
+        "template_match.json": "1a4fcf5dbf96f553db5034d04b36d11980ca76d4b3174451f5fa61da20609e40",
+        "qc_report.json": "9961573ca482886d0f02e5bcf4cdfa38761ee9da99312e08e8423a09d5342f6b"
+      },
+      "resumed": true
+    }
+  ],
+  "generated_groups": 2,
+  "not_rendered": 8,
+  "states": {
+    "READY": 0,
+    "REVIEW": 8,
+    "BLOCKED": 2,
+    "DELIVERED": 0
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "id": "customer-compare-02-v1",
+  "category": "compare",
+  "role": "nutrition",
+  "page_number": 2,
+  "reference": "assets/customer_reference/compare/ea68826f-81e5-4816-90cb-ecf7193fcd00.png",
+  "reference_sha256": "b502ac177bcfea5183b1e994dcbf28cfc0c31a54b571f85268e907b41ad4129e",
+  "source_size": [
+    726,
+    976
+  ],
+  "canvas": [
+    1242,
+    1656
+  ],
+  "placement": "uniform_contain_center",
+  "slots": [
+    {
+      "id": "title",
+      "kind": "text",
+      "box": [
+        28,
+        20,
+        692,
+        114
+      ],
+      "font_size": 48,
+      "line_height": 62.4,
+      "color": "#555150",
+      "erase_color": "#ffeafa",
+      "weight": 700,
+      "align": "center",
+      "outline": 3,
+      "font": "sans",
+      "value": "营养字段排版测试",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "left_photo",
+      "kind": "image",
+      "box": [
+        50,
+        210,
+        309,
+        477
+      ],
+      "crop": [
+        50,
+        210,
+        309,
+        477
+      ],
+      "subject": "lemon_drink"
+    },
+    {
+      "id": "right_photo",
+      "kind": "image",
+      "box": [
+        482,
+        218,
+        648,
+        478
+      ],
+      "crop": [
+        482,
+        218,
+        648,
+        478
+      ],
+      "subject": "cola"
+    },
+    {
+      "id": "nutrient_1_left",
+      "kind": "text",
+      "box": [
+        49,
+        630,
+        340,
+        669
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段1：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_2_left",
+      "kind": "text",
+      "box": [
+        49,
+        685,
+        340,
+        724
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段2：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_3_left",
+      "kind": "text",
+      "box": [
+        49,
+        740,
+        340,
+        779
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段3：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_4_left",
+      "kind": "text",
+      "box": [
+        49,
+        795,
+        340,
+        834
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段4：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_5_left",
+      "kind": "text",
+      "box": [
+        49,
+        852,
+        340,
+        891
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段5：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_1_right",
+      "kind": "text",
+      "box": [
+        398,
+        630,
+        689,
+        669
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段1：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_2_right",
+      "kind": "text",
+      "box": [
+        398,
+        685,
+        689,
+        724
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段2：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_3_right",
+      "kind": "text",
+      "box": [
+        398,
+        740,
+        689,
+        779
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段3：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_4_right",
+      "kind": "text",
+      "box": [
+        398,
+        795,
+        689,
+        834
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段4：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "nutrient_5_right",
+      "kind": "text",
+      "box": [
+        398,
+        852,
+        689,
+        891
+      ],
+      "font_size": 20.5,
+      "line_height": 27,
+      "color": "#54504e",
+      "erase_color": "#f8f6f7",
+      "weight": 400,
+      "align": "left",
+      "outline": 0,
+      "font": "sans",
+      "value": "字段5：待核实",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_left",
+      "kind": "text",
+      "box": [
+        72,
+        551,
+        319,
+        613
+      ],
+      "font_size": 27,
+      "line_height": 35.1,
+      "color": "#fff",
+      "erase_color": "#5c2f56",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "柠檬饮品",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    },
+    {
+      "id": "name_right",
+      "kind": "text",
+      "box": [
+        409,
+        551,
+        671,
+        613
+      ],
+      "font_size": 27,
+      "line_height": 35.1,
+      "color": "#fff",
+      "erase_color": "#78303e",
+      "weight": 700,
+      "align": "center",
+      "outline": 0,
+      "font": "sans",
+      "value": "可乐",
+      "vertical_align": "center",
+      "outline_color": "#ffffff"
+    }
+  ],
+  "item_order": [
+    "lemon_drink",
+    "cola"
+  ],
+  "font_status": "original_font_unknown_metric_substitute_requires_review",
+  "approval_status": "not_approved",
+  "notes": [],
+  "allowed_overlaps": [],
+  "background_samples": {
+    "header": "#ffe8fa",
+    "paper": "#fee9fb"
+  },
+  "visual_revision": "compare-visual-rework-1"
+}

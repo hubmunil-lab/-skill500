@@ -1,0 +1,5 @@
+~205~^~g~^~CHOCDF~^~Carbohydrate, by difference~^~2~^~1100~
+~208~^~kcal~^~ENERC_KCAL~^~Energy~^~0~^~300~
+~269~^~g~^~SUGAR~^~Sugars, total~^~2~^~1500~
+~291~^~g~^~FIBTG~^~Fiber, total dietary~^~1~^~1200~
+~401~^~mg~^~VITC~^~Vitamin C, total ascorbic acid~^~1~^~6300~

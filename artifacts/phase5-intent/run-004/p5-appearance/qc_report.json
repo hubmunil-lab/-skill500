@@ -1,0 +1,25 @@
+{
+  "status": "REVIEW",
+  "generated": false,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "appearance"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "intent_required_facts": [
+    "appearance"
+  ],
+  "layout_report": null
+}

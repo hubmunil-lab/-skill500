@@ -1,0 +1,171 @@
+{
+  "id": "intro4-detail-prototype-v1",
+  "role": "detail",
+  "reference": "assets/intro-4-detail.png",
+  "elements": [
+    {
+      "id": "test_label",
+      "kind": "text",
+      "x": 64,
+      "y": 24,
+      "width": 1114,
+      "height": 40,
+      "font_size": 22,
+      "line_height": 33,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "page_number",
+      "kind": "text",
+      "x": 64,
+      "y": 1598,
+      "width": 1114,
+      "height": 32,
+      "font_size": 18,
+      "line_height": 27,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "x": 64,
+      "y": 98,
+      "width": 1114,
+      "height": 125,
+      "font_size": 64,
+      "line_height": 96,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "image_panel",
+      "kind": "decoration",
+      "x": 64,
+      "y": 310,
+      "width": 398,
+      "height": 1080,
+      "background": "#eedd8c"
+    },
+    {
+      "id": "text_panel",
+      "kind": "decoration",
+      "x": 488,
+      "y": 310,
+      "width": 690,
+      "height": 1180,
+      "background": "#fffdf6"
+    },
+    {
+      "id": "food",
+      "kind": "image",
+      "x": 88,
+      "y": 370,
+      "width": 350,
+      "height": 450,
+      "fit": "contain"
+    },
+    {
+      "id": "sidebar",
+      "kind": "text",
+      "x": 88,
+      "y": 900,
+      "width": 350,
+      "height": 400,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "feature_1",
+      "kind": "text",
+      "x": 522,
+      "y": 350,
+      "width": 620,
+      "height": 70,
+      "font_size": 34,
+      "line_height": 51,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "description_1",
+      "kind": "text",
+      "x": 522,
+      "y": 442,
+      "width": 620,
+      "height": 215,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "feature_2",
+      "kind": "text",
+      "x": 522,
+      "y": 700,
+      "width": 620,
+      "height": 70,
+      "font_size": 34,
+      "line_height": 51,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "description_2",
+      "kind": "text",
+      "x": 522,
+      "y": 792,
+      "width": 620,
+      "height": 215,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "feature_3",
+      "kind": "text",
+      "x": 522,
+      "y": 1050,
+      "width": 620,
+      "height": 70,
+      "font_size": 34,
+      "line_height": 51,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "description_3",
+      "kind": "text",
+      "x": 522,
+      "y": 1142,
+      "width": 620,
+      "height": 270,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    }
+  ],
+  "schema_version": 1,
+  "width": 1242,
+  "height": 1656,
+  "background": "#f5efcf",
+  "approval_status": "prototype_not_customer_approved",
+  "font_family": "PosterCJK",
+  "locked_properties": [
+    "x",
+    "y",
+    "width",
+    "height",
+    "font_size",
+    "line_height",
+    "weight",
+    "fit",
+    "color"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "p5-intro",
+  "status": "REVIEW",
+  "generated": false,
+  "errors": [
+    {
+      "code": "TEMPLATE_GAP_REVIEW_REQUIRED",
+      "detail": "没有匹配的已登记固定模板；不改字段、不凑页数、不自动登记变体"
+    },
+    {
+      "code": "QUERY_EVIDENCE_REQUIRED",
+      "fields": [
+        "identity",
+        "nutrition_summary"
+      ]
+    },
+    {
+      "code": "AUTHORIZED_MATCHING_ASSETS_REQUIRED"
+    }
+  ],
+  "artifact_directory": "p5-intro/attempt-001",
+  "attempt": 1,
+  "customer_approved": false,
+  "delivery_ready": false,
+  "reworks": 0,
+  "original_query": "青椒有什么营养特点",
+  "content_generated": false,
+  "category": "intro",
+  "template_id": null,
+  "template_decision": "TEMPLATE_GAP_REVIEW_REQUIRED",
+  "data_kind": "real_query_no_product_data",
+  "cache_key": "3b64102fece65be028f0c33d48d11522a081d9f4806f1e72d3f43bb1ced5ec74"
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "template_family": "business-01",
+  "query": "红色与深色葡萄怎么选，能凭颜色判断糖分吗？",
+  "subject": "grapes",
+  "title": "葡萄选红色还是深色",
+  "direct_answer": "先看用途与品种信息，不凭颜色推断糖分高低。",
+  "objects": [
+    {
+      "id": "dark",
+      "label": "深色葡萄",
+      "asset": "dark"
+    },
+    {
+      "id": "red",
+      "label": "红色葡萄",
+      "asset": "red"
+    }
+  ],
+  "assets": {
+    "dark": {
+      "path": "delivery/sample_assets/dark-grapes.png",
+      "sha256": "3d898635814ef1eae2e65af7d87e75a3084f4ee113312ea130c3ce5c6a2dee14",
+      "subject": "dark",
+      "kind": "real_ingredient_photo",
+      "cutout": true,
+      "rights_status": "unverified_user_reference",
+      "rights_evidence": null,
+      "subject_review": "visually grape cluster; exact cultivar not verified",
+      "source_path": "assets/compare-1-detail.jpg",
+      "source_sha256": "3fac0c720cfb85de67488fb5a0f2b1173a9145b9c4036977941f0c97ac24f353",
+      "crop_box": [
+        105,
+        190,
+        342,
+        581
+      ],
+      "source_native_size": [
+        237,
+        391
+      ]
+    },
+    "red": {
+      "path": "delivery/sample_assets/red-grapes.png",
+      "sha256": "6eac73ce94a4ae9d8d2c2ab80854afba3beee140e9d24fac9f0d48d53d48af5f",
+      "subject": "red",
+      "kind": "real_ingredient_photo",
+      "cutout": true,
+      "rights_status": "unverified_user_reference",
+      "rights_evidence": null,
+      "subject_review": "visually grape cluster; exact cultivar not verified",
+      "source_path": "assets/compare-1-detail.jpg",
+      "source_sha256": "3fac0c720cfb85de67488fb5a0f2b1173a9145b9c4036977941f0c97ac24f353",
+      "crop_box": [
+        464,
+        185,
+        733,
+        582
+      ],
+      "source_native_size": [
+        269,
+        397
+      ]
+    }
+  },
+  "nutrition_source": "delivery/evidence/source_record.json",
+  "highlights": [
+    "通用生鲜葡萄每100克能量69千卡",
+    "通用生鲜葡萄每100克总糖15.48克",
+    "通用生鲜葡萄每100克膳食纤维0.9克"
+  ],
+  "pages": [
+    {
+      "template_id": "business-01-cover-v1",
+      "values": {
+        "title": "葡萄选红色还是深色",
+        "answer": "先看用途与品种信息，不凭颜色推断糖分高低。",
+        "label_left": "深色葡萄",
+        "label_right": "红色葡萄",
+        "photo_left": "dark",
+        "photo_right": "red",
+        "note": "来源：USDA SR28（2015）09132，生鲜、每100克可食部。\n两列引用同一通用记录，不代表照片中特定品种的独立检测值。",
+        "point_1_left": "能量｜69 kcal",
+        "detail_1_left": "生鲜葡萄每100克可食部的通用能量值；选购时仍需确认具体品种。",
+        "point_1_right": "能量｜69 kcal",
+        "detail_1_right": "两列引用同一条数据库记录，不表示两类商品实际能量完全相同。",
+        "point_2_left": "总糖｜15.48 g",
+        "detail_2_left": "这里列的是通用记录，不支持仅凭深色外观判断总糖更低。",
+        "point_2_right": "总糖｜15.48 g",
+        "detail_2_right": "总糖数值需对应具体品种和计量基准；不能只按红色外观排序。",
+        "point_3_left": "膳食纤维｜0.9 g",
+        "detail_3_left": "膳食纤维是本条记录的营养字段之一；数值对应每100克可食部。",
+        "point_3_right": "膳食纤维｜0.9 g",
+        "detail_3_right": "不同商品的具体数值需另查对应记录；本页不推断食疗效果。"
+      }
+    },
+    {
+      "template_id": "business-01-nutrition-v1",
+      "values": {
+        "title": "先读数据，再谈区别",
+        "answer": "以下是一份通用葡萄记录，并非两类照片的分别实测。",
+        "label_left": "深色葡萄",
+        "label_right": "红色葡萄",
+        "photo_left": "dark",
+        "photo_right": "red",
+        "note": "来源：USDA SR28（2015）09132，生鲜、每100克可食部。\n两列引用同一通用记录，不代表照片中特定品种的独立检测值。",
+        "table_heading_left": "每100克可食部｜生鲜",
+        "table_left": [
+          [
+            "能量",
+            "69 kcal"
+          ],
+          [
+            "碳水化合物",
+            "18.10 g"
+          ],
+          [
+            "总糖",
+            "15.48 g"
+          ],
+          [
+            "膳食纤维",
+            "0.9 g"
+          ],
+          [
+            "维生素C",
+            "3.2 mg"
+          ]
+        ],
+        "table_scope_left": "同一通用记录；非该颜色或品种的独立营养检测。",
+        "table_heading_right": "每100克可食部｜生鲜",
+        "table_right": [
+          [
+            "能量",
+            "69 kcal"
+          ],
+          [
+            "碳水化合物",
+            "18.10 g"
+          ],
+          [
+            "总糖",
+            "15.48 g"
+          ],
+          [
+            "膳食纤维",
+            "0.9 g"
+          ],
+          [
+            "维生素C",
+            "3.2 mg"
+          ]
+        ],
+        "table_scope_right": "同一通用记录；非该颜色或品种的独立营养检测。"
+      }
+    },
+    {
+      "template_id": "business-01-selection-v1",
+      "values": {
+        "title": "按这三点做选择",
+        "answer": "照片用于识别外观，不替代商品标签和实际品尝。",
+        "label_left": "深色葡萄",
+        "label_right": "红色葡萄",
+        "photo_left": "dark",
+        "photo_right": "red",
+        "note": "来源：USDA SR28（2015）09132，生鲜、每100克可食部。\n两列引用同一通用记录，不代表照片中特定品种的独立检测值。",
+        "use_1_left": "偏好深色外观",
+        "why_1_left": "先按深色外观初选，再核对具体品种；颜色本身不是品种证明。",
+        "use_1_right": "偏好红色外观",
+        "why_1_right": "先按红色外观初选，再核对具体品种；颜色本身不是品种证明。",
+        "use_2_left": "想比较营养数值",
+        "why_2_left": "比较时需找对应品种、同一计量基准的数据；通用记录不提供颜色排名。",
+        "use_2_right": "想比较营养数值",
+        "why_2_right": "比较时需找对应品种、同一计量基准的数据；通用记录不提供颜色排名。",
+        "use_3_left": "想比较真实口感",
+        "why_3_left": "依据实际品尝记录判断；照片不能替代甜度、果皮厚薄等口感评价。",
+        "use_3_right": "想比较真实口感",
+        "why_3_right": "依据实际品尝记录判断；照片不能替代甜度、果皮厚薄等口感评价。"
+      }
+    }
+  ]
+}

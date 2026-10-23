@@ -1,0 +1,147 @@
+[
+  {
+    "task_id": "p5-appearance",
+    "query": "柠檬水和可乐哪个颜色更深（只看液体外观，不要营养）",
+    "expected_category": "comparison",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "appearance"
+    ]
+  },
+  {
+    "task_id": "p5-price",
+    "query": "250ml果汁和330ml果汁哪个更划算（统一容量比价）",
+    "expected_category": "comparison",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "price"
+    ]
+  },
+  {
+    "task_id": "p5-selection",
+    "query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）",
+    "expected_category": "comparison",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "selection",
+      "packaging",
+      "portability",
+      "sealing"
+    ]
+  },
+  {
+    "task_id": "p5-sugar",
+    "query": "示例甲和示例乙对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升含糖量哪个更低",
+    "direction": "合成软件测试，不是真实产品",
+    "packet": "examples/planning/sugar-packet.json",
+    "expected_category": "comparison",
+    "expected_template": "customer-compare-v1",
+    "data_kind": "synthetic_test",
+    "expect_render": true,
+    "expected_required_facts": [
+      "appearance",
+      "taste",
+      "price",
+      "sugars",
+      "energy",
+      "carbohydrate",
+      "vitamin_c",
+      "feature",
+      "scene",
+      "selection"
+    ]
+  },
+  {
+    "task_id": "p5-vitamin",
+    "query": "示例丙和示例丁对比外观、口感、价格、营养、食用场景和选购，重点看每100毫升维生素C哪个更多",
+    "direction": "合成软件测试，不是真实产品",
+    "packet": "examples/planning/vitamin-packet.json",
+    "expected_category": "comparison",
+    "expected_template": "customer-compare-v1",
+    "data_kind": "synthetic_test",
+    "expect_render": true,
+    "expected_required_facts": [
+      "appearance",
+      "taste",
+      "price",
+      "vitamin_c",
+      "energy",
+      "carbohydrate",
+      "sugars",
+      "feature",
+      "scene",
+      "selection"
+    ]
+  },
+  {
+    "task_id": "p5-intro",
+    "query": "青椒有什么营养特点",
+    "expected_category": "intro",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "identity",
+      "nutrition_summary"
+    ]
+  },
+  {
+    "task_id": "p5-procedure",
+    "query": "青椒炒肉怎么做，火候和步骤是什么",
+    "expected_category": "procedure",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "ingredients",
+      "steps",
+      "heat_control"
+    ]
+  },
+  {
+    "task_id": "p5-recommend",
+    "query": "早餐水果推荐（方便携带）",
+    "expected_category": "recommendation",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "candidate_items",
+      "selection_reasons",
+      "constraints"
+    ]
+  },
+  {
+    "task_id": "p5-inventory",
+    "query": "常见苹果品种盘点（口感和用途）",
+    "expected_category": "inventory",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "item_list",
+      "distinguishing_features",
+      "usage"
+    ]
+  },
+  {
+    "task_id": "p5-review",
+    "query": "三款无糖饮料实测体验（口感和价格）",
+    "expected_category": "review",
+    "expected_template": null,
+    "data_kind": "real_query_no_product_data",
+    "expect_render": false,
+    "expected_required_facts": [
+      "product_identities",
+      "test_protocol",
+      "observations",
+      "limitations"
+    ]
+  }
+]

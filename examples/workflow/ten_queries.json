@@ -1,0 +1,52 @@
+[
+  {
+    "task_id": "real-01",
+    "query": "柠檬水和可乐外观有什么区别（只比较参考图可见差异）",
+    "direction": ""
+  },
+  {
+    "task_id": "real-02",
+    "query": "柠檬水和可乐哪个颜色更深（颜色与包装）",
+    "direction": ""
+  },
+  {
+    "task_id": "real-03",
+    "query": "减肥期间有哪些水果推荐",
+    "direction": ""
+  },
+  {
+    "task_id": "real-04",
+    "query": "肠胃不舒服适合吃什么食材",
+    "direction": ""
+  },
+  {
+    "task_id": "real-05",
+    "query": "常见苹果品种有哪些",
+    "direction": ""
+  },
+  {
+    "task_id": "real-06",
+    "query": "孕期应避免大量吃哪些食材，做个盘点",
+    "direction": ""
+  },
+  {
+    "task_id": "real-07",
+    "query": "青椒营养价值和怎么吃",
+    "direction": ""
+  },
+  {
+    "task_id": "real-08",
+    "query": "小米的营养特点和功效介绍",
+    "direction": ""
+  },
+  {
+    "task_id": "real-09",
+    "query": "青椒炒肉丝怎么做，具体步骤是什么",
+    "direction": ""
+  },
+  {
+    "task_id": "real-10",
+    "query": "三款无糖饮料真实测评体验",
+    "direction": ""
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "id": "intro4-caution-prototype-v1",
+  "role": "caution",
+  "reference": "assets/intro-4-taboo.png",
+  "elements": [
+    {
+      "id": "test_label",
+      "kind": "text",
+      "x": 64,
+      "y": 24,
+      "width": 1114,
+      "height": 40,
+      "font_size": 22,
+      "line_height": 33,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "page_number",
+      "kind": "text",
+      "x": 64,
+      "y": 1598,
+      "width": 1114,
+      "height": 32,
+      "font_size": 18,
+      "line_height": 27,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "x": 64,
+      "y": 98,
+      "width": 1114,
+      "height": 125,
+      "font_size": 64,
+      "line_height": 96,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "image_panel",
+      "kind": "decoration",
+      "x": 64,
+      "y": 310,
+      "width": 480,
+      "height": 1180,
+      "background": "#dacfa8"
+    },
+    {
+      "id": "text_panel",
+      "kind": "decoration",
+      "x": 570,
+      "y": 310,
+      "width": 608,
+      "height": 1180,
+      "background": "#fffdf6"
+    },
+    {
+      "id": "food",
+      "kind": "image",
+      "x": 88,
+      "y": 350,
+      "width": 432,
+      "height": 1080,
+      "fit": "contain"
+    },
+    {
+      "id": "heading_1",
+      "kind": "text",
+      "x": 604,
+      "y": 350,
+      "width": 540,
+      "height": 75,
+      "font_size": 32,
+      "line_height": 48,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "description_1",
+      "kind": "text",
+      "x": 604,
+      "y": 450,
+      "width": 540,
+      "height": 220,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "heading_2",
+      "kind": "text",
+      "x": 604,
+      "y": 720,
+      "width": 540,
+      "height": 75,
+      "font_size": 32,
+      "line_height": 48,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "description_2",
+      "kind": "text",
+      "x": 604,
+      "y": 820,
+      "width": 540,
+      "height": 220,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    },
+    {
+      "id": "heading_3",
+      "kind": "text",
+      "x": 604,
+      "y": 1090,
+      "width": 540,
+      "height": 75,
+      "font_size": 32,
+      "line_height": 48,
+      "weight": 700,
+      "color": "#462312"
+    },
+    {
+      "id": "description_3",
+      "kind": "text",
+      "x": 604,
+      "y": 1190,
+      "width": 540,
+      "height": 220,
+      "font_size": 28,
+      "line_height": 42,
+      "weight": 400,
+      "color": "#462312"
+    }
+  ],
+  "schema_version": 1,
+  "width": 1242,
+  "height": 1656,
+  "background": "#f5efcf",
+  "approval_status": "prototype_not_customer_approved",
+  "font_family": "PosterCJK",
+  "locked_properties": [
+    "x",
+    "y",
+    "width",
+    "height",
+    "font_size",
+    "line_height",
+    "weight",
+    "fit",
+    "color"
+  ]
+}

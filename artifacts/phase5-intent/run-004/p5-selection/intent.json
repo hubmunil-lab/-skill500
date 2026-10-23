@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "original_query": "玻璃瓶和塑料瓶饮料通勤怎么选（选购对比，不看营养）",
+  "core_question": "玻璃瓶和塑料瓶饮料通勤怎么选",
+  "direction": "选购对比，不看营养",
+  "direction_is_evidence": false,
+  "category": "comparison",
+  "classification": {
+    "category": "comparison",
+    "confidence": 0,
+    "provider": "rules_fallback",
+    "reason": "多意图或信息不足，不自动选类",
+    "rules": {
+      "category": null,
+      "candidates": [],
+      "status": "needs_confirmation",
+      "reason": "多意图或信息不足，不自动选类"
+    },
+    "review_required": true,
+    "baseline_category": null,
+    "intent_override_reason": "原问题的实测或明确两对象选择语义，保留人工复核"
+  },
+  "themes": [
+    "selection"
+  ],
+  "focus": "selection",
+  "operation": "describe",
+  "search_context": [
+    "通勤"
+  ],
+  "required_facts": [
+    "selection",
+    "packaging",
+    "portability",
+    "sealing"
+  ],
+  "useful_supplement": [
+    "具体使用条件与限制",
+    "目标场景的选择标准及依据"
+  ],
+  "irrelevant_template_fields": [
+    "appearance",
+    "taste",
+    "price",
+    "energy",
+    "carbohydrate",
+    "sugars",
+    "vitamin_c",
+    "feature",
+    "scene"
+  ],
+  "explicit_exclusions": [
+    "nutrition"
+  ],
+  "scope_conflicts": [],
+  "parser": "RuleIntentParser",
+  "confidence": 0.8,
+  "human_review_required": true,
+  "unknowns": [
+    "未提供的产品版本、受众健康条件、真实体验不得推断"
+  ]
+}
